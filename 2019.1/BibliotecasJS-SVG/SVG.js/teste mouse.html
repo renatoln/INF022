@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+<script type="text/javascript"> function aparecerTexto(nome) {
+  document.getElementById("div").innerHTML = nome;
+}
+function reset() {
+  document.getElementById("div").innerHTML = "";
+}
+</script>
+<style type="text/css">
+#div{
+  width:100px;
+  height:100px;
+  background-color:#f00;
+}    
+</style>
+  <body>
+    <div onmouseover="aparecerTexto('teixeira');" onmouseout="reset();" id="div"; name="tex"></div>
+  </body>
+</html>
+
