@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mapa da Bahia</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <select id="mySelect" onchange="javascript:location.href = this.value;">
+        <option>Selecione</option>
+        <option value="index.html">Municipios</option>
+        <option value="microrregioes.html">Microrregioes</option>
+        <option value="mesorregioes.html">Mesorregioes</option>
+    </select>
+
+    <p id="demo"></p>
+
+    <svg id='mapa' class='img-responsive' viewBox="0 0 945 979"></svg>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <script src="js/micro-script.js"></script>
+</body>
+
+</html>
