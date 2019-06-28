@@ -1,5 +1,5 @@
 var m = Snap('#mapa');
-Snap.load('/maps/mesorregioes.svg', onSVGLoaded);
+Snap.load('maps/mesorregioes.svg', onSVGLoaded);
 
 function onSVGLoaded(data) {
     m.append( data );
@@ -11,7 +11,6 @@ function onSVGLoaded(data) {
           this.click(function() {
                 let slicedId = this.attr('id').slice(4,11);
                 let url = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/" + slicedId;
-                
                 let jsondata = fetch(url).then(
                       function(u){ return u.json();}
                 ).then(
