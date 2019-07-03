@@ -7,7 +7,7 @@ function onSVGLoaded(data) {
       var g = m.select('#Municipios');
 
       $.each(g.selectAll("path").items, function() {
-                  this.hover(
+            this.hover(
                   function () {
                         let slicedId = this.attr('id').slice(4,11);
                         let url = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/" + slicedId;
