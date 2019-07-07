@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>Mapa do Brasil SVG</title>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script type="text/javascript" xlink:href="lib/svg.js"></script>
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script type="text/javascript" xlink:href="lib/svg.js"></script>
-
+  <script type="text/javascript" src="./js/brasil_map.js"></script>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     });
   </script>
 
-  <div id="drawing">
+  <div id="svgimage">
     <style>
       #svg-map path {
         fill: #0094d9
@@ -52,13 +52,8 @@
         cursor: pointer
       }
     </style>
-
-  <var draw = SVG('drawing').size(500, 130)
-    var image = draw.image('svg/Brasil.svg')
-    image.size(100, 100)
-
   </div>
-  <!-- Creditos to olx.com.br -->
+
 </body>
 
 </html>
