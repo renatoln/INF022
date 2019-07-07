@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">    
+    <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px" y="0px" width="450px" height="460px" viewBox="0 0 450 460" enable-background="new 0 0 450 460"
+      xml:space="preserve">
+      <g>
+        <a xlink:href="#espiritosanto" id="espiritosanto" title="Espirito Santo" class="estado" name="Espírito Santo"
+          code="32">
+          <path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M367.119,308.834
+        c1.044-1.999-0.298-5.451,1.841-6.326c3.697-1.453,3.858-0.467,5.941-4.49c0.767-1.563,3.999-5.807,2.848-7.835
+        c-0.439-0.765-3.204-3.613-3.286-4.05c1.04-0.249,2.079-0.219,3.123,0.054c1.366-0.654-6.465-10.519,2.137-8.054
+        c-1.204-0.655-1.535-1.365-0.932-2.135c4.358-0.138,13.856,0.027,12.845,6.738c-0.577,3.835,0.933,8.079-0.577,11.804
+        c-0.218,0.576-5.861,8.954-5.831,8.954c0.985,3.289-5.18,5.808-6.054,8.165c-1.313,3.56-2.135,3.013-5.614,2.573
+        c-1.64-0.274-3.202-0.768-4.736-1.451C368.819,311.297,369.424,309.055,367.119,308.834z"></path>
+          <path class="circle" d="M381.917,284.723c6.21,0,11.261,5.055,11.261,11.262c0,6.212-5.051,11.261-11.261,11.261
+        c-6.212,0-11.263-5.049-11.263-11.261C370.654,289.777,375.705,284.723,381.917,284.723z"></path>
+          <text transform="matrix(1 0 0 1 373.3047 300.4971)" fill="#FFFFFF">ES</text>
+        </a>
+        </g>
+    </svg>
