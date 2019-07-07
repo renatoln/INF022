@@ -190,7 +190,7 @@
         C143.581,176.618,141.937,174.714,142.237,173.962z"></path>
           <text transform="matrix(1 0 0 1 200.0244 218.4175)" fill="#FFFFFF">MT</text>
         </a>
-        <a xlink:href="#mattogrossodosul" id="MatoGrossodoSul" title="Mato Grosso do Sul" class="estado"
+        <a xlink:href="#matogrossodosul" id="MatoGrossodoSul" title="Mato Grosso do Sul" class="estado"
           name="Mato Grosso do Sul" code="50">
           <path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round"
             d="M183.198,294.536
