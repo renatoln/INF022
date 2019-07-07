@@ -28,7 +28,7 @@ let vetor = document.getElementsByClassName("mun str2");
 
 for(let i = 0;i < vetor.length;i++){
     vetor[i].addEventListener('click',function(){
-        //
+        alert(vetor[i].getAttribute("nome"));
     });
 
     vetor[i].addEventListener('mouseover',function(){
