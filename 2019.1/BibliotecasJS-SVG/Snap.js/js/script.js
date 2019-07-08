@@ -45,6 +45,7 @@ function onSVGLoaded(data) {
             });
       }
 
+      // MUNICIPIOS
       // Insere funcionalidades de mouseover e click nos municipios
       if(municipios = mapa.select('#Municipios')) {
             $.each(municipios.selectAll("path").items, function () {
@@ -55,8 +56,8 @@ function onSVGLoaded(data) {
                                     .then(res => res.json())
                                     .then(data => jsonResponse = data)
                                     .then(() => this.append(Snap.parse('<title>Cidade: ' + jsonResponse.nome
-                                          + '&#013 Microrregião: ' + jsonResponse.microrregiao.nome
-                                          + '&#013 Mesorregião: ' + jsonResponse.microrregiao.mesorregiao.nome
+                                          + '&#013Microrregião: ' + jsonResponse.microrregiao.nome
+                                          + '&#013Mesorregião: ' + jsonResponse.microrregiao.mesorregiao.nome
                                           + '</title>')));
 
                               this.attr({ 'fill': 'red' });
