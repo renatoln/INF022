@@ -21,7 +21,7 @@ function onSVGLoaded(data) {
       var url = 'https://servicodados.ibge.gov.br/api/v1/localidades/mesorregioes/';
       var jsonResponse;
       var bahia;
-      var municipios;
+      var microrregioes;
       
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
@@ -47,8 +47,8 @@ function onSVGLoaded(data) {
 
       // MESORREGIOES
       // Insere funcionalidades de mouseover e click nos MESORREGIOES
-      if(municipios = mapa.select('#Mesorregioes')) {
-            $.each(municipios.selectAll("path").items, function () {
+      if(microrregioes = mapa.select('#Mesorregioes')) {
+            $.each(microrregioes.selectAll("path").items, function () {
                   this.attr({ 'style' :  "fill:#EEDDB3" });
                   this.hover(
                         () => {
@@ -74,6 +74,14 @@ function onSVGLoaded(data) {
                               .then(() => this.append(alert('Dados da mesorregião ' + jsonResponse.nome 
                                           + ' de ID '+ slicedId + ':')));
                   });
+
+
+                  // Faz o zoom e centraliza a mesorregiao clicada
+/*                   this.click(() => {
+                        this.animateSvgFocus( 1000, mina.linear, () => g.animateSvgFocus( 1000, mina.linear));
+                  }); */
+
+
             });
       }
 }
