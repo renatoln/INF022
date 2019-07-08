@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">    
+    <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px" y="0px" width="450px" height="460px" viewBox="0 0 450 460" enable-background="new 0 0 450 460"
+      xml:space="preserve">
+      <g>
+        <a xlink:href="#santacatarina" id="SantaCatarina" title="Santa Catarina" class="estado" name="Santa Catarina"
+          code="42">
+          <path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M231.029,383.959
+        c1.669-3.338-0.284-10.516,4.573-10.569c6.631-0.109,13.639,3.559,20.402,3.888c1.317,0.055,5.231,2.163,4.357-1.15
+        c-1.095-4.164,3.945-1.863,5.67-3.179c2.274-1.724,8.187-4.106,11.311-1.367c1.423,1.809,20.05-5.395,13.284,3.946
+        c-1.368,1.395,0.713,10.789,0.466,10.734c-3.449,4.438,1.726,11.666-5.096,15.334c-2.901,1.536-7.284,7.779-9.64,9.995
+        C276.085,411.866,233.534,382.918,231.029,383.959z"></path>
+          <text transform="matrix(1 0 0 1 266.9111 387.7646)" fill="#FFFFFF">SC</text>
+        </a>
+        </g>
+    </svg>

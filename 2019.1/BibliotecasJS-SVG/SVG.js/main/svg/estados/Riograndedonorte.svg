@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">    
+    <svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px" y="0px" width="450px" height="460px" viewBox="0 0 450 460" enable-background="new 0 0 450 460"
+      xml:space="preserve">
+      <g>
+        <a xlink:href="#riograndedonorte" id="Riograndedonorte" title="Rio Grande do Norte" class="estado"
+          name="Rio Grande do Norte" code="24">
+          <path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round"
+            d="M404.698,138.795
+        c2.383-4.027,6.574-6.123,8.49-11.149c1.973-5.107,3.834-5.818,8.764-4.642c5.041,1.207,9.339,0.837,14.57,1.671
+        c7.534,1.193,6.848,10.968,9.206,16.516c-1.919,1.096-13.972,0.521-15.064-1.657c-1.041-2.067-2.904,7.107-5.094,7.3
+        c1.532-5.847-12.654,1.78-5.424-8.683c2.545-3.67-6.302-0.808-6.711,0.725C410.121,144.013,407.217,139.151,404.698,138.795z"></path>
+          <path class="circle" d="M430.827,107.798c6.241,0,11.261,5.039,11.261,11.261c0,6.224-5.02,11.261-11.261,11.261
+        c-6.209,0-11.26-5.037-11.26-11.261C419.567,112.837,424.618,107.798,430.827,107.798z"></path>
+          <text transform="matrix(1 0 0 1 422.541 123.9009)" fill="#FFFFFF">RN</text>
+        </a>
+        </g>
+    </svg>
