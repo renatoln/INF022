@@ -72,8 +72,12 @@ function onSVGLoaded(data) {
                         let jsondata = fetch(url + slicedId)
                               .then(res => res.json())
                               .then(data => jsonResponse = data)
-                              .then(() => this.append(alert('Ir para mesorregião ' + jsonResponse.microrregiao.mesorregiao.nome
-                                    + ' de ID ' + jsonResponse.microrregiao.mesorregiao.id)));
+                              .then(() => ( $('#modal')
+                                                .modal()
+                                                .text('Ir para mesorregião ' + jsonResponse.microrregiao.mesorregiao.nome
+                                                + ' de ID ' + jsonResponse.microrregiao.mesorregiao.id) 
+                                          )
+                              );
                   });
             });
       }

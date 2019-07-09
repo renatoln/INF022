@@ -65,14 +65,24 @@ function onSVGLoaded(data) {
                               this.attr({ 'style' :  "fill:#EEDDB3" });
                         }
                   )
-
+                  
                   this.click(() => {
                         let slicedId = this.attr('id').slice(4, 8);
                         let jsondata = fetch(url + slicedId)
                               .then(res => res.json())
                               .then(data => jsonResponse = data)
-                              .then(() => this.append(alert('Dados da mesorregião ' + jsonResponse.nome 
-                                          + ' de ID '+ slicedId + ':')));
+                              .then(() => ( $('#modal')
+                                                .modal()
+                                                .text('Dados da mesorregião ' + jsonResponse.nome 
+                                                      + ' de ID '+ slicedId + ':') 
+                                          )
+                              );
+                  });
+
+                  $(document).keydown(function(event) {
+                        if(event.ctrlKey) {
+                                    alert('open modal');
+                        }
                   });
 
 
@@ -82,6 +92,14 @@ function onSVGLoaded(data) {
                   }); */
 
 
+            });
+
+            $('path').keydown((e) => {
+                  if(e.ctrlKey) {
+                        this.click(() => {
+                              alert('open modal');
+                        });
+                  }
             });
       }
 }
