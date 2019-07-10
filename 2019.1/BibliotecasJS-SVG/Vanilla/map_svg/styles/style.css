@@ -113,3 +113,6 @@ main section:nth-child(even){
     background-color: #b7d5eb;
 }
 
+#micro svg{
+    height: 600px;
+}
