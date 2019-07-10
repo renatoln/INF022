@@ -1,12 +1,15 @@
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 var svg = 'maps/bahia_zoom.svg';
+var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
 var urls = ["https://servicodados.ibge.gov.br/api/v1/localidades/mesorregioes/",
             "https://servicodados.ibge.gov.br/api/v1/localidades/microrregioes/",
             "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/"];
+var classes = ['.mesoreg','.micreg','.mun'];
 var urlPath;
 var nivel = 0;
 var init = false;
+var jsonResponse;
 
 loadSVG(svg);
 
@@ -27,6 +30,8 @@ function clearSVG() {
 function onSVGLoaded(data) {
       var regiao = regioes[nivel];
       var regiaoSelecionada;
+
+      console.log(regiao);
 
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
@@ -77,7 +82,7 @@ function onSVGLoaded(data) {
                                     zoomInAnimation(this, regiaoSelecionada);                    
                                     desceNivel();
                                     regiao=regioes[nivel];
-                                    onSVGLoaded(data);    
+                                    onSVGLoaded(data);     
                               }
                               else {
                                     console.log('nope');
@@ -91,12 +96,18 @@ function onSVGLoaded(data) {
 }
 
 function zoomInAnimation(path, regiaoSelecionada) {
-      console.log(path);
       if (regioes[nivel]!='#Municipios'){
-            path.attr({ 'fill': 'none'});
+            path.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
             path.unhover();
       }
       path.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
+}
+
+function zoomOutAnimation(path, regiaoSelecionada) {
+
+      pathPai = mapa.select('#'+getPath(path));
+
+      pathPai.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
 }
 
 function clearAttr(regiaoSelecionada) {
@@ -128,6 +139,16 @@ function fillTooltipData(path) {
       } else {
             tooltipMesorregiao(path);
       }
+      
+      $(classes[nivel]).bind('contextmenu', function () {
+            $('#modal')
+                  .modal()
+                  .text('Dados de ' + descricaoRegiao[nivel] 
+                        + ' '
+                        + jsonResponse.nome
+                        + ' de ID '+ jsonResponse.id + ':');
+                        return false;
+      });
 }
 
 function tooltipMunicipio(path) {
@@ -151,6 +172,7 @@ function tooltipMicrorregiao(path) {
                                     .then(() => path.append(Snap.parse('<title>Microrregião: ' + jsonResponse.nome
                                           + '&#013Mesorregião: ' + jsonResponse.mesorregiao.nome
                                           + '</title>')));
+      response = jsonResponse;
 
 }
 
@@ -161,6 +183,27 @@ function tooltipMesorregiao(path) {
                                     .then(res => res.json())
                                     .then(data => jsonResponse = data)
                                     .then(() => path.append(Snap.parse('<title>Mesorregião: ' + jsonResponse.nome
-                                          + '</title>')));
+                                                + '</title>')));
+}
 
+function getPath(path) {
+      urlPath = urls[nivel];
+      let jsondata;
+      let slicedId;
+      let pai;
+
+      console.log(regioes[nivel]);
+
+      if (regioes[nivel]=='#Municipios'){
+            slicedId = path.attr('id').slice(4, 9);
+            jsondata = fetch(urlPath + slicedId)
+                                    .then(res => res.json())
+                                    .then(data => jsonResponse = data)
+                                    .then((pai = 'mes_'+jsonResponse.microrregiao.mesorregiao.id))
+      } else if (regioes[nivel]=='#Microrregioes'){
+            pai='Terreno';
+      } else {
+            //TO DO: adicionar mais um nível
+      } 
+      return pai;
 }
