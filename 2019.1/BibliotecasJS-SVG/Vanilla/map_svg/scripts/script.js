@@ -23,7 +23,6 @@ function toggleHeader(){
     }
 
 }
-
 let vetor = document.getElementsByClassName("mun str2");
 
 for(let i = 0;i < vetor.length;i++){
@@ -39,3 +38,4 @@ for(let i = 0;i < vetor.length;i++){
         vetor[i].style.fill = normalColor;
     });
 }
+
