@@ -13,21 +13,21 @@ function gotData(data){
 		for(let jcount = 0; jcount < data.length; jcount++){
 			if(data[jcount].id == id){
 				id = vetor[icount].setAttribute("nome",data[jcount].nome);
+				jcount = data.length;
 			}
 		}
 	}
 }
 
 function gotMicro(data){
-	let id;
+	let id = null;
 	for(let i = 0; i < micro.length;i++){
 		id = micro[i].getAttribute("id");
-		let second = id.replace("mic_","");
-		second = second.replace(second[3],"");
-		micro[i].setAttribute("id",second);
+		id = id.replace("mic_","");
 		for(let j = 0; j < data.length; j++){
-			if(data[j].id == second){
+			if(data[j].id == id){
 				micro[i].setAttribute("name",data[j].nome);
+				j = data.length;
 			}
 		}
 	}
@@ -41,6 +41,7 @@ function gotMeso(data){
 		for(let jcount = 0; jcount < data.length; jcount++){
 			if(data[jcount].id == id){
 				meso[icount].setAttribute("name",data[jcount].nome);
+				jcount = data.length;
 			}
 		}
 	}
