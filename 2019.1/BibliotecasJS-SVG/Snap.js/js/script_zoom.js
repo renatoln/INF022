@@ -31,20 +31,20 @@ function onSVGLoaded(data) {
       var regiao = regioes[nivel];
       var regiaoSelecionada;
 
-      console.log(regiao);
-
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
       if(!init)
             mapa.append(data); 
       
       init = true;
+      console.log(nivel);
 
       regiaoSelecionada = mapa.select(regiao);
 
       // Insere funcionalidades de mouseover e click nos paths
       $.each(regiaoSelecionada.selectAll("path").items, function () {
             if (regioes[nivel]!='#Municipios'){
+                  this.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.2' });
                   this.hover(
                         () => {
                               fillTooltipData(this);
@@ -69,7 +69,6 @@ function onSVGLoaded(data) {
                               if(nivel>=0){
                                     zoomOutAnimation(this, regiaoSelecionada);                    
                                     sobeNivel();
-                                    regiao=regioes[nivel];
                                     onSVGLoaded(data);    
                               }
                               else {
@@ -78,14 +77,12 @@ function onSVGLoaded(data) {
                               }
                               
                         } else {
-                              if(nivel<=2){
+                              if(nivel<2){
                                     zoomInAnimation(this, regiaoSelecionada);                    
                                     desceNivel();
-                                    regiao=regioes[nivel];
                                     onSVGLoaded(data);     
                               }
                               else {
-                                    console.log('nope');
                                     alert('Não é mais possivel aproximar');
                               }
                         }
@@ -105,6 +102,7 @@ function zoomInAnimation(path, regiaoSelecionada) {
 
 function zoomOutAnimation(path, regiaoSelecionada) {
 
+      path.unhover();
       pathPai = mapa.select('#'+getPath(path));
 
       pathPai.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
@@ -115,6 +113,11 @@ function clearAttr(regiaoSelecionada) {
             $.each(regiaoSelecionada.selectAll("path").items, function () {
                   this.unhover();
                   this.attr({ 'fill': 'none'});
+            });
+      } else {
+            $.each(regiaoSelecionada.selectAll("path").items, function () {
+                  this.unhover();
+                  this.attr({ 'fill': '#EEDDB3'});
             });
       }
 }
@@ -191,8 +194,6 @@ function getPath(path) {
       let jsondata;
       let slicedId;
       let pai;
-
-      console.log(regioes[nivel]);
 
       if (regioes[nivel]=='#Municipios'){
             slicedId = path.attr('id').slice(4, 9);
