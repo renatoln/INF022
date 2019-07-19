@@ -26,10 +26,12 @@ function toggleHeader(){
 
 //preenche a cidade com o hover e diz o nome
 let vetor = document.getElementsByClassName("mun str2");
-
 for(let i = 0;i < vetor.length;i++){
     vetor[i].addEventListener('click',function(){
-        alert(vetor[i].getAttribute("nome"));
+        let y = vetor[i].getAttribute("id");
+        zoom.to({
+            element: document.querySelector( `#${y}` )
+        });
     });
 
     vetor[i].addEventListener('mouseover',function(){
@@ -50,7 +52,10 @@ for(let i = 0; i < meso.length;i++){
     meso[i].style.fill = normalColor;
 
     meso[i].addEventListener('click',function(){
-        alert(meso[i].getAttribute("name"));
+        let y = meso[i].getAttribute("id");
+        zoom.to({
+            element: document.querySelector( `#${y}` )
+        });
     })
 
     meso[i].addEventListener('mouseover',function(){
@@ -70,7 +75,10 @@ for(let i = 0; i < micro.length;i++){
     micro[i].style.fill = normalColor;
 
     micro[i].addEventListener('click',function(){
-        alert(micro[i].getAttribute("name"));
+        let y = micro[i].getAttribute("id");
+        zoom.to({
+            element: document.querySelector( `#${y}` )
+        });
     })
 
     micro[i].addEventListener('mouseover',function(){
@@ -81,6 +89,3 @@ for(let i = 0; i < micro.length;i++){
         micro[i].style.fill = normalColor;
     })
 }
-
-
-
