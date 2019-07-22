@@ -10,6 +10,8 @@ var urlPath;
 var nivel = 0;
 var init = false;
 var jsonResponse;
+var regiao = regioes[nivel];
+var regiaoSelecionada;
 
 loadSVG(svg);
 
@@ -28,8 +30,7 @@ function clearSVG() {
 
 // Funcao callback chamada ao carregar um svg no Snap, passada como parametro no Snap.load()
 function onSVGLoaded(data) {
-      var regiao = regioes[nivel];
-      var regiaoSelecionada;
+
 
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
@@ -37,50 +38,38 @@ function onSVGLoaded(data) {
             mapa.append(data); 
       
       init = true;
-      console.log(nivel);
 
       regiaoSelecionada = mapa.select(regiao);
 
-      // Insere funcionalidades de mouseover e click nos paths
-      $.each(regiaoSelecionada.selectAll("path").items, function () {
-            if (regioes[nivel]!='#Municipios'){
-                  this.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.2' });
-                  this.hover(
-                        () => {
-                              fillTooltipData(this);
-                              this.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
-                        }
-                        ,
-                        () => this.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.0' })
-                  )
-            } else {
-                  this.hover(
-                        () => {
-                              fillTooltipData(this);
-                              this.attr({ 'fill': 'red'})
-                        }
-                        ,
-                        () => this.attr({ 'fill': '#EEDDB3'})
-            )}
+      let selected = regiaoSelecionada.selectAll("path").items; 
       
+      setAtributos(selected);
+}
+
+function setAtributos(selected){
+      $.each(selected, function () {
+            setHovers(this);
             this.click(
                   (e) => {
                         if (e.ctrlKey) {
-                              if(nivel>=0){
+                              if(nivel>0){
                                     zoomOutAnimation(this, regiaoSelecionada);                    
                                     sobeNivel();
-                                    onSVGLoaded(data);    
+                                    regiao = regioes[nivel];
+                                    regiaoSelecionada = mapa.select(regiao);
+                                    setAtributos(regiaoSelecionada.selectAll("path").items);                                    
                               }
                               else {
-                                    console.log('nope');
-                                    alert('Não é mais possivel aproximar');
+                                    alert('Não é mais possivel afastar');
                               }
                               
                         } else {
                               if(nivel<2){
                                     zoomInAnimation(this, regiaoSelecionada);                    
                                     desceNivel();
-                                    onSVGLoaded(data);     
+                                    regiao = regioes[nivel];
+                                    regiaoSelecionada = mapa.select(regiao);            
+                                    setAtributos(regiaoSelecionada.selectAll("path").items);                                                            
                               }
                               else {
                                     alert('Não é mais possivel aproximar');
@@ -90,28 +79,56 @@ function onSVGLoaded(data) {
             );
       });
 
+
 }
+
+function setHovers(el) {
+      if (regioes[nivel]!='#Municipios'){
+            el.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.2' });
+            el.hover(
+                  () => {
+                        fillTooltipData(el);
+                        el.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
+                  }
+                  ,
+                  () => el.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.0' })
+            )
+      } else {
+            el.hover(
+                  () => {
+                        fillTooltipData(el);
+                        el.attr({ 'fill': 'red'})
+                  }
+                  ,
+                  () => el.attr({ 'fill': '#EEDDB3'})
+      )}
+}
+
 
 function zoomInAnimation(path, regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
             path.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
             path.unhover();
+            path.unclick();
       }
       path.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
 }
 
 function zoomOutAnimation(path, regiaoSelecionada) {
 
-      path.unhover();
       pathPai = mapa.select('#'+getPath(path));
+      path.unhover();
+      path.unclick();
 
-      pathPai.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
+      pathPai.animateSvgFocus(1000, mina.linear);
+      clearAttr(regiaoSelecionada);
 }
 
 function clearAttr(regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
             $.each(regiaoSelecionada.selectAll("path").items, function () {
                   this.unhover();
+                  this.unclick();
                   this.attr({ 'fill': 'none'});
             });
       } else {
