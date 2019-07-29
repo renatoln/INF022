@@ -54,229 +54,261 @@
 	  }
 	],
 	"MICRORREGIOES":[
-	  {
+	   {
 	    "ID": 29023,
 	    "NOME_MICRORREGIAO": "Seabra",
 	    "POPULACAO": 260833,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29005,
 	    "NOME_MICRORREGIAO": "Paulo Afonso",
 	    "POPULACAO": 180265,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2902
 	  },
 	  {
 	    "ID": 29017,
 	    "NOME_MICRORREGIAO": "Alagoinhas",
 	    "POPULACAO": 327767,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29015,
 	    "NOME_MICRORREGIAO": "Ribeira do Pombal",
 	    "POPULACAO": 330260,
 	    "VALOR": 0.562,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29012,
 	    "NOME_MICRORREGIAO": "Feira de Santana",
 	    "POPULACAO": 1062422,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2903
 	  },
 	  {
 	    "ID": 29025,
 	    "NOME_MICRORREGIAO": "Livramento do Brumado",
 	    "POPULACAO": 101368,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29024,
 	    "NOME_MICRORREGIAO": "Jequie",
 	    "POPULACAO": 510133,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29032,
 	    "NOME_MICRORREGIAO": "Porto Seguro",
 	    "POPULACAO": 794765,
 	    "VALOR": 0.626,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2907
 	  },
 	  {
 	    "ID": 29031,
 	    "NOME_MICRORREGIAO": "Ilheus-Itabuna",
 	    "POPULACAO": 993810,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2907
 	  },
 	  {
 	    "ID": 29019,
 	    "NOME_MICRORREGIAO": "Catu",
 	    "POPULACAO": 228281,
 	    "VALOR": 0.642,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2905
 	  },
 	  {
 	    "ID": 29009,
 	    "NOME_MICRORREGIAO": "Irece",
 	    "POPULACAO": 393471,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2903
 	  },
 	  {
 	    "ID": 29028,
 	    "NOME_MICRORREGIAO": "Vitoria da Conquista",
 	    "POPULACAO": 642790,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29008,
 	    "NOME_MICRORREGIAO": "Senhor do Bonfim",
 	    "POPULACAO": 301001,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2903
 	  },
 	  {
 	    "ID": 29002,
 	    "NOME_MICRORREGIAO": "Cotegipe",
 	    "POPULACAO": 118732,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2901
 	  },
 	  {
 	    "ID": 29027,
 	    "NOME_MICRORREGIAO": "Brumado",
 	    "POPULACAO": 229193,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29016,
 	    "NOME_MICRORREGIAO": "Serrinha",
 	    "POPULACAO": 437541,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29020,
 	    "NOME_MICRORREGIAO": "Santo Antonio de Jesus",
 	    "POPULACAO": 570519,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2905
 	  },
 	  {
 	    "ID": 29001,
 	    "NOME_MICRORREGIAO": "Barreiras",
 	    "POPULACAO": 336810,
 	    "VALOR": 0.626,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2901
 	  },
 	  {
 	    "ID": 29011,
 	    "NOME_MICRORREGIAO": "Itaberaba",
 	    "POPULACAO": 254374,
 	    "VALOR": 0.568,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2903
 	  },
 	  {
 	    "ID": 29006,
 	    "NOME_MICRORREGIAO": "Barra",
 	    "POPULACAO": 181717,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2902
 	  },
 	  {
 	    "ID": 29007,
 	    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
 	    "POPULACAO": 179592,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2902
 	  },
 	  {
 	    "ID": 29022,
 	    "NOME_MICRORREGIAO": "Boquira",
 	    "POPULACAO": 193284,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29026,
 	    "NOME_MICRORREGIAO": "Guanambi",
 	    "POPULACAO": 393165,
 	    "VALOR": 0.604,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  },
 	  {
 	    "ID": 29010,
 	    "NOME_MICRORREGIAO": "Jacobina",
 	    "POPULACAO": 337692,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2903
 	  },
 	  {
 	    "ID": 29030,
 	    "NOME_MICRORREGIAO": "Valenca",
 	    "POPULACAO": 283593,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2907
 	  },
 	  {
 	    "ID": 29021,
 	    "NOME_MICRORREGIAO": "Salvador",
 	    "POPULACAO": 3770310,
 	    "VALOR": 0.695,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2905
 	  },
 	  {
 	    "ID": 29004,
 	    "NOME_MICRORREGIAO": "Juazeiro",
 	    "POPULACAO": 488977,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2902
 	  },
 	  {
 	    "ID": 29003,
 	    "NOME_MICRORREGIAO": "Santa Maria da Vitoria",
 	    "POPULACAO": 182481,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2901
 	  },
 	  {
 	    "ID": 29014,
 	    "NOME_MICRORREGIAO": "Euclides da Cunha",
 	    "POPULACAO": 302070,
 	    "VALOR": 0.564,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29018,
 	    "NOME_MICRORREGIAO": "Entre Rios",
 	    "POPULACAO": 124097,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29013,
 	    "NOME_MICRORREGIAO": "Jeremoabo",
 	    "POPULACAO": 97923,
 	    "VALOR": 0.535,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2904
 	  },
 	  {
 	    "ID": 29029,
 	    "NOME_MICRORREGIAO": "Itapetinga",
 	    "POPULACAO": 198903,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "ID_MESO": 2906
 	  }
 	],
 	"MUNICIPIOS": [
