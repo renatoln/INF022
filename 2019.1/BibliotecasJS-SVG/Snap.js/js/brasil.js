@@ -1,5 +1,5 @@
 var m = Snap('#mapa');
-Snap.load('maps/Brasil.svg', onSVGLoaded);
+Snap.load('maps/brasil.svg', onSVGLoaded);
 
 function onSVGLoaded(data) {
     m.append( data );

@@ -1,5 +1,5 @@
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
-var svg = 'maps/bahia_zoom.svg';
+var svg = 'maps/bahia.svg';
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
 var urls = ["https://servicodados.ibge.gov.br/api/v1/localidades/mesorregioes/",
