@@ -9,7 +9,7 @@ function onSVGLoaded(data) {
       $.each(g.selectAll("path").items, function() {
 
             document.getElementById('Bahia').onclick = function () {
-                  location.href = 'municipios_zoom.html';
+                  location.href = 'municipios.html';
             };
           
             this.click(function() {
