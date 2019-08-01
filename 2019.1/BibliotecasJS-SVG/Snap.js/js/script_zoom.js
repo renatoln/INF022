@@ -225,3 +225,9 @@ function getPath(path) {
       } 
       return pai;
 }
+
+// Preenche com uma cor passada o município com o id passado 
+function colorirMunicipio(idMunicipio, cor) {
+      municipio = "#mun_"+idMunicipio;
+      $(municipio).attr({ 'fill': cor, 'fill-opacity': 1 });
+}
