@@ -1,138 +1,90 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Search</title>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-    <script type="text/javascript" xlink:href="lib/svg.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Search</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
 
-<body>
-    <div class="container" style="padding:50px 250px;">
-        <form role="form">
-            <div class="form-group">
-                <input type="input" class="form-control input-lg" id="txt-search" placeholder="Pesquisar por">
-            </div>
-        </form>
-        <div id="filter-records"></div>
-    </div>
-
-    <form id="jsonFile" name="jsonFile" enctype="multipart/form-data" method="post">
-
-        <!--<fieldset>
-            <h2>Json File</h2>
-            <input type='file' id='fileinput'>
-            <input type='button' id='btnLoad' value='Load' onclick='loadFile();'>
-        </fieldset>
-    </form>-->
-
-</body>
+    <body>
+        <div class="container" style="padding:50px 250px;">
+            <form role="form">
+                <div class="form-group">
+                    <input type="input" class="form-control input-lg" id="txt-search" placeholder="Pesquisar por">
+                    <input id="search_button" type="button" value="Pesquisar" onclick="searchFunction();" />
+                </div>
+            </form>
+            <div id="filter-records"></div>
+        </div>
 
 
-<script type="text/javascript">
+    </body>
 
-    /*function loadFile() {
-        var input, file, fr;
+    <script type="text/javascript">
+        function searchFunction()
+        {
+            var data;
+            $(function () {
+                $.ajax({
+                    url: 'MUNICIPIOS.json',
+                    type: 'get',
+                    dataType: 'json',
+                    success: function (response) {
+                        console.log(response);
+                        data = response;
+                        filterFunction(data);
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        console.log("erro -> " + XMLHttpRequest.status + ' ☺☻ ' +
+                                XMLHttpRequest.statusText);
+                        return false;
+                    }
+                });
 
-        if (typeof window.FileReader !== 'function') {
-            alert("The file API isn't supported on this browser yet.");
-            return;
+            }); //Mover isso para outro canto
+
         }
 
-        input = document.getElementById('fileinput');
-        alert(input.files[0]);
-        if (!input) {
-            alert("Um, couldn't find the fileinput element.");
-        }
-        else if (!input.files) {
-            alert("This browser doesn't seem to support the `files` property of file inputs.");
-        }
-        else if (!input.files[0]) {
-            alert("Please select a file before clicking 'Load'");
-        }
-        else {
-            file = input.files[0];
-            fr = new FileReader();
-            fr.onload = receivedText;
-            fr.readAsText(file);
-        }
+        function filterFunction(data)
+        {
 
-        function receivedText(e) {
-            let lines = e.target.result;
-            var newArr = JSON.parse(lines);
-        }
-    }*/
-</script>
-
-<script type="text/javascript">
-    var data;
-    $(function () {
-        $.ajax({
-            url: 'MUNICIPIOS.json',
-            type: 'get',
-            dataType: 'json',
-            success: function (response) {
-                console.log(response);
-                data = response;
-            },
-            error: function (XMLHttpRequest, textStatus, errorThrown) {
-                console.log("erro -> " + XMLHttpRequest.status + ' ☺☻ ' +
-                    XMLHttpRequest.statusText);
-                return false;
+            var searchField = $('#txt-search').val();
+            if (searchField === '' || (searchField.length < 2 || searchField.length > 46)) {
+                $('#filter-records').html('');
+                return;
             }
-        });
-
-    });
 
 
-    //for(i in data.MUNICIPIOS)
-    //    alert(i);
-
-    //data = JSON.stringify(data);
-
-    //alert(data.MUNICIPIOS[0].ID);
-
-
-    $('#txt-search').keyup(function () {
-        var searchField = $(this).val();
-        if (searchField === '' || (searchField.length < 2 || searchField.length > 46)) {
-            $('#filter-records').html('');
-            return;
-        }
-
-        var regex = new RegExp(searchField, "i");
-        var output = '<div class="row">';
-        var count = 1;
-        for (i in data.Municipios) {
-            if ((data.Municipios[i].NOME_MUNICIPIO.search(regex) != -1)) {
-                output += '<div class="col-md-6 well">';
-                output += '<div class="col-md-7">';
-                output += '<h5> Nome: ' + data.Municipios[i].NOME_MUNICIPIO + '</h5>';
-                output += '<p> Valor: ' + data.Municipios[i].VALOR + '</p>'
-                output += '<p> Categoria: ' + data.Municipios[i].CATEGORIA[0] + '</p>'
-                output += '</div>';
-                output += '</div>';
-                /*output += '<p>' + data.MUNICIPIOS[i].NOME_MUNICIPIO + '</p>'
-                output += '</div>';
-                output += '</div>';*/
-                if (count % 2 == 0) {
-                    output += '</div><div class="row">'
+            var regex = new RegExp(searchField, "i");
+            var output = '<div class="row">';
+            var count = 1;
+            for (i in data.Municipios) {
+                if ((data.Municipios[i].NOME_MUNICIPIO.search(regex) != -1)) {
+                    output += '<div class="col-md-6 well">';
+                    output += '<div class="col-md-7">';
+                    output += '<h5> Nome: ' + data.Municipios[i].NOME_MUNICIPIO + '</h5>';
+                    output += '<p> Valor: ' + data.Municipios[i].VALOR + '</p>'
+                    output += '<p> Categoria: ' + data.Municipios[i].CATEGORIA[0] + '</p>'
+                    output += '</div>';
+                    output += '</div>';
+                    if (count % 2 == 0) {
+                        output += '</div><div class="row">'
+                    }
+                    count++;
                 }
-                count++;
-            }
 
-            //alert(val);
+                //alert(val);
+            }
+            output += '</div>';
+            $('#filter-records').html(output);
         }
-        output += '</div>';
-        $('#filter-records').html(output);
-    });
-</script>
+    </script>
 
 </html>
