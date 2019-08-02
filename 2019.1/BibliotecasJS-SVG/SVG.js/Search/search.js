@@ -54,74 +54,193 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         regexValorAte = valorAte;
     }
 
-    var output;
+    var output = [];
+    var outputIndex = 0;
+
+    /*
+    console.log(regexCategoria);
+    console.log(regexMeso);
+    console.log(regexMicro);
+    console.log(regexValorDe);
+    console.log(regexValorAte);
+    */
 
     //;~; me ajude a me ajudar, soda
+    //Isso aqui tem que virar funções Async lul
 
-    for (i in json.Municipios) {
-        var toAddOnOutput = false;
+    var toAddMeso = false;
 
-        if (!regexCategoria) { //TODO LOOP
-            if (json.Municipios[i].CATEGORIA[0].search(regexCategoria) != -1) {
-                toAddOnOutput = true;
+    /* Meso */
+    for (i in json.MESORREGIOES) {
+        toAddMeso = false;
+
+        if (regexCategoria != null) { //TODO LOOP
+            for (c in json.MESORREGIOES[i].CATEGORIA) {
+                if (json.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+                    toAddMeso = true;
+                    break;
+                }
             }
-            else { //Quer dizer que o parametro foi especificado, mas não corresponde no objeto atual, logo, devemos encerrar o loop
-                toAddOnOutput = false;
-            }
 
-            if(!toAddOnOutput)
-            {
+            if (!toAddMeso) {
                 continue;
             }
         }
 
-        if (!regexMeso) {
-            if (json.Municipios[i].ID_MESO.toString().search(regexMeso) != -1) {
-                toAddOnOutput = true;
+        if (regexMeso != null) {
+            if (json.MESORREGIOES[i].ID.toString().search(regexMeso) != -1) {
+                toAddMeso = true;
             }
             else {
-                toAddOnOutput = false;
+                toAddMeso = false;
             }
 
-            if(!toAddOnOutput)
-            {
+            if (!toAddMeso) {
                 continue;
             }
         }
 
-        if (!regexMicro) {
-            if (json.Municipios[i].ID_MICRO.toString().search(regexMicro) != -1) {
-                toAddOnOutput = true;
+        if (regexValorDe != null && regexValorAte != null) {
+            if (json.MESORREGIOES[i].VALOR > regexValorDe && json.MESORREGIOES[i].VALOR < regexValorAte) {
+                toAddMeso = true;
             }
             else {
-                toAddOnOutput = false;
+                toAddMeso = false;
             }
 
-            if(!toAddOnOutput)
-            {
+            if (!toAddMeso) {
                 continue;
             }
         }
 
-        if (!regexValorDe && !regexValorAte) {
-            if (json.Municipios[i].VALOR > regexValorDe && json.Municipios[i].VALOR < regexValorAte) {
-                toAddOnOutput = true;
-            }
-            else {
-                toAddOnOutput = false;
-            }
-
-            if(!toAddOnOutput)
-            {
-                continue;
-            }
-        }
-
-        if(toAddOnOutput)
-        {
-            output += json.Municipios[i]; // :think: isso é valido em js... lul
+        if (toAddMeso) {
+            output[outputIndex] = json.MESORREGIOES[i]; // :think: isso é valido em js... lul
+            outputIndex++;
         }
 
     }
+
+    /* Micro */
+
+    var toAddMicro = false;
+
+    for (i in json.MICRORREGIOES) {
+        toAddMicro = false;
+
+        if (regexCategoria != null) {
+            for (c in json.MICRORREGIOES[i].CATEGORIA) {
+                if (json.MICRORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+                    toAddMicro = true;
+                    break;
+                }
+            }
+
+            if (!toAddMicro) {
+                continue;
+            }
+        }
+
+        if (regexMicro != null) {
+            if (json.MICRORREGIOES[i].ID.toString().search(regexMicro) != -1) {
+                toAddMicro = true;
+            }
+            else {
+                toAddMicro = false;
+            }
+
+            if (!toAddMicro) {
+                continue;
+            }
+        }
+
+        if (regexValorDe != null && regexValorAte != null) {
+            if (json.MICRORREGIOES[i].VALOR > regexValorDe && json.MICRORREGIOES[i].VALOR < regexValorAte) {
+                toAddMicro = true;
+            }
+            else {
+                toAddMicro = false;
+            }
+
+            if (!toAddMicro) {
+                continue;
+            }
+        }
+
+        if (toAddMicro) {
+            output[outputIndex] = json.MICRORREGIOES[i]; // :think: isso é valido em js... lul
+            outputIndex++;
+        }
+
+    }
+
+    var toAddMunicipios = false;
+
+    /* Municipios*/
+    for (i in json.MUNICIPIOS) {
+        toAddMunicipios = false;
+        if (regexCategoria != null) { //TODO LOOP
+            for (c in json.MUNICIPIOS[i].CATEGORIA) {
+                if (json.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
+                    toAddMunicipios = true;
+                    break;
+                }
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+
+        if (regexMeso != null) {
+            if (json.MUNICIPIOS[i].ID_MESO.toString().search(regexMeso) != -1) {
+                toAddMunicipios = true;
+            }
+            else {
+                toAddMunicipios = false;
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+
+        if (regexMicro != null) {
+            if (json.MUNICIPIOS[i].ID_MICRO.toString().search(regexMicro) != -1) {
+                toAddMunicipios = true;
+            }
+            else {
+                toAddMunicipios = false;
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+
+        if (regexValorDe != null && regexValorAte != null) {
+            if (json.MUNICIPIOS[i].VALOR > regexValorDe && json.MUNICIPIOS[i].VALOR < regexValorAte) {
+                toAddMunicipios = true;
+            }
+            else {
+                toAddMunicipios = false;
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+
+        if (toAddMunicipios) {
+            output[outputIndex] = json.MUNICIPIOS[i]; // :think: isso é valido em js... lul
+            outputIndex++;
+        }
+
+    }
+
+
+    for (i in output)
+        console.log(output[i]);
+
+
     return output;
 }
