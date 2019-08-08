@@ -239,7 +239,10 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
 
 
     for (i in output)
+    {
+        console.log("Pegou o resultado da pesquisa no JSON");
         console.log(output[i]);
+    }
 
 
     return output;
