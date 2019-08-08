@@ -78,8 +78,6 @@ function setAtributos(selected){
                   }
             );
       });
-
-
 }
 
 function setHovers(el) {
@@ -108,35 +106,37 @@ function setHovers(el) {
 function zoomInAnimation(path, regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
             path.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
-            path.unhover();
-            path.unclick();
+            limparEventos(path);
       }
-      path.animateSvgFocus(1000, mina.linear, clearAttr(regiaoSelecionada));
+      path.animateSvgFocus(1000, mina.linear, limparRegiao(regiaoSelecionada));
 }
 
 function zoomOutAnimation(path, regiaoSelecionada) {
 
       pathPai = mapa.select('#'+getPath(path));
-      path.unhover();
-      path.unclick();
+      limparEventos(path);
 
       pathPai.animateSvgFocus(1000, mina.linear);
-      clearAttr(regiaoSelecionada);
+      limparRegiao(regiaoSelecionada);
 }
 
-function clearAttr(regiaoSelecionada) {
+function limparRegiao(regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
             $.each(regiaoSelecionada.selectAll("path").items, function () {
-                  this.unhover();
-                  this.unclick();
+                  limparEventos(this);
                   this.attr({ 'fill': 'none'});
             });
       } else {
             $.each(regiaoSelecionada.selectAll("path").items, function () {
-                  this.unhover();
+                  limparEventos(this);
                   this.attr({ 'fill': '#EEDDB3'});
             });
       }
+}
+
+function limparEventos(elemento) {
+      elemento.unhover();
+      elemento.unclick();
 }
 
 function desceNivel() {
