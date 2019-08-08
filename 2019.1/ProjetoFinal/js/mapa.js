@@ -43,10 +43,11 @@ function onSVGLoaded(data) {
 
       let selected = regiaoSelecionada.selectAll("path").items; 
       
-      setAtributos(selected);
+      setAtributosCamada(selected);
 }
 
-function setAtributos(selected){
+// Seta os atributos da camada atual do mapa
+function setAtributosCamada(selected){
       $.each(selected, function () {
             setHovers(this);
             this.click(
@@ -57,7 +58,7 @@ function setAtributos(selected){
                                     sobeNivel();
                                     regiao = regioes[nivel];
                                     regiaoSelecionada = mapa.select(regiao);
-                                    setAtributos(regiaoSelecionada.selectAll("path").items);                                    
+                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                    
                               }
                               else {
                                     alert('Não é mais possivel afastar');
@@ -69,7 +70,7 @@ function setAtributos(selected){
                                     desceNivel();
                                     regiao = regioes[nivel];
                                     regiaoSelecionada = mapa.select(regiao);            
-                                    setAtributos(regiaoSelecionada.selectAll("path").items);                                                            
+                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                                            
                               }
                               else {
                                     alert('Não é mais possivel aproximar');
@@ -80,37 +81,37 @@ function setAtributos(selected){
       });
 }
 
-function setHovers(el) {
+// Adiciona efeito de hover em um path do SVG
+function setHovers(elemento) {
       if (regioes[nivel]!='#Municipios'){
-            el.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.2' });
-            el.hover(
+            setAtributosRegiao(elemento,'#EEDDB3','0.2');
+            elemento.hover(
                   () => {
-                        fillTooltipData(el);
-                        el.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
-                  }
-                  ,
-                  () => el.attr({ 'fill': '#EEDDB3', 'fill-opacity':'0.0' })
+                        fillTooltipData(elemento);
+                        setAtributosRegiao(elemento,'red','0.2');
+                  },
+                  () => setAtributosRegiao(elemento,'#EEDDB3','0')
             )
       } else {
-            el.hover(
+            elemento.hover(
                   () => {
-                        fillTooltipData(el);
-                        el.attr({ 'fill': 'red'})
-                  }
-                  ,
-                  () => el.attr({ 'fill': '#EEDDB3'})
+                        fillTooltipData(elemento);
+                        setOpacidadeMunicipio(elemento,'0.9')
+                  },
+                  () => setOpacidadeMunicipio(elemento,'1')
       )}
 }
 
-
+// Controla o Zoom In em um path do svg
 function zoomInAnimation(path, regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
-            path.attr({ 'fill': 'red', 'fill-opacity':'0.2' });
+            setAtributosRegiao(path,'#EEDDB3','0.2');
             limparEventos(path);
       }
       path.animateSvgFocus(1000, mina.linear, limparRegiao(regiaoSelecionada));
 }
 
+// Controla o Zoom Out em um path do svg
 function zoomOutAnimation(path, regiaoSelecionada) {
 
       pathPai = mapa.select('#'+getPath(path));
@@ -120,6 +121,7 @@ function zoomOutAnimation(path, regiaoSelecionada) {
       limparRegiao(regiaoSelecionada);
 }
 
+// Limpa um path do SVG
 function limparRegiao(regiaoSelecionada) {
       if (regioes[nivel]!='#Municipios'){
             $.each(regiaoSelecionada.selectAll("path").items, function () {
@@ -129,11 +131,12 @@ function limparRegiao(regiaoSelecionada) {
       } else {
             $.each(regiaoSelecionada.selectAll("path").items, function () {
                   limparEventos(this);
-                  this.attr({ 'fill': '#EEDDB3'});
+                  this.attr({ 'fill-opacity': '1'});
             });
       }
 }
 
+// Limpa os eventos de um path do SVG
 function limparEventos(elemento) {
       elemento.unhover();
       elemento.unclick();
@@ -151,6 +154,7 @@ function sobeNivel() {
       return;
 }
 
+// Direciona o preenchimento do tooltip
 function fillTooltipData(path) {
       if (regioes[nivel]=='#Municipios'){
             tooltipMunicipio(path);
@@ -171,6 +175,7 @@ function fillTooltipData(path) {
       });
 }
 
+// Adiciona tooltip em um município
 function tooltipMunicipio(path) {
       urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 11);
@@ -183,6 +188,7 @@ function tooltipMunicipio(path) {
                                           + '</title>')));
 }
 
+// Adiciona tooltip em uma microrregião
 function tooltipMicrorregiao(path) {
       urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 9);
@@ -196,6 +202,7 @@ function tooltipMicrorregiao(path) {
 
 }
 
+// Adiciona tooltip em uma mesorregião
 function tooltipMesorregiao(path) {
       urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 8);
@@ -206,6 +213,7 @@ function tooltipMesorregiao(path) {
                                                 + '</title>')));
 }
 
+// Busca o path acima do que foi clicado
 function getPath(path) {
       urlPath = urls[nivel];
       let jsondata;
@@ -225,6 +233,17 @@ function getPath(path) {
       } 
       return pai;
 }
+
+// Seta a opacidade do município, para efeitos de hover
+function setOpacidadeMunicipio(elemento, opacidade) {
+      elemento.attr({ 'fill-opacity': opacidade});
+}
+
+// Seta cor e opacidade das regiões, por efeitos de hover
+function setAtributosRegiao(elemento, cor ,opacidade) {
+      elemento.attr({ 'fill': cor, 'fill-opacity':opacidade })
+}
+
 
 // Preenche com uma cor passada o município com o id passado 
 function colorirMunicipio(idMunicipio, cor) {
