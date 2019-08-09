@@ -8,8 +8,8 @@ dropMeso.prop('selectedIndex', 0);
 const jsonData = '../jsons/MUNICIPIOS_JSON_TESTES.json';
 
 $.getJSON(jsonData, function (data) {
-  $.each(data, function (key, value) {
-    dropMeso.append($('<option></option>').attr('value', value.MESORREGIOES.ID).text(value.MESORREGIOES.NOME_MESORREGIAO));
+  $.each(data.MESORREGIOES, function (key, value) {
+    dropMeso.append($('<option></option>').attr('value', value.ID).text(value.NOME_MESORREGIAO));
   })
 });
 
@@ -19,10 +19,8 @@ dropMicro.empty();
 dropMicro.append('<option selected="true" disabled>Microrregião</option>');
 dropMicro.prop('selectedIndex', 0);
 
-const jsonData2 = '../jsons/MUNICIPIOS_JSON_TESTES.json';
-
-$.getJSON(jsonData2, function (data) {
-  $.each(data, function (key, value) {
-    dropMicro.append($('<option></option>').attr('value', value.MICRORREGIOES.ID).text(value.MICRORREGIOES.NOME_MICRORREGIAO));
+$.getJSON(jsonData, function (data) {
+  $.each(data.MICRORREGIOES, function (key, value) {
+    dropMicro.append($('<option></option>').attr('value', value.ID).text(value.NOME_MICRORREGIAO));
   })
 });
