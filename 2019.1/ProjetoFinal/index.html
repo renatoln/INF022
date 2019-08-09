@@ -463,18 +463,42 @@
                 <!-- Busca -->
                 <div class="row">
                     <div class="col-12">
-                        <div class="card" style="height: 5rem;">
-                                <div class="container" style="padding: 18px;">
+                        <div class="card" style="height: 15rem;">
+                                <div class="container" style="padding: 16px;">
                                         <form role="form">
-                                            <div class="form-group input-group">
-                                                <div class="col-sm-4">
-                                                    <input type="input" name="nome" class="form-control mb-4" id="txt-search-nome" placeholder="Nome">
-                                                </div>
-                                                <div class="col-sm-4">
+                                            <!-- Field Categoria -->
+                                            <div class="form-group input-group mb-3">
+                                                <label for="categoria"><strong>Categoria</strong></label>
+                                                <div class="col-sm-6">
                                                     <input type="input" name="categoria" class="form-control mb-4" id="txt-search-categoria" placeholder="Categoria">
                                                 </div>
+                                            </div>
+                                            <!-- Fields Valores -->
+                                            <div class="form-group input-group mb-3">
+                                                <label for="valores"><strong style="text-align: center;">Valores</strong></label>
+                                                <label for="valores"><strong style="text-align: center; margin-left: 1cm">De</strong></label>
+                                                <div class="col-sm-2">
+                                                    <input type="input" name="valorMin" class="form-control mb-4" id="txt-search-valorMin" placeholder="Valor mínimo">
+                                                </div>
+                                                <label for="valores"><strong style="text-align: center;">Até</strong></label>
+                                                <div class="col-sm-2">
+                                                    <input type="input" name="valorMax" class="form-control mb-4" id="txt-search-valorMax" placeholder="Valor maximo">
+                                                </div>
+                                            </div>
+                                            <!-- Fields Select Meso e Micro -->
+                                            <div class="form-group input-group mb-3">
+                                                <label for="valores"><strong style="text-align: center;">Mesorregião</strong></label>
                                                 <div class="col-sm-4">
-                                                    <input id="search_button" class="btn btn-md btn-info " type="button" value="Pesquisar" onclick="initSearch();" />
+                                                    <select id="dropdownMeso" class="custom-select custom-select mb-3" name="DropMesorregião"></select>
+                                                </div>
+
+                                                <label for="valores"><strong style="text-align: center;">Microrregião</strong></label>
+                                                <div class="col-sm-4">
+                                                    <select id="dropdownMicro" class="custom-select custom-select mb-3" name="DropMicrorregião"></select>
+                                                </div>
+
+                                                <div class="col-sm-2">
+                                                    <input id="search_button" class="btn btn-md btn-info " style="float: right;" type="button" value="Pesquisar" onclick="initSearch();" />
                                                 </div>
                                             </div>
                                         </form>
@@ -695,6 +719,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/dropdownSelectField.js"></script>
 </body>
 
 </html>
