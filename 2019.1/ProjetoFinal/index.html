@@ -680,14 +680,14 @@
 
             if(mesoDrop.selectedIndex > 0)
             {
-                meso = mesoDrop.options[mesoDrop.selectedIndex].text
+                meso = mesoDrop.options[mesoDrop.selectedIndex].value;
             }
 
             var micro = '';
 
             if(microDrop.selectedIndex > 0)
             {
-                micro = microDrop.options[microDrop.selectedIndex].text;
+                micro = microDrop.options[microDrop.selectedIndex].value;
             }
 
             var valorMin = document.getElementById('txt-search-valorMin').value;

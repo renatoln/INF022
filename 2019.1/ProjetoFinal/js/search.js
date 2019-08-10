@@ -26,11 +26,12 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     if (categoria === '' && meso === '' && micro === '' && !valorDe && !valorAte) {
         return;
     }
+
     var regexCategoria = null;
     var regexMeso = null;
     var regexMicro = null;
-    var regexValorDe = null;
-    var regexValorAte = null;
+    var regexValorDe = valorDe;
+    var regexValorAte = valorAte;
 
     if (categoria != '') {
         regexCategoria = new RegExp(categoria, "i");
@@ -44,13 +45,13 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         regexMicro = new RegExp(micro, "i");
     }
 
-    if (!valorDe) {
+    /*if (!valorDe) {
         regexValorDe = valorDe;
     }
 
     if (!valorAte) {
         regexValorAte = valorAte;
-    }
+    }*/
 
     var output = [];
     var outputIndex = 0;
