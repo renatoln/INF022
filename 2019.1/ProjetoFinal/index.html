@@ -670,11 +670,42 @@
     ***********************************-->
 
     <script type="text/javascript">
-
-        var categoria = document.getElementById('txt-search-categoria').value;
         function initSearch() {
-            console.log('initSearch chamado');
-            searchFunction("./jsons/MUNICIPIOS_JSON_TESTES.json", categoria, "", "", null, null)
+            var categoria = document.getElementById('txt-search-categoria').value;
+
+            var mesoDrop = document.getElementById('dropdownMeso');
+            var microDrop = document.getElementById('dropdownMicro');
+
+            var meso = '';
+
+            if(mesoDrop.selectedIndex > 0)
+            {
+                meso = mesoDrop.options[mesoDrop.selectedIndex].text
+            }
+
+            var micro = '';
+
+            if(microDrop.selectedIndex > 0)
+            {
+                micro = microDrop.options[microDrop.selectedIndex].text;
+            }
+
+            var valorMin = document.getElementById('txt-search-valorMin').value;
+
+            if(valorMin === '')
+            {
+                valorMin = null;
+            }
+
+            var valorMax = document.getElementById('txt-search-valorMax').value;
+
+            if(valorMax === '')
+            {
+                valorMax = null;
+            }
+
+            //console.log('initSearch chamado');
+            searchFunction("./jsons/MUNICIPIOS_JSON_TESTES.json", categoria, meso, micro, valorMin, valorMax)
         };
     </script>
 

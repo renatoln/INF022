@@ -5,7 +5,7 @@ dropMeso.empty();
 dropMeso.append('<option selected="true" disabled>Mesorregião</option>');
 dropMeso.prop('selectedIndex', 0);
 
-const jsonData = '../jsons/MUNICIPIOS_JSON_TESTES.json';
+const jsonData = './jsons/MUNICIPIOS_JSON_TESTES.json';
 
 $.getJSON(jsonData, function (data) {
   $.each(data.MESORREGIOES, function (key, value) {

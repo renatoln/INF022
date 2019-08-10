@@ -6,7 +6,6 @@ function searchFunction(urlJson, categoria, meso, micro, valorDe, valorAte) {
             type: 'get',
             dataType: 'json',
             success: function (response) {
-                console.log(response);
                 json = response;
                 filterFunction(json, categoria, meso, micro, valorDe, valorAte);
             },
@@ -27,7 +26,6 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     if (categoria === '' && meso === '' && micro === '' && !valorDe && !valorAte) {
         return;
     }
-
     var regexCategoria = null;
     var regexMeso = null;
     var regexMicro = null;
@@ -57,13 +55,13 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
-    /*
+    
     console.log(regexCategoria);
     console.log(regexMeso);
     console.log(regexMicro);
     console.log(regexValorDe);
     console.log(regexValorAte);
-    */
+    
 
     //;~; me ajude a me ajudar, soda
     //Isso aqui tem que virar funções Async lul
