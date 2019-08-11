@@ -64,16 +64,13 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     console.log(regexValorAte);
     
 
-    //;~; me ajude a me ajudar, soda
-    //Isso aqui tem que virar funções Async lul
-
     var toAddMeso = false;
 
     /* Meso */
     for (i in json.MESORREGIOES) {
         toAddMeso = false;
 
-        if (regexCategoria != null) { //TODO LOOP
+        if (regexCategoria != null) {
             for (c in json.MESORREGIOES[i].CATEGORIA) {
                 if (json.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMeso = true;
@@ -113,7 +110,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMeso) {
-            output[outputIndex] = json.MESORREGIOES[i]; // :think: isso é valido em js... lul
+            output[outputIndex] = json.MESORREGIOES[i];
             outputIndex++;
         }
 
@@ -166,7 +163,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMicro) {
-            output[outputIndex] = json.MICRORREGIOES[i]; // :think: isso é valido em js... lul
+            output[outputIndex] = json.MICRORREGIOES[i];
             outputIndex++;
         }
 
@@ -177,7 +174,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     /* Municipios*/
     for (i in json.MUNICIPIOS) {
         toAddMunicipios = false;
-        if (regexCategoria != null) { //TODO LOOP
+        if (regexCategoria != null) {
             for (c in json.MUNICIPIOS[i].CATEGORIA) {
                 if (json.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMunicipios = true;
@@ -230,7 +227,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMunicipios) {
-            output[outputIndex] = json.MUNICIPIOS[i]; // :think: isso é valido em js... lul
+            output[outputIndex] = json.MUNICIPIOS[i];
             outputIndex++;
         }
 
