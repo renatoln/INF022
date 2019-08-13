@@ -1,5 +1,7 @@
-let cidades = document.getElementsByClassName("mun");
-let hoverColor = "#2574A9";
+//console.log("hello");
+
+//let cidades = document.getElementsByClassName("mun");
+/*let hoverColor = "#2574A9";
 let normalColor = "#EEDDB3";
 let popUp = document.getElementById("popUp");
 
@@ -38,7 +40,7 @@ for(let cidade of cidades){
 		popUp.style.visibility = "visible";
 		return false;
 	},false);
-}
+}*/
 
 /****************************************************************************************************************/
 /****************************************************************************************************************/

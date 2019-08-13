@@ -1,3 +1,4 @@
+let cidades = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 var svg = 'maps/bahia.svg';
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
@@ -30,8 +31,6 @@ function clearSVG() {
 
 // Funcao callback chamada ao carregar um svg no Snap, passada como parametro no Snap.load()
 function onSVGLoaded(data) {
-
-
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
       if(!init)
@@ -44,6 +43,9 @@ function onSVGLoaded(data) {
       let selected = regiaoSelecionada.selectAll("path").items; 
       
       setAtributosCamada(selected);
+      
+      cidades = mapa.select("#Municipios").selectAll("path").items;
+      //cidades[0].node.attributes.fill.value = "#dddddd";
 }
 
 // Seta os atributos da camada atual do mapa
