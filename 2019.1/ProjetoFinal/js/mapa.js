@@ -43,7 +43,7 @@ function onSVGLoaded(data) {
       let selected = regiaoSelecionada.selectAll("path").items; 
       
       setAtributosCamada(selected);
-      
+
       //Essa linha abaixo que pega o PATH de cada municipio no SVG
       cidades = mapa.select("#Municipios").selectAll("path").items;
 }
@@ -75,7 +75,7 @@ function setAtributosCamada(selected){
                                     setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                                            
                               }
                               else {
-                                    alert('Não é mais possivel aproximar');
+                                    //alert('Não é mais possivel aproximar');
                               }
                         }
                   }

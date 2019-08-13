@@ -22,6 +22,10 @@ function gotData(data){
 
 function setup(){
 	let id;
+
+	let popUp = document.getElementById("popUp");
+	let munc = document.getElementById("municipios");
+
 	//Compara o mapa com o JSON
 	for(let icount in cidades){
 		id = cidades[icount].node.attributes.id.value;
@@ -30,6 +34,25 @@ function setup(){
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if(id == testes.MUNICIPIOS[jcount].ID){
 				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+				
+				cidades[icount].node.addEventListener("contextmenu",function(ev){
+					ev.preventDefault();
+					mouseX = ev.clientX;
+					mouseY = ev.clientY;
+
+					console.log(` x ${mouseX} y ${mouseY} top ${popUp.style.top} left ${popUp.style.left}`);
+
+					popUp.style.top = `${mouseY/2}px`;
+					popUp.style.left = `${mouseX/2}px`;
+
+					popUp.style.visibility = "visible";
+					return false;
+				},false);
+
+				munc.addEventListener("click",function(){
+					popUp.style.visibility = "hidden";
+				})
+
 				break;
 			}
 		}
@@ -48,22 +71,16 @@ function definirCor(valor) {
     }
 
     if (valor < grupos[1]) {
-        console.log("cor1");
         return cores.cor1;
     } else if (valor < grupos[2]) {
-        console.log("cor2");
         return cores.cor2;
     } else if (valor < grupos[3]) {
-        console.log("cor3");
         return cores.cor3;
     } else if (valor < grupos[4]) {
-        console.log("cor4");
         return cores.cor4;
     } else if (valor < grupos[5]) {
-        console.log("cor5");
         return cores.cor5;
     } else {
-        console.log("cor6");
         return cores.cor6;
     }
 
