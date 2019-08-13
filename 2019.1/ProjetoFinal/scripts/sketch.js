@@ -2,13 +2,23 @@ let evolucao = [];
 let testes = [];
 
 let cores = {
-	cor1 : "#f59042",
-	cor2 : "#ff8c33",
-	cor3 : "#f57f22",
-	cor4 : "#f07413",
-	cor5 : "#de690d",
-	cor6 : "#d65f02"
+	cor1 : "#dcf757",
+	cor2 : "#f7f257",
+	cor3 : "#f7cf57",
+	cor4 : "#f59738",
+	cor5 : "#f56138",
+	cor6 : "#f50f02"
 };
+
+/*
+
+cor1 : "#f5f542",
+	cor2 : "#f5e942",
+	cor3 : "#f5b342",
+	cor4 : "#f59942",
+	cor5 : "#f56342",
+	cor6 : "#ed0505"
+*/
 
 function preload(){
 	evolucao = loadJSON("/jsons/MUNICIPIOS_JSON_EVOLUCAO.json",gotData);

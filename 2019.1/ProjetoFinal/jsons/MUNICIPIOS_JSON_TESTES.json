@@ -865,7 +865,7 @@
 	    "ID": 2905008,
 	    "NOME_MUNICIPIO": "Caculé",
 	    "POPULACAO": 23045,
-	    "VALOR": 0.637,
+	    "VALOR": 2.637,
 	    "CATEGORIA": ["FAIXA 1"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
@@ -2404,7 +2404,7 @@
 	    "ID": 2919405,
 	    "NOME_MUNICIPIO": "Licínio de Almeida",
 	    "POPULACAO": 12406,
-	    "VALOR": 0.621,
+	    "VALOR": 0.921,
 	    "CATEGORIA": ["FAIXA 1"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
