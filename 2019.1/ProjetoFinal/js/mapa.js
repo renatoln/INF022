@@ -44,8 +44,8 @@ function onSVGLoaded(data) {
       
       setAtributosCamada(selected);
       
+      //Essa linha abaixo que pega o PATH de cada municipio no SVG
       cidades = mapa.select("#Municipios").selectAll("path").items;
-      //cidades[0].node.attributes.fill.value = "#dddddd";
 }
 
 // Seta os atributos da camada atual do mapa
