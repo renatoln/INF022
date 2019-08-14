@@ -1,46 +1,31 @@
-//console.log("hello");
+function lineChart(periodo,valor){
+  var trace1 = {
+  x: periodo,
+  y: valor,
+  type: 'scatter'
+};
+var data = [trace1];
 
-//let cidades = document.getElementsByClassName("mun");
-/*let hoverColor = "#2574A9";
-let normalColor = "#EEDDB3";
-let popUp = document.getElementById("popUp");
-
-let mouseX;
-let mouseY;
-
-let wrapper = document.getElementById("wrapper");
-
-let grafico = document.getElementById("grafico");
-
-window.onload = function(){
-	ponto();
+Plotly.newPlot('myDiv', data);
 }
 
-wrapper.addEventListener("click",function(){
-		popUp.style.visibility = "hidden";
-});
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/*****************************************Menu*******************************************************************/
+/****************************************************************************************************************/
 
-for(let cidade of cidades){
-	cidade.addEventListener("mouseover",function(){
-		cidade.style.fill = hoverColor;
-	});
+function barChart(periodo, valor){
+  var data = [
+  {
+    x: periodo,
+    y: valor,
+    type: 'bar'
+  }
+];
 
-	cidade.addEventListener("mouseout",function(){
-		cidade.style.fill = normalColor;
-	});
+Plotly.newPlot('myDiv', data);
+}
 
-	cidade.addEventListener("contextmenu",function(ev){
-		ev.preventDefault();
-		mouseX = ev.clientX;
-		mouseY = ev.clientY;
-
-		popUp.style.top = `${mouseY}px`;
-		popUp.style.left = `${mouseX}px`;
-
-		popUp.style.visibility = "visible";
-		return false;
-	},false);
-}*/
 
 /****************************************************************************************************************/
 /****************************************************************************************************************/
@@ -201,21 +186,11 @@ var trace1 = {
   type: "scatter",
   mode: "lines",
   name: 'AAPL High',
-  x: unpack(rows, 'Date'),
-  y: unpack(rows, 'AAPL.High'),
-  line: {color: '#17BECF'}
+  x: ["jan","fev","mar","abr","mai"],//unpack(rows, 'Date'),
+  y: [10,35,11,16,7,66],//unpack(rows, 'AAPL.High'),
+  line: {color: '#f50f02'}
 }
-
-var trace2 = {
-  type: "scatter",
-  mode: "lines",
-  name: 'AAPL Low',
-  x: unpack(rows, 'Date'),
-  y: unpack(rows, 'AAPL.Low'),
-  line: {color: '#7F7F7F'}
-}
-
-var data = [trace1,trace2];
+var data = [trace1];
 
 var layout = {
   title: 'Basic Time Series',

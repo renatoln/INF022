@@ -1,5 +1,7 @@
 let evolucao = [];
 let testes = [];
+let popUp = document.getElementById("popUp");
+let popOUT = document.getElementById("municipios");
 
 let cores = {
 	cor1: "#dcf757",
@@ -21,12 +23,10 @@ cor1 : "#f5f542",
 */
 
 function preload() {
-	evolucao = loadJSON("/jsons/MUNICIPIOS_JSON_EVOLUCAO.json", gotData);
-	testes = loadJSON("/jsons/MUNICIPIOS_JSON_TESTES.json", gotData);
-}
-
-function gotData(data) {
-	//console.log(data);
+	let url = "/jsons/MUNICIPIOS_JSON_EVOLUCAO.json";
+	evolucao = loadJSON(url);
+	url = "/jsons/MUNICIPIOS_JSON_TESTES.json";
+	testes = loadJSON(url);
 }
 
 async function toColorBySearch(jsonFiltered) {
@@ -64,44 +64,25 @@ async function toColorBySearch(jsonFiltered) {
 	}
 }*/
 
+function addPopUp(cidade){
+	//FUNÇÃO QUE ABRE O POPUP
+	cidade.node.addEventListener("contextmenu", function (ev) {
+		ev.preventDefault();
+		mouseX = ev.clientX;
+		mouseY = ev.clientY;
 
-function setup() {
-	let id;
+		//DEFINE A POSICAO ONDE O POPUP FICARÁ
+		popUp.style.top = `${mouseY / 3}px`;
+		popUp.style.left = `${mouseX / 3}px`;
 
-	let popUp = document.getElementById("popUp");
-	let munc = document.getElementById("municipios");
+		popUp.style.visibility = "visible";
+		return false;
+	}, false);
 
-	//Compara o mapa com o JSON
-	for (let icount in cidades) {
-		id = cidades[icount].node.attributes.id.value;
-		id = id.replace("mun_", "");
-		for (let jcount in testes.MUNICIPIOS) {
-			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-			if (id == testes.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
-
-				cidades[icount].node.addEventListener("contextmenu", function (ev) {
-					ev.preventDefault();
-					mouseX = ev.clientX;
-					mouseY = ev.clientY;
-
-					console.log(` x ${mouseX} y ${mouseY} top ${popUp.style.top} left ${popUp.style.left}`);
-
-					popUp.style.top = `${mouseY / 2}px`;
-					popUp.style.left = `${mouseX / 2}px`;
-
-					popUp.style.visibility = "visible";
-					return false;
-				}, false);
-
-				munc.addEventListener("click", function () {
-					popUp.style.visibility = "hidden";
-				})
-
-				break;
-			}
-		}
-	}
+	//FUNÇÃO QUE REMOVE O POPUP QUANDO CLICA FORA
+	popOUT.addEventListener("click", function () {
+		popUp.style.visibility = "hidden";
+	})
 }
 
 function definirCor(valor) {
@@ -128,5 +109,23 @@ function definirCor(valor) {
 	} else {
 		return cores.cor6;
 	}
+}
 
+function setup() {
+	let id;
+
+	//COMPARA O MAPA COM O JSON
+	for (let icount in cidades) {
+		id = cidades[icount].node.attributes.id.value;
+		id = id.replace("mun_", "");
+		for (let jcount in testes.MUNICIPIOS) {
+
+			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
+			if (id == testes.MUNICIPIOS[jcount].ID) {
+				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+				addPopUp(cidades[icount]);
+				break;
+			}
+		}
+	}
 }
