@@ -3,6 +3,8 @@ let testes = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
+let line = document.getElementById("lineChart");
+let bar = document.getElementById("barChart");
 
 let cores = {
 	cor1: "#dcf757",
@@ -23,6 +25,7 @@ cor1 : "#f5f542",
 	cor6 : "#ed0505"
 */
 
+//CARREGA O JSON
 function preload() {
 	let url = "/jsons/MUNICIPIOS_JSON_EVOLUCAO.json";
 	evolucao = loadJSON(url);
@@ -65,12 +68,31 @@ async function toColorBySearch(jsonFiltered) {
 	}
 }*/
 
-function addPopUp(cidade){
+//FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
+function primeiroMapa(){
+	let salvador = searchEquivalent(2927408,evolucao.MUNICIPIOS);
+	lineChart(salvador.PERIODOS,salvador.VALORES);
+}
+
+//FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
+function addPopUp(cidade,cidadeEvolucao){
+
 	//FUNÇÃO QUE ABRE O POPUP
 	cidade.node.addEventListener("contextmenu", function (ev) {
 		ev.preventDefault();
 		mouseX = ev.clientX;
 		mouseY = ev.clientY;
+
+
+		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
+		line.addEventListener("click",function(){
+			lineChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
+		})
+
+		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
+		bar.addEventListener("click",function(){
+			barChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
+		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;
@@ -83,15 +105,6 @@ function addPopUp(cidade){
 	popOUT.addEventListener("click", function () {
 		popUp.style.visibility = "hidden";
 	})
-
-	//for(let i of popUp.children[0].children){
-		//switch(i.textContent){
-			//case "Line Chart":
-				//i.onclick = lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
-				//console.log(i);
-			//break;
-		//}
-	//}
 
 }
 
@@ -130,9 +143,12 @@ function searchEquivalent(id,vetor){
 	}
 }
 
+//FUNÇÃO DE COLORAÇÃO DO MAPA
 function setup() {
+	primeiroMapa();
 
 	let id;
+	let cidadeEvolucao;
 	//COMPARA O MAPA COM O JSON
 	for (let icount in cidades) {
 		id = cidades[icount].node.attributes.id.value;
@@ -142,10 +158,8 @@ function setup() {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == testes.MUNICIPIOS[jcount].ID) {
 				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
-				let cidadeEvolucao = searchEquivalent(id,evolucao.MUNICIPIOS);
-				//opcoes[0].onclick = lineChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
-				//opcoes[1].onclick = barChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES); 
-				addPopUp(cidades[icount]);
+				cidadeEvolucao = searchEquivalent(id,evolucao.MUNICIPIOS);
+				addPopUp(cidades[icount],cidadeEvolucao);
 				break;
 			}
 		}
