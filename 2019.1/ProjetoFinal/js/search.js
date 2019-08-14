@@ -1,13 +1,12 @@
-function searchFunction(urlJson, categoria, meso, micro, valorDe, valorAte) {
-    var json;
-    $(function () {
-        $.ajax({
-            url: urlJson,
+
+/*function preload(){
+	$(function () {
+        return $.ajax({
+            url: "./jsons/MUNICIPIOS_JSON_TESTES.json",
             type: 'get',
             dataType: 'json',
             success: function (response) {
-                json = response;
-                filterFunction(json, categoria, meso, micro, valorDe, valorAte);
+                testes = response;
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 console.log("erro -> " + XMLHttpRequest.status + ' ☺☻ ' +
@@ -16,11 +15,11 @@ function searchFunction(urlJson, categoria, meso, micro, valorDe, valorAte) {
             }
         });
 
-    }); //Mover isso para outro canto pls ;~;
+    }); 
+}*/
 
-}
 
-function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
+async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
 
     //Todos os campos vazios lul
     if (categoria === '' && meso === '' && micro === '' && !valorDe && !valorAte) {
@@ -56,23 +55,24 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
-    
+
     console.log(regexCategoria);
     console.log(regexMeso);
     console.log(regexMicro);
     console.log(regexValorDe);
     console.log(regexValorAte);
-    
+
+    /* Testes é inicializado em sketch.js ; Json geral carregado com preload*/
 
     var toAddMeso = false;
 
     /* Meso */
-    for (i in json.MESORREGIOES) {
+    for (i in testes.MESORREGIOES) {
         toAddMeso = false;
 
         if (regexCategoria != null) {
-            for (c in json.MESORREGIOES[i].CATEGORIA) {
-                if (json.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in testes.MESORREGIOES[i].CATEGORIA) {
+                if (testes.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMeso = true;
                     break;
                 }
@@ -84,7 +84,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMeso != null) {
-            if (json.MESORREGIOES[i].ID.toString().search(regexMeso) != -1) {
+            if (testes.MESORREGIOES[i].ID.toString().search(regexMeso) != -1) {
                 toAddMeso = true;
             }
             else {
@@ -97,7 +97,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (json.MESORREGIOES[i].VALOR > regexValorDe && json.MESORREGIOES[i].VALOR < regexValorAte) {
+            if (testes.MESORREGIOES[i].VALOR > regexValorDe && testes.MESORREGIOES[i].VALOR < regexValorAte) {
                 toAddMeso = true;
             }
             else {
@@ -110,7 +110,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMeso) {
-            output[outputIndex] = json.MESORREGIOES[i];
+            output[outputIndex] = testes.MESORREGIOES[i];
             outputIndex++;
         }
 
@@ -120,12 +120,12 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
 
     var toAddMicro = false;
 
-    for (i in json.MICRORREGIOES) {
+    for (i in testes.MICRORREGIOES) {
         toAddMicro = false;
 
         if (regexCategoria != null) {
-            for (c in json.MICRORREGIOES[i].CATEGORIA) {
-                if (json.MICRORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in testes.MICRORREGIOES[i].CATEGORIA) {
+                if (testes.MICRORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMicro = true;
                     break;
                 }
@@ -137,7 +137,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMicro != null) {
-            if (json.MICRORREGIOES[i].ID.toString().search(regexMicro) != -1) {
+            if (testes.MICRORREGIOES[i].ID.toString().search(regexMicro) != -1) {
                 toAddMicro = true;
             }
             else {
@@ -150,7 +150,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (json.MICRORREGIOES[i].VALOR > regexValorDe && json.MICRORREGIOES[i].VALOR < regexValorAte) {
+            if (testes.MICRORREGIOES[i].VALOR > regexValorDe && testes.MICRORREGIOES[i].VALOR < regexValorAte) {
                 toAddMicro = true;
             }
             else {
@@ -163,7 +163,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMicro) {
-            output[outputIndex] = json.MICRORREGIOES[i];
+            output[outputIndex] = testes.MICRORREGIOES[i];
             outputIndex++;
         }
 
@@ -172,11 +172,11 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
     var toAddMunicipios = false;
 
     /* Municipios*/
-    for (i in json.MUNICIPIOS) {
+    for (i in testes.MUNICIPIOS) {
         toAddMunicipios = false;
         if (regexCategoria != null) {
-            for (c in json.MUNICIPIOS[i].CATEGORIA) {
-                if (json.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in testes.MUNICIPIOS[i].CATEGORIA) {
+                if (testes.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMunicipios = true;
                     break;
                 }
@@ -188,7 +188,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMeso != null) {
-            if (json.MUNICIPIOS[i].ID_MESO.toString().search(regexMeso) != -1) {
+            if (testes.MUNICIPIOS[i].ID_MESO.toString().search(regexMeso) != -1) {
                 toAddMunicipios = true;
             }
             else {
@@ -201,7 +201,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMicro != null) {
-            if (json.MUNICIPIOS[i].ID_MICRO.toString().search(regexMicro) != -1) {
+            if (testes.MUNICIPIOS[i].ID_MICRO.toString().search(regexMicro) != -1) {
                 toAddMunicipios = true;
             }
             else {
@@ -214,7 +214,7 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (json.MUNICIPIOS[i].VALOR > regexValorDe && json.MUNICIPIOS[i].VALOR < regexValorAte) {
+            if (testes.MUNICIPIOS[i].VALOR > regexValorDe && testes.MUNICIPIOS[i].VALOR < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {
@@ -227,19 +227,19 @@ function filterFunction(json, categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMunicipios) {
-            output[outputIndex] = json.MUNICIPIOS[i];
+            output[outputIndex] = testes.MUNICIPIOS[i]; //Copia de referencia
             outputIndex++;
         }
 
     }
 
 
-    for (i in output)
-    {
-        console.log("Pegou o resultado da pesquisa no JSON");
-        console.log(output[i]);
-    }
+    //for (i in output)
+    //{
+    //    console.log(output[i]);
+    //}
 
+    toColorBySearch(output); //
 
-    return output;
 }
+
