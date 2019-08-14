@@ -13,6 +13,7 @@ var init = false;
 var jsonResponse;
 var regiao = regioes[nivel];
 var regiaoSelecionada;
+var zPressionado = false;
 
 loadSVG(svg);
 
@@ -54,7 +55,7 @@ function setAtributosCamada(selected){
             setHovers(this);
             this.click(
                   (e) => {
-                        if (e.ctrlKey) {
+                        if (zPressionado) {
                               if(nivel>0){
                                     zoomOutAnimation(this, regiaoSelecionada);                    
                                     sobeNivel();
@@ -63,7 +64,7 @@ function setAtributosCamada(selected){
                                     setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                    
                               }
                               else {
-                                    alert('Não é mais possivel afastar');
+                                    //alert('Não é mais possivel afastar');
                               }
                               
                         } else {
@@ -252,3 +253,16 @@ function colorirMunicipio(idMunicipio, cor) {
       municipio = "#mun_"+idMunicipio;
       $(municipio).attr({ 'fill': cor, 'fill-opacity': 1 });
 }
+
+$(document).on({
+      keydown: function (e) {
+            if (e.isComposing || e.keyCode === 90) {
+                  zPressionado = true;
+            }
+      },
+      keyup: function (e) {
+            if (e.isComposing || e.keyCode === 90) {
+                  zPressionado = false;
+            }
+      }
+});
