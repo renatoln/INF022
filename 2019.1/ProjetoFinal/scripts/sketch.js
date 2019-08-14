@@ -1,6 +1,7 @@
 let evolucao = [];
 let testes = [];
 let popUp = document.getElementById("popUp");
+let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
 
 let cores = {
@@ -74,7 +75,6 @@ function addPopUp(cidade){
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;
 		popUp.style.left = `${mouseX / 3}px`;
-
 		popUp.style.visibility = "visible";
 		return false;
 	}, false);
@@ -83,6 +83,16 @@ function addPopUp(cidade){
 	popOUT.addEventListener("click", function () {
 		popUp.style.visibility = "hidden";
 	})
+
+	//for(let i of popUp.children[0].children){
+		//switch(i.textContent){
+			//case "Line Chart":
+				//i.onclick = lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
+				//console.log(i);
+			//break;
+		//}
+	//}
+
 }
 
 function definirCor(valor) {
@@ -111,9 +121,18 @@ function definirCor(valor) {
 	}
 }
 
-function setup() {
-	let id;
+//RECEBE UM ID E ENCONTRA O MUNICIPIO EQUIVALENTE NO JSON DE EVOLUCAO 
+function searchEquivalent(id,vetor){
+	for(let jcount of vetor){
+		if(jcount.ID == id){
+			return jcount;
+		}
+	}
+}
 
+function setup() {
+
+	let id;
 	//COMPARA O MAPA COM O JSON
 	for (let icount in cidades) {
 		id = cidades[icount].node.attributes.id.value;
@@ -123,6 +142,9 @@ function setup() {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == testes.MUNICIPIOS[jcount].ID) {
 				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+				let cidadeEvolucao = searchEquivalent(id,evolucao.MUNICIPIOS);
+				//opcoes[0].onclick = lineChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
+				//opcoes[1].onclick = barChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES); 
 				addPopUp(cidades[icount]);
 				break;
 			}
