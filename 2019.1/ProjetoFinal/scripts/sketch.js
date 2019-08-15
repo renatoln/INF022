@@ -6,6 +6,8 @@ let popOUT = document.getElementById("municipios");
 let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
 
+var isDirty = false;
+
 let cores = {
 	cor1: "#dcf757",
 	cor2: "#f7f257",
@@ -38,6 +40,8 @@ async function toColorBySearch(jsonFiltered) {
 
 	//Apenas municipios possuem ID maior ;; jsonCount in jsonFiltered if(jsonFiltered[jsonCount].ID > 99999){
 
+	isDirty = true;
+
 	for (icount in cidades) {
 
 		id = cidades[icount].node.attributes.id.value;
@@ -66,21 +70,23 @@ async function toColorBySearch(jsonFiltered) {
 
 }
 
-function clearSearchOnMap()
-{
+function clearSearchOnMap() {
 	let id;
 
-	for (let icount in cidades) {
-		id = cidades[icount].node.attributes.id.value;
-		id = id.replace("mun_", "");
-		for (let jcount in testes.MUNICIPIOS) {
+	if (isDirty) {
+		for (let icount in cidades) {
+			id = cidades[icount].node.attributes.id.value;
+			id = id.replace("mun_", "");
+			for (let jcount in testes.MUNICIPIOS) {
 
-			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-			if (id == testes.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
-				break;
+				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
+				if (id == testes.MUNICIPIOS[jcount].ID) {
+					cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+					break;
+				}
 			}
 		}
+		isDirty = false;
 	}
 }
 
