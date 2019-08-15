@@ -36,46 +36,62 @@ function preload() {
 async function toColorBySearch(jsonFiltered) {
 	let id;
 
+	//Apenas municipios possuem ID maior ;; jsonCount in jsonFiltered if(jsonFiltered[jsonCount].ID > 99999){
+
 	for (icount in cidades) {
+
 		id = cidades[icount].node.attributes.id.value;
+
 		if (id.includes("mun_")) {
+
 			id = id.replace("mun_", "");
-			for (jcount in jsonFiltered) {
-				if (id == jsonFiltered[jcount].ID) {
-					cidades[icount].node.attributes.fill.value = "#8C92AC"; //Cinza
+			var idInt = parseInt(id, 10);
+
+			for (var jsonCount = 0; jsonCount < jsonFiltered.length; jsonCount++) {
+
+				if (jsonFiltered[jsonCount].ID > 99999) //Apenas municipios possuem ID maior que tal valor
+				{
+					if (idInt === jsonFiltered[jsonCount].ID) //Não podemos colorir quem na busca está
+					{
+						break;
+					}
+					else if (jsonCount == jsonFiltered.length - 1) //andou todo o vetor e não encontrou ninguém identico ao ID
+					{
+						cidades[icount].node.attributes.fill.value = "#8C92AC";
+					}
 				}
 			}
 		}
 	}
+
 }
 
-/*function clear()
+function clearSearchOnMap()
 {
 	let id;
 
-	//Compara o mapa com o JSON
-	for(let icount in cidades){
+	for (let icount in cidades) {
 		id = cidades[icount].node.attributes.id.value;
-		id = id.replace("mun_","");
-		for(let jcount in testes.MUNICIPIOS){
+		id = id.replace("mun_", "");
+		for (let jcount in testes.MUNICIPIOS) {
+
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-			if(id == testes.MUNICIPIOS[jcount].ID)
-			{
+			if (id == testes.MUNICIPIOS[jcount].ID) {
 				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
 				break;
 			}
 		}
 	}
-}*/
+}
 
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
-function primeiroMapa(){
-	let salvador = searchEquivalent(2927408,evolucao.MUNICIPIOS);
-	lineChart(salvador.PERIODOS,salvador.VALORES);
+function primeiroMapa() {
+	let salvador = searchEquivalent(2927408, evolucao.MUNICIPIOS);
+	lineChart(salvador.PERIODOS, salvador.VALORES);
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
-function addPopUp(cidade,cidadeEvolucao){
+function addPopUp(cidade, cidadeEvolucao) {
 
 	//FUNÇÃO QUE ABRE O POPUP
 	cidade.node.addEventListener("contextmenu", function (ev) {
@@ -85,13 +101,13 @@ function addPopUp(cidade,cidadeEvolucao){
 
 
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
-		line.addEventListener("click",function(){
-			lineChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
+		line.addEventListener("click", function () {
+			lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
 		})
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
-		bar.addEventListener("click",function(){
-			barChart(cidadeEvolucao.PERIODOS,cidadeEvolucao.VALORES);
+		bar.addEventListener("click", function () {
+			barChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
 		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
@@ -135,9 +151,9 @@ function definirCor(valor) {
 }
 
 //RECEBE UM ID E ENCONTRA O MUNICIPIO EQUIVALENTE NO JSON DE EVOLUCAO 
-function searchEquivalent(id,vetor){
-	for(let jcount of vetor){
-		if(jcount.ID == id){
+function searchEquivalent(id, vetor) {
+	for (let jcount of vetor) {
+		if (jcount.ID == id) {
 			return jcount;
 		}
 	}
@@ -158,8 +174,8 @@ function setup() {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == testes.MUNICIPIOS[jcount].ID) {
 				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
-				cidadeEvolucao = searchEquivalent(id,evolucao.MUNICIPIOS);
-				addPopUp(cidades[icount],cidadeEvolucao);
+				cidadeEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
+				addPopUp(cidades[icount], cidadeEvolucao);
 				break;
 			}
 		}
