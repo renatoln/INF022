@@ -185,8 +185,8 @@ function tooltipMunicipio(path) {
       let slicedId = path.attr('id').slice(4, 11);
       let municipio = bahiaJson.municipios.find(resultado => resultado.id == slicedId);
       let string = '<title>Município: ' + municipio.nome
-      + '&#013Microrregião: ' + municipio.microrregiao.nome 
-      + '&#013Mesorregião: ' + municipio.microrregiao.mesorregiao.nome
+      + '&#10;Microrregião: ' + municipio.microrregiao.nome 
+      + '&#10;Mesorregião: ' + municipio.microrregiao.mesorregiao.nome
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = municipio;
@@ -197,7 +197,7 @@ function tooltipMicrorregiao(path) {
       let slicedId = path.attr('id').slice(4, 9);
       let micro = bahiaJson.microrregioes.find(resultado => resultado.id == slicedId);
       let string = '<title>Microrregião: ' + micro.nome
-      + '&#013Mesorregião: ' + micro.mesorregiao.nome
+      + '&#10;Mesorregião: ' + micro.mesorregiao.nome
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = micro;
