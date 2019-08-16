@@ -3,9 +3,6 @@ var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 var svg = 'maps/bahia.svg';
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
-var urls = ["https://servicodados.ibge.gov.br/api/v1/localidades/mesorregioes/",
-            "https://servicodados.ibge.gov.br/api/v1/localidades/microrregioes/",
-            "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/"];
 var classes = ['.mesoreg','.micreg','.mun'];
 var urlPath;
 var nivel = 0;
@@ -14,6 +11,11 @@ var jsonResponse;
 var regiao = regioes[nivel];
 var regiaoSelecionada;
 var zPressionado = false;
+var bahiaJson;
+
+$.getJSON("../jsons/bahia.json", function (data) {
+      bahiaJson = data;
+});
 
 loadSVG(svg);
 
@@ -180,60 +182,50 @@ function fillTooltipData(path) {
 
 // Adiciona tooltip em um município
 function tooltipMunicipio(path) {
-      urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 11);
-                              let jsondata = fetch(urlPath + slicedId)
-                                    .then(res => res.json())
-                                    .then(data => jsonResponse = data)
-                                    .then(() => path.append(Snap.parse('<title>Municipio: ' + jsonResponse.nome
-                                          + '&#013Microrregião: ' + jsonResponse.microrregiao.nome
-                                          + '&#013Mesorregião: ' + jsonResponse.microrregiao.mesorregiao.nome
-                                          + '</title>')));
+      let municipio = bahiaJson.municipios.find(resultado => resultado.id == slicedId);
+      let string = '<title>Município: ' + municipio.nome
+      + '&#013Microrregião: ' + municipio.microrregiao.nome 
+      + '&#013Mesorregião: ' + municipio.microrregiao.mesorregiao.nome
+      + '</title>';
+      path.append(Snap.parse(string)); 
+      jsonResponse = municipio;
 }
 
 // Adiciona tooltip em uma microrregião
 function tooltipMicrorregiao(path) {
-      urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 9);
-                              let jsondata = fetch(urlPath + slicedId)
-                                    .then(res => res.json())
-                                    .then(data => jsonResponse = data)
-                                    .then(() => path.append(Snap.parse('<title>Microrregião: ' + jsonResponse.nome
-                                          + '&#013Mesorregião: ' + jsonResponse.mesorregiao.nome
-                                          + '</title>')));
-      response = jsonResponse;
-
+      let micro = bahiaJson.microrregioes.find(resultado => resultado.id == slicedId);
+      let string = '<title>Microrregião: ' + micro.nome
+      + '&#013Mesorregião: ' + micro.mesorregiao.nome
+      + '</title>';
+      path.append(Snap.parse(string)); 
+      jsonResponse = micro;
 }
 
 // Adiciona tooltip em uma mesorregião
 function tooltipMesorregiao(path) {
-      urlPath = urls[nivel];
       let slicedId = path.attr('id').slice(4, 8);
-                              let jsondata = fetch(urlPath + slicedId)
-                                    .then(res => res.json())
-                                    .then(data => jsonResponse = data)
-                                    .then(() => path.append(Snap.parse('<title>Mesorregião: ' + jsonResponse.nome
-                                                + '</title>')));
+      let meso = bahiaJson.mesorregioes.find(resultado => resultado.id == slicedId);
+      let string = '<title>Mesorregião: ' + meso.nome
+      + '</title>';
+      path.append(Snap.parse(string)); 
+      jsonResponse = meso;
 }
 
 // Busca o path acima do que foi clicado
 function getPath(path) {
-      urlPath = urls[nivel];
-      let jsondata;
       let slicedId;
       let pai;
 
-      if (regioes[nivel]=='#Municipios'){
-            slicedId = path.attr('id').slice(4, 9);
-            jsondata = fetch(urlPath + slicedId)
-                                    .then(res => res.json())
-                                    .then(data => jsonResponse = data)
-                                    .then((pai = 'mes_'+jsonResponse.microrregiao.mesorregiao.id))
-      } else if (regioes[nivel]=='#Microrregioes'){
+      if (regioes[nivel]=='#Municipios') {
+            slicedId = path.attr('id').slice(4, 11);
+            let municipio = bahiaJson.municipios.find(resultado => resultado.id == slicedId);
+            pai = 'mes_' + municipio.microrregiao.mesorregiao.id;
+      } else if (regioes[nivel]=='#Microrregioes') {
             pai='Terreno';
-      } else {
-            //TO DO: adicionar mais um nível
       } 
+
       return pai;
 }
 
