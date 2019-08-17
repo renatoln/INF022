@@ -23,6 +23,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
 
     //Todos os campos vazios lul
     if (categoria === '' && meso === '' && micro === '' && !valorDe && !valorAte) {
+        clearSearchOnMap();
         return;
     }
 
@@ -238,7 +239,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     //{
     //    console.log(output[i]);
     //}
-
+    clearSearchOnMap();
     toColorBySearch(output); //
 
 }
