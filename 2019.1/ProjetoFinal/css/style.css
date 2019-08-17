@@ -14701,12 +14701,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 
 /*# sourceMappingURL=style.css.map */
 
-.cardMap {
-  width: 400px;
-  height: 400px;
-}
-
 #myDiv {
-  width: 940px;
+  width: 924px;
   float: right;
 }
