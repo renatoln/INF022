@@ -2,7 +2,7 @@
 let dropMeso = $('#dropdownMeso');
 
 dropMeso.empty();
-dropMeso.append('<option selected="true" disabled>Mesorregião</option>');
+dropMeso.append('<option selected="true">Mesorregião</option>');
 dropMeso.prop('selectedIndex', 0);
 
 const jsonData = './jsons/MUNICIPIOS_JSON_TESTES.json';
@@ -16,7 +16,7 @@ $.getJSON(jsonData, function (data) {
 let dropMicro = $('#dropdownMicro');
 
 dropMicro.empty();
-dropMicro.append('<option selected="true" disabled>Microrregião</option>');
+dropMicro.append('<option selected="true">Microrregião</option>');
 dropMicro.prop('selectedIndex', 0);
 
 $.getJSON(jsonData, function (data) {

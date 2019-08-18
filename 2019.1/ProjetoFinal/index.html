@@ -715,10 +715,20 @@
                 meso = mesoDrop.options[mesoDrop.selectedIndex].value;
             }
 
+            if(meso === 'Mesorregião')
+            {
+                meso = '';
+            }
+
             var micro = '';
 
             if (microDrop.selectedIndex > 0) {
                 micro = microDrop.options[microDrop.selectedIndex].value;
+            }
+
+            if(micro === 'Microrregião')
+            {
+                micro = '';
             }
 
             var valorMin = document.getElementById('txt-search-valorMin').value;
