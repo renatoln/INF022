@@ -14,5 +14,5 @@ app.get('*', function (_request, response){
 });
 
 app.listen(3001, function(){
-	console.log('App rodando na porta 3001...');
+	console.log('App rodando em http://localhost:3001...');
 });
