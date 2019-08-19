@@ -8,49 +8,49 @@
 	    "NOME_MESORREGIAO": "Centro Sul Baiano",
 	    "POPULACAO": 2534147,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2902,
 	    "NOME_MESORREGIAO": "Vale Sao-Franciscano da Bahia",
 	    "POPULACAO": 1030551,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2904,
 	    "NOME_MESORREGIAO": "Nordeste Baiano",
 	    "POPULACAO": 1619658,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2903,
 	    "NOME_MESORREGIAO": "Centro Norte Baiano",
 	    "POPULACAO": 2348960,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2907,
 	    "NOME_MESORREGIAO": "Sul Baiano",
 	    "POPULACAO": 2072168,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2905,
 	    "NOME_MESORREGIAO": "Metropolitana de Salvador",
 	    "POPULACAO": 4569110,
 	    "VALOR": 0.647,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"]
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
 	  },
 	  {
 	    "ID": 2901,
 	    "NOME_MESORREGIAO": "Extremo Oeste Baiano",
 	    "POPULACAO": 638023,
 	    "VALOR": 0.61,
-	    "CATEGORIA": ["FAIXA 1"]
+	    "CATEGORIA": ["Péssimo"]
 	  }
 	],
 	"MICRORREGIOES":[
@@ -59,7 +59,7 @@
 	    "NOME_MICRORREGIAO": "Seabra",
 	    "POPULACAO": 260833,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -67,7 +67,7 @@
 	    "NOME_MICRORREGIAO": "Paulo Afonso",
 	    "POPULACAO": 180265,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -75,7 +75,7 @@
 	    "NOME_MICRORREGIAO": "Alagoinhas",
 	    "POPULACAO": 327767,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -83,7 +83,7 @@
 	    "NOME_MICRORREGIAO": "Ribeira do Pombal",
 	    "POPULACAO": 330260,
 	    "VALOR": 0.562,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -91,7 +91,7 @@
 	    "NOME_MICRORREGIAO": "Feira de Santana",
 	    "POPULACAO": 1062422,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -99,7 +99,7 @@
 	    "NOME_MICRORREGIAO": "Livramento do Brumado",
 	    "POPULACAO": 101368,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -107,7 +107,7 @@
 	    "NOME_MICRORREGIAO": "Jequie",
 	    "POPULACAO": 510133,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -115,7 +115,7 @@
 	    "NOME_MICRORREGIAO": "Porto Seguro",
 	    "POPULACAO": 794765,
 	    "VALOR": 0.626,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -123,7 +123,7 @@
 	    "NOME_MICRORREGIAO": "Ilheus-Itabuna",
 	    "POPULACAO": 993810,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -131,7 +131,7 @@
 	    "NOME_MICRORREGIAO": "Catu",
 	    "POPULACAO": 228281,
 	    "VALOR": 0.642,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -139,7 +139,7 @@
 	    "NOME_MICRORREGIAO": "Irece",
 	    "POPULACAO": 393471,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -147,7 +147,7 @@
 	    "NOME_MICRORREGIAO": "Vitoria da Conquista",
 	    "POPULACAO": 642790,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -155,7 +155,7 @@
 	    "NOME_MICRORREGIAO": "Senhor do Bonfim",
 	    "POPULACAO": 301001,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -163,7 +163,7 @@
 	    "NOME_MICRORREGIAO": "Cotegipe",
 	    "POPULACAO": 118732,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -171,7 +171,7 @@
 	    "NOME_MICRORREGIAO": "Brumado",
 	    "POPULACAO": 229193,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -179,7 +179,7 @@
 	    "NOME_MICRORREGIAO": "Serrinha",
 	    "POPULACAO": 437541,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -187,7 +187,7 @@
 	    "NOME_MICRORREGIAO": "Santo Antonio de Jesus",
 	    "POPULACAO": 570519,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -195,7 +195,7 @@
 	    "NOME_MICRORREGIAO": "Barreiras",
 	    "POPULACAO": 336810,
 	    "VALOR": 0.626,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -203,7 +203,7 @@
 	    "NOME_MICRORREGIAO": "Itaberaba",
 	    "POPULACAO": 254374,
 	    "VALOR": 0.568,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -211,7 +211,7 @@
 	    "NOME_MICRORREGIAO": "Barra",
 	    "POPULACAO": 181717,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -219,7 +219,7 @@
 	    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
 	    "POPULACAO": 179592,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -227,7 +227,7 @@
 	    "NOME_MICRORREGIAO": "Boquira",
 	    "POPULACAO": 193284,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -235,7 +235,7 @@
 	    "NOME_MICRORREGIAO": "Guanambi",
 	    "POPULACAO": 393165,
 	    "VALOR": 0.604,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -243,7 +243,7 @@
 	    "NOME_MICRORREGIAO": "Jacobina",
 	    "POPULACAO": 337692,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -251,7 +251,7 @@
 	    "NOME_MICRORREGIAO": "Valenca",
 	    "POPULACAO": 283593,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -259,7 +259,7 @@
 	    "NOME_MICRORREGIAO": "Salvador",
 	    "POPULACAO": 3770310,
 	    "VALOR": 0.695,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -267,7 +267,7 @@
 	    "NOME_MICRORREGIAO": "Juazeiro",
 	    "POPULACAO": 488977,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -275,7 +275,7 @@
 	    "NOME_MICRORREGIAO": "Santa Maria da Vitoria",
 	    "POPULACAO": 182481,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -283,7 +283,7 @@
 	    "NOME_MICRORREGIAO": "Euclides da Cunha",
 	    "POPULACAO": 302070,
 	    "VALOR": 0.564,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -291,7 +291,7 @@
 	    "NOME_MICRORREGIAO": "Entre Rios",
 	    "POPULACAO": 124097,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -299,7 +299,7 @@
 	    "NOME_MICRORREGIAO": "Jeremoabo",
 	    "POPULACAO": 97923,
 	    "VALOR": 0.535,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -307,7 +307,7 @@
 	    "NOME_MICRORREGIAO": "Itapetinga",
 	    "POPULACAO": 198903,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 1","FAIXA 2", "FAIXA 3", "FAIXA 4", "FAIXA 5"],
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906
 	  }
 	],
@@ -317,7 +317,7 @@
 	    "NOME_MUNICIPIO": "Abaíra",
 	    "POPULACAO": 8767,
 	    "VALOR": 0.603,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -326,7 +326,7 @@
 	    "NOME_MUNICIPIO": "Abaré",
 	    "POPULACAO": 19814,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -335,7 +335,7 @@
 	    "NOME_MUNICIPIO": "Acajutiba",
 	    "POPULACAO": 15129,
 	    "VALOR": 0.582,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -344,7 +344,7 @@
 	    "NOME_MUNICIPIO": "Adustina",
 	    "POPULACAO": 16784,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Multinacional"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -353,7 +353,7 @@
 	    "NOME_MUNICIPIO": "Água Fria",
 	    "POPULACAO": 16901,
 	    "VALOR": 0.55,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -362,7 +362,7 @@
 	    "NOME_MUNICIPIO": "Aiquara",
 	    "POPULACAO": 4478,
 	    "VALOR": 0.583,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -371,7 +371,7 @@
 	    "NOME_MUNICIPIO": "Alagoinhas",
 	    "POPULACAO": 150832,
 	    "VALOR": 0.683,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -380,7 +380,7 @@
 	    "NOME_MUNICIPIO": "Alcobaça",
 	    "POPULACAO": 22449,
 	    "VALOR": 0.608,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -389,7 +389,7 @@
 	    "NOME_MUNICIPIO": "Almadina",
 	    "POPULACAO": 5566,
 	    "VALOR": 0.563,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -398,7 +398,7 @@
 	    "NOME_MUNICIPIO": "Amargosa",
 	    "POPULACAO": 37031,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -407,7 +407,7 @@
 	    "NOME_MUNICIPIO": "Amélia Rodrigues",
 	    "POPULACAO": 25224,
 	    "VALOR": 0.666,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -416,7 +416,7 @@
 	    "NOME_MUNICIPIO": "América Dourada",
 	    "POPULACAO": 16097,
 	    "VALOR": 0.561,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -425,7 +425,7 @@
 	    "NOME_MUNICIPIO": "Anagé",
 	    "POPULACAO": 18194,
 	    "VALOR": 0.54,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -434,7 +434,7 @@
 	    "NOME_MUNICIPIO": "Andaraí",
 	    "POPULACAO": 13153,
 	    "VALOR": 0.555,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -443,7 +443,7 @@
 	    "NOME_MUNICIPIO": "Andorinha",
 	    "POPULACAO": 14690,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -452,7 +452,7 @@
 	    "NOME_MUNICIPIO": "Angical",
 	    "POPULACAO": 14017,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -461,7 +461,7 @@
 	    "NOME_MUNICIPIO": "Anguera",
 	    "POPULACAO": 11142,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -470,7 +470,7 @@
 	    "NOME_MUNICIPIO": "Antas",
 	    "POPULACAO": 19093,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -479,7 +479,7 @@
 	    "NOME_MUNICIPIO": "Antônio Cardoso",
 	    "POPULACAO": 11691,
 	    "VALOR": 0.561,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -488,7 +488,7 @@
 	    "NOME_MUNICIPIO": "Antônio Gonçalves",
 	    "POPULACAO": 11715,
 	    "VALOR": 0.598,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -497,7 +497,7 @@
 	    "NOME_MUNICIPIO": "Aporá",
 	    "POPULACAO": 17673,
 	    "VALOR": 0.548,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -506,7 +506,7 @@
 	    "NOME_MUNICIPIO": "Apuarema",
 	    "POPULACAO": 7360,
 	    "VALOR": 0.552,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -515,7 +515,7 @@
 	    "NOME_MUNICIPIO": "Araçás",
 	    "POPULACAO": 12143,
 	    "VALOR": 0.57,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -524,7 +524,7 @@
 	    "NOME_MUNICIPIO": "Aracatu",
 	    "POPULACAO": 13229,
 	    "VALOR": 0.581,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -533,7 +533,7 @@
 	    "NOME_MUNICIPIO": "Araci",
 	    "POPULACAO": 54099,
 	    "VALOR": 0.534,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -542,7 +542,7 @@
 	    "NOME_MUNICIPIO": "Aramari",
 	    "POPULACAO": 11332,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -551,7 +551,7 @@
 	    "NOME_MUNICIPIO": "Arataca",
 	    "POPULACAO": 11079,
 	    "VALOR": 0.559,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -560,7 +560,7 @@
 	    "NOME_MUNICIPIO": "Aratuípe",
 	    "POPULACAO": 8813,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -569,7 +569,7 @@
 	    "NOME_MUNICIPIO": "Aurelino Leal",
 	    "POPULACAO": 11774,
 	    "VALOR": 0.568,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -578,7 +578,7 @@
 	    "NOME_MUNICIPIO": "Baianópolis",
 	    "POPULACAO": 13824,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -587,7 +587,7 @@
 	    "NOME_MUNICIPIO": "Baixa Grande",
 	    "POPULACAO": 20488,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -596,7 +596,7 @@
 	    "NOME_MUNICIPIO": "Banzaê",
 	    "POPULACAO": 13217,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -605,7 +605,7 @@
 	    "NOME_MUNICIPIO": "Barra",
 	    "POPULACAO": 53231,
 	    "VALOR": 0.557,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -614,7 +614,7 @@
 	    "NOME_MUNICIPIO": "Barra da Estiva",
 	    "POPULACAO": 20813,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -623,7 +623,7 @@
 	    "NOME_MUNICIPIO": "Barra do Choça",
 	    "POPULACAO": 32018,
 	    "VALOR": 0.551,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -632,7 +632,7 @@
 	    "NOME_MUNICIPIO": "Barra do Mendes",
 	    "POPULACAO": 13900,
 	    "VALOR": 0.63,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -641,7 +641,7 @@
 	    "NOME_MUNICIPIO": "Barra do Rocha",
 	    "POPULACAO": 5821,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -650,7 +650,7 @@
 	    "NOME_MUNICIPIO": "Barreiras",
 	    "POPULACAO": 153831,
 	    "VALOR": 0.721,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -659,7 +659,7 @@
 	    "NOME_MUNICIPIO": "Barro Alto",
 	    "POPULACAO": 14802,
 	    "VALOR": 0.607,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -668,7 +668,7 @@
 	    "NOME_MUNICIPIO": "Barro Preto",
 	    "POPULACAO": 5743,
 	    "VALOR": 0.602,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -677,7 +677,7 @@
 	    "NOME_MUNICIPIO": "Barrocas",
 	    "POPULACAO": 15846,
 	    "VALOR": 0.61,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -686,7 +686,7 @@
 	    "NOME_MUNICIPIO": "Belmonte",
 	    "POPULACAO": 23214,
 	    "VALOR": 0.598,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -695,7 +695,7 @@
 	    "NOME_MUNICIPIO": "Belo Campo",
 	    "POPULACAO": 17317,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -704,7 +704,7 @@
 	    "NOME_MUNICIPIO": "Biritinga",
 	    "POPULACAO": 15975,
 	    "VALOR": 0.538,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -713,7 +713,7 @@
 	    "NOME_MUNICIPIO": "Boa Nova",
 	    "POPULACAO": 12953,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -722,7 +722,7 @@
 	    "NOME_MUNICIPIO": "Boa Vista do Tupim",
 	    "POPULACAO": 18622,
 	    "VALOR": 0.551,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -731,7 +731,7 @@
 	    "NOME_MUNICIPIO": "Bom Jesus da Lapa",
 	    "POPULACAO": 68609,
 	    "VALOR": 0.633,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -740,7 +740,7 @@
 	    "NOME_MUNICIPIO": "Bom Jesus da Serra",
 	    "POPULACAO": 9942,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -749,7 +749,7 @@
 	    "NOME_MUNICIPIO": "Boninal",
 	    "POPULACAO": 14288,
 	    "VALOR": 0.612,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -758,7 +758,7 @@
 	    "NOME_MUNICIPIO": "Bonito",
 	    "POPULACAO": 16637,
 	    "VALOR": 0.561,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -767,7 +767,7 @@
 	    "NOME_MUNICIPIO": "Boquira",
 	    "POPULACAO": 21520,
 	    "VALOR": 0.603,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -776,7 +776,7 @@
 	    "NOME_MUNICIPIO": "Botuporã",
 	    "POPULACAO": 10300,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -785,7 +785,7 @@
 	    "NOME_MUNICIPIO": "Brejões",
 	    "POPULACAO": 14370,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -794,7 +794,7 @@
 	    "NOME_MUNICIPIO": "Brejolândia",
 	    "POPULACAO": 10493,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -803,7 +803,7 @@
 	    "NOME_MUNICIPIO": "Brotas de Macaúbas",
 	    "POPULACAO": 10341,
 	    "VALOR": 0.57,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -812,7 +812,7 @@
 	    "NOME_MUNICIPIO": "Brumado",
 	    "POPULACAO": 67048,
 	    "VALOR": 0.656,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -821,7 +821,7 @@
 	    "NOME_MUNICIPIO": "Buerarema",
 	    "POPULACAO": 18391,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -830,7 +830,7 @@
 	    "NOME_MUNICIPIO": "Buritirama",
 	    "POPULACAO": 21067,
 	    "VALOR": 0.565,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -839,7 +839,7 @@
 	    "NOME_MUNICIPIO": "Caatiba",
 	    "POPULACAO": 7043,
 	    "VALOR": 0.561,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -848,7 +848,7 @@
 	    "NOME_MUNICIPIO": "Cabaceiras do Paraguaçu",
 	    "POPULACAO": 18698,
 	    "VALOR": 0.581,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -857,7 +857,7 @@
 	    "NOME_MUNICIPIO": "Cachoeira",
 	    "POPULACAO": 33861,
 	    "VALOR": 0.647,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -866,7 +866,7 @@
 	    "NOME_MUNICIPIO": "Caculé",
 	    "POPULACAO": 23045,
 	    "VALOR": 2.637,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -875,7 +875,7 @@
 	    "NOME_MUNICIPIO": "Caém",
 	    "POPULACAO": 9372,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -884,7 +884,7 @@
 	    "NOME_MUNICIPIO": "Caetanos",
 	    "POPULACAO": 15524,
 	    "VALOR": 0.542,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -893,7 +893,7 @@
 	    "NOME_MUNICIPIO": "Caetité",
 	    "POPULACAO": 50861,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -902,7 +902,7 @@
 	    "NOME_MUNICIPIO": "Cafarnaum",
 	    "POPULACAO": 18356,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -911,7 +911,7 @@
 	    "NOME_MUNICIPIO": "Cairu",
 	    "POPULACAO": 17913,
 	    "VALOR": 0.627,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -920,7 +920,7 @@
 	    "NOME_MUNICIPIO": "Caldeirão Grande",
 	    "POPULACAO": 13260,
 	    "VALOR": 0.573,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -929,7 +929,7 @@
 	    "NOME_MUNICIPIO": "Camacan",
 	    "POPULACAO": 31968,
 	    "VALOR": 0.581,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -938,7 +938,7 @@
 	    "NOME_MUNICIPIO": "Camaçari",
 	    "POPULACAO": 293723,
 	    "VALOR": 0.694,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -947,7 +947,7 @@
 	    "NOME_MUNICIPIO": "Camamu",
 	    "POPULACAO": 35248,
 	    "VALOR": 0.565,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -956,7 +956,7 @@
 	    "NOME_MUNICIPIO": "Campo Alegre de Lourdes",
 	    "POPULACAO": 28844,
 	    "VALOR": 0.557,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -965,7 +965,7 @@
 	    "NOME_MUNICIPIO": "Campo Formoso",
 	    "POPULACAO": 70912,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -974,7 +974,7 @@
 	    "NOME_MUNICIPIO": "Canápolis",
 	    "POPULACAO": 9719,
 	    "VALOR": 0.565,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -983,7 +983,7 @@
 	    "NOME_MUNICIPIO": "Canarana",
 	    "POPULACAO": 26020,
 	    "VALOR": 0.587,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -992,7 +992,7 @@
 	    "NOME_MUNICIPIO": "Canavieiras",
 	    "POPULACAO": 31301,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1001,7 +1001,7 @@
 	    "NOME_MUNICIPIO": "Candeal",
 	    "POPULACAO": 8338,
 	    "VALOR": 0.587,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1010,7 +1010,7 @@
 	    "NOME_MUNICIPIO": "Candeias",
 	    "POPULACAO": 86677,
 	    "VALOR": 0.691,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -1019,7 +1019,7 @@
 	    "NOME_MUNICIPIO": "Candiba",
 	    "POPULACAO": 14268,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1028,7 +1028,7 @@
 	    "NOME_MUNICIPIO": "Cândido Sales",
 	    "POPULACAO": 25332,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1037,7 +1037,7 @@
 	    "NOME_MUNICIPIO": "Cansanção",
 	    "POPULACAO": 34784,
 	    "VALOR": 0.557,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1046,7 +1046,7 @@
 	    "NOME_MUNICIPIO": "Canudos",
 	    "POPULACAO": 16752,
 	    "VALOR": 0.562,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1055,7 +1055,7 @@
 	    "NOME_MUNICIPIO": "Capela do Alto Alegre",
 	    "POPULACAO": 11660,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1064,7 +1064,7 @@
 	    "NOME_MUNICIPIO": "Capim Grosso",
 	    "POPULACAO": 30451,
 	    "VALOR": 0.621,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -1073,7 +1073,7 @@
 	    "NOME_MUNICIPIO": "Caraíbas",
 	    "POPULACAO": 9107,
 	    "VALOR": 0.555,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1082,7 +1082,7 @@
 	    "NOME_MUNICIPIO": "Caravelas",
 	    "POPULACAO": 21937,
 	    "VALOR": 0.616,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1091,7 +1091,7 @@
 	    "NOME_MUNICIPIO": "Cardeal da Silva",
 	    "POPULACAO": 9240,
 	    "VALOR": 0.552,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1100,7 +1100,7 @@
 	    "NOME_MUNICIPIO": "Carinhanha",
 	    "POPULACAO": 28965,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -1109,7 +1109,7 @@
 	    "NOME_MUNICIPIO": "Casa Nova",
 	    "POPULACAO": 71366,
 	    "VALOR": 0.57,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -1118,7 +1118,7 @@
 	    "NOME_MUNICIPIO": "Castro Alves",
 	    "POPULACAO": 26209,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1127,7 +1127,7 @@
 	    "NOME_MUNICIPIO": "Catolândia",
 	    "POPULACAO": 3555,
 	    "VALOR": 0.582,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -1136,7 +1136,7 @@
 	    "NOME_MUNICIPIO": "Catu",
 	    "POPULACAO": 54424,
 	    "VALOR": 0.677,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -1145,7 +1145,7 @@
 	    "NOME_MUNICIPIO": "Caturama",
 	    "POPULACAO": 9340,
 	    "VALOR": 0.571,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1154,7 +1154,7 @@
 	    "NOME_MUNICIPIO": "Central",
 	    "POPULACAO": 17252,
 	    "VALOR": 0.596,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1163,7 +1163,7 @@
 	    "NOME_MUNICIPIO": "Chorrochó",
 	    "POPULACAO": 11154,
 	    "VALOR": 0.6,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -1172,7 +1172,7 @@
 	    "NOME_MUNICIPIO": "Cícero Dantas",
 	    "POPULACAO": 33356,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1181,7 +1181,7 @@
 	    "NOME_MUNICIPIO": "Cipó",
 	    "POPULACAO": 17097,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1190,7 +1190,7 @@
 	    "NOME_MUNICIPIO": "Coaraci",
 	    "POPULACAO": 17458,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1199,7 +1199,7 @@
 	    "NOME_MUNICIPIO": "Cocos",
 	    "POPULACAO": 18746,
 	    "VALOR": 0.596,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1208,7 +1208,7 @@
 	    "NOME_MUNICIPIO": "Conceição da Feira",
 	    "POPULACAO": 22392,
 	    "VALOR": 0.634,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1217,7 +1217,7 @@
 	    "NOME_MUNICIPIO": "Conceição do Almeida",
 	    "POPULACAO": 17332,
 	    "VALOR": 0.606,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1226,7 +1226,7 @@
 	    "NOME_MUNICIPIO": "Conceição do Coité",
 	    "POPULACAO": 66191,
 	    "VALOR": 0.611,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1235,7 +1235,7 @@
 	    "NOME_MUNICIPIO": "Conceição do Jacuípe",
 	    "POPULACAO": 32909,
 	    "VALOR": 0.663,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1244,7 +1244,7 @@
 	    "NOME_MUNICIPIO": "Conde",
 	    "POPULACAO": 25630,
 	    "VALOR": 0.56,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1253,7 +1253,7 @@
 	    "NOME_MUNICIPIO": "Condeúba",
 	    "POPULACAO": 17319,
 	    "VALOR": 0.582,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1262,7 +1262,7 @@
 	    "NOME_MUNICIPIO": "Contendas do Sincorá",
 	    "POPULACAO": 4086,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -1271,7 +1271,7 @@
 	    "NOME_MUNICIPIO": "Coração de Maria",
 	    "POPULACAO": 22719,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1280,7 +1280,7 @@
 	    "NOME_MUNICIPIO": "Cordeiros",
 	    "POPULACAO": 8585,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1289,7 +1289,7 @@
 	    "NOME_MUNICIPIO": "Coribe",
 	    "POPULACAO": 14240,
 	    "VALOR": 0.6,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1298,7 +1298,7 @@
 	    "NOME_MUNICIPIO": "Coronel João Sá",
 	    "POPULACAO": 15801,
 	    "VALOR": 0.535,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -1307,7 +1307,7 @@
 	    "NOME_MUNICIPIO": "Correntina",
 	    "POPULACAO": 32081,
 	    "VALOR": 0.603,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1316,7 +1316,7 @@
 	    "NOME_MUNICIPIO": "Cotegipe",
 	    "POPULACAO": 13796,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -1325,7 +1325,7 @@
 	    "NOME_MUNICIPIO": "Cravolândia",
 	    "POPULACAO": 5349,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -1334,7 +1334,7 @@
 	    "NOME_MUNICIPIO": "Crisópolis",
 	    "POPULACAO": 21040,
 	    "VALOR": 0.543,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -1343,7 +1343,7 @@
 	    "NOME_MUNICIPIO": "Cristópolis",
 	    "POPULACAO": 13872,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -1352,7 +1352,7 @@
 	    "NOME_MUNICIPIO": "Cruz das Almas",
 	    "POPULACAO": 62871,
 	    "VALOR": 0.699,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1361,7 +1361,7 @@
 	    "NOME_MUNICIPIO": "Curaçá",
 	    "POPULACAO": 34389,
 	    "VALOR": 0.581,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -1370,7 +1370,7 @@
 	    "NOME_MUNICIPIO": "Dário Meira",
 	    "POPULACAO": 10906,
 	    "VALOR": 0.54,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1379,7 +1379,7 @@
 	    "NOME_MUNICIPIO": "Dias d'Ávila",
 	    "POPULACAO": 79685,
 	    "VALOR": 0.676,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -1388,7 +1388,7 @@
 	    "NOME_MUNICIPIO": "Dom Basílio",
 	    "POPULACAO": 12155,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -1397,7 +1397,7 @@
 	    "NOME_MUNICIPIO": "Dom Macedo Costa",
 	    "POPULACAO": 4050,
 	    "VALOR": 0.632,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1406,7 +1406,7 @@
 	    "NOME_MUNICIPIO": "Elísio Medrado",
 	    "POPULACAO": 8119,
 	    "VALOR": 0.623,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1415,7 +1415,7 @@
 	    "NOME_MUNICIPIO": "Encruzilhada",
 	    "POPULACAO": 17593,
 	    "VALOR": 0.544,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -1424,7 +1424,7 @@
 	    "NOME_MUNICIPIO": "Entre Rios",
 	    "POPULACAO": 41654,
 	    "VALOR": 0.615,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1433,7 +1433,7 @@
 	    "NOME_MUNICIPIO": "Érico Cardoso",
 	    "POPULACAO": 10662,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -1442,7 +1442,7 @@
 	    "NOME_MUNICIPIO": "Esplanada",
 	    "POPULACAO": 36882,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1451,7 +1451,7 @@
 	    "NOME_MUNICIPIO": "Euclides da Cunha",
 	    "POPULACAO": 59842,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1460,7 +1460,7 @@
 	    "NOME_MUNICIPIO": "Eunápolis",
 	    "POPULACAO": 112318,
 	    "VALOR": 0.677,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1469,7 +1469,7 @@
 	    "NOME_MUNICIPIO": "Fátima",
 	    "POPULACAO": 17601,
 	    "VALOR": 0.559,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1478,7 +1478,7 @@
 	    "NOME_MUNICIPIO": "Feira da Mata",
 	    "POPULACAO": 5668,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -1487,7 +1487,7 @@
 	    "NOME_MUNICIPIO": "Feira de Santana",
 	    "POPULACAO": 609913,
 	    "VALOR": 0.712,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1496,7 +1496,7 @@
 	    "NOME_MUNICIPIO": "Filadélfia",
 	    "POPULACAO": 16410,
 	    "VALOR": 0.565,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -1505,7 +1505,7 @@
 	    "NOME_MUNICIPIO": "Firmino Alves",
 	    "POPULACAO": 5604,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1514,7 +1514,7 @@
 	    "NOME_MUNICIPIO": "Floresta Azul",
 	    "POPULACAO": 10686,
 	    "VALOR": 0.557,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1523,7 +1523,7 @@
 	    "NOME_MUNICIPIO": "Formosa do Rio Preto",
 	    "POPULACAO": 25311,
 	    "VALOR": 0.618,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -1532,7 +1532,7 @@
 	    "NOME_MUNICIPIO": "Gandu",
 	    "POPULACAO": 32202,
 	    "VALOR": 0.632,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1541,7 +1541,7 @@
 	    "NOME_MUNICIPIO": "Gavião",
 	    "POPULACAO": 4487,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1550,7 +1550,7 @@
 	    "NOME_MUNICIPIO": "Gentio do Ouro",
 	    "POPULACAO": 11206,
 	    "VALOR": 0.559,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1559,7 +1559,7 @@
 	    "NOME_MUNICIPIO": "Glória",
 	    "POPULACAO": 15208,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -1568,7 +1568,7 @@
 	    "NOME_MUNICIPIO": "Gongogi",
 	    "POPULACAO": 7276,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1577,7 +1577,7 @@
 	    "NOME_MUNICIPIO": "Governador Mangabeira",
 	    "POPULACAO": 20679,
 	    "VALOR": 0.643,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1586,7 +1586,7 @@
 	    "NOME_MUNICIPIO": "Guajeru",
 	    "POPULACAO": 7239,
 	    "VALOR": 0.569,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1595,7 +1595,7 @@
 	    "NOME_MUNICIPIO": "Guanambi",
 	    "POPULACAO": 84014,
 	    "VALOR": 0.673,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1604,7 +1604,7 @@
 	    "NOME_MUNICIPIO": "Guaratinga",
 	    "POPULACAO": 20991,
 	    "VALOR": 0.558,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1613,7 +1613,7 @@
 	    "NOME_MUNICIPIO": "Heliópolis",
 	    "POPULACAO": 13076,
 	    "VALOR": 0.563,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1622,7 +1622,7 @@
 	    "NOME_MUNICIPIO": "Iaçu",
 	    "POPULACAO": 24496,
 	    "VALOR": 0.574,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "FAIXA 7"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -1631,7 +1631,7 @@
 	    "NOME_MUNICIPIO": "Ibiassucê",
 	    "POPULACAO": 9427,
 	    "VALOR": 0.611,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["FAIXA 7"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1640,7 +1640,7 @@
 	    "NOME_MUNICIPIO": "Ibicaraí",
 	    "POPULACAO": 22014,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["FAIXA 9"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1649,7 +1649,7 @@
 	    "NOME_MUNICIPIO": "Ibicoara",
 	    "POPULACAO": 19346,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -1658,7 +1658,7 @@
 	    "NOME_MUNICIPIO": "Ibicuí",
 	    "POPULACAO": 16162,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1667,7 +1667,7 @@
 	    "NOME_MUNICIPIO": "Ibipeba",
 	    "POPULACAO": 18097,
 	    "VALOR": 0.616,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1676,7 +1676,7 @@
 	    "NOME_MUNICIPIO": "Ibipitanga",
 	    "POPULACAO": 14856,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1685,7 +1685,7 @@
 	    "NOME_MUNICIPIO": "Ibiquera",
 	    "POPULACAO": 4043,
 	    "VALOR": 0.511,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -1694,7 +1694,7 @@
 	    "NOME_MUNICIPIO": "Ibirapitanga",
 	    "POPULACAO": 23343,
 	    "VALOR": 0.558,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1703,7 +1703,7 @@
 	    "NOME_MUNICIPIO": "Ibirapuã",
 	    "POPULACAO": 8581,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1712,7 +1712,7 @@
 	    "NOME_MUNICIPIO": "Ibirataia",
 	    "POPULACAO": 15760,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1721,7 +1721,7 @@
 	    "NOME_MUNICIPIO": "Ibitiara",
 	    "POPULACAO": 16272,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1730,7 +1730,7 @@
 	    "NOME_MUNICIPIO": "Ibititá",
 	    "POPULACAO": 17150,
 	    "VALOR": 0.602,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1739,7 +1739,7 @@
 	    "NOME_MUNICIPIO": "Ibotirama",
 	    "POPULACAO": 26846,
 	    "VALOR": 0.636,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -1748,7 +1748,7 @@
 	    "NOME_MUNICIPIO": "Ichu",
 	    "POPULACAO": 6194,
 	    "VALOR": 0.631,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1757,7 +1757,7 @@
 	    "NOME_MUNICIPIO": "Igaporã",
 	    "POPULACAO": 15630,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1766,7 +1766,7 @@
 	    "NOME_MUNICIPIO": "Igrapiúna",
 	    "POPULACAO": 13367,
 	    "VALOR": 0.574,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -1775,7 +1775,7 @@
 	    "NOME_MUNICIPIO": "Iguaí",
 	    "POPULACAO": 26868,
 	    "VALOR": 0.552,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1784,7 +1784,7 @@
 	    "NOME_MUNICIPIO": "Ilhéus",
 	    "POPULACAO": 164844,
 	    "VALOR": 0.69,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1793,7 +1793,7 @@
 	    "NOME_MUNICIPIO": "Inhambupe",
 	    "POPULACAO": 39499,
 	    "VALOR": 0.565,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -1802,7 +1802,7 @@
 	    "NOME_MUNICIPIO": "Ipecaetá",
 	    "POPULACAO": 14625,
 	    "VALOR": 0.55,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1811,7 +1811,7 @@
 	    "NOME_MUNICIPIO": "Ipiaú",
 	    "POPULACAO": 45823,
 	    "VALOR": 0.67,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1820,7 +1820,7 @@
 	    "NOME_MUNICIPIO": "Ipirá",
 	    "POPULACAO": 59763,
 	    "VALOR": 0.549,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1829,7 +1829,7 @@
 	    "NOME_MUNICIPIO": "Ipupiara",
 	    "POPULACAO": 9817,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1838,7 +1838,7 @@
 	    "NOME_MUNICIPIO": "Irajuba",
 	    "POPULACAO": 7243,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -1847,7 +1847,7 @@
 	    "NOME_MUNICIPIO": "Iramaia",
 	    "POPULACAO": 8893,
 	    "VALOR": 0.571,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -1856,7 +1856,7 @@
 	    "NOME_MUNICIPIO": "Iraquara",
 	    "POPULACAO": 24942,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1865,7 +1865,7 @@
 	    "NOME_MUNICIPIO": "Irará",
 	    "POPULACAO": 28892,
 	    "VALOR": 0.62,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1874,7 +1874,7 @@
 	    "NOME_MUNICIPIO": "Irecê",
 	    "POPULACAO": 72386,
 	    "VALOR": 0.691,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Regular"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1883,7 +1883,7 @@
 	    "NOME_MUNICIPIO": "Itabela",
 	    "POPULACAO": 30413,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1892,7 +1892,7 @@
 	    "NOME_MUNICIPIO": "Itaberaba",
 	    "POPULACAO": 64325,
 	    "VALOR": 0.62,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -1901,7 +1901,7 @@
 	    "NOME_MUNICIPIO": "Itabuna",
 	    "POPULACAO": 212740,
 	    "VALOR": 0.712,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1910,7 +1910,7 @@
 	    "NOME_MUNICIPIO": "Itacaré",
 	    "POPULACAO": 27891,
 	    "VALOR": 0.583,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1919,7 +1919,7 @@
 	    "NOME_MUNICIPIO": "Itaeté",
 	    "POPULACAO": 15999,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -1928,7 +1928,7 @@
 	    "NOME_MUNICIPIO": "Itagi",
 	    "POPULACAO": 12462,
 	    "VALOR": 0.543,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -1937,7 +1937,7 @@
 	    "NOME_MUNICIPIO": "Itagibá",
 	    "POPULACAO": 14712,
 	    "VALOR": 0.589,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1946,7 +1946,7 @@
 	    "NOME_MUNICIPIO": "Itagimirim",
 	    "POPULACAO": 6914,
 	    "VALOR": 0.634,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1955,7 +1955,7 @@
 	    "NOME_MUNICIPIO": "Itaguaçu da Bahia",
 	    "POPULACAO": 14311,
 	    "VALOR": 0.562,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -1964,7 +1964,7 @@
 	    "NOME_MUNICIPIO": "Itaju do Colônia",
 	    "POPULACAO": 6770,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1973,7 +1973,7 @@
 	    "NOME_MUNICIPIO": "Itajuípe",
 	    "POPULACAO": 20587,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1982,7 +1982,7 @@
 	    "NOME_MUNICIPIO": "Itamaraju",
 	    "POPULACAO": 64521,
 	    "VALOR": 0.627,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1991,7 +1991,7 @@
 	    "NOME_MUNICIPIO": "Itamari",
 	    "POPULACAO": 8069,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2000,7 +2000,7 @@
 	    "NOME_MUNICIPIO": "Itambé",
 	    "POPULACAO": 23358,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2009,7 +2009,7 @@
 	    "NOME_MUNICIPIO": "Itanagra",
 	    "POPULACAO": 6445,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -2018,7 +2018,7 @@
 	    "NOME_MUNICIPIO": "Itanhém",
 	    "POPULACAO": 19499,
 	    "VALOR": 0.637,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2027,7 +2027,7 @@
 	    "NOME_MUNICIPIO": "Itaparica",
 	    "POPULACAO": 22114,
 	    "VALOR": 0.67,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -2036,7 +2036,7 @@
 	    "NOME_MUNICIPIO": "Itapé",
 	    "POPULACAO": 9008,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2045,7 +2045,7 @@
 	    "NOME_MUNICIPIO": "Itapebi",
 	    "POPULACAO": 10306,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2054,7 +2054,7 @@
 	    "NOME_MUNICIPIO": "Itapetinga",
 	    "POPULACAO": 75470,
 	    "VALOR": 0.667,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2063,7 +2063,7 @@
 	    "NOME_MUNICIPIO": "Itapicuru",
 	    "POPULACAO": 35256,
 	    "VALOR": 0.486,
-	    "CATEGORIA": ["FAIXA 3"],
+	    "CATEGORIA": ["Regular"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2072,7 +2072,7 @@
 	    "NOME_MUNICIPIO": "Itapitanga",
 	    "POPULACAO": 10328,
 	    "VALOR": 0.571,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2081,7 +2081,7 @@
 	    "NOME_MUNICIPIO": "Itaquara",
 	    "POPULACAO": 8288,
 	    "VALOR": 0.553,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2090,7 +2090,7 @@
 	    "NOME_MUNICIPIO": "Itarantim",
 	    "POPULACAO": 19646,
 	    "VALOR": 0.61,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2099,7 +2099,7 @@
 	    "NOME_MUNICIPIO": "Itatim",
 	    "POPULACAO": 14432,
 	    "VALOR": 0.582,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2108,7 +2108,7 @@
 	    "NOME_MUNICIPIO": "Itiruçu",
 	    "POPULACAO": 12624,
 	    "VALOR": 0.6,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2117,7 +2117,7 @@
 	    "NOME_MUNICIPIO": "Itiúba",
 	    "POPULACAO": 36063,
 	    "VALOR": 0.544,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -2126,7 +2126,7 @@
 	    "NOME_MUNICIPIO": "Itororó",
 	    "POPULACAO": 20375,
 	    "VALOR": 0.594,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2135,7 +2135,7 @@
 	    "NOME_MUNICIPIO": "Ituaçu",
 	    "POPULACAO": 18889,
 	    "VALOR": 0.57,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -2144,7 +2144,7 @@
 	    "NOME_MUNICIPIO": "Ituberá",
 	    "POPULACAO": 28457,
 	    "VALOR": 0.606,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -2153,7 +2153,7 @@
 	    "NOME_MUNICIPIO": "Iuiu",
 	    "POPULACAO": 10969,
 	    "VALOR": 0.591,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2162,7 +2162,7 @@
 	    "NOME_MUNICIPIO": "Jaborandi",
 	    "POPULACAO": 8496,
 	    "VALOR": 0.613,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -2171,7 +2171,7 @@
 	    "NOME_MUNICIPIO": "Jacaraci",
 	    "POPULACAO": 14834,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2180,7 +2180,7 @@
 	    "NOME_MUNICIPIO": "Jacobina",
 	    "POPULACAO": 80394,
 	    "VALOR": 0.649,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2189,7 +2189,7 @@
 	    "NOME_MUNICIPIO": "Jaguaquara",
 	    "POPULACAO": 54163,
 	    "VALOR": 0.58,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2198,7 +2198,7 @@
 	    "NOME_MUNICIPIO": "Jaguarari",
 	    "POPULACAO": 33385,
 	    "VALOR": 0.659,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -2207,7 +2207,7 @@
 	    "NOME_MUNICIPIO": "Jaguaripe",
 	    "POPULACAO": 18588,
 	    "VALOR": 0.556,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2216,7 +2216,7 @@
 	    "NOME_MUNICIPIO": "Jandaíra",
 	    "POPULACAO": 10691,
 	    "VALOR": 0.55,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -2225,7 +2225,7 @@
 	    "NOME_MUNICIPIO": "Jequié",
 	    "POPULACAO": 155800,
 	    "VALOR": 0.665,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2234,7 +2234,7 @@
 	    "NOME_MUNICIPIO": "Jeremoabo",
 	    "POPULACAO": 40232,
 	    "VALOR": 0.547,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -2243,7 +2243,7 @@
 	    "NOME_MUNICIPIO": "Jiquiriçá",
 	    "POPULACAO": 14516,
 	    "VALOR": 0.553,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2252,7 +2252,7 @@
 	    "NOME_MUNICIPIO": "Jitaúna",
 	    "POPULACAO": 11540,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2261,7 +2261,7 @@
 	    "NOME_MUNICIPIO": "João Dourado",
 	    "POPULACAO": 24964,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2270,7 +2270,7 @@
 	    "NOME_MUNICIPIO": "Juazeiro",
 	    "POPULACAO": 215183,
 	    "VALOR": 0.677,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -2279,7 +2279,7 @@
 	    "NOME_MUNICIPIO": "Jucuruçu",
 	    "POPULACAO": 9272,
 	    "VALOR": 0.541,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2288,7 +2288,7 @@
 	    "NOME_MUNICIPIO": "Jussara",
 	    "POPULACAO": 15307,
 	    "VALOR": 0.571,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2297,7 +2297,7 @@
 	    "NOME_MUNICIPIO": "Jussari",
 	    "POPULACAO": 5902,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim", "Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2306,7 +2306,7 @@
 	    "NOME_MUNICIPIO": "Jussiape",
 	    "POPULACAO": 6406,
 	    "VALOR": 0.602,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2315,7 +2315,7 @@
 	    "NOME_MUNICIPIO": "Lafaiete Coutinho",
 	    "POPULACAO": 3757,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2324,7 +2324,7 @@
 	    "NOME_MUNICIPIO": "Lagoa Real",
 	    "POPULACAO": 15555,
 	    "VALOR": 0.545,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2333,7 +2333,7 @@
 	    "NOME_MUNICIPIO": "Laje",
 	    "POPULACAO": 23638,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2342,7 +2342,7 @@
 	    "NOME_MUNICIPIO": "Lajedão",
 	    "POPULACAO": 3934,
 	    "VALOR": 0.632,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2351,7 +2351,7 @@
 	    "NOME_MUNICIPIO": "Lajedinho",
 	    "POPULACAO": 3808,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2360,7 +2360,7 @@
 	    "NOME_MUNICIPIO": "Lajedo do Tabocal",
 	    "POPULACAO": 8546,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2369,7 +2369,7 @@
 	    "NOME_MUNICIPIO": "Lamarão",
 	    "POPULACAO": 8430,
 	    "VALOR": 0.518,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -2378,7 +2378,7 @@
 	    "NOME_MUNICIPIO": "Lapão",
 	    "POPULACAO": 27170,
 	    "VALOR": 0.596,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2387,7 +2387,7 @@
 	    "NOME_MUNICIPIO": "Lauro de Freitas",
 	    "POPULACAO": 195095,
 	    "VALOR": 0.754,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -2396,7 +2396,7 @@
 	    "NOME_MUNICIPIO": "Lençóis",
 	    "POPULACAO": 11315,
 	    "VALOR": 0.623,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2405,7 +2405,7 @@
 	    "NOME_MUNICIPIO": "Licínio de Almeida",
 	    "POPULACAO": 12406,
 	    "VALOR": 0.921,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2414,7 +2414,7 @@
 	    "NOME_MUNICIPIO": "Livramento de Nossa Senhora",
 	    "POPULACAO": 45388,
 	    "VALOR": 0.611,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -2423,7 +2423,7 @@
 	    "NOME_MUNICIPIO": "Luís Eduardo Magalhães",
 	    "POPULACAO": 84753,
 	    "VALOR": 0.716,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -2432,7 +2432,7 @@
 	    "NOME_MUNICIPIO": "Macajuba",
 	    "POPULACAO": 11364,
 	    "VALOR": 0.524,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2441,7 +2441,7 @@
 	    "NOME_MUNICIPIO": "Macarani",
 	    "POPULACAO": 18592,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2450,7 +2450,7 @@
 	    "NOME_MUNICIPIO": "Macaúbas",
 	    "POPULACAO": 49474,
 	    "VALOR": 0.609,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2459,7 +2459,7 @@
 	    "NOME_MUNICIPIO": "Macururé",
 	    "POPULACAO": 7862,
 	    "VALOR": 0.604,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -2468,7 +2468,7 @@
 	    "NOME_MUNICIPIO": "Madre de Deus",
 	    "POPULACAO": 20737,
 	    "VALOR": 0.708,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -2477,7 +2477,7 @@
 	    "NOME_MUNICIPIO": "Maetinga",
 	    "POPULACAO": 3577,
 	    "VALOR": 0.538,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -2486,7 +2486,7 @@
 	    "NOME_MUNICIPIO": "Maiquinique",
 	    "POPULACAO": 10016,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2495,7 +2495,7 @@
 	    "NOME_MUNICIPIO": "Mairi",
 	    "POPULACAO": 18753,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2504,7 +2504,7 @@
 	    "NOME_MUNICIPIO": "Malhada",
 	    "POPULACAO": 16830,
 	    "VALOR": 0.562,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2513,7 +2513,7 @@
 	    "NOME_MUNICIPIO": "Malhada de Pedras",
 	    "POPULACAO": 8430,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -2522,7 +2522,7 @@
 	    "NOME_MUNICIPIO": "Manoel Vitorino",
 	    "POPULACAO": 13397,
 	    "VALOR": 0.566,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -2531,7 +2531,7 @@
 	    "NOME_MUNICIPIO": "Mansidão",
 	    "POPULACAO": 13546,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -2540,7 +2540,7 @@
 	    "NOME_MUNICIPIO": "Maracás",
 	    "POPULACAO": 21295,
 	    "VALOR": 0.607,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2549,7 +2549,7 @@
 	    "NOME_MUNICIPIO": "Maragogipe",
 	    "POPULACAO": 44555,
 	    "VALOR": 0.621,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2558,7 +2558,7 @@
 	    "NOME_MUNICIPIO": "Maraú",
 	    "POPULACAO": 20518,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -2567,7 +2567,7 @@
 	    "NOME_MUNICIPIO": "Marcionílio Souza",
 	    "POPULACAO": 10434,
 	    "VALOR": 0.561,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2576,7 +2576,7 @@
 	    "NOME_MUNICIPIO": "Mascote",
 	    "POPULACAO": 13931,
 	    "VALOR": 0.581,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2585,7 +2585,7 @@
 	    "NOME_MUNICIPIO": "Mata de São João",
 	    "POPULACAO": 46014,
 	    "VALOR": 0.668,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -2594,7 +2594,7 @@
 	    "NOME_MUNICIPIO": "Matina",
 	    "POPULACAO": 12116,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2603,7 +2603,7 @@
 	    "NOME_MUNICIPIO": "Medeiros Neto",
 	    "POPULACAO": 22659,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2612,7 +2612,7 @@
 	    "NOME_MUNICIPIO": "Miguel Calmon",
 	    "POPULACAO": 26159,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2621,7 +2621,7 @@
 	    "NOME_MUNICIPIO": "Milagres",
 	    "POPULACAO": 11009,
 	    "VALOR": 0.622,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2630,7 +2630,7 @@
 	    "NOME_MUNICIPIO": "Mirangaba",
 	    "POPULACAO": 18195,
 	    "VALOR": 0.542,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2639,7 +2639,7 @@
 	    "NOME_MUNICIPIO": "Mirante",
 	    "POPULACAO": 8844,
 	    "VALOR": 0.527,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -2648,7 +2648,7 @@
 	    "NOME_MUNICIPIO": "Monte Santo",
 	    "POPULACAO": 49565,
 	    "VALOR": 0.506,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -2657,7 +2657,7 @@
 	    "NOME_MUNICIPIO": "Morpará",
 	    "POPULACAO": 8542,
 	    "VALOR": 0.558,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -2666,7 +2666,7 @@
 	    "NOME_MUNICIPIO": "Morro do Chapéu",
 	    "POPULACAO": 35383,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2675,7 +2675,7 @@
 	    "NOME_MUNICIPIO": "Mortugaba",
 	    "POPULACAO": 12031,
 	    "VALOR": 0.618,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2684,7 +2684,7 @@
 	    "NOME_MUNICIPIO": "Mucugê",
 	    "POPULACAO": 9244,
 	    "VALOR": 0.606,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2693,7 +2693,7 @@
 	    "NOME_MUNICIPIO": "Mucuri",
 	    "POPULACAO": 41221,
 	    "VALOR": 0.665,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2702,7 +2702,7 @@
 	    "NOME_MUNICIPIO": "Mulungu do Morro",
 	    "POPULACAO": 11114,
 	    "VALOR": 0.566,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2711,7 +2711,7 @@
 	    "NOME_MUNICIPIO": "Mundo Novo",
 	    "POPULACAO": 26575,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2720,7 +2720,7 @@
 	    "NOME_MUNICIPIO": "Muniz Ferreira",
 	    "POPULACAO": 7399,
 	    "VALOR": 0.617,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2729,7 +2729,7 @@
 	    "NOME_MUNICIPIO": "Muquém do São Francisco",
 	    "POPULACAO": 11280,
 	    "VALOR": 0.549,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -2738,7 +2738,7 @@
 	    "NOME_MUNICIPIO": "Muritiba",
 	    "POPULACAO": 29387,
 	    "VALOR": 0.66,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2747,7 +2747,7 @@
 	    "NOME_MUNICIPIO": "Mutuípe",
 	    "POPULACAO": 22156,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2756,7 +2756,7 @@
 	    "NOME_MUNICIPIO": "Nazaré",
 	    "POPULACAO": 28451,
 	    "VALOR": 0.641,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2765,7 +2765,7 @@
 	    "NOME_MUNICIPIO": "Nilo Peçanha",
 	    "POPULACAO": 13914,
 	    "VALOR": 0.547,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -2774,7 +2774,7 @@
 	    "NOME_MUNICIPIO": "Nordestina",
 	    "POPULACAO": 13095,
 	    "VALOR": 0.56,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -2783,7 +2783,7 @@
 	    "NOME_MUNICIPIO": "Nova Canaã",
 	    "POPULACAO": 16451,
 	    "VALOR": 0.545,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -2792,7 +2792,7 @@
 	    "NOME_MUNICIPIO": "Nova Fátima",
 	    "POPULACAO": 7802,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -2801,7 +2801,7 @@
 	    "NOME_MUNICIPIO": "Nova Ibiá",
 	    "POPULACAO": 6631,
 	    "VALOR": 0.57,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2810,7 +2810,7 @@
 	    "NOME_MUNICIPIO": "Nova Itarana",
 	    "POPULACAO": 8172,
 	    "VALOR": 0.524,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2819,7 +2819,7 @@
 	    "NOME_MUNICIPIO": "Nova Redenção",
 	    "POPULACAO": 9115,
 	    "VALOR": 0.567,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2828,7 +2828,7 @@
 	    "NOME_MUNICIPIO": "Nova Soure",
 	    "POPULACAO": 24493,
 	    "VALOR": 0.555,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2837,7 +2837,7 @@
 	    "NOME_MUNICIPIO": "Nova Viçosa",
 	    "POPULACAO": 42950,
 	    "VALOR": 0.654,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2846,7 +2846,7 @@
 	    "NOME_MUNICIPIO": "Novo Horizonte",
 	    "POPULACAO": 12241,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2855,7 +2855,7 @@
 	    "NOME_MUNICIPIO": "Novo Triunfo",
 	    "POPULACAO": 15380,
 	    "VALOR": 0.554,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2864,7 +2864,7 @@
 	    "NOME_MUNICIPIO": "Olindina",
 	    "POPULACAO": 28152,
 	    "VALOR": 0.559,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2873,7 +2873,7 @@
 	    "NOME_MUNICIPIO": "Oliveira dos Brejinhos",
 	    "POPULACAO": 21838,
 	    "VALOR": 0.554,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2882,7 +2882,7 @@
 	    "NOME_MUNICIPIO": "Ouriçangas",
 	    "POPULACAO": 8557,
 	    "VALOR": 0.607,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2891,7 +2891,7 @@
 	    "NOME_MUNICIPIO": "Ourolândia",
 	    "POPULACAO": 17389,
 	    "VALOR": 0.56,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2900,7 +2900,7 @@
 	    "NOME_MUNICIPIO": "Palmas de Monte Alto",
 	    "POPULACAO": 21703,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2909,7 +2909,7 @@
 	    "NOME_MUNICIPIO": "Palmeiras",
 	    "POPULACAO": 8961,
 	    "VALOR": 0.643,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2918,7 +2918,7 @@
 	    "NOME_MUNICIPIO": "Paramirim",
 	    "POPULACAO": 21518,
 	    "VALOR": 0.615,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -2927,7 +2927,7 @@
 	    "NOME_MUNICIPIO": "Paratinga",
 	    "POPULACAO": 31853,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -2936,7 +2936,7 @@
 	    "NOME_MUNICIPIO": "Paripiranga",
 	    "POPULACAO": 28956,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2945,7 +2945,7 @@
 	    "NOME_MUNICIPIO": "Pau Brasil",
 	    "POPULACAO": 9981,
 	    "VALOR": 0.583,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2954,7 +2954,7 @@
 	    "NOME_MUNICIPIO": "Paulo Afonso",
 	    "POPULACAO": 117014,
 	    "VALOR": 0.674,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -2963,7 +2963,7 @@
 	    "NOME_MUNICIPIO": "Pé de Serra",
 	    "POPULACAO": 13601,
 	    "VALOR": 0.587,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -2972,7 +2972,7 @@
 	    "NOME_MUNICIPIO": "Pedrão",
 	    "POPULACAO": 7298,
 	    "VALOR": 0.588,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2981,7 +2981,7 @@
 	    "NOME_MUNICIPIO": "Pedro Alexandre",
 	    "POPULACAO": 17486,
 	    "VALOR": 0.513,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -2990,7 +2990,7 @@
 	    "NOME_MUNICIPIO": "Piatã",
 	    "POPULACAO": 17269,
 	    "VALOR": 0.571,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2999,7 +2999,7 @@
 	    "NOME_MUNICIPIO": "Pilão Arcado",
 	    "POPULACAO": 34486,
 	    "VALOR": 0.506,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3008,7 +3008,7 @@
 	    "NOME_MUNICIPIO": "Pindaí",
 	    "POPULACAO": 16234,
 	    "VALOR": 0.603,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3017,7 +3017,7 @@
 	    "NOME_MUNICIPIO": "Pindobaçu",
 	    "POPULACAO": 20204,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -3026,7 +3026,7 @@
 	    "NOME_MUNICIPIO": "Pintadas",
 	    "POPULACAO": 10482,
 	    "VALOR": 0.612,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3035,7 +3035,7 @@
 	    "NOME_MUNICIPIO": "Piraí do Norte",
 	    "POPULACAO": 10007,
 	    "VALOR": 0.533,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3044,7 +3044,7 @@
 	    "NOME_MUNICIPIO": "Piripá",
 	    "POPULACAO": 10952,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3053,7 +3053,7 @@
 	    "NOME_MUNICIPIO": "Piritiba",
 	    "POPULACAO": 24538,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3062,7 +3062,7 @@
 	    "NOME_MUNICIPIO": "Planaltino",
 	    "POPULACAO": 9272,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3071,7 +3071,7 @@
 	    "NOME_MUNICIPIO": "Planalto",
 	    "POPULACAO": 26092,
 	    "VALOR": 0.56,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3080,7 +3080,7 @@
 	    "NOME_MUNICIPIO": "Poções",
 	    "POPULACAO": 46862,
 	    "VALOR": 0.604,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3089,7 +3089,7 @@
 	    "NOME_MUNICIPIO": "Pojuca",
 	    "POPULACAO": 39045,
 	    "VALOR": 0.666,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Regular", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -3098,7 +3098,7 @@
 	    "NOME_MUNICIPIO": "Ponto Novo",
 	    "POPULACAO": 15012,
 	    "VALOR": 0.58,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3107,7 +3107,7 @@
 	    "NOME_MUNICIPIO": "Porto Seguro",
 	    "POPULACAO": 146625,
 	    "VALOR": 0.676,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3116,7 +3116,7 @@
 	    "NOME_MUNICIPIO": "Potiraguá",
 	    "POPULACAO": 7549,
 	    "VALOR": 0.625,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -3125,7 +3125,7 @@
 	    "NOME_MUNICIPIO": "Prado",
 	    "POPULACAO": 28152,
 	    "VALOR": 0.621,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3134,7 +3134,7 @@
 	    "NOME_MUNICIPIO": "Presidente Dutra",
 	    "POPULACAO": 15121,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3143,7 +3143,7 @@
 	    "NOME_MUNICIPIO": "Presidente Jânio Quadros",
 	    "POPULACAO": 12505,
 	    "VALOR": 0.542,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3152,7 +3152,7 @@
 	    "NOME_MUNICIPIO": "Presidente Tancredo Neves",
 	    "POPULACAO": 27422,
 	    "VALOR": 0.559,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3161,7 +3161,7 @@
 	    "NOME_MUNICIPIO": "Queimadas",
 	    "POPULACAO": 25445,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3170,7 +3170,7 @@
 	    "NOME_MUNICIPIO": "Quijingue",
 	    "POPULACAO": 27533,
 	    "VALOR": 0.544,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3179,7 +3179,7 @@
 	    "NOME_MUNICIPIO": "Quixabeira",
 	    "POPULACAO": 8990,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3188,7 +3188,7 @@
 	    "NOME_MUNICIPIO": "Rafael Jambeiro",
 	    "POPULACAO": 22610,
 	    "VALOR": 0.564,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3197,7 +3197,7 @@
 	    "NOME_MUNICIPIO": "Remanso",
 	    "POPULACAO": 41200,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3206,7 +3206,7 @@
 	    "NOME_MUNICIPIO": "Retirolândia",
 	    "POPULACAO": 14295,
 	    "VALOR": 0.636,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3215,7 +3215,7 @@
 	    "NOME_MUNICIPIO": "Riachão das Neves",
 	    "POPULACAO": 22343,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -3224,7 +3224,7 @@
 	    "NOME_MUNICIPIO": "Riachão do Jacuípe",
 	    "POPULACAO": 33403,
 	    "VALOR": 0.628,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3233,7 +3233,7 @@
 	    "NOME_MUNICIPIO": "Riacho de Santana",
 	    "POPULACAO": 35240,
 	    "VALOR": 0.615,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3242,7 +3242,7 @@
 	    "NOME_MUNICIPIO": "Ribeira do Amparo",
 	    "POPULACAO": 14843,
 	    "VALOR": 0.512,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3251,7 +3251,7 @@
 	    "NOME_MUNICIPIO": "Ribeira do Pombal",
 	    "POPULACAO": 52956,
 	    "VALOR": 0.601,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3260,7 +3260,7 @@
 	    "NOME_MUNICIPIO": "Ribeirão do Largo",
 	    "POPULACAO": 6304,
 	    "VALOR": 0.54,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -3269,7 +3269,7 @@
 	    "NOME_MUNICIPIO": "Rio de Contas",
 	    "POPULACAO": 13048,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3278,7 +3278,7 @@
 	    "NOME_MUNICIPIO": "Rio do Antônio",
 	    "POPULACAO": 15289,
 	    "VALOR": 0.576,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3287,7 +3287,7 @@
 	    "NOME_MUNICIPIO": "Rio do Pires",
 	    "POPULACAO": 11645,
 	    "VALOR": 0.594,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -3296,7 +3296,7 @@
 	    "NOME_MUNICIPIO": "Rio Real",
 	    "POPULACAO": 40475,
 	    "VALOR": 0.572,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -3305,7 +3305,7 @@
 	    "NOME_MUNICIPIO": "Rodelas",
 	    "POPULACAO": 9213,
 	    "VALOR": 0.632,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -3314,7 +3314,7 @@
 	    "NOME_MUNICIPIO": "Ruy Barbosa",
 	    "POPULACAO": 30767,
 	    "VALOR": 0.61,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -3323,7 +3323,7 @@
 	    "NOME_MUNICIPIO": "Salinas da Margarida",
 	    "POPULACAO": 15463,
 	    "VALOR": 0.617,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3332,7 +3332,7 @@
 	    "NOME_MUNICIPIO": "Salvador",
 	    "POPULACAO": 2857329,
 	    "VALOR": 0.759,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -3341,7 +3341,7 @@
 	    "NOME_MUNICIPIO": "Santa Bárbara",
 	    "POPULACAO": 20694,
 	    "VALOR": 0.583,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3350,7 +3350,7 @@
 	    "NOME_MUNICIPIO": "Santa Brígida",
 	    "POPULACAO": 14088,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -3359,7 +3359,7 @@
 	    "NOME_MUNICIPIO": "Santa Cruz Cabrália",
 	    "POPULACAO": 27626,
 	    "VALOR": 0.654,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3368,7 +3368,7 @@
 	    "NOME_MUNICIPIO": "Santa Cruz da Vitória",
 	    "POPULACAO": 6354,
 	    "VALOR": 0.61,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3377,7 +3377,7 @@
 	    "NOME_MUNICIPIO": "Santa Inês",
 	    "POPULACAO": 10656,
 	    "VALOR": 0.574,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3386,7 +3386,7 @@
 	    "NOME_MUNICIPIO": "Santa Luzia",
 	    "POPULACAO": 12751,
 	    "VALOR": 0.556,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3395,7 +3395,7 @@
 	    "NOME_MUNICIPIO": "Santa Maria da Vitória",
 	    "POPULACAO": 39920,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -3404,7 +3404,7 @@
 	    "NOME_MUNICIPIO": "Santa Rita de Cássia",
 	    "POPULACAO": 28192,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -3413,7 +3413,7 @@
 	    "NOME_MUNICIPIO": "Santa Terezinha",
 	    "POPULACAO": 10345,
 	    "VALOR": 0.587,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3422,7 +3422,7 @@
 	    "NOME_MUNICIPIO": "Santaluz",
 	    "POPULACAO": 37158,
 	    "VALOR": 0.598,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3431,7 +3431,7 @@
 	    "NOME_MUNICIPIO": "Santana",
 	    "POPULACAO": 26517,
 	    "VALOR": 0.608,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -3440,7 +3440,7 @@
 	    "NOME_MUNICIPIO": "Santanópolis",
 	    "POPULACAO": 8920,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3449,7 +3449,7 @@
 	    "NOME_MUNICIPIO": "Santo Amaro",
 	    "POPULACAO": 59512,
 	    "VALOR": 0.646,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3458,7 +3458,7 @@
 	    "NOME_MUNICIPIO": "Santo Antônio de Jesus",
 	    "POPULACAO": 100605,
 	    "VALOR": 0.7,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3467,7 +3467,7 @@
 	    "NOME_MUNICIPIO": "Santo Estêvão",
 	    "POPULACAO": 52413,
 	    "VALOR": 0.626,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3476,7 +3476,7 @@
 	    "NOME_MUNICIPIO": "São Desidério",
 	    "POPULACAO": 33193,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -3485,7 +3485,7 @@
 	    "NOME_MUNICIPIO": "São Domingos",
 	    "POPULACAO": 9042,
 	    "VALOR": 0.64,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3494,7 +3494,7 @@
 	    "NOME_MUNICIPIO": "São Felipe",
 	    "POPULACAO": 21069,
 	    "VALOR": 0.616,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3503,7 +3503,7 @@
 	    "NOME_MUNICIPIO": "São Félix",
 	    "POPULACAO": 14717,
 	    "VALOR": 0.639,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3512,7 +3512,7 @@
 	    "NOME_MUNICIPIO": "São Félix do Coribe",
 	    "POPULACAO": 15310,
 	    "VALOR": 0.639,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -3521,7 +3521,7 @@
 	    "NOME_MUNICIPIO": "São Francisco do Conde",
 	    "POPULACAO": 39338,
 	    "VALOR": 0.674,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -3530,7 +3530,7 @@
 	    "NOME_MUNICIPIO": "São Gabriel",
 	    "POPULACAO": 18798,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3539,7 +3539,7 @@
 	    "NOME_MUNICIPIO": "São Gonçalo dos Campos",
 	    "POPULACAO": 37139,
 	    "VALOR": 0.627,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3548,7 +3548,7 @@
 	    "NOME_MUNICIPIO": "São José da Vitória",
 	    "POPULACAO": 5710,
 	    "VALOR": 0.546,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3557,7 +3557,7 @@
 	    "NOME_MUNICIPIO": "São José do Jacuípe",
 	    "POPULACAO": 10417,
 	    "VALOR": 0.552,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3566,7 +3566,7 @@
 	    "NOME_MUNICIPIO": "São Miguel das Matas",
 	    "POPULACAO": 11645,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3575,7 +3575,7 @@
 	    "NOME_MUNICIPIO": "São Sebastião do Passé",
 	    "POPULACAO": 44164,
 	    "VALOR": 0.657,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Ruim", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -3584,7 +3584,7 @@
 	    "NOME_MUNICIPIO": "Sapeaçu",
 	    "POPULACAO": 17387,
 	    "VALOR": 0.614,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3593,7 +3593,7 @@
 	    "NOME_MUNICIPIO": "Sátiro Dias",
 	    "POPULACAO": 19644,
 	    "VALOR": 0.527,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -3602,7 +3602,7 @@
 	    "NOME_MUNICIPIO": "Saubara",
 	    "POPULACAO": 11978,
 	    "VALOR": 0.617,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3611,7 +3611,7 @@
 	    "NOME_MUNICIPIO": "Saúde",
 	    "POPULACAO": 12883,
 	    "VALOR": 0.549,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3620,7 +3620,7 @@
 	    "NOME_MUNICIPIO": "Seabra",
 	    "POPULACAO": 43941,
 	    "VALOR": 0.635,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3629,7 +3629,7 @@
 	    "NOME_MUNICIPIO": "Sebastião Laranjeiras",
 	    "POPULACAO": 11351,
 	    "VALOR": 0.615,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3638,7 +3638,7 @@
 	    "NOME_MUNICIPIO": "Senhor do Bonfim",
 	    "POPULACAO": 78588,
 	    "VALOR": 0.666,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -3647,7 +3647,7 @@
 	    "NOME_MUNICIPIO": "Sento Sé",
 	    "POPULACAO": 40703,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3656,7 +3656,7 @@
 	    "NOME_MUNICIPIO": "Serra do Ramalho",
 	    "POPULACAO": 31532,
 	    "VALOR": 0.595,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -3665,7 +3665,7 @@
 	    "NOME_MUNICIPIO": "Serra Dourada",
 	    "POPULACAO": 17452,
 	    "VALOR": 0.608,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -3674,7 +3674,7 @@
 	    "NOME_MUNICIPIO": "Serra Preta",
 	    "POPULACAO": 15064,
 	    "VALOR": 0.566,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3683,7 +3683,7 @@
 	    "NOME_MUNICIPIO": "Serrinha",
 	    "POPULACAO": 80411,
 	    "VALOR": 0.634,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3692,7 +3692,7 @@
 	    "NOME_MUNICIPIO": "Serrolândia",
 	    "POPULACAO": 13347,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3701,7 +3701,7 @@
 	    "NOME_MUNICIPIO": "Simões Filho",
 	    "POPULACAO": 132906,
 	    "VALOR": 0.675,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -3710,7 +3710,7 @@
 	    "NOME_MUNICIPIO": "Sítio do Mato",
 	    "POPULACAO": 12965,
 	    "VALOR": 0.564,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -3719,7 +3719,7 @@
 	    "NOME_MUNICIPIO": "Sítio do Quinto",
 	    "POPULACAO": 10316,
 	    "VALOR": 0.533,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -3728,7 +3728,7 @@
 	    "NOME_MUNICIPIO": "Sobradinho",
 	    "POPULACAO": 22806,
 	    "VALOR": 0.631,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3737,7 +3737,7 @@
 	    "NOME_MUNICIPIO": "Souto Soares",
 	    "POPULACAO": 16905,
 	    "VALOR": 0.592,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3746,7 +3746,7 @@
 	    "NOME_MUNICIPIO": "Tabocas do Brejo Velho",
 	    "POPULACAO": 12517,
 	    "VALOR": 0.584,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -3755,7 +3755,7 @@
 	    "NOME_MUNICIPIO": "Tanhaçu",
 	    "POPULACAO": 20416,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3764,7 +3764,7 @@
 	    "NOME_MUNICIPIO": "Tanque Novo",
 	    "POPULACAO": 17285,
 	    "VALOR": 0.599,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -3773,7 +3773,7 @@
 	    "NOME_MUNICIPIO": "Tanquinho",
 	    "POPULACAO": 7909,
 	    "VALOR": 0.597,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3782,7 +3782,7 @@
 	    "NOME_MUNICIPIO": "Taperoá",
 	    "POPULACAO": 20889,
 	    "VALOR": 0.566,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3791,7 +3791,7 @@
 	    "NOME_MUNICIPIO": "Tapiramutá",
 	    "POPULACAO": 17046,
 	    "VALOR": 0.594,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -3800,7 +3800,7 @@
 	    "NOME_MUNICIPIO": "Teixeira de Freitas",
 	    "POPULACAO": 158445,
 	    "VALOR": 0.685,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3809,7 +3809,7 @@
 	    "NOME_MUNICIPIO": "Teodoro Sampaio",
 	    "POPULACAO": 7493,
 	    "VALOR": 0.594,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3818,7 +3818,7 @@
 	    "NOME_MUNICIPIO": "Teofilândia",
 	    "POPULACAO": 22479,
 	    "VALOR": 0.566,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3827,7 +3827,7 @@
 	    "NOME_MUNICIPIO": "Teolândia",
 	    "POPULACAO": 14860,
 	    "VALOR": 0.555,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3836,7 +3836,7 @@
 	    "NOME_MUNICIPIO": "Terra Nova",
 	    "POPULACAO": 12965,
 	    "VALOR": 0.578,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -3845,7 +3845,7 @@
 	    "NOME_MUNICIPIO": "Tremedal",
 	    "POPULACAO": 16608,
 	    "VALOR": 0.528,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3854,7 +3854,7 @@
 	    "NOME_MUNICIPIO": "Tucano",
 	    "POPULACAO": 50568,
 	    "VALOR": 0.579,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3863,7 +3863,7 @@
 	    "NOME_MUNICIPIO": "Uauá",
 	    "POPULACAO": 24486,
 	    "VALOR": 0.605,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3872,7 +3872,7 @@
 	    "NOME_MUNICIPIO": "Ubaíra",
 	    "POPULACAO": 19914,
 	    "VALOR": 0.582,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3881,7 +3881,7 @@
 	    "NOME_MUNICIPIO": "Ubaitaba",
 	    "POPULACAO": 19275,
 	    "VALOR": 0.611,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3890,7 +3890,7 @@
 	    "NOME_MUNICIPIO": "Ubatã",
 	    "POPULACAO": 26795,
 	    "VALOR": 0.593,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3899,7 +3899,7 @@
 	    "NOME_MUNICIPIO": "Uibaí",
 	    "POPULACAO": 13884,
 	    "VALOR": 0.617,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Bom", "Ótimo"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3908,7 +3908,7 @@
 	    "NOME_MUNICIPIO": "Umburanas",
 	    "POPULACAO": 19034,
 	    "VALOR": 0.515,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -3917,7 +3917,7 @@
 	    "NOME_MUNICIPIO": "Una",
 	    "POPULACAO": 19484,
 	    "VALOR": 0.56,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Bom"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3926,7 +3926,7 @@
 	    "NOME_MUNICIPIO": "Urandi",
 	    "POPULACAO": 16651,
 	    "VALOR": 0.598,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3935,7 +3935,7 @@
 	    "NOME_MUNICIPIO": "Uruçuca",
 	    "POPULACAO": 20630,
 	    "VALOR": 0.616,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3944,7 +3944,7 @@
 	    "NOME_MUNICIPIO": "Utinga",
 	    "POPULACAO": 19098,
 	    "VALOR": 0.59,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3953,7 +3953,7 @@
 	    "NOME_MUNICIPIO": "Valença",
 	    "POPULACAO": 95858,
 	    "VALOR": 0.623,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3962,7 +3962,7 @@
 	    "NOME_MUNICIPIO": "Valente",
 	    "POPULACAO": 28130,
 	    "VALOR": 0.637,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3971,7 +3971,7 @@
 	    "NOME_MUNICIPIO": "Várzea da Roça",
 	    "POPULACAO": 14087,
 	    "VALOR": 0.539,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -3980,7 +3980,7 @@
 	    "NOME_MUNICIPIO": "Várzea do Poço",
 	    "POPULACAO": 9130,
 	    "VALOR": 0.575,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3989,7 +3989,7 @@
 	    "NOME_MUNICIPIO": "Várzea Nova",
 	    "POPULACAO": 12772,
 	    "VALOR": 0.555,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3998,7 +3998,7 @@
 	    "NOME_MUNICIPIO": "Varzedo",
 	    "POPULACAO": 8895,
 	    "VALOR": 0.586,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4007,7 +4007,7 @@
 	    "NOME_MUNICIPIO": "Vera Cruz",
 	    "POPULACAO": 42706,
 	    "VALOR": 0.645,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -4016,7 +4016,7 @@
 	    "NOME_MUNICIPIO": "Vereda",
 	    "POPULACAO": 6258,
 	    "VALOR": 0.577,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -4025,7 +4025,7 @@
 	    "NOME_MUNICIPIO": "Vitória da Conquista",
 	    "POPULACAO": 338885,
 	    "VALOR": 0.678,
-	    "CATEGORIA": ["FAIXA 1"],
+	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -4034,7 +4034,7 @@
 	    "NOME_MUNICIPIO": "Wagner",
 	    "POPULACAO": 9347,
 	    "VALOR": 0.587,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -4043,7 +4043,7 @@
 	    "NOME_MUNICIPIO": "Wanderley",
 	    "POPULACAO": 12299,
 	    "VALOR": 0.6,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -4052,7 +4052,7 @@
 	    "NOME_MUNICIPIO": "Wenceslau Guimarães",
 	    "POPULACAO": 21228,
 	    "VALOR": 0.544,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4061,7 +4061,7 @@
 	    "NOME_MUNICIPIO": "Xique-Xique",
 	    "POPULACAO": 46440,
 	    "VALOR": 0.585,
-	    "CATEGORIA": ["FAIXA 2"],
+	    "CATEGORIA": ["Ruim"],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  }
