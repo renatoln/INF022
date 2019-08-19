@@ -29,9 +29,9 @@ cor1 : "#f5f542",
 
 //CARREGA O JSON
 function preload() {
-	let url = "/jsons/MUNICIPIOS_JSON_EVOLUCAO.json";
+	let url = "/jsons/bahia_evolucao.json";
 	evolucao = loadJSON(url);
-	url = "/jsons/MUNICIPIOS_JSON_TESTES.json";
+	url = "/jsons/bahia_geral.json";
 	testes = loadJSON(url);
 }
 
