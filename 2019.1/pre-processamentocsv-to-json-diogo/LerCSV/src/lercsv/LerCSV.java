@@ -26,7 +26,7 @@ public class LerCSV {
 
     char pularLinhas = '\n';
     char aspas = '"';
-    String dado, registro, filtro = "";
+    String dado, registro, filtro = "", separar = "0";
     int nFiltro = 1;
     float contador = 0, acumulado = 0;
     /**
@@ -45,7 +45,9 @@ public class LerCSV {
         System.out.printf("Informe o endereco que os arquivos serão gerados:\nExemplo: C:/\n");
         //destino = "D:\\dados\\";
         this.destino = ler.next();
-    
+        System.out.printf("Deseja separar o arquivo CSV quando mais de 1 milhão de registros?:\n0 para SIM\n1 para NÃO\n");
+        this.separar = ler.next();
+        //separar = "0";
         String arquivoCSV = leitura;
         
         br = new BufferedReader(new FileReader(arquivoCSV));
@@ -61,7 +63,7 @@ public class LerCSV {
             this.retiraAspasEEspacos();
             if(dados[nFiltro].contains(filtro)){
                 contador++;
-                if(contador > 1000000.0 ){
+                if(contador > 1000000.0 && separar.equalsIgnoreCase("0")){
                     registro+= arquivo.novoCSV(filtro);
                     acumulado+= contador;
                     contador = 0;
@@ -74,7 +76,7 @@ public class LerCSV {
                 arquivo.arquivoCSV(dados);
             }
         }
-        arquivo.fecharArquivo();
+        registro+= arquivo.fecharArquivo();
         if(acumulado==0||contador!=acumulado){
             acumulado+= contador;
         }
@@ -90,6 +92,7 @@ public class LerCSV {
         for(int i = 1; i < 9; i++){
             this.dado = this.dados[this.dados.length-i];
             this.dado = this.dado.replace("\"", "");
+            this.dado = this.dado.replace(",", ".");
             this.dados[this.dados.length-i] = this.dado.replace("  ", " ");
         }
     }
