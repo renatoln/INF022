@@ -1,12 +1,19 @@
-function lineChart(periodo,valor){
+function lineChart(periodo,valor, cidade){
   var trace1 = {
   x: periodo,
   y: valor,
   type: 'scatter'
 };
+
+var layout = {
+  title: cidade,
+  showlegend: false
+};
+
+
 var data = [trace1];
 
-Plotly.newPlot('myDiv', data);
+Plotly.newPlot('myDiv', data, layout);
 }
 
 /****************************************************************************************************************/

@@ -93,7 +93,7 @@ function clearSearchOnMap() {
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
 	let salvador = searchEquivalent(2927408, evolucao.MUNICIPIOS);
-	lineChart(salvador.PERIODOS, salvador.VALORES);
+	lineChart(salvador.PERIODOS, salvador.VALORES, salvador.NOME_MUNICIPIO);
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
@@ -108,7 +108,7 @@ function addPopUp(cidade, cidadeEvolucao) {
 
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
 		line.addEventListener("click", function () {
-			lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
+			lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES, cidadeEvolucao.NOME_MUNICIPIO);
 		})
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
