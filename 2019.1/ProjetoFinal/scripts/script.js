@@ -1,17 +1,17 @@
 function lineChart(periodo,valor, cidade){
   var trace1 = {
-  x: periodo,
-  y: valor,
-  type: 'scatter'
-};
+    x: periodo,
+    y: valor,
+    type: 'scatter'
+  };
 
-var layout = {
-  title: cidade,
-  showlegend: false
-};
+  var layout = {
+    title: cidade,
+    showlegend: false
+  };
 
 
-var data = [trace1];
+  var data = [trace1];
 
 Plotly.newPlot('myDiv', data, layout);
 }
@@ -21,16 +21,19 @@ Plotly.newPlot('myDiv', data, layout);
 /*****************************************Menu*******************************************************************/
 /****************************************************************************************************************/
 
-function barChart(periodo, valor){
-  var data = [
-  {
-    x: periodo,
-    y: valor,
-    type: 'bar'
-  }
-];
+function barChart(periodo, valor , cidade){
+  var data = [{
+      x: periodo,
+      y: valor,
+      type: 'bar'
+    }];
 
-Plotly.newPlot('myDiv', data);
+  var layout = {
+    title: cidade,
+    showlegend: false
+  };
+
+Plotly.newPlot('myDiv', data, layout);
 }
 
 

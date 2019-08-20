@@ -113,7 +113,7 @@ function addPopUp(cidade, cidadeEvolucao) {
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
 		bar.addEventListener("click", function () {
-			barChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES);
+			barChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES, cidadeEvolucao.NOME_MUNICIPIO);
 		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
