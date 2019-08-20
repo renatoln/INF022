@@ -2,7 +2,7 @@
 /*function preload(){
 	$(function () {
         return $.ajax({
-            url: "./jsons/MUNICIPIOS_JSON_TESTES.json",
+            url: "./jsons/bahia_geral.json",
             type: 'get',
             dataType: 'json',
             success: function (response) {
