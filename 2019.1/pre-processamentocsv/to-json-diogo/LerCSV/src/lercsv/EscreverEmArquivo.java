@@ -22,7 +22,7 @@ public class EscreverEmArquivo {
     private final FileWriter arqJSON ;
     private final PrintWriter gravarArqJSON ;
     private String[] teg, tegJSON = new String[7];
-    private String endereco;
+    private String endereco, corpoJSON;
     private int contador = 0, h = 0;
     private float registrosJSON = 0, registrosTXT = 0, registrosCSV = 0;
     private String[] municipio1 = new String[417], municipio2 = new String[417], siafi = new String[417], id = new String[417];
@@ -36,6 +36,7 @@ public class EscreverEmArquivo {
         this.arqJSON = new FileWriter("d:\\dados\\dados.json");
         this.gravarArqJSON = new PrintWriter(arqJSON);
         this.carga();
+        this.gravarArqJSON.printf(corpoJSON);
     }
     public EscreverEmArquivo(String endereco, String filtro) throws IOException{
         this.arqTXT = new FileWriter(endereco + "dados" + filtro + ".txt");
@@ -46,6 +47,7 @@ public class EscreverEmArquivo {
         this.gravarArqJSON = new PrintWriter(arqJSON);
         this.endereco = endereco;
         this.carga();
+        this.gravarArqJSON.printf(corpoJSON);
     }    
     
     public void tegs(String[] dado) throws IOException {
@@ -80,16 +82,20 @@ public class EscreverEmArquivo {
         if(valor == -1){
             return;
         }
-        this.gravarArqJSON.printf("{\n\"" + this.tegJSON[0] + "\": " + id[valor] + ",\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[1] + "\": \"" + municipio1[valor] + "\",\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[2] + "\": " + populacao[valor] + ",\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[3] + "\": " + dado[7] + ",\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[4] + "\": [\"" + dado[6]+ "\",\"" + dado[5] + "\"],\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[5] + "\": " + meso[valor] + ",\n");
-        this.gravarArqJSON.printf("\"" + this.tegJSON[6] + "\": " + micro[valor] + "\n},\n");
+        if(registrosJSON!=0){
+            this.gravarArqJSON.printf(",\n");
+        }
+        this.gravarArqJSON.printf("\t\t{\n\t\t\t\"" + this.tegJSON[0] + "\": " + id[valor] + ",\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[1] + "\": \"" + municipio1[valor] + "\",\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[2] + "\": " + populacao[valor] + ",\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[3] + "\": " + dado[7] + ",\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[4] + "\": [\"" + dado[6]+ "\",\"" + dado[5] + "\"],\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[5] + "\": " + meso[valor] + ",\n");
+        this.gravarArqJSON.printf("\t\t\t\"" + this.tegJSON[6] + "\": " + micro[valor] + "\n\t\t}");
         registrosJSON++;
     }
     public String fecharArquivo() throws IOException{
+      this.gravarArqJSON.printf("\n\t]\n}");
       arqTXT.close();       
       arqCSV.close();       
       arqJSON.close();
@@ -532,6 +538,319 @@ public class EscreverEmArquivo {
         this.municipio1[h] = "WANDERLEY";	this.id[h] = "2933455";	this.municipio2[h] = "WANDERLEY";	this.siafi[h] = "3999";	this.populacao[h] = "12299";	this.valor[h] = "0.6";	this.meso[h] = "2901";	this.micro[h] = "29002"; h++;
         this.municipio1[h] = "WENCESLAU GUIMARÃES";	this.id[h] = "2933505";	this.municipio2[h] = "WENCESLAU GUIMARAES";	this.siafi[h] = "3969";	this.populacao[h] = "21228";	this.valor[h] = "0.544";	this.meso[h] = "2907";	this.micro[h] = "29031"; h++;
         this.municipio1[h] = "XIQUE-XIQUE";	this.id[h] = "2933604";	this.municipio2[h] = "XIQUE-XIQUE";	this.siafi[h] = "3971";	this.populacao[h] = "46440";	this.valor[h] = "0.585";	this.meso[h] = "2902";	this.micro[h] = "29006"; h++;
-
+        corpoJSON = "{\n" +
+"	\"MIN_Valor\": 0.486,\n" +
+"	\"MAX_Valor\": 0.759,	\n" +
+"    \n" +
+"	\"MESORREGIOES\":[\n" +
+"	  {\n" +
+"	    \"ID\": 2906,\n" +
+"	    \"NOME_MESORREGIAO\": \"Centro Sul Baiano\",\n" +
+"	    \"POPULACAO\": 2534147,\n" +
+"	    \"VALOR\": 0.586,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2902,\n" +
+"	    \"NOME_MESORREGIAO\": \"Vale Sao-Franciscano da Bahia\",\n" +
+"	    \"POPULACAO\": 1030551,\n" +
+"	    \"VALOR\": 0.59,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2904,\n" +
+"	    \"NOME_MESORREGIAO\": \"Nordeste Baiano\",\n" +
+"	    \"POPULACAO\": 1619658,\n" +
+"	    \"VALOR\": 0.573,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2903,\n" +
+"	    \"NOME_MESORREGIAO\": \"Centro Norte Baiano\",\n" +
+"	    \"POPULACAO\": 2348960,\n" +
+"	    \"VALOR\": 0.588,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2907,\n" +
+"	    \"NOME_MESORREGIAO\": \"Sul Baiano\",\n" +
+"	    \"POPULACAO\": 2072168,\n" +
+"	    \"VALOR\": 0.599,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2905,\n" +
+"	    \"NOME_MESORREGIAO\": \"Metropolitana de Salvador\",\n" +
+"	    \"POPULACAO\": 4569110,\n" +
+"	    \"VALOR\": 0.647,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"]\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 2901,\n" +
+"	    \"NOME_MESORREGIAO\": \"Extremo Oeste Baiano\",\n" +
+"	    \"POPULACAO\": 638023,\n" +
+"	    \"VALOR\": 0.61,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\"]\n" +
+"	  }\n" +
+"	],\n" +
+"	\"MICRORREGIOES\":[\n" +
+"	   {\n" +
+"	    \"ID\": 29023,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Seabra\",\n" +
+"	    \"POPULACAO\": 260833,\n" +
+"	    \"VALOR\": 0.593,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29005,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Paulo Afonso\",\n" +
+"	    \"POPULACAO\": 180265,\n" +
+"	    \"VALOR\": 0.613,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2902\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29017,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Alagoinhas\",\n" +
+"	    \"POPULACAO\": 327767,\n" +
+"	    \"VALOR\": 0.575,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29015,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Ribeira do Pombal\",\n" +
+"	    \"POPULACAO\": 330260,\n" +
+"	    \"VALOR\": 0.562,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29012,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Feira de Santana\",\n" +
+"	    \"POPULACAO\": 1062422,\n" +
+"	    \"VALOR\": 0.599,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2903\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29025,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Livramento do Brumado\",\n" +
+"	    \"POPULACAO\": 101368,\n" +
+"	    \"VALOR\": 0.599,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29024,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Jequie\",\n" +
+"	    \"POPULACAO\": 510133,\n" +
+"	    \"VALOR\": 0.584,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29032,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Porto Seguro\",\n" +
+"	    \"POPULACAO\": 794765,\n" +
+"	    \"VALOR\": 0.626,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2907\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29031,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Ilheus-Itabuna\",\n" +
+"	    \"POPULACAO\": 993810,\n" +
+"	    \"VALOR\": 0.591,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2907\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29019,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Catu\",\n" +
+"	    \"POPULACAO\": 228281,\n" +
+"	    \"VALOR\": 0.642,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2905\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29009,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Irece\",\n" +
+"	    \"POPULACAO\": 393471,\n" +
+"	    \"VALOR\": 0.599,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2903\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29028,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Vitoria da Conquista\",\n" +
+"	    \"POPULACAO\": 642790,\n" +
+"	    \"VALOR\": 0.567,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29008,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Senhor do Bonfim\",\n" +
+"	    \"POPULACAO\": 301001,\n" +
+"	    \"VALOR\": 0.589,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2903\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29002,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Cotegipe\",\n" +
+"	    \"POPULACAO\": 118732,\n" +
+"	    \"VALOR\": 0.601,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2901\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29027,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Brumado\",\n" +
+"	    \"POPULACAO\": 229193,\n" +
+"	    \"VALOR\": 0.572,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29016,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Serrinha\",\n" +
+"	    \"POPULACAO\": 437541,\n" +
+"	    \"VALOR\": 0.597,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29020,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Santo Antonio de Jesus\",\n" +
+"	    \"POPULACAO\": 570519,\n" +
+"	    \"VALOR\": 0.625,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2905\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29001,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Barreiras\",\n" +
+"	    \"POPULACAO\": 336810,\n" +
+"	    \"VALOR\": 0.626,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2901\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29011,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Itaberaba\",\n" +
+"	    \"POPULACAO\": 254374,\n" +
+"	    \"VALOR\": 0.568,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2903\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29006,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Barra\",\n" +
+"	    \"POPULACAO\": 181717,\n" +
+"	    \"VALOR\": 0.573,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2902\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29007,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Bom Jesus da Lapa\",\n" +
+"	    \"POPULACAO\": 179592,\n" +
+"	    \"VALOR\": 0.591,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2902\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29022,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Boquira\",\n" +
+"	    \"POPULACAO\": 193284,\n" +
+"	    \"VALOR\": 0.585,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29026,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Guanambi\",\n" +
+"	    \"POPULACAO\": 393165,\n" +
+"	    \"VALOR\": 0.604,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29010,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Jacobina\",\n" +
+"	    \"POPULACAO\": 337692,\n" +
+"	    \"VALOR\": 0.576,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2903\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29030,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Valenca\",\n" +
+"	    \"POPULACAO\": 283593,\n" +
+"	    \"VALOR\": 0.579,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2907\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29021,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Salvador\",\n" +
+"	    \"POPULACAO\": 3770310,\n" +
+"	    \"VALOR\": 0.695,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2905\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29004,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Juazeiro\",\n" +
+"	    \"POPULACAO\": 488977,\n" +
+"	    \"VALOR\": 0.586,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2902\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29003,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Santa Maria da Vitoria\",\n" +
+"	    \"POPULACAO\": 182481,\n" +
+"	    \"VALOR\": 0.605,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2901\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29014,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Euclides da Cunha\",\n" +
+"	    \"POPULACAO\": 302070,\n" +
+"	    \"VALOR\": 0.564,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29018,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Entre Rios\",\n" +
+"	    \"POPULACAO\": 124097,\n" +
+"	    \"VALOR\": 0.573,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29013,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Jeremoabo\",\n" +
+"	    \"POPULACAO\": 97923,\n" +
+"	    \"VALOR\": 0.535,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2904\n" +
+"	  },\n" +
+"	  {\n" +
+"	    \"ID\": 29029,\n" +
+"	    \"NOME_MICRORREGIAO\": \"Itapetinga\",\n" +
+"	    \"POPULACAO\": 198903,\n" +
+"	    \"VALOR\": 0.593,\n" +
+"	    \"CATEGORIA\": [\"FAIXA 1\",\"FAIXA 2\", \"FAIXA 3\", \"FAIXA 4\", \"FAIXA 5\"],\n" +
+"	    \"ID_MESO\": 2906\n" +
+"	  }\n" +
+"	],\n" +
+"	\"MUNICIPIOS\": [";
     }
 }

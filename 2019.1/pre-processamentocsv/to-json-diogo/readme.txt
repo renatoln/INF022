@@ -9,3 +9,5 @@ cria mais de um arquivo CSV, se desejar, quando o arquivo destino tem mais de 1 
 relatório de arquivos criados
 relatório de registros por tipo de arquivo
 criar arquivo JSON com id, idmeso, idmicro e população
+json com informações miso e micro
+tabulação do arquivo json
