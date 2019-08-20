@@ -1,11 +1,10 @@
-
 let dropMeso = $('#dropdownMeso');
 
 dropMeso.empty();
 dropMeso.append('<option selected="true">Mesorregião</option>');
 dropMeso.prop('selectedIndex', 0);
 
-const jsonData = './jsons/bahia_geral.json';
+const jsonData = './jsons/'+estado+'_geral.json';
 
 $.getJSON(jsonData, function (data) {
   $.each(data.MESORREGIOES, function (key, value) {

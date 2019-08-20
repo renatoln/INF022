@@ -1,5 +1,5 @@
 let evolucao = [];
-let testes = [];
+let geral = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
@@ -29,10 +29,10 @@ cor1 : "#f5f542",
 
 //CARREGA O JSON
 function preload() {
-	let url = "/jsons/bahia_evolucao.json";
+	let url = "/jsons/"+estado+"_evolucao.json";
 	evolucao = loadJSON(url);
-	url = "/jsons/bahia_geral.json";
-	testes = loadJSON(url);
+	url = "/jsons/"+estado+"_geral.json";
+	geral = loadJSON(url);
 }
 
 async function toColorBySearch(jsonFiltered) {
@@ -77,11 +77,11 @@ function clearSearchOnMap() {
 		for (let icount in cidades) {
 			id = cidades[icount].node.attributes.id.value;
 			id = id.replace("mun_", "");
-			for (let jcount in testes.MUNICIPIOS) {
+			for (let jcount in geral.MUNICIPIOS) {
 
 				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-				if (id == testes.MUNICIPIOS[jcount].ID) {
-					cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+				if (id == geral.MUNICIPIOS[jcount].ID) {
+					cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALOR);
 					break;
 				}
 			}
@@ -92,8 +92,8 @@ function clearSearchOnMap() {
 
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
-	let salvador = searchEquivalent(2927408, evolucao.MUNICIPIOS);
-	lineChart(salvador.PERIODOS, salvador.VALORES);
+	let capital = searchEquivalent(capitalId, evolucao.MUNICIPIOS);
+	lineChart(capital.PERIODOS, capital.VALORES);
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
@@ -131,8 +131,8 @@ function addPopUp(cidade, cidadeEvolucao) {
 }
 
 function definirCor(valor) {
-	let min = testes.MIN_Valor;
-	let max = testes.MAX_Valor;
+	let min = geral.MIN_Valor;
+	let max = geral.MAX_Valor;
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min;
@@ -175,11 +175,11 @@ function setup() {
 	for (let icount in cidades) {
 		id = cidades[icount].node.attributes.id.value;
 		id = id.replace("mun_", "");
-		for (let jcount in testes.MUNICIPIOS) {
+		for (let jcount in geral.MUNICIPIOS) {
 
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-			if (id == testes.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(testes.MUNICIPIOS[jcount].VALOR);
+			if (id == geral.MUNICIPIOS[jcount].ID) {
+				cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALOR);
 				cidadeEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
 				addPopUp(cidades[icount], cidadeEvolucao);
 				break;
