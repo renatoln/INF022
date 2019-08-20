@@ -93,7 +93,7 @@ function clearSearchOnMap() {
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
 	let capital = searchEquivalent(capitalId, evolucao.MUNICIPIOS);
-	lineChart(capital.PERIODOS, capital.VALORES);
+	lineChart(capital.PERIODOS, capital.VALORES, capitalNome);
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS

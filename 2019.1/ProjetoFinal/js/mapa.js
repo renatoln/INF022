@@ -2,6 +2,7 @@ let cidades = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 let estado = 'ba'; //es ba
 let capitalId = 2927408; //vitoria = 3205309; salvador = 2927408
+let capitalNome = 'Salvador'; //'Vitoria';
 var svg = 'maps/'+estado+'.svg';
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
