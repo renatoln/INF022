@@ -1,0 +1,844 @@
+{
+	"MIN_Valor": 0.486,
+	"MAX_Valor": 0.759,
+
+	"MESORREGIOES":[
+	  {
+	    "id":3201,
+      	"nome":"Noroeste Espírito-santense",
+	    "POPULACAO": 2534147,
+	    "VALOR": 0.586,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3202,
+      	"nome":"Litoral Norte Espírito-santense",
+	    "POPULACAO": 1030551,
+	    "VALOR": 0.59,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3203,
+      	"nome":"Central Espírito-santense",
+	    "POPULACAO": 1619658,
+	    "VALOR": 0.573,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3204,
+      	"nome":"Sul Espírito-santense",
+	    "POPULACAO": 2348960,
+	    "VALOR": 0.588,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  }
+	],
+	"MICRORREGIOES":[
+	   {
+	    "id":32001,
+      	"nome":"Barra de São Francisco", 
+	    "POPULACAO": 260833,
+	    "VALOR": 0.593,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "id":32002,
+      	"nome":"Nova Venécia",
+	    "POPULACAO": 180265,
+	    "VALOR": 0.613,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "id":32003,
+      	"nome":"Colatina",
+	    "POPULACAO": 327767,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "id":32004,
+      	"nome":"Montanha",
+	    "POPULACAO": 330260,
+	    "VALOR": 0.562,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "id":32005,
+      	"nome":"São Mateus",
+	    "POPULACAO": 1062422,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "id":32006,
+      	"nome":"Linhares",
+	    "POPULACAO": 101368,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "id":32007,
+      	"nome":"Afonso Cláudio",
+	    "POPULACAO": 510133,
+	    "VALOR": 0.584,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "id":32008,
+      	"nome":"Santa Teresa",
+	    "POPULACAO": 794765,
+	    "VALOR": 0.626,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "id":32009,
+      	"nome":"Vitória",
+	    "POPULACAO": 993810,
+	    "VALOR": 0.591,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "id":32010,
+      	"nome":"Guarapari",
+	    "POPULACAO": 228281,
+	    "VALOR": 0.642,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "id":32011,
+      	"nome":"Alegre",
+	    "POPULACAO": 393471,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  },
+	  {
+	    "id":32012,
+      	"nome":"Cachoeiro de Itapemirim",
+	    "VALOR": 0.567,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  },
+	  {
+	    "id":32013,
+      	"nome":"Itapemirim",
+	    "POPULACAO": 301001,
+	    "VALOR": 0.589,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  }
+	],
+	"MUNICIPIOS": [
+	  {
+	    "id":3200102,
+      	"nome":"Afonso Cláudio",
+      	"ID_MESO": 3203,
+      	"ID_MICRO":32007,
+	    "POPULACAO": 8767,
+	    "VALOR": 0.575,	 
+	    "CATEGORIA": ["Péssimo"]	    
+	  },
+	  {
+	    "id":3200136,
+      	"nome":"Águia Branca",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 19814,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3200169,
+      	"nome":"Água Doce do Norte",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,      	
+	    "POPULACAO": 15129,
+	    "VALOR": 0.582,
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "id":3200201,
+      	"nome":"Alegre",      
+	    "ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+      	"POPULACAO": 16784,
+	    "VALOR": 0.546,
+	    "CATEGORIA": ["Ruim", "Multinacional"]
+	  },
+	  {
+	    "id":3200300,
+      	"nome":"Alfredo Chaves",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 16901,
+	    "VALOR": 0.55,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3200359,
+      	"nome":"Alto Rio Novo",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 4478,
+	    "VALOR": 0.583,
+	    "CATEGORIA": ["Ruim", "Regular"]	    
+	  },
+	  {
+	    "id":3200409,
+      	"nome":"Anchieta",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 150832,
+	    "VALOR": 0.683,
+	    "CATEGORIA": ["Péssimo", "Ruim"]	    
+	  },
+	  {
+	    "id":3200508,
+	    "nome":"Apiacá",
+	    "ID_MESO": 3204,
+	    "ID_MICRO": 32012,
+	    "POPULACAO": 22449,
+	    "VALOR": 0.608,
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	    "id":3200607,
+      	"nome":"Aracruz",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 5566,
+	    "VALOR": 0.563,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+		"id":3200706,
+      	"nome":"Atílio Vivacqua",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+      	"POPULACAO": 5566,
+	    "VALOR": 0.625,
+	    "CATEGORIA": ["Péssimo", "Ótimo"]
+	  },
+	  {
+	    "id":3200805,
+      	"nome":"Baixo Guandu",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 25224,
+	    "VALOR": 0.666,
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	     "id":3200904,
+      	"nome":"Barra de São Francisco",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 16097,
+	    "VALOR": 0.561,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3201001,
+      	"nome":"Boa Esperança",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 18194,
+	    "VALOR": 0.54,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3201100,
+      	"nome":"Bom Jesus do Norte",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 13153,
+	    "VALOR": 0.555,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3201159,
+      	"nome":"Brejetuba",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 14690,
+	    "VALOR": 0.588,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3201209,
+      	"nome":"Cachoeiro de Itapemirim",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 14017,
+	    "VALOR": 0.625,
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	    "id":3201308,
+      	"nome":"Cariacica",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 11142,
+	    "VALOR": 0.589,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3201407,
+      	"nome":"Castelo",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 19093,
+	    "VALOR": 0.592,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	     "id":3201506,
+      	"nome":"Colatina",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 11691,
+	    "VALOR": 0.561,
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "id":3201605,
+      	"nome":"Conceição da Barra",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 11715,
+	    "VALOR": 0.598,
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "id":3201704,
+      	"nome":"Conceição do Castelo",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 17673,
+	    "VALOR": 0.548,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3201803,
+      	"nome":"Divino de São Lourenço",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 7360,
+	    "VALOR": 0.552,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3201902,
+      	"nome":"Domingos Martins",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 12143,
+	    "VALOR": 0.57,
+	    "CATEGORIA": ["Ruim", "Ruim"]
+	  },
+	  {
+	    "id":3202009,
+      	"nome":"Dores do Rio Preto",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 13229,
+	    "VALOR": 0.581,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	     "id":3202108,
+      	"nome":"Ecoporanga",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 11332,
+	    "VALOR": 0.588,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202207,
+      	"nome":"Fundão",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 11079,
+	    "VALOR": 0.559,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3202256,
+      	"nome":"Governador Lindenberg",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 8813,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202306,
+      	"nome":"Guaçuí",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 11774,
+	    "VALOR": 0.568,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202405,
+      	"nome":"Guarapari",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 13824,
+	    "VALOR": 0.589,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3202454,
+      	"nome":"Ibatiba",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 20488,
+	    "VALOR": 0.585,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202504,
+      	"nome":"Ibiraçu",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 13217,
+	    "VALOR": 0.579,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202553,
+      	"nome":"Ibitirama",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 53231,
+	    "VALOR": 0.557,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202603,
+      	"nome":"Iconha",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 32018,
+	    "VALOR": 0.551,
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "id":3202652,
+      	"nome":"Irupi",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 13900,
+	    "VALOR": 0.63,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3202702,
+      	"nome":"Itaguaçu",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 5821,
+	    "VALOR": 0.577,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3202801,
+      	"nome":"Itapemirim",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 153831,
+	    "VALOR": 0.721,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3202900,
+      	"nome":"Itarana",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 14802,
+	    "VALOR": 0.607,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3203007,
+      	"nome":"Iúna",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 5743,
+	    "VALOR": 0.602,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3203056,
+      	"nome":"Jaguaré",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 15846,
+	    "VALOR": 0.61,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3203106,
+      	"nome":"Jerônimo Monteiro",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 23214,
+	    "VALOR": 0.598,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203130,
+      	"nome":"João Neiva",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 17317,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203163,
+      	"nome":"Laranja da Terra",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 15975,
+	    "VALOR": 0.538,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203205,
+      	"nome":"Linhares",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 12953,
+	    "VALOR": 0.567,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203304,
+      	"nome":"Mantenópolis",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 18622,
+	    "VALOR": 0.551,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203320,
+      	"nome":"Marataízes",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 68609,
+	    "VALOR": 0.633,
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "id":3203346,
+      	"nome":"Marechal Floriano",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 9942,
+	    "VALOR": 0.546,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203353,
+      	"nome":"Marilândia",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 14288,
+	    "VALOR": 0.612,
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "id":3203403,
+      	"nome":"Mimoso do Sul",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 16637,
+	    "VALOR": 0.561,
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "id":3203502,
+      	"nome":"Montanha",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 21520,
+	    "VALOR": 0.603,
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "id":3203601,
+      	"nome":"Mucurici",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 10300,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203700,
+      	"nome":"Muniz Freire",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 14370,
+	    "VALOR": 0.597,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3203809,
+      	"nome":"Muqui",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 10493,
+	    "VALOR": 0.592,
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"]
+	  },
+	  {
+	    "id":3203908,
+      	"nome":"Nova Venécia",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 10341,
+	    "VALOR": 0.57,
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"]
+	  },
+	  {
+	    "id":3204005,
+      	"nome":"Pancas",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 67048,
+	    "VALOR": 0.656,
+	    "CATEGORIA": ["Péssimo", "Regular", "Ótimo"]
+	  },
+	  {
+	    "id":3204054,
+      	"nome":"Pedro Canário",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 18391,
+	    "VALOR": 0.613,
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204104,
+      	"nome":"Pinheiros",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 21067,
+	    "VALOR": 0.565,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204203,
+      	"nome":"Piúma",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 7043,
+	    "VALOR": 0.561,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3204252,
+      	"nome":"Ponto Belo",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 18698,
+	    "VALOR": 0.581,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204302,
+      	"nome":"Presidente Kennedy",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 33861,
+	    "VALOR": 0.647,
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "id":3204351,
+      	"nome":"Rio Bananal",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 23045,
+	    "VALOR": 2.637,
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204401,
+      	"nome":"Rio Novo do Sul",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 9372,
+	    "VALOR": 0.546,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204500,
+      	"nome":"Santa Leopoldina",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 15524,
+	    "VALOR": 0.542,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204559,
+      	"nome":"Santa Maria de Jetibá",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 50861,
+	    "VALOR": 0.625,
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204609,
+      	"nome":"Santa Teresa",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 18356,
+	    "VALOR": 0.584,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204658,
+      	"nome":"São Domingos do Norte",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 17913,
+	    "VALOR": 0.627,
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "id":3204708,
+      	"nome":"São Gabriel da Palha",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 13260,
+	    "VALOR": 0.573,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3204807,
+      	"nome":"São José do Calçado",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 31968,
+	    "VALOR": 0.581,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3204906,
+      	"nome":"São Mateus",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 293723,
+	    "VALOR": 0.694,
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3204955,
+      	"nome":"São Roque do Canaã",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 35248,
+	    "VALOR": 0.565,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3205002,
+      	"nome":"Serra",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 28844,
+	    "VALOR": 0.557,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3205010,
+      	"nome":"Sooretama",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 70912,
+	    "VALOR": 0.586,
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "id":3205036,
+      	"nome":"Vargem Alta",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 9719,
+	    "VALOR": 0.565,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3205069,
+      	"nome":"Venda Nova do Imigrante",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 26020,
+	    "VALOR": 0.587,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3205101,
+      	"nome":"Viana",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 31301,
+	    "VALOR": 0.59,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3205150,
+      	"nome":"Vila Pavão",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 8338,
+	    "VALOR": 0.587,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3205176,
+      	"nome":"Vila Valério",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 86677,
+	    "VALOR": 0.691,
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "id":3205200,
+      	"nome":"Vila Velha",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 14268,
+	    "VALOR": 0.591,
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "id":3205309,
+      	"nome":"Vitória",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 25332,
+	    "VALOR": 0.601,
+	    "CATEGORIA": ["Péssimo"]
+	  }
+	]
+}
