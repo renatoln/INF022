@@ -195,6 +195,7 @@ function tooltipMunicipio(path) {
       let string = '<title>Município: ' + municipio.NOME_MUNICIPIO
       + '&#10;Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
+      + '&#10;&#10;Valor: ' + municipio.VALOR
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = municipio;
@@ -207,6 +208,7 @@ function tooltipMicrorregiao(path) {
       let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,micro.ID_MESO);
       let string = '<title>Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
+      + '&#10;&#10;Valor: ' + micro.VALOR
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = micro;
@@ -217,6 +219,7 @@ function tooltipMesorregiao(path) {
       let slicedId = path.attr('id').slice(4, 8);
       let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,slicedId);
       let string = '<title>Mesorregião: ' + meso.NOME_MESORREGIAO
+      + '&#10;&#10;Valor: ' + meso.VALOR
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = meso;
