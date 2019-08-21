@@ -19,7 +19,7 @@ var regiaoSelecionada;
 var zPressionado = false;
 var estadoJson;
 
-$.getJSON("../jsons/"+estado+".json", function (data) {
+$.getJSON("../jsons/"+estado+"_geral.json", function (data) {
       estadoJson = data;
 });
 
@@ -189,10 +189,12 @@ function fillTooltipData(path) {
 // Adiciona tooltip em um município
 function tooltipMunicipio(path) {
       let slicedId = path.attr('id').slice(4, 11);
-      let municipio = estadoJson.municipios.find(resultado => resultado.id == slicedId);
-      let string = '<title>Município: ' + municipio.nome
-      + '&#10;Microrregião: ' + municipio.microrregiao.nome 
-      + '&#10;Mesorregião: ' + municipio.microrregiao.mesorregiao.nome
+      let municipio = encontrarLocalPorId(estadoJson.MUNICIPIOS,slicedId);
+      let micro = encontrarLocalPorId(estadoJson.MICRORREGIOES,municipio.ID_MICRO);
+      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,municipio.ID_MESO);
+      let string = '<title>Município: ' + municipio.NOME_MUNICIPIO
+      + '&#10;Microrregião: ' + micro.NOME_MICRORREGIAO
+      + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = municipio;
@@ -201,9 +203,10 @@ function tooltipMunicipio(path) {
 // Adiciona tooltip em uma microrregião
 function tooltipMicrorregiao(path) {
       let slicedId = path.attr('id').slice(4, 9);
-      let micro = estadoJson.microrregioes.find(resultado => resultado.id == slicedId);
-      let string = '<title>Microrregião: ' + micro.nome
-      + '&#10;Mesorregião: ' + micro.mesorregiao.nome
+      let micro = encontrarLocalPorId(estadoJson.MICRORREGIOES,slicedId);
+      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,micro.ID_MESO);
+      let string = '<title>Microrregião: ' + micro.NOME_MICRORREGIAO
+      + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = micro;
@@ -212,8 +215,8 @@ function tooltipMicrorregiao(path) {
 // Adiciona tooltip em uma mesorregião
 function tooltipMesorregiao(path) {
       let slicedId = path.attr('id').slice(4, 8);
-      let meso = estadoJson.mesorregioes.find(resultado => resultado.id == slicedId);
-      let string = '<title>Mesorregião: ' + meso.nome
+      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,slicedId);
+      let string = '<title>Mesorregião: ' + meso.NOME_MESORREGIAO
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = meso;
@@ -226,13 +229,21 @@ function getPath(path) {
 
       if (regioes[nivel]=='#Municipios') {
             slicedId = path.attr('id').slice(4, 11);
-            let municipio = estadoJson.municipios.find(resultado => resultado.id == slicedId);
-            pai = 'mes_' + municipio.microrregiao.mesorregiao.id;
+            let municipio = encontrarLocalPorId(estadoJson.MUNICIPIOS,slicedId);
+            pai = 'mes_' + municipio.ID_MESO;
       } else if (regioes[nivel]=='#Microrregioes') {
             pai='Terreno';
       } 
 
       return pai;
+}
+
+/**
+ * @param jsonRegiao Json da região. Ex.:(estadoJson.MUNICIPIOS)
+ * @param id Id do local para ser encontrado na região. 
+ */
+function encontrarLocalPorId(jsonRegiao, id) {
+      return jsonRegiao.find(resultado => resultado.ID == id);
 }
 
 // Seta a opacidade do município, para efeitos de hover
