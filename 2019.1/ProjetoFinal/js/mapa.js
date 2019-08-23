@@ -227,6 +227,17 @@ function fillTooltipData(path) {
       });
 }
 
+function tooltipAtributos(regiao){
+      var i;
+      var str = '';
+      for (i = 0; i < regiao.ATRIBUTOS.length; i++) { 
+        str += '&#10;'+ regiao.ATRIBUTOS[i]+': '+regiao.VALORES[i];
+      }
+      
+      return str;
+
+}
+
 // Adiciona tooltip em um município
 function tooltipMunicipio(path) {
       let slicedId = path.attr('id').slice(4, 11);
@@ -237,6 +248,7 @@ function tooltipMunicipio(path) {
       + '&#10;Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
       + '&#10;&#10;Valor: ' + municipio.VALOR
+      + tooltipAtributos(municipio)
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = municipio;
@@ -250,6 +262,7 @@ function tooltipMicrorregiao(path) {
       let string = '<title>Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
       + '&#10;&#10;Valor: ' + micro.VALOR
+      + tooltipAtributos(micro)
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = micro;
@@ -261,6 +274,7 @@ function tooltipMesorregiao(path) {
       let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,slicedId);
       let string = '<title>Mesorregião: ' + meso.NOME_MESORREGIAO
       + '&#10;&#10;Valor: ' + meso.VALOR
+      + tooltipAtributos(meso)
       + '</title>';
       path.append(Snap.parse(string)); 
       jsonResponse = meso;
