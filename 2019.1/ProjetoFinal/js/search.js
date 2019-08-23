@@ -35,18 +35,19 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
+    var valorMax = geral.MAX_Valor;
+    var valorMin = geral.MIN_Valor;
 
-    console.log(regexCategoria);
+    /*console.log(regexCategoria);
     console.log(regexMeso);
     console.log(regexMicro);
     console.log(regexValorDe);
-    console.log(regexValorAte);
+    console.log(regexValorAte);*/
 
     /* geral é inicializado em sketch.js ; Json geral carregado com preload*/
 
-    var toAddMeso = false;
+    /*var toAddMeso = false;
 
-    /* Meso */
     for (i in geral.MESORREGIOES) {
         toAddMeso = false;
 
@@ -95,8 +96,6 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
     }
-
-    /* Micro */
 
     var toAddMicro = false;
 
@@ -147,7 +146,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
             outputIndex++;
         }
 
-    }
+    }*/
 
     var toAddMunicipios = false;
 
@@ -195,6 +194,30 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
 
         if (regexValorDe != null && regexValorAte != null) {
             if (geral.MUNICIPIOS[i].VALOR > regexValorDe && geral.MUNICIPIOS[i].VALOR < regexValorAte) {
+                toAddMunicipios = true;
+            }
+            else {
+                toAddMunicipios = false;
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+        else if (regexValorDe != null) {
+            if (geral.MUNICIPIOS[i].VALOR > regexValorDe && geral.MUNICIPIOS[i].VALOR < valorMax) {
+                toAddMunicipios = true;
+            }
+            else {
+                toAddMunicipios = false;
+            }
+
+            if (!toAddMunicipios) {
+                continue;
+            }
+        }
+        else if (regexValorAte != null) { //Desnecessauro ; Mas apenas para facilitar leitura
+            if (geral.MUNICIPIOS[i].VALOR > valorMin && geral.MUNICIPIOS[i].VALOR < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {
