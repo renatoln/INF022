@@ -29,9 +29,9 @@ cor1 : "#f5f542",
 
 //CARREGA O JSON
 function preload() {
-	let url = "/jsons/"+estado+"_evolucao.json";
+	let url = getUrlJsonEstadoEvolucao();
 	evolucao = loadJSON(url);
-	url = "/jsons/"+estado+"_geral.json";
+	url = getUrlJsonEstadoGeral();
 	geral = loadJSON(url);
 }
 

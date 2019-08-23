@@ -2,11 +2,41 @@ let cidades = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 
 //modificar os três atributos abaixo de acordo com o mapa a ser visualizado 
-let estado = 'ba'; //es ba
-let capitalId = 2927408; //vitoria = 3205309; salvador = 2927408
-let capitalNome = 'Salvador'; //'Vitoria';
+let estado; //'ba'; //es ba
+let capitalId;// 2927408; //vitoria = 3205309; salvador = 2927408
+let capitalNome;//'Salvador'; //'Salvador' 'Vitoria';
+let periodoAtual;
+var svg;
 
-var svg = 'maps/'+estado+'.svg';
+function loadJsonEstado(periodo){
+      //reading the config.json
+      $.ajaxSetup({
+            async: false
+      });
+      $.getJSON("../jsons/config.json", function (data) {
+            estado = data['ESTADO'];
+            capitalId = data['ID_CAPITAL'];
+            capitalNome = data['NOME_CAPITAL'];
+
+            if (periodo == ""){
+                  var ultimoPeriodo = data['PERIODOS'].length - 1;
+                  periodoAtual = data['PERIODOS'][ultimoPeriodo];
+            }else{
+                  periodoAtual = periodo;
+            }
+
+            svg = 'maps/'+estado+'.svg';
+      });
+      $.ajaxSetup({
+            async: true
+      }); 
+         
+
+}
+
+loadJsonEstado("");
+ 
+
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
 var classes = ['.mesoreg','.micreg','.mun'];
@@ -19,9 +49,20 @@ var regiaoSelecionada;
 var zPressionado = false;
 var estadoJson;
 
-$.getJSON("../jsons/"+estado+"_geral.json", function (data) {
+$.getJSON(getUrlJsonEstadoGeral(), function (data) {
       estadoJson = data;
 });
+
+function getUrlJsonEstadoGeral(){
+      var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_geral.json";
+      //console.log(urlJson);
+      return urlJson;
+}
+function getUrlJsonEstadoEvolucao(){
+      var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_evolucao.json";
+      //console.log(urlJson);
+      return urlJson;
+}
 
 loadSVG(svg);
 

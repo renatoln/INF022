@@ -1,6 +1,6 @@
 {
-	"ESTADO": "ba",
-	"ID_CAPITAL": 2927408,
-	"CAPITAL": "Salvador",
+	"ESTADO": "es",
+	"NOME_CAPITAL": "Vitória",
+	"ID_CAPITAL": 3205309,
 	"PERIODOS": ["2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06"]
 }	

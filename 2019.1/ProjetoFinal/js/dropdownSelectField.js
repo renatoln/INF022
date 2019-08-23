@@ -4,7 +4,7 @@ dropMeso.empty();
 dropMeso.append('<option selected="true">Mesorregião</option>');
 dropMeso.prop('selectedIndex', 0);
 
-const jsonData = './jsons/'+estado+'_geral.json';
+const jsonData = getUrlJsonEstadoGeral();
 
 $.getJSON(jsonData, function (data) {
   $.each(data.MESORREGIOES, function (key, value) {
