@@ -59,7 +59,7 @@ function getUrlJsonEstadoGeral(){
       return urlJson;
 }
 function getUrlJsonEstadoEvolucao(){
-      var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_evolucao.json";
+      var urlJson = "../jsons/"+estado+"_evolucao.json";
       //console.log(urlJson);
       return urlJson;
 }
