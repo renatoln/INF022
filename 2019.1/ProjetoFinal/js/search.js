@@ -35,8 +35,8 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
-    var valorMax = geral.MAX_Valor;
-    var valorMin = geral.MIN_Valor;
+    var valorMax = geral.MAX_Valor[indexAtributo];
+    var valorMin = geral.MIN_Valor[indexAtributo];
 
     /*console.log(regexCategoria);
     console.log(regexMeso);
@@ -193,7 +193,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (geral.MUNICIPIOS[i].VALOR > regexValorDe && geral.MUNICIPIOS[i].VALOR < regexValorAte) {
+            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && geral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {
@@ -205,7 +205,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
             }
         }
         else if (regexValorDe != null) {
-            if (geral.MUNICIPIOS[i].VALOR > regexValorDe && geral.MUNICIPIOS[i].VALOR < valorMax) {
+            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && geral.MUNICIPIOS[i].VALORES[indexAtributo] < valorMax) {
                 toAddMunicipios = true;
             }
             else {
@@ -217,7 +217,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
             }
         }
         else if (regexValorAte != null) { //Desnecessauro ; Mas apenas para facilitar leitura
-            if (geral.MUNICIPIOS[i].VALOR > valorMin && geral.MUNICIPIOS[i].VALOR < regexValorAte) {
+            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > valorMin && geral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {

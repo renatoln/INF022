@@ -81,7 +81,7 @@ function clearSearchOnMap() {
 
 				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 				if (id == geral.MUNICIPIOS[jcount].ID) {
-					cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALOR);
+					cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 					break;
 				}
 			}
@@ -131,8 +131,8 @@ function addPopUp(cidade, cidadeEvolucao) {
 }
 
 function definirCor(valor) {
-	let min = geral.MIN_Valor;
-	let max = geral.MAX_Valor;
+	let min = geral.MIN_Valor[indexAtributo];
+	let max = geral.MAX_Valor[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min;
@@ -179,7 +179,7 @@ function setup() {
 
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == geral.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALOR);
+				cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 				cidadeEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
 				addPopUp(cidades[icount], cidadeEvolucao);
 				break;

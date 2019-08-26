@@ -6,6 +6,7 @@ let estado; //'ba'; //es ba
 let capitalId;// 2927408; //vitoria = 3205309; salvador = 2927408
 let capitalNome;//'Salvador'; //'Salvador' 'Vitoria';
 let periodoAtual;
+let indexAtributo = 1;
 var svg;
 
 function loadJsonEstado(periodo){
@@ -247,7 +248,7 @@ function tooltipMunicipio(path) {
       let string = '<title>Município: ' + municipio.NOME_MUNICIPIO
       + '&#10;Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
-      + '&#10;&#10;Valor: ' + municipio.VALOR
+      //+ '&#10;&#10;Valor: ' + municipio.VALOR
       + tooltipAtributos(municipio)
       + '</title>';
       path.append(Snap.parse(string)); 
@@ -261,7 +262,7 @@ function tooltipMicrorregiao(path) {
       let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,micro.ID_MESO);
       let string = '<title>Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
-      + '&#10;&#10;Valor: ' + micro.VALOR
+      //+ '&#10;&#10;Valor: ' + micro.VALOR
       + tooltipAtributos(micro)
       + '</title>';
       path.append(Snap.parse(string)); 
@@ -273,7 +274,7 @@ function tooltipMesorregiao(path) {
       let slicedId = path.attr('id').slice(4, 8);
       let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,slicedId);
       let string = '<title>Mesorregião: ' + meso.NOME_MESORREGIAO
-      + '&#10;&#10;Valor: ' + meso.VALOR
+      //+ '&#10;&#10;Valor: ' + meso.VALOR
       + tooltipAtributos(meso)
       + '</title>';
       path.append(Snap.parse(string)); 

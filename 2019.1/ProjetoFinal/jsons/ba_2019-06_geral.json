@@ -1,6 +1,6 @@
 {
-	"MIN_Valor": 0.486,
-	"MAX_Valor": 0.759,
+	"MIN_Valor": [3555, 0.486, 54, 5],
+	"MAX_Valor": [2857329, 0.759,	154, 45],
 
 	"MESORREGIOES":[
 	  {
@@ -10,7 +10,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12, 234347,	154, 45]
+		"VALORES": [12, 0.586, 106, 147]
 	  },
 	  {
 	    "ID": 2902,
@@ -19,7 +19,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1030551, 0.59, 154, 45]
+		"VALORES": [1030551, 0.59, 154, 551]
 	  },
 	  {
 	    "ID": 2904,
@@ -28,7 +28,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1619658, 0.59, 154, 45]
+		"VALORES": [1619658, 0.573, 154, 658]
 	  },
 	  {
 	    "ID": 2903,
@@ -37,7 +37,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [2348960, 0.59, 154, 45]
+		"VALORES": [2348960, 0.588, 503, 960]
 	  },
 	  {
 	    "ID": 2907,
@@ -46,7 +46,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [2072168, 0.59, 154, 45]
+		"VALORES": [2072168, 0.599, 907, 168]
 	  },
 	  {
 	    "ID": 2905,
@@ -55,7 +55,7 @@
 	    "VALOR": 0.647,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4569110, 0.59, 154, 45]
+		"VALORES": [4569110, 0.647, 954, 110]
 	  },
 	  {
 	    "ID": 2901,
@@ -64,7 +64,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [638023, 0.59, 154, 45]
+		"VALORES": [638023, 0.61, 254, 23]
 	  }
 	],
 	"MICRORREGIOES":[
@@ -75,7 +75,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [260833, 0.59, 154, 45],
+		"VALORES": [260833, 0.593, 126, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -85,7 +85,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [180265, 0.59, 154, 45],
+		"VALORES": [180265, 0.613, 118, 402],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -95,7 +95,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [327767, 0.59, 154, 45],
+		"VALORES": [327767, 0.575, 132, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -105,7 +105,7 @@
 	    "VALOR": 0.562,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [330260, 0.59, 154, 45],
+		"VALORES": [330260, 0.562, 133, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -115,7 +115,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1062422, 0.59, 154, 45],
+		"VALORES": [1062422, 0.599, 110, 403],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -125,7 +125,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [101368, 0.59, 154, 45],
+		"VALORES": [101368, 0.599, 110, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -135,7 +135,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [510133, 0.59, 154, 45],
+		"VALORES": [510133, 0.584, 151, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -145,7 +145,7 @@
 	    "VALOR": 0.626,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [794765, 0.59, 154, 45],
+		"VALORES": [794765, 0.626, 179, 407],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -155,7 +155,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [993810, 0.59, 154, 45],
+		"VALORES": [993810, 0.591, 199, 407],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -165,7 +165,7 @@
 	    "VALOR": 0.642,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [228281, 0.59, 154, 45],
+		"VALORES": [228281, 0.642, 122, 405],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -175,7 +175,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [393471, 0.59, 154, 45],
+		"VALORES": [393471, 0.599, 139, 403],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -185,7 +185,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [642790, 0.59, 154, 45],
+		"VALORES": [642790, 0.567, 164, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -195,7 +195,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [301001, 0.59, 154, 45],
+		"VALORES": [301001, 0.589, 130, 403],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -205,7 +205,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [118732, 0.59, 154, 45],
+		"VALORES": [118732, 0.601, 111, 401],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -215,7 +215,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [229193, 0.59, 154, 45],
+		"VALORES": [229193, 0.572, 122, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -225,7 +225,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [437541, 0.59, 154, 45],
+		"VALORES": [437541, 0.597, 143, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -235,7 +235,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [570519, 0.59, 154, 45],
+		"VALORES": [570519, 0.625, 157, 405],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -245,7 +245,7 @@
 	    "VALOR": 0.626,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [336810, 0.59, 154, 45],
+		"VALORES": [336810, 0.626, 133, 401],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -255,7 +255,7 @@
 	    "VALOR": 0.568,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [254374, 0.59, 154, 45],
+		"VALORES": [254374, 0.568, 125, 403],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -265,7 +265,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [181717, 0.59, 154, 45],
+		"VALORES": [181717, 0.573, 118, 402],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -275,7 +275,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [179592, 0.59, 154, 45],
+		"VALORES": [179592, 0.591, 117, 402],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -285,7 +285,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [193284, 0.59, 154, 45],
+		"VALORES": [193284, 0.585, 119, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -295,7 +295,7 @@
 	    "VALOR": 0.604,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [393165, 0.59, 154, 45],
+		"VALORES": [393165, 0.604, 139, 406],
 	    "ID_MESO": 2906
 	  },
 	  {
@@ -305,7 +305,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [337692, 0.59, 154, 45],
+		"VALORES": [337692, 0.576, 133, 403],
 	    "ID_MESO": 2903
 	  },
 	  {
@@ -315,7 +315,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [283593, 0.59, 154, 45],
+		"VALORES": [283593, 0.579, 128, 407],
 	    "ID_MESO": 2907
 	  },
 	  {
@@ -325,7 +325,7 @@
 	    "VALOR": 0.695,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3770310, 0.59, 154, 45],
+		"VALORES": [3770310, 0.695, 137, 405],
 	    "ID_MESO": 2905
 	  },
 	  {
@@ -335,7 +335,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [488977, 0.59, 154, 45],
+		"VALORES": [488977, 0.586, 148, 402],
 	    "ID_MESO": 2902
 	  },
 	  {
@@ -345,7 +345,7 @@
 	    "VALOR": 0.605,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [182481, 0.59, 154, 45],
+		"VALORES": [182481, 0.605, 118, 401],
 	    "ID_MESO": 2901
 	  },
 	  {
@@ -355,7 +355,7 @@
 	    "VALOR": 0.564,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [302070, 0.59, 154, 45],
+		"VALORES": [302070, 0.564, 130, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -365,7 +365,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [124097, 0.59, 154, 45],
+		"VALORES": [124097, 0.573, 112, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -375,7 +375,7 @@
 	    "VALOR": 0.535,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [97923, 0.59, 154, 45],
+		"VALORES": [97923, 0.535, 197, 404],
 	    "ID_MESO": 2904
 	  },
 	  {
@@ -385,7 +385,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [198903, 0.59, 154, 45],
+		"VALORES": [198903, 0.593, 119, 406],
 	    "ID_MESO": 2906
 	  }
 	],
@@ -397,7 +397,7 @@
 	    "VALOR": 0.603,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8767, 0.59, 154, 45],
+		"VALORES": [8767, 0.603, 187, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -408,7 +408,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19814, 0.59, 154, 45],
+		"VALORES": [19814, 0.575, 119, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -419,7 +419,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15129, 0.59, 154, 45],
+		"VALORES": [15129, 0.582, 115, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -430,7 +430,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim", "Multinacional"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16784, 0.59, 154, 45],
+		"VALORES": [16784, 0.546, 116, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -441,7 +441,7 @@
 	    "VALOR": 0.55,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16901, 0.59, 154, 45],
+		"VALORES": [16901, 0.55, 116, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -452,7 +452,7 @@
 	    "VALOR": 0.583,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4478, 0.59, 154, 45],
+		"VALORES": [4478, 0.583, 144, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -463,7 +463,7 @@
 	    "VALOR": 0.683,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [150832, 0.59, 154, 45],
+		"VALORES": [150832, 0.683, 115, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -474,7 +474,7 @@
 	    "VALOR": 0.608,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22449, 0.59, 154, 45],
+		"VALORES": [22449, 0.608, 122, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -485,7 +485,7 @@
 	    "VALOR": 0.563,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5566, 0.59, 154, 45],
+		"VALORES": [5566, 0.563, 155, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -496,7 +496,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [37031, 0.59, 154, 45],
+		"VALORES": [37031, 0.625, 137, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -507,7 +507,7 @@
 	    "VALOR": 0.666,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25224, 0.59, 154, 45],
+		"VALORES": [25224, 0.666, 125, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -518,7 +518,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16097, 0.59, 154, 45],
+		"VALORES": [16097, 0.561, 116, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -529,7 +529,7 @@
 	    "VALOR": 0.54,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18194, 0.59, 154, 45],
+		"VALORES": [18194, 0.54, 118, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -540,7 +540,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13153, 0.59, 154, 45],
+		"VALORES": [13153, 0.555, 113, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -551,7 +551,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14690, 0.59, 154, 45],
+		"VALORES": [14690, 0.588, 114, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -562,7 +562,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14017, 0.59, 154, 45],
+		"VALORES": [14017, 0.625, 114, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -573,7 +573,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11142, 0.59, 154, 45],
+		"VALORES": [11142, 0.589, 111, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -584,7 +584,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19093, 0.59, 154, 45],
+		"VALORES": [19093, 0.592, 119, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -595,7 +595,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11691, 0.59, 154, 45],
+		"VALORES": [11691, 0.561, 111, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -606,7 +606,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11715, 0.59, 154, 45],
+		"VALORES": [11715, 0.598, 111, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -617,7 +617,7 @@
 	    "VALOR": 0.548,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17673, 0.59, 154, 45],
+		"VALORES": [17673, 0.548, 117, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -628,7 +628,7 @@
 	    "VALOR": 0.552,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7360, 0.59, 154, 45],
+		"VALORES": [7360, 0.552, 173, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -639,7 +639,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12143, 0.59, 154, 45],
+		"VALORES": [12143, 0.57, 112, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -650,7 +650,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13229, 0.59, 154, 45],
+		"VALORES": [13229, 0.581, 113, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -661,7 +661,7 @@
 	    "VALOR": 0.534,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [54099, 0.59, 154, 45],
+		"VALORES": [54099, 0.534, 154, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -672,7 +672,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11332, 0.59, 154, 45],
+		"VALORES": [11332, 0.588, 111, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -683,7 +683,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11079, 0.59, 154, 45],
+		"VALORES": [11079, 0.559, 111, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -694,7 +694,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8813, 0.59, 154, 45],
+		"VALORES": [8813, 0.575, 188, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -705,7 +705,7 @@
 	    "VALOR": 0.568,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11774, 0.59, 154, 45],
+		"VALORES": [11774, 0.568, 111, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -716,7 +716,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13824, 0.59, 154, 45],
+		"VALORES": [13824, 0.589, 113, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -727,7 +727,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20488, 0.59, 154, 45],
+		"VALORES": [20488, 0.585, 120, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -738,7 +738,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13217, 0.59, 154, 45],
+		"VALORES": [13217, 0.579, 113, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -749,7 +749,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [53231, 0.59, 154, 45],
+		"VALORES": [53231, 0.557, 153, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -760,7 +760,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20813, 0.59, 154, 45],
+		"VALORES": [20813, 0.575, 120, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -771,7 +771,7 @@
 	    "VALOR": 0.551,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [32018, 0.59, 154, 45],
+		"VALORES": [32018, 0.551, 132, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -782,7 +782,7 @@
 	    "VALOR": 0.63,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13900, 0.59, 154, 45],
+		"VALORES": [13900, 0.63, 113, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -793,7 +793,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5821, 0.59, 154, 45],
+		"VALORES": [5821, 0.577, 158, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -804,7 +804,7 @@
 	    "VALOR": 0.721,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [153831, 0.59, 154, 45],
+		"VALORES": [153831, 0.721, 115, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -815,7 +815,7 @@
 	    "VALOR": 0.607,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14802, 0.59, 154, 45],
+		"VALORES": [14802, 0.607, 114, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -826,7 +826,7 @@
 	    "VALOR": 0.602,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5743, 0.59, 154, 45],
+		"VALORES": [5743, 0.602, 157, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -837,7 +837,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15846, 0.59, 154, 45],
+		"VALORES": [15846, 0.61, 115, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -848,7 +848,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23214, 0.59, 154, 45],
+		"VALORES": [23214, 0.598, 123, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -859,7 +859,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17317, 0.59, 154, 45],
+		"VALORES": [17317, 0.575, 117, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -870,7 +870,7 @@
 	    "VALOR": 0.538,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15975, 0.59, 154, 45],
+		"VALORES": [15975, 0.538, 115, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -881,7 +881,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12953, 0.59, 154, 45],
+		"VALORES": [12953, 0.567, 112, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -892,7 +892,7 @@
 	    "VALOR": 0.551,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18622, 0.59, 154, 45],
+		"VALORES": [18622, 0.551, 118, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -903,7 +903,7 @@
 	    "VALOR": 0.633,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [68609, 0.59, 154, 45],
+		"VALORES": [68609, 0.633, 168, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -914,7 +914,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9942, 0.59, 154, 45],
+		"VALORES": [9942, 0.546, 199, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -925,7 +925,7 @@
 	    "VALOR": 0.612,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14288, 0.59, 154, 45],
+		"VALORES": [14288, 0.612, 114, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -936,7 +936,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16637, 0.59, 154, 45],
+		"VALORES": [16637, 0.561, 116, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -947,7 +947,7 @@
 	    "VALOR": 0.603,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21520, 0.59, 154, 45],
+		"VALORES": [21520, 0.603, 121, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -958,7 +958,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10300, 0.59, 154, 45],
+		"VALORES": [10300, 0.575, 110, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -969,7 +969,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14370, 0.59, 154, 45],
+		"VALORES": [14370, 0.597, 114, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -980,7 +980,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10493, 0.59, 154, 45],
+		"VALORES": [10493, 0.592, 110, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -991,7 +991,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10341, 0.59, 154, 45],
+		"VALORES": [10341, 0.57, 110, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1002,7 +1002,7 @@
 	    "VALOR": 0.656,
 	    "CATEGORIA": ["Péssimo", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [67048, 0.59, 154, 45],
+		"VALORES": [67048, 0.656, 167, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1013,7 +1013,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18391, 0.59, 154, 45],
+		"VALORES": [18391, 0.613, 118, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1024,7 +1024,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21067, 0.59, 154, 45],
+		"VALORES": [21067, 0.565, 121, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -1035,7 +1035,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7043, 0.59, 154, 45],
+		"VALORES": [7043, 0.561, 170, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1046,7 +1046,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18698, 0.59, 154, 45],
+		"VALORES": [18698, 0.581, 118, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1057,7 +1057,7 @@
 	    "VALOR": 0.647,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33861, 0.59, 154, 45],
+		"VALORES": [33861, 0.647, 133, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1068,7 +1068,7 @@
 	    "VALOR": 2.637,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23045, 0.59, 154, 45],
+		"VALORES": [23045, 0.637, 123, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1079,7 +1079,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9372, 0.59, 154, 45],
+		"VALORES": [9372, 0.546, 193, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -1090,7 +1090,7 @@
 	    "VALOR": 0.542,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15524, 0.59, 154, 45],
+		"VALORES": [15524, 0.542, 115, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1101,7 +1101,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [50861, 0.59, 154, 45],
+		"VALORES": [50861, 0.625, 150, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1112,7 +1112,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18356, 0.59, 154, 45],
+		"VALORES": [18356, 0.584, 118, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1123,7 +1123,7 @@
 	    "VALOR": 0.627,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17913, 0.59, 154, 45],
+		"VALORES": [17913, 0.627, 117, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -1134,7 +1134,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13260, 0.59, 154, 45],
+		"VALORES": [13260, 0.573, 113, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -1145,7 +1145,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31968, 0.59, 154, 45],
+		"VALORES": [31968, 0.581, 131, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1156,7 +1156,7 @@
 	    "VALOR": 0.694,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [293723, 0.59, 154, 45],
+		"VALORES": [293723, 0.694, 129, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -1167,7 +1167,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [35248, 0.59, 154, 45],
+		"VALORES": [35248, 0.565, 135, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -1178,7 +1178,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28844, 0.59, 154, 45],
+		"VALORES": [28844, 0.557, 128, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -1189,7 +1189,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [70912, 0.59, 154, 45],
+		"VALORES": [70912, 0.586, 170, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -1200,7 +1200,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9719, 0.59, 154, 45],
+		"VALORES": [9719, 0.565, 197, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1211,7 +1211,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26020, 0.59, 154, 45],
+		"VALORES": [26020, 0.587, 126, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1222,7 +1222,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31301, 0.59, 154, 45],
+		"VALORES": [31301, 0.59, 131, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1233,7 +1233,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8338, 0.59, 154, 45],
+		"VALORES": [8338, 0.587, 183, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1244,7 +1244,7 @@
 	    "VALOR": 0.691,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [86677, 0.59, 154, 45],
+		"VALORES": [86677, 0.691, 186, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -1255,7 +1255,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14268, 0.59, 154, 45],
+		"VALORES": [14268, 0.591, 114, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1266,7 +1266,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25332, 0.59, 154, 45],
+		"VALORES": [25332, 0.601, 125, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1277,7 +1277,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [34784, 0.59, 154, 45],
+		"VALORES": [34784, 0.557, 134, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1288,7 +1288,7 @@
 	    "VALOR": 0.562,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16752, 0.59, 154, 45],
+		"VALORES": [16752, 0.562, 116, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1299,7 +1299,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11660, 0.59, 154, 45],
+		"VALORES": [11660, 0.599, 111, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1310,7 +1310,7 @@
 	    "VALOR": 0.621,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [30451, 0.59, 154, 45],
+		"VALORES": [30451, 0.621, 130, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -1321,7 +1321,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9107, 0.59, 154, 45],
+		"VALORES": [9107, 0.555, 191, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1332,7 +1332,7 @@
 	    "VALOR": 0.616,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21937, 0.59, 154, 45],
+		"VALORES": [21937, 0.616, 121, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1343,7 +1343,7 @@
 	    "VALOR": 0.552,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9240, 0.59, 154, 45],
+		"VALORES": [9240, 0.552, 192, 418],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1354,7 +1354,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28965, 0.59, 154, 45],
+		"VALORES": [28965, 0.576, 128, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -1365,7 +1365,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [71366, 0.59, 154, 45],
+		"VALORES": [71366, 0.57, 171, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -1376,7 +1376,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26209, 0.59, 154, 45],
+		"VALORES": [26209, 0.613, 126, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1387,7 +1387,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3555, 0.59, 154, 45],
+		"VALORES": [3555, 0.582, 135, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -1398,7 +1398,7 @@
 	    "VALOR": 0.677,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [54424, 0.59, 154, 45],
+		"VALORES": [54424, 0.677, 154, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -1409,7 +1409,7 @@
 	    "VALOR": 0.571,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9340, 0.59, 154, 45],
+		"VALORES": [9340, 0.571, 193, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -1420,7 +1420,7 @@
 	    "VALOR": 0.596,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17252, 0.59, 154, 45],
+		"VALORES": [17252, 0.596, 117, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1431,7 +1431,7 @@
 	    "VALOR": 0.6,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11154, 0.59, 154, 45],
+		"VALORES": [11154, 0.6, 111, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -1442,7 +1442,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33356, 0.59, 154, 45],
+		"VALORES": [33356, 0.585, 133, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1453,7 +1453,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17097, 0.59, 154, 45],
+		"VALORES": [17097, 0.601, 117, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1464,7 +1464,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17458, 0.59, 154, 45],
+		"VALORES": [17458, 0.613, 117, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1475,7 +1475,7 @@
 	    "VALOR": 0.596,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18746, 0.59, 154, 45],
+		"VALORES": [18746, 0.596, 118, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1486,7 +1486,7 @@
 	    "VALOR": 0.634,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22392, 0.59, 154, 45],
+		"VALORES": [22392, 0.634, 122, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1497,7 +1497,7 @@
 	    "VALOR": 0.606,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17332, 0.59, 154, 45],
+		"VALORES": [17332, 0.606, 117, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1508,7 +1508,7 @@
 	    "VALOR": 0.611,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [66191, 0.59, 154, 45],
+		"VALORES": [66191, 0.611, 166, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1519,7 +1519,7 @@
 	    "VALOR": 0.663,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [32909, 0.59, 154, 45],
+		"VALORES": [32909, 0.663, 132, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1530,7 +1530,7 @@
 	    "VALOR": 0.56,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25630, 0.59, 154, 45],
+		"VALORES": [25630, 0.56, 125, 418],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1541,7 +1541,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17319, 0.59, 154, 45],
+		"VALORES": [17319, 0.582, 117, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1552,7 +1552,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4086, 0.59, 154, 45],
+		"VALORES": [4086, 0.577, 140, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -1563,7 +1563,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22719, 0.59, 154, 45],
+		"VALORES": [22719, 0.592, 122, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1574,7 +1574,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8585, 0.59, 154, 45],
+		"VALORES": [8585, 0.579, 185, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1585,7 +1585,7 @@
 	    "VALOR": 0.6,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14240, 0.59, 154, 45],
+		"VALORES": [14240, 0.6, 114, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1596,7 +1596,7 @@
 	    "VALOR": 0.535,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15801, 0.59, 154, 45],
+		"VALORES": [15801, 0.535, 115, 413],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -1607,7 +1607,7 @@
 	    "VALOR": 0.603,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [32081, 0.59, 154, 45],
+		"VALORES": [32081, 0.603, 132, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -1618,7 +1618,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13796, 0.59, 154, 45],
+		"VALORES": [13796, 0.59, 113, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -1629,7 +1629,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5349, 0.59, 154, 45],
+		"VALORES": [5349, 0.599, 153, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -1640,7 +1640,7 @@
 	    "VALOR": 0.543,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21040, 0.59, 154, 45],
+		"VALORES": [21040, 0.543, 121, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -1651,7 +1651,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13872, 0.59, 154, 45],
+		"VALORES": [13872, 0.614, 113, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -1662,7 +1662,7 @@
 	    "VALOR": 0.699,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [62871, 0.59, 154, 45],
+		"VALORES": [62871, 0.699, 162, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1673,7 +1673,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [34389, 0.59, 154, 45],
+		"VALORES": [34389, 0.581, 134, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -1684,7 +1684,7 @@
 	    "VALOR": 0.54,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10906, 0.59, 154, 45],
+		"VALORES": [10906, 0.54, 110, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -1695,7 +1695,7 @@
 	    "VALOR": 0.676,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [79685, 0.59, 154, 45],
+		"VALORES": [79685, 0.676, 179, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -1706,7 +1706,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12155, 0.59, 154, 45],
+		"VALORES": [12155, 0.591, 112, 425],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -1717,7 +1717,7 @@
 	    "VALOR": 0.632,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4050, 0.59, 154, 45],
+		"VALORES": [4050, 0.632, 140, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1728,7 +1728,7 @@
 	    "VALOR": 0.623,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8119, 0.59, 154, 45],
+		"VALORES": [8119, 0.623, 181, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1739,7 +1739,7 @@
 	    "VALOR": 0.544,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17593, 0.59, 154, 45],
+		"VALORES": [17593, 0.544, 117, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -1750,7 +1750,7 @@
 	    "VALOR": 0.615,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [41654, 0.59, 154, 45],
+		"VALORES": [41654, 0.615, 141, 418],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1761,7 +1761,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10662, 0.59, 154, 45],
+		"VALORES": [10662, 0.584, 110, 425],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -1772,7 +1772,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [36882, 0.59, 154, 45],
+		"VALORES": [36882, 0.589, 136, 418],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -1783,7 +1783,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [59842, 0.59, 154, 45],
+		"VALORES": [59842, 0.567, 159, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -1794,7 +1794,7 @@
 	    "VALOR": 0.677,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [112318, 0.59, 154, 45],
+		"VALORES": [112318, 0.677, 111, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1805,7 +1805,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17601, 0.59, 154, 45],
+		"VALORES": [17601, 0.559, 117, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1816,7 +1816,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5668, 0.59, 154, 45],
+		"VALORES": [5668, 0.588, 156, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -1827,7 +1827,7 @@
 	    "VALOR": 0.712,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [609913, 0.59, 154, 45],
+		"VALORES": [609913, 0.712, 160, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -1838,7 +1838,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16410, 0.59, 154, 45],
+		"VALORES": [16410, 0.565, 116, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -1849,7 +1849,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5604, 0.59, 154, 45],
+		"VALORES": [5604, 0.578, 156, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1860,7 +1860,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10686, 0.59, 154, 45],
+		"VALORES": [10686, 0.557, 110, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1871,7 +1871,7 @@
 	    "VALOR": 0.618,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25311, 0.59, 154, 45],
+		"VALORES": [25311, 0.618, 125, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -1882,7 +1882,7 @@
 	    "VALOR": 0.632,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [32202, 0.59, 154, 45],
+		"VALORES": [32202, 0.632, 132, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1893,7 +1893,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4487, 0.59, 154, 45],
+		"VALORES": [4487, 0.599, 144, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -1904,7 +1904,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11206, 0.59, 154, 45],
+		"VALORES": [11206, 0.559, 111, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -1915,7 +1915,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15208, 0.59, 154, 45],
+		"VALORES": [15208, 0.593, 115, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -1926,7 +1926,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7276, 0.59, 154, 45],
+		"VALORES": [7276, 0.576, 172, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -1937,7 +1937,7 @@
 	    "VALOR": 0.643,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20679, 0.59, 154, 45],
+		"VALORES": [20679, 0.643, 120, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -1948,7 +1948,7 @@
 	    "VALOR": 0.569,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7239, 0.59, 154, 45],
+		"VALORES": [7239, 0.569, 172, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -1959,7 +1959,7 @@
 	    "VALOR": 0.673,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [84014, 0.59, 154, 45],
+		"VALORES": [84014, 0.673, 184, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -1970,7 +1970,7 @@
 	    "VALOR": 0.558,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20991, 0.59, 154, 45],
+		"VALORES": [20991, 0.558, 120, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -1981,7 +1981,7 @@
 	    "VALOR": 0.563,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13076, 0.59, 154, 45],
+		"VALORES": [13076, 0.563, 113, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -1992,7 +1992,7 @@
 	    "VALOR": 0.574,
 	    "CATEGORIA": ["Ruim", "FAIXA 7"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24496, 0.59, 154, 45],
+		"VALORES": [24496, 0.574, 124, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2003,7 +2003,7 @@
 	    "VALOR": 0.611,
 	    "CATEGORIA": ["FAIXA 7"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9427, 0.59, 154, 45],
+		"VALORES": [9427, 0.611, 194, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2014,7 +2014,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["FAIXA 9"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22014, 0.59, 154, 45],
+		"VALORES": [22014, 0.625, 122, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2025,7 +2025,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19346, 0.59, 154, 45],
+		"VALORES": [19346, 0.591, 119, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2036,7 +2036,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16162, 0.59, 154, 45],
+		"VALORES": [16162, 0.584, 116, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -2047,7 +2047,7 @@
 	    "VALOR": 0.616,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18097, 0.59, 154, 45],
+		"VALORES": [18097, 0.616, 118, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2058,7 +2058,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14856, 0.59, 154, 45],
+		"VALORES": [14856, 0.584, 114, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2069,7 +2069,7 @@
 	    "VALOR": 0.511,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4043, 0.59, 154, 45],
+		"VALORES": [4043, 0.511, 140, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2080,7 +2080,7 @@
 	    "VALOR": 0.558,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23343, 0.59, 154, 45],
+		"VALORES": [23343, 0.558, 123, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2091,7 +2091,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8581, 0.59, 154, 45],
+		"VALORES": [8581, 0.614, 185, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2102,7 +2102,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15760, 0.59, 154, 45],
+		"VALORES": [15760, 0.576, 115, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2113,7 +2113,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16272, 0.59, 154, 45],
+		"VALORES": [16272, 0.585, 116, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2124,7 +2124,7 @@
 	    "VALOR": 0.602,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17150, 0.59, 154, 45],
+		"VALORES": [17150, 0.602, 117, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2135,7 +2135,7 @@
 	    "VALOR": 0.636,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26846, 0.59, 154, 45],
+		"VALORES": [26846, 0.636, 126, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -2146,7 +2146,7 @@
 	    "VALOR": 0.631,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6194, 0.59, 154, 45],
+		"VALORES": [6194, 0.631, 161, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -2157,7 +2157,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15630, 0.59, 154, 45],
+		"VALORES": [15630, 0.614, 115, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2168,7 +2168,7 @@
 	    "VALOR": 0.574,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13367, 0.59, 154, 45],
+		"VALORES": [13367, 0.574, 113, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -2179,7 +2179,7 @@
 	    "VALOR": 0.552,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26868, 0.59, 154, 45],
+		"VALORES": [26868, 0.552, 126, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -2190,7 +2190,7 @@
 	    "VALOR": 0.69,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [164844, 0.59, 154, 45],
+		"VALORES": [164844, 0.69, 116, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2201,7 +2201,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [39499, 0.59, 154, 45],
+		"VALORES": [39499, 0.565, 139, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -2212,7 +2212,7 @@
 	    "VALOR": 0.55,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14625, 0.59, 154, 45],
+		"VALORES": [14625, 0.55, 114, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2223,7 +2223,7 @@
 	    "VALOR": 0.67,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [45823, 0.59, 154, 45],
+		"VALORES": [45823, 0.67, 145, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2234,7 +2234,7 @@
 	    "VALOR": 0.549,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [59763, 0.59, 154, 45],
+		"VALORES": [59763, 0.549, 159, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2245,7 +2245,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9817, 0.59, 154, 45],
+		"VALORES": [9817, 0.59, 198, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -2256,7 +2256,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7243, 0.59, 154, 45],
+		"VALORES": [7243, 0.576, 172, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2267,7 +2267,7 @@
 	    "VALOR": 0.571,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8893, 0.59, 154, 45],
+		"VALORES": [8893, 0.571, 188, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2278,7 +2278,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24942, 0.59, 154, 45],
+		"VALORES": [24942, 0.599, 124, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2289,7 +2289,7 @@
 	    "VALOR": 0.62,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28892, 0.59, 154, 45],
+		"VALORES": [28892, 0.62, 128, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2300,7 +2300,7 @@
 	    "VALOR": 0.691,
 	    "CATEGORIA": ["Péssimo", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [72386, 0.59, 154, 45],
+		"VALORES": [72386, 0.691, 172, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2311,7 +2311,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [30413, 0.59, 154, 45],
+		"VALORES": [30413, 0.599, 130, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2322,7 +2322,7 @@
 	    "VALOR": 0.62,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [64325, 0.59, 154, 45],
+		"VALORES": [64325, 0.62, 164, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2333,7 +2333,7 @@
 	    "VALOR": 0.712,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [212740, 0.59, 154, 45],
+		"VALORES": [212740, 0.712, 121, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2344,7 +2344,7 @@
 	    "VALOR": 0.583,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [27891, 0.59, 154, 45],
+		"VALORES": [27891, 0.583, 127, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2355,7 +2355,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15999, 0.59, 154, 45],
+		"VALORES": [15999, 0.572, 115, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2366,7 +2366,7 @@
 	    "VALOR": 0.543,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12462, 0.59, 154, 45],
+		"VALORES": [12462, 0.543, 112, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2377,7 +2377,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14712, 0.59, 154, 45],
+		"VALORES": [14712, 0.589, 114, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2388,7 +2388,7 @@
 	    "VALOR": 0.634,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6914, 0.59, 154, 45],
+		"VALORES": [6914, 0.634, 169, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2399,7 +2399,7 @@
 	    "VALOR": 0.562,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14311, 0.59, 154, 45],
+		"VALORES": [14311, 0.562, 114, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -2410,7 +2410,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6770, 0.59, 154, 45],
+		"VALORES": [6770, 0.592, 167, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2421,7 +2421,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20587, 0.59, 154, 45],
+		"VALORES": [20587, 0.599, 120, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2432,7 +2432,7 @@
 	    "VALOR": 0.627,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [64521, 0.59, 154, 45],
+		"VALORES": [64521, 0.627, 164, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2443,7 +2443,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8069, 0.59, 154, 45],
+		"VALORES": [8069, 0.578, 180, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2454,7 +2454,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23358, 0.59, 154, 45],
+		"VALORES": [23358, 0.578, 123, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2465,7 +2465,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6445, 0.59, 154, 45],
+		"VALORES": [6445, 0.584, 164, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -2476,7 +2476,7 @@
 	    "VALOR": 0.637,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19499, 0.59, 154, 45],
+		"VALORES": [19499, 0.637, 119, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2487,7 +2487,7 @@
 	    "VALOR": 0.67,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22114, 0.59, 154, 45],
+		"VALORES": [22114, 0.67, 122, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -2498,7 +2498,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9008, 0.59, 154, 45],
+		"VALORES": [9008, 0.599, 190, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2509,7 +2509,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10306, 0.59, 154, 45],
+		"VALORES": [10306, 0.572, 110, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2520,7 +2520,7 @@
 	    "VALOR": 0.667,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [75470, 0.59, 154, 45],
+		"VALORES": [75470, 0.667, 175, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2531,7 +2531,7 @@
 	    "VALOR": 0.486,
 	    "CATEGORIA": ["Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [35256, 0.59, 154, 45],
+		"VALORES": [35256, 0.486, 135, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -2542,7 +2542,7 @@
 	    "VALOR": 0.571,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10328, 0.59, 154, 45],
+		"VALORES": [10328, 0.571, 110, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2553,7 +2553,7 @@
 	    "VALOR": 0.553,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8288, 0.59, 154, 45],
+		"VALORES": [8288, 0.553, 182, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2564,7 +2564,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19646, 0.59, 154, 45],
+		"VALORES": [19646, 0.61, 119, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2575,7 +2575,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14432, 0.59, 154, 45],
+		"VALORES": [14432, 0.582, 114, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -2586,7 +2586,7 @@
 	    "VALOR": 0.6,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12624, 0.59, 154, 45],
+		"VALORES": [12624, 0.6, 112, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2597,7 +2597,7 @@
 	    "VALOR": 0.544,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [36063, 0.59, 154, 45],
+		"VALORES": [36063, 0.544, 136, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -2608,7 +2608,7 @@
 	    "VALOR": 0.594,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20375, 0.59, 154, 45],
+		"VALORES": [20375, 0.594, 120, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -2619,7 +2619,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18889, 0.59, 154, 45],
+		"VALORES": [18889, 0.57, 118, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -2630,7 +2630,7 @@
 	    "VALOR": 0.606,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28457, 0.59, 154, 45],
+		"VALORES": [28457, 0.606, 128, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -2641,7 +2641,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10969, 0.59, 154, 45],
+		"VALORES": [10969, 0.591, 110, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2652,7 +2652,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8496, 0.59, 154, 45],
+		"VALORES": [8496, 0.613, 184, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -2663,7 +2663,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14834, 0.59, 154, 45],
+		"VALORES": [14834, 0.593, 114, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2674,7 +2674,7 @@
 	    "VALOR": 0.649,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [80394, 0.59, 154, 45],
+		"VALORES": [80394, 0.649, 180, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -2685,7 +2685,7 @@
 	    "VALOR": 0.58,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [54163, 0.59, 154, 45],
+		"VALORES": [54163, 0.58, 154, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2696,7 +2696,7 @@
 	    "VALOR": 0.659,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33385, 0.59, 154, 45],
+		"VALORES": [33385, 0.659, 133, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -2707,7 +2707,7 @@
 	    "VALOR": 0.556,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18588, 0.59, 154, 45],
+		"VALORES": [18588, 0.556, 118, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -2718,7 +2718,7 @@
 	    "VALOR": 0.55,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10691, 0.59, 154, 45],
+		"VALORES": [10691, 0.55, 110, 418],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29018
 	  },
@@ -2729,7 +2729,7 @@
 	    "VALOR": 0.665,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [155800, 0.59, 154, 45],
+		"VALORES": [155800, 0.665, 115, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2740,7 +2740,7 @@
 	    "VALOR": 0.547,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [40232, 0.59, 154, 45],
+		"VALORES": [40232, 0.547, 140, 413],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -2751,7 +2751,7 @@
 	    "VALOR": 0.553,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14516, 0.59, 154, 45],
+		"VALORES": [14516, 0.553, 114, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2762,7 +2762,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11540, 0.59, 154, 45],
+		"VALORES": [11540, 0.575, 111, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2773,7 +2773,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24964, 0.59, 154, 45],
+		"VALORES": [24964, 0.593, 124, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2784,7 +2784,7 @@
 	    "VALOR": 0.677,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [215183, 0.59, 154, 45],
+		"VALORES": [215183, 0.677, 121, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -2795,7 +2795,7 @@
 	    "VALOR": 0.541,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9272, 0.59, 154, 45],
+		"VALORES": [9272, 0.541, 192, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2806,7 +2806,7 @@
 	    "VALOR": 0.571,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15307, 0.59, 154, 45],
+		"VALORES": [15307, 0.571, 115, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2817,7 +2817,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5902, 0.59, 154, 45],
+		"VALORES": [5902, 0.567, 159, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -2828,7 +2828,7 @@
 	    "VALOR": 0.602,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6406, 0.59, 154, 45],
+		"VALORES": [6406, 0.602, 164, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2839,7 +2839,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3757, 0.59, 154, 45],
+		"VALORES": [3757, 0.599, 137, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2850,7 +2850,7 @@
 	    "VALOR": 0.545,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15555, 0.59, 154, 45],
+		"VALORES": [15555, 0.545, 115, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2861,7 +2861,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23638, 0.59, 154, 45],
+		"VALORES": [23638, 0.586, 123, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2872,7 +2872,7 @@
 	    "VALOR": 0.632,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3934, 0.59, 154, 45],
+		"VALORES": [3934, 0.632, 139, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -2883,7 +2883,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3808, 0.59, 154, 45],
+		"VALORES": [3808, 0.546, 138, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2894,7 +2894,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8546, 0.59, 154, 45],
+		"VALORES": [8546, 0.584, 185, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -2905,7 +2905,7 @@
 	    "VALOR": 0.518,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8430, 0.59, 154, 45],
+		"VALORES": [8430, 0.518, 184, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -2916,7 +2916,7 @@
 	    "VALOR": 0.596,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [27170, 0.59, 154, 45],
+		"VALORES": [27170, 0.596, 127, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -2927,7 +2927,7 @@
 	    "VALOR": 0.754,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [195095, 0.59, 154, 45],
+		"VALORES": [195095, 0.754, 119, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -2938,7 +2938,7 @@
 	    "VALOR": 0.623,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11315, 0.59, 154, 45],
+		"VALORES": [11315, 0.623, 111, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -2949,7 +2949,7 @@
 	    "VALOR": 0.921,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12406, 0.59, 154, 45],
+		"VALORES": [12406, 0.921, 112, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -2960,7 +2960,7 @@
 	    "VALOR": 0.611,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [45388, 0.59, 154, 45],
+		"VALORES": [45388, 0.611, 145, 425],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -2971,7 +2971,7 @@
 	    "VALOR": 0.716,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [84753, 0.59, 154, 45],
+		"VALORES": [84753, 0.716, 184, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -2982,7 +2982,7 @@
 	    "VALOR": 0.524,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11364, 0.59, 154, 45],
+		"VALORES": [11364, 0.524, 111, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -2993,7 +2993,7 @@
 	    "VALOR": 0.605,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18592, 0.59, 154, 45],
+		"VALORES": [18592, 0.605, 118, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -3004,7 +3004,7 @@
 	    "VALOR": 0.609,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [49474, 0.59, 154, 45],
+		"VALORES": [49474, 0.609, 149, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -3015,7 +3015,7 @@
 	    "VALOR": 0.604,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7862, 0.59, 154, 45],
+		"VALORES": [7862, 0.604, 178, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -3026,7 +3026,7 @@
 	    "VALOR": 0.708,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20737, 0.59, 154, 45],
+		"VALORES": [20737, 0.708, 120, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -3037,7 +3037,7 @@
 	    "VALOR": 0.538,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [3577, 0.59, 154, 45],
+		"VALORES": [3577, 0.538, 135, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3048,7 +3048,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10016, 0.59, 154, 45],
+		"VALORES": [10016, 0.576, 110, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -3059,7 +3059,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18753, 0.59, 154, 45],
+		"VALORES": [18753, 0.572, 118, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -3070,7 +3070,7 @@
 	    "VALOR": 0.562,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16830, 0.59, 154, 45],
+		"VALORES": [16830, 0.562, 116, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3081,7 +3081,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8430, 0.59, 154, 45],
+		"VALORES": [8430, 0.578, 184, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3092,7 +3092,7 @@
 	    "VALOR": 0.566,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13397, 0.59, 154, 45],
+		"VALORES": [13397, 0.566, 113, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3103,7 +3103,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13546, 0.59, 154, 45],
+		"VALORES": [13546, 0.599, 113, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -3114,7 +3114,7 @@
 	    "VALOR": 0.607,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21295, 0.59, 154, 45],
+		"VALORES": [21295, 0.607, 121, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3125,7 +3125,7 @@
 	    "VALOR": 0.621,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [44555, 0.59, 154, 45],
+		"VALORES": [44555, 0.621, 144, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3136,7 +3136,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20518, 0.59, 154, 45],
+		"VALORES": [20518, 0.593, 120, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3147,7 +3147,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10434, 0.59, 154, 45],
+		"VALORES": [10434, 0.561, 110, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3158,7 +3158,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13931, 0.59, 154, 45],
+		"VALORES": [13931, 0.581, 113, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3169,7 +3169,7 @@
 	    "VALOR": 0.668,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [46014, 0.59, 154, 45],
+		"VALORES": [46014, 0.668, 146, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -3180,7 +3180,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12116, 0.59, 154, 45],
+		"VALORES": [12116, 0.572, 112, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3191,7 +3191,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22659, 0.59, 154, 45],
+		"VALORES": [22659, 0.625, 122, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3202,7 +3202,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26159, 0.59, 154, 45],
+		"VALORES": [26159, 0.586, 126, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3213,7 +3213,7 @@
 	    "VALOR": 0.622,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11009, 0.59, 154, 45],
+		"VALORES": [11009, 0.622, 111, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3224,7 +3224,7 @@
 	    "VALOR": 0.542,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18195, 0.59, 154, 45],
+		"VALORES": [18195, 0.542, 118, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3235,7 +3235,7 @@
 	    "VALOR": 0.527,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8844, 0.59, 154, 45],
+		"VALORES": [8844, 0.527, 188, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3246,7 +3246,7 @@
 	    "VALOR": 0.506,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [49565, 0.59, 154, 45],
+		"VALORES": [49565, 0.506, 149, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3257,7 +3257,7 @@
 	    "VALOR": 0.558,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8542, 0.59, 154, 45],
+		"VALORES": [8542, 0.558, 185, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -3268,7 +3268,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [35383, 0.59, 154, 45],
+		"VALORES": [35383, 0.588, 135, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3279,7 +3279,7 @@
 	    "VALOR": 0.618,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12031, 0.59, 154, 45],
+		"VALORES": [12031, 0.618, 112, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3290,7 +3290,7 @@
 	    "VALOR": 0.606,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9244, 0.59, 154, 45],
+		"VALORES": [9244, 0.606, 192, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3301,7 +3301,7 @@
 	    "VALOR": 0.665,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [41221, 0.59, 154, 45],
+		"VALORES": [41221, 0.665, 141, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3312,7 +3312,7 @@
 	    "VALOR": 0.566,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11114, 0.59, 154, 45],
+		"VALORES": [11114, 0.566, 111, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3323,7 +3323,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26575, 0.59, 154, 45],
+		"VALORES": [26575, 0.59, 126, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -3334,7 +3334,7 @@
 	    "VALOR": 0.617,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7399, 0.59, 154, 45],
+		"VALORES": [7399, 0.617, 173, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3345,7 +3345,7 @@
 	    "VALOR": 0.549,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11280, 0.59, 154, 45],
+		"VALORES": [11280, 0.549, 111, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  },
@@ -3356,7 +3356,7 @@
 	    "VALOR": 0.66,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [29387, 0.59, 154, 45],
+		"VALORES": [29387, 0.66, 129, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3367,7 +3367,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22156, 0.59, 154, 45],
+		"VALORES": [22156, 0.601, 122, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3378,7 +3378,7 @@
 	    "VALOR": 0.641,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28451, 0.59, 154, 45],
+		"VALORES": [28451, 0.641, 128, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -3389,7 +3389,7 @@
 	    "VALOR": 0.547,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13914, 0.59, 154, 45],
+		"VALORES": [13914, 0.547, 113, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3400,7 +3400,7 @@
 	    "VALOR": 0.56,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13095, 0.59, 154, 45],
+		"VALORES": [13095, 0.56, 113, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3411,7 +3411,7 @@
 	    "VALOR": 0.545,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16451, 0.59, 154, 45],
+		"VALORES": [16451, 0.545, 116, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3422,7 +3422,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7802, 0.59, 154, 45],
+		"VALORES": [7802, 0.597, 178, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3433,7 +3433,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6631, 0.59, 154, 45],
+		"VALORES": [6631, 0.57, 166, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3444,7 +3444,7 @@
 	    "VALOR": 0.524,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8172, 0.59, 154, 45],
+		"VALORES": [8172, 0.524, 181, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3455,7 +3455,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9115, 0.59, 154, 45],
+		"VALORES": [9115, 0.567, 191, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3466,7 +3466,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24493, 0.59, 154, 45],
+		"VALORES": [24493, 0.555, 124, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3477,7 +3477,7 @@
 	    "VALOR": 0.654,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [42950, 0.59, 154, 45],
+		"VALORES": [42950, 0.654, 142, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3488,7 +3488,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12241, 0.59, 154, 45],
+		"VALORES": [12241, 0.597, 112, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -3499,7 +3499,7 @@
 	    "VALOR": 0.554,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15380, 0.59, 154, 45],
+		"VALORES": [15380, 0.554, 115, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3510,7 +3510,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28152, 0.59, 154, 45],
+		"VALORES": [28152, 0.559, 128, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3521,7 +3521,7 @@
 	    "VALOR": 0.554,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21838, 0.59, 154, 45],
+		"VALORES": [21838, 0.554, 121, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -3532,7 +3532,7 @@
 	    "VALOR": 0.607,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8557, 0.59, 154, 45],
+		"VALORES": [8557, 0.607, 185, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3543,7 +3543,7 @@
 	    "VALOR": 0.56,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17389, 0.59, 154, 45],
+		"VALORES": [17389, 0.56, 117, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3554,7 +3554,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21703, 0.59, 154, 45],
+		"VALORES": [21703, 0.586, 121, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3565,7 +3565,7 @@
 	    "VALOR": 0.643,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8961, 0.59, 154, 45],
+		"VALORES": [8961, 0.643, 189, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3576,7 +3576,7 @@
 	    "VALOR": 0.615,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21518, 0.59, 154, 45],
+		"VALORES": [21518, 0.615, 121, 425],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -3587,7 +3587,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31853, 0.59, 154, 45],
+		"VALORES": [31853, 0.59, 131, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -3598,7 +3598,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28956, 0.59, 154, 45],
+		"VALORES": [28956, 0.577, 128, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3609,7 +3609,7 @@
 	    "VALOR": 0.583,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9981, 0.59, 154, 45],
+		"VALORES": [9981, 0.583, 199, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -3620,7 +3620,7 @@
 	    "VALOR": 0.674,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [117014, 0.59, 154, 45],
+		"VALORES": [117014, 0.674, 111, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -3631,7 +3631,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13601, 0.59, 154, 45],
+		"VALORES": [13601, 0.587, 113, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3642,7 +3642,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7298, 0.59, 154, 45],
+		"VALORES": [7298, 0.588, 172, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3653,7 +3653,7 @@
 	    "VALOR": 0.513,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17486, 0.59, 154, 45],
+		"VALORES": [17486, 0.513, 117, 413],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -3664,7 +3664,7 @@
 	    "VALOR": 0.571,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17269, 0.59, 154, 45],
+		"VALORES": [17269, 0.571, 117, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -3675,7 +3675,7 @@
 	    "VALOR": 0.506,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [34486, 0.59, 154, 45],
+		"VALORES": [34486, 0.506, 134, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3686,7 +3686,7 @@
 	    "VALOR": 0.603,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16234, 0.59, 154, 45],
+		"VALORES": [16234, 0.603, 116, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3697,7 +3697,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20204, 0.59, 154, 45],
+		"VALORES": [20204, 0.577, 120, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -3708,7 +3708,7 @@
 	    "VALOR": 0.612,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10482, 0.59, 154, 45],
+		"VALORES": [10482, 0.612, 110, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3719,7 +3719,7 @@
 	    "VALOR": 0.533,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10007, 0.59, 154, 45],
+		"VALORES": [10007, 0.533, 110, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3730,7 +3730,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10952, 0.59, 154, 45],
+		"VALORES": [10952, 0.575, 110, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3741,7 +3741,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24538, 0.59, 154, 45],
+		"VALORES": [24538, 0.578, 124, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3752,7 +3752,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9272, 0.59, 154, 45],
+		"VALORES": [9272, 0.572, 192, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -3763,7 +3763,7 @@
 	    "VALOR": 0.56,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26092, 0.59, 154, 45],
+		"VALORES": [26092, 0.56, 126, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3774,7 +3774,7 @@
 	    "VALOR": 0.604,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [46862, 0.59, 154, 45],
+		"VALORES": [46862, 0.604, 146, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -3785,7 +3785,7 @@
 	    "VALOR": 0.666,
 	    "CATEGORIA": ["Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [39045, 0.59, 154, 45],
+		"VALORES": [39045, 0.666, 139, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -3796,7 +3796,7 @@
 	    "VALOR": 0.58,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15012, 0.59, 154, 45],
+		"VALORES": [15012, 0.58, 115, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3807,7 +3807,7 @@
 	    "VALOR": 0.676,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [146625, 0.59, 154, 45],
+		"VALORES": [146625, 0.676, 114, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3818,7 +3818,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7549, 0.59, 154, 45],
+		"VALORES": [7549, 0.625, 175, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -3829,7 +3829,7 @@
 	    "VALOR": 0.621,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28152, 0.59, 154, 45],
+		"VALORES": [28152, 0.621, 128, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -3840,7 +3840,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15121, 0.59, 154, 45],
+		"VALORES": [15121, 0.614, 115, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -3851,7 +3851,7 @@
 	    "VALOR": 0.542,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12505, 0.59, 154, 45],
+		"VALORES": [12505, 0.542, 112, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -3862,7 +3862,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [27422, 0.59, 154, 45],
+		"VALORES": [27422, 0.559, 127, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -3873,7 +3873,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25445, 0.59, 154, 45],
+		"VALORES": [25445, 0.592, 125, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3884,7 +3884,7 @@
 	    "VALOR": 0.544,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [27533, 0.59, 154, 45],
+		"VALORES": [27533, 0.544, 127, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -3895,7 +3895,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8990, 0.59, 154, 45],
+		"VALORES": [8990, 0.578, 189, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -3906,7 +3906,7 @@
 	    "VALOR": 0.564,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22610, 0.59, 154, 45],
+		"VALORES": [22610, 0.564, 122, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -3917,7 +3917,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [41200, 0.59, 154, 45],
+		"VALORES": [41200, 0.579, 141, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -3928,7 +3928,7 @@
 	    "VALOR": 0.636,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14295, 0.59, 154, 45],
+		"VALORES": [14295, 0.636, 114, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3939,7 +3939,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22343, 0.59, 154, 45],
+		"VALORES": [22343, 0.578, 122, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -3950,7 +3950,7 @@
 	    "VALOR": 0.628,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33403, 0.59, 154, 45],
+		"VALORES": [33403, 0.628, 133, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -3961,7 +3961,7 @@
 	    "VALOR": 0.615,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [35240, 0.59, 154, 45],
+		"VALORES": [35240, 0.615, 135, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -3972,7 +3972,7 @@
 	    "VALOR": 0.512,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14843, 0.59, 154, 45],
+		"VALORES": [14843, 0.512, 114, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3983,7 +3983,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [52956, 0.59, 154, 45],
+		"VALORES": [52956, 0.601, 152, 415],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29015
 	  },
@@ -3994,7 +3994,7 @@
 	    "VALOR": 0.54,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6304, 0.59, 154, 45],
+		"VALORES": [6304, 0.54, 163, 429],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29029
 	  },
@@ -4005,7 +4005,7 @@
 	    "VALOR": 0.605,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13048, 0.59, 154, 45],
+		"VALORES": [13048, 0.605, 113, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -4016,7 +4016,7 @@
 	    "VALOR": 0.576,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15289, 0.59, 154, 45],
+		"VALORES": [15289, 0.576, 115, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -4027,7 +4027,7 @@
 	    "VALOR": 0.594,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11645, 0.59, 154, 45],
+		"VALORES": [11645, 0.594, 111, 425],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29025
 	  },
@@ -4038,7 +4038,7 @@
 	    "VALOR": 0.572,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [40475, 0.59, 154, 45],
+		"VALORES": [40475, 0.572, 140, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -4049,7 +4049,7 @@
 	    "VALOR": 0.632,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9213, 0.59, 154, 45],
+		"VALORES": [9213, 0.632, 192, 405],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29005
 	  },
@@ -4060,7 +4060,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [30767, 0.59, 154, 45],
+		"VALORES": [30767, 0.61, 130, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -4071,7 +4071,7 @@
 	    "VALOR": 0.617,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15463, 0.59, 154, 45],
+		"VALORES": [15463, 0.617, 115, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4082,7 +4082,7 @@
 	    "VALOR": 0.759,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [2857329, 0.59, 154, 45],
+		"VALORES": [2857329, 0.759, 128, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -4093,7 +4093,7 @@
 	    "VALOR": 0.583,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20694, 0.59, 154, 45],
+		"VALORES": [20694, 0.583, 120, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4104,7 +4104,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14088, 0.59, 154, 45],
+		"VALORES": [14088, 0.546, 114, 413],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -4115,7 +4115,7 @@
 	    "VALOR": 0.654,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [27626, 0.59, 154, 45],
+		"VALORES": [27626, 0.654, 127, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -4126,7 +4126,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6354, 0.59, 154, 45],
+		"VALORES": [6354, 0.61, 163, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4137,7 +4137,7 @@
 	    "VALOR": 0.574,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10656, 0.59, 154, 45],
+		"VALORES": [10656, 0.574, 110, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -4148,7 +4148,7 @@
 	    "VALOR": 0.556,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12751, 0.59, 154, 45],
+		"VALORES": [12751, 0.556, 112, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4159,7 +4159,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [39920, 0.59, 154, 45],
+		"VALORES": [39920, 0.614, 139, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -4170,7 +4170,7 @@
 	    "VALOR": 0.605,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28192, 0.59, 154, 45],
+		"VALORES": [28192, 0.605, 128, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -4181,7 +4181,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Péssimo", "Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10345, 0.59, 154, 45],
+		"VALORES": [10345, 0.587, 110, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4192,7 +4192,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [37158, 0.59, 154, 45],
+		"VALORES": [37158, 0.598, 137, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -4203,7 +4203,7 @@
 	    "VALOR": 0.608,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26517, 0.59, 154, 45],
+		"VALORES": [26517, 0.608, 126, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -4214,7 +4214,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8920, 0.59, 154, 45],
+		"VALORES": [8920, 0.592, 189, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4225,7 +4225,7 @@
 	    "VALOR": 0.646,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [59512, 0.59, 154, 45],
+		"VALORES": [59512, 0.646, 159, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4236,7 +4236,7 @@
 	    "VALOR": 0.7,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [100605, 0.59, 154, 45],
+		"VALORES": [100605, 0.7, 110, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4247,7 +4247,7 @@
 	    "VALOR": 0.626,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [52413, 0.59, 154, 45],
+		"VALORES": [52413, 0.626, 152, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4258,7 +4258,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33193, 0.59, 154, 45],
+		"VALORES": [33193, 0.579, 133, 401],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29001
 	  },
@@ -4269,7 +4269,7 @@
 	    "VALOR": 0.64,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9042, 0.59, 154, 45],
+		"VALORES": [9042, 0.64, 190, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -4280,7 +4280,7 @@
 	    "VALOR": 0.616,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21069, 0.59, 154, 45],
+		"VALORES": [21069, 0.616, 121, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4291,7 +4291,7 @@
 	    "VALOR": 0.639,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14717, 0.59, 154, 45],
+		"VALORES": [14717, 0.639, 114, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4302,7 +4302,7 @@
 	    "VALOR": 0.639,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15310, 0.59, 154, 45],
+		"VALORES": [15310, 0.639, 115, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -4313,7 +4313,7 @@
 	    "VALOR": 0.674,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [39338, 0.59, 154, 45],
+		"VALORES": [39338, 0.674, 139, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -4324,7 +4324,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18798, 0.59, 154, 45],
+		"VALORES": [18798, 0.592, 118, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -4335,7 +4335,7 @@
 	    "VALOR": 0.627,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [37139, 0.59, 154, 45],
+		"VALORES": [37139, 0.627, 137, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4346,7 +4346,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5710, 0.59, 154, 45],
+		"VALORES": [5710, 0.546, 157, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4357,7 +4357,7 @@
 	    "VALOR": 0.552,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10417, 0.59, 154, 45],
+		"VALORES": [10417, 0.552, 110, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -4368,7 +4368,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11645, 0.59, 154, 45],
+		"VALORES": [11645, 0.593, 111, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -4379,7 +4379,7 @@
 	    "VALOR": 0.657,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [44164, 0.59, 154, 45],
+		"VALORES": [44164, 0.657, 144, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -4390,7 +4390,7 @@
 	    "VALOR": 0.614,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17387, 0.59, 154, 45],
+		"VALORES": [17387, 0.614, 117, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4401,7 +4401,7 @@
 	    "VALOR": 0.527,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19644, 0.59, 154, 45],
+		"VALORES": [19644, 0.527, 119, 417],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29017
 	  },
@@ -4412,7 +4412,7 @@
 	    "VALOR": 0.617,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11978, 0.59, 154, 45],
+		"VALORES": [11978, 0.617, 111, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4423,7 +4423,7 @@
 	    "VALOR": 0.549,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12883, 0.59, 154, 45],
+		"VALORES": [12883, 0.549, 112, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -4434,7 +4434,7 @@
 	    "VALOR": 0.635,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [43941, 0.59, 154, 45],
+		"VALORES": [43941, 0.635, 143, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -4445,7 +4445,7 @@
 	    "VALOR": 0.615,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11351, 0.59, 154, 45],
+		"VALORES": [11351, 0.615, 111, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -4456,7 +4456,7 @@
 	    "VALOR": 0.666,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [78588, 0.59, 154, 45],
+		"VALORES": [78588, 0.666, 178, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -4467,7 +4467,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [40703, 0.59, 154, 45],
+		"VALORES": [40703, 0.585, 140, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -4478,7 +4478,7 @@
 	    "VALOR": 0.595,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31532, 0.59, 154, 45],
+		"VALORES": [31532, 0.595, 131, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -4489,7 +4489,7 @@
 	    "VALOR": 0.608,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17452, 0.59, 154, 45],
+		"VALORES": [17452, 0.608, 117, 403],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29003
 	  },
@@ -4500,7 +4500,7 @@
 	    "VALOR": 0.566,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15064, 0.59, 154, 45],
+		"VALORES": [15064, 0.566, 115, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4511,7 +4511,7 @@
 	    "VALOR": 0.634,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [80411, 0.59, 154, 45],
+		"VALORES": [80411, 0.634, 180, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -4522,7 +4522,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13347, 0.59, 154, 45],
+		"VALORES": [13347, 0.59, 113, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -4533,7 +4533,7 @@
 	    "VALOR": 0.675,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [132906, 0.59, 154, 45],
+		"VALORES": [132906, 0.675, 113, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -4544,7 +4544,7 @@
 	    "VALOR": 0.564,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12965, 0.59, 154, 45],
+		"VALORES": [12965, 0.564, 112, 407],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29007
 	  },
@@ -4555,7 +4555,7 @@
 	    "VALOR": 0.533,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10316, 0.59, 154, 45],
+		"VALORES": [10316, 0.533, 110, 413],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29013
 	  },
@@ -4566,7 +4566,7 @@
 	    "VALOR": 0.631,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22806, 0.59, 154, 45],
+		"VALORES": [22806, 0.631, 122, 404],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29004
 	  },
@@ -4577,7 +4577,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16905, 0.59, 154, 45],
+		"VALORES": [16905, 0.592, 116, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -4588,7 +4588,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12517, 0.59, 154, 45],
+		"VALORES": [12517, 0.584, 112, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -4599,7 +4599,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20416, 0.59, 154, 45],
+		"VALORES": [20416, 0.577, 120, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -4610,7 +4610,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17285, 0.59, 154, 45],
+		"VALORES": [17285, 0.599, 117, 422],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29022
 	  },
@@ -4621,7 +4621,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7909, 0.59, 154, 45],
+		"VALORES": [7909, 0.597, 179, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4632,7 +4632,7 @@
 	    "VALOR": 0.566,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20889, 0.59, 154, 45],
+		"VALORES": [20889, 0.566, 120, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -4643,7 +4643,7 @@
 	    "VALOR": 0.594,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17046, 0.59, 154, 45],
+		"VALORES": [17046, 0.594, 117, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -4654,7 +4654,7 @@
 	    "VALOR": 0.685,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [158445, 0.59, 154, 45],
+		"VALORES": [158445, 0.685, 115, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -4665,7 +4665,7 @@
 	    "VALOR": 0.594,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7493, 0.59, 154, 45],
+		"VALORES": [7493, 0.594, 174, 412],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29012
 	  },
@@ -4676,7 +4676,7 @@
 	    "VALOR": 0.566,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22479, 0.59, 154, 45],
+		"VALORES": [22479, 0.566, 122, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -4687,7 +4687,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14860, 0.59, 154, 45],
+		"VALORES": [14860, 0.555, 114, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4698,7 +4698,7 @@
 	    "VALOR": 0.578,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12965, 0.59, 154, 45],
+		"VALORES": [12965, 0.578, 112, 419],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29019
 	  },
@@ -4709,7 +4709,7 @@
 	    "VALOR": 0.528,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16608, 0.59, 154, 45],
+		"VALORES": [16608, 0.528, 116, 427],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29027
 	  },
@@ -4720,7 +4720,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [50568, 0.59, 154, 45],
+		"VALORES": [50568, 0.579, 150, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -4731,7 +4731,7 @@
 	    "VALOR": 0.605,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [24486, 0.59, 154, 45],
+		"VALORES": [24486, 0.605, 124, 414],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29014
 	  },
@@ -4742,7 +4742,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19914, 0.59, 154, 45],
+		"VALORES": [19914, 0.582, 119, 424],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29024
 	  },
@@ -4753,7 +4753,7 @@
 	    "VALOR": 0.611,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19275, 0.59, 154, 45],
+		"VALORES": [19275, 0.611, 119, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4764,7 +4764,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26795, 0.59, 154, 45],
+		"VALORES": [26795, 0.593, 126, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4775,7 +4775,7 @@
 	    "VALOR": 0.617,
 	    "CATEGORIA": ["Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13884, 0.59, 154, 45],
+		"VALORES": [13884, 0.617, 113, 409],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29009
 	  },
@@ -4786,7 +4786,7 @@
 	    "VALOR": 0.515,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19034, 0.59, 154, 45],
+		"VALORES": [19034, 0.515, 119, 408],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29008
 	  },
@@ -4797,7 +4797,7 @@
 	    "VALOR": 0.56,
 	    "CATEGORIA": ["Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19484, 0.59, 154, 45],
+		"VALORES": [19484, 0.56, 119, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4808,7 +4808,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16651, 0.59, 154, 45],
+		"VALORES": [16651, 0.598, 116, 426],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29026
 	  },
@@ -4819,7 +4819,7 @@
 	    "VALOR": 0.616,
 	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20630, 0.59, 154, 45],
+		"VALORES": [20630, 0.616, 120, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4830,7 +4830,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19098, 0.59, 154, 45],
+		"VALORES": [19098, 0.59, 119, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -4841,7 +4841,7 @@
 	    "VALOR": 0.623,
 	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [95858, 0.59, 154, 45],
+		"VALORES": [95858, 0.623, 195, 430],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29030
 	  },
@@ -4852,7 +4852,7 @@
 	    "VALOR": 0.637,
 	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28130, 0.59, 154, 45],
+		"VALORES": [28130, 0.637, 128, 416],
 	    "ID_MESO": 2904,
 	    "ID_MICRO": 29016
 	  },
@@ -4863,7 +4863,7 @@
 	    "VALOR": 0.539,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14087, 0.59, 154, 45],
+		"VALORES": [14087, 0.539, 114, 411],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29011
 	  },
@@ -4874,7 +4874,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9130, 0.59, 154, 45],
+		"VALORES": [9130, 0.575, 191, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -4885,7 +4885,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12772, 0.59, 154, 45],
+		"VALORES": [12772, 0.555, 112, 410],
 	    "ID_MESO": 2903,
 	    "ID_MICRO": 29010
 	  },
@@ -4896,7 +4896,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8895, 0.59, 154, 45],
+		"VALORES": [8895, 0.586, 188, 420],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29020
 	  },
@@ -4907,7 +4907,7 @@
 	    "VALOR": 0.645,
 	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [42706, 0.59, 154, 45],
+		"VALORES": [42706, 0.645, 142, 421],
 	    "ID_MESO": 2905,
 	    "ID_MICRO": 29021
 	  },
@@ -4918,7 +4918,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [6258, 0.59, 154, 45],
+		"VALORES": [6258, 0.577, 162, 432],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29032
 	  },
@@ -4929,7 +4929,7 @@
 	    "VALOR": 0.678,
 	    "CATEGORIA": ["Péssimo", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [338885, 0.59, 154, 45],
+		"VALORES": [338885, 0.678, 133, 428],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29028
 	  },
@@ -4940,7 +4940,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9347, 0.59, 154, 45],
+		"VALORES": [9347, 0.587, 193, 423],
 	    "ID_MESO": 2906,
 	    "ID_MICRO": 29023
 	  },
@@ -4951,7 +4951,7 @@
 	    "VALOR": 0.6,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12299, 0.59, 154, 45],
+		"VALORES": [12299, 0.6, 112, 402],
 	    "ID_MESO": 2901,
 	    "ID_MICRO": 29002
 	  },
@@ -4962,7 +4962,7 @@
 	    "VALOR": 0.544,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21228, 0.59, 154, 45],
+		"VALORES": [21228, 0.544, 121, 431],
 	    "ID_MESO": 2907,
 	    "ID_MICRO": 29031
 	  },
@@ -4973,7 +4973,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [46440, 0.59, 154, 45],
+		"VALORES": [46440, 0.585, 146, 406],
 	    "ID_MESO": 2902,
 	    "ID_MICRO": 29006
 	  }
