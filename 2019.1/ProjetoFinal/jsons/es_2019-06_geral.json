@@ -1,6 +1,6 @@
 {
-	"MIN_Valor": 0.486,
-	"MAX_Valor": 0.759,
+	"MIN_Valor": [4338, 0.486, 234, 567],
+	"MAX_Valor": [507598, 0.737, 456, 908],
 
 	"MESORREGIOES":[
 	  {
@@ -10,7 +10,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [2534147, 234347, 154, 45]
+		"VALORES": [2534147, 0.586, 514, 135]
 	  },
 	  {
 	    "ID":3202,
@@ -19,7 +19,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1030551, 234347, 154, 45]
+		"VALORES": [1030551, 0.59, 524, 295]
 	  },
 	  {
 	    "ID":3203,
@@ -28,7 +28,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1619658, 234347, 154, 45]
+		"VALORES": [1619658, 0.573, 534, 275]
 	  },
 	  {
 	    "ID":3204,
@@ -37,7 +37,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [2348960, 234347, 154, 45]
+		"VALORES": [2348960, 0.588, 544, 365]
 	  }
 	],
 	"MICRORREGIOES":[
@@ -48,7 +48,7 @@
 	    "VALOR": 0.593,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [260833, 234347, 154, 45],
+		"VALORES": [260833, 0.593, 264, 447],
 	    "ID_MESO": 3201
 	  },
 	  {
@@ -58,7 +58,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [180265, 234347, 154, 45],
+		"VALORES": [180265, 0.613, 184, 275],
 	    "ID_MESO": 3201
 	  },
 	  {
@@ -68,7 +68,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [327767, 234347, 154, 45],
+		"VALORES": [327767, 0.575, 324, 983],
 	    "ID_MESO": 3201
 	  },
 	  {
@@ -78,7 +78,7 @@
 	    "VALOR": 0.562,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [330260, 234347, 154, 45],
+		"VALORES": [330260, 0.562, 334, 985],
 	    "ID_MESO": 3202
 	  },
 	  {
@@ -88,7 +88,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [1062422, 234347, 154, 45],
+		"VALORES": [1062422, 0.599, 104, 655],
 	    "ID_MESO": 3202
 	  },
 	  {
@@ -98,7 +98,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [101368, 234347, 154, 45],
+		"VALORES": [101368, 0.599, 104, 348],
 	    "ID_MESO": 3202
 	  },
 	  {
@@ -108,7 +108,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [510133, 234347, 154, 45],
+		"VALORES": [510133, 0.584, 514, 125],
 	    "ID_MESO": 3203
 	  },
 	  {
@@ -118,7 +118,7 @@
 	    "VALOR": 0.626,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [794765, 234347, 154, 45],
+		"VALORES": [794765, 0.626, 794, 995],
 	    "ID_MESO": 3203
 	  },
 	  {
@@ -128,7 +128,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [993810, 234347, 154, 45],
+		"VALORES": [993810, 0.591, 994, 335],
 	    "ID_MESO": 3203
 	  },
 	  {
@@ -138,7 +138,7 @@
 	    "VALOR": 0.642,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [228281, 234347, 154, 45],
+		"VALORES": [228281, 0.642, 224, 444],
 	    "ID_MESO": 3203
 	  },
 	  {
@@ -148,7 +148,7 @@
 	    "VALOR": 0.599,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [393471, 234347, 154, 45],
+		"VALORES": [393471, 0.599, 394, 145],
 	    "ID_MESO": 3204
 	  },
 	  {
@@ -158,7 +158,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [393471, 234347, 154, 45],
+		"VALORES": [393471, 0.567, 394, 245],
 	    "ID_MESO": 3204
 	  },
 	  {
@@ -168,7 +168,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [301001, 234347, 154, 45],
+		"VALORES": [301001, 0.589, 304, 435],
 	    "ID_MESO": 3204
 	  }
 	],
@@ -182,7 +182,7 @@
 	    "VALOR": 0.575,	 
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8767, 234347, 154, 45]	    
+		"VALORES": [8767, 0.575, 755, 556]	    
 	  },
 	  {
 	    "ID":3200136,
@@ -193,7 +193,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19814, 234347, 154, 45]	    
+		"VALORES": [19814, 0.575, 955, 558]	    
 	  },
 	  {
 	    "ID":3200169,
@@ -204,7 +204,7 @@
 	    "VALOR": 0.582,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15129, 234347, 154, 45]	    
+		"VALORES": [15129, 0.582, 555, 551]	    
 	  },
 	  {
 	    "ID":3200201,
@@ -215,7 +215,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim", "Multinacional"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16784, 234347, 154, 45]	    
+		"VALORES": [16784, 0.546, 655, 557]	    
 	  },
 	  {
 	    "ID":3200300,
@@ -226,7 +226,7 @@
 	    "VALOR": 0.55,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16901, 234347, 154, 45]	    
+		"VALORES": [16901, 0.55, 65, 545]	    
 	  },
 	  {
 	    "ID":3200359,
@@ -237,7 +237,7 @@
 	    "VALOR": 0.583,
 	    "CATEGORIA": ["Ruim", "Regular"]	    ,
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [4478, 234347, 154, 45]	    
+		"VALORES": [4478, 0.583, 455, 557]	    
 	  },
 	  {
 	    "ID":3200409,
@@ -248,7 +248,7 @@
 	    "VALOR": 0.683,
 	    "CATEGORIA": ["Péssimo", "Ruim"]	    ,
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [150832, 234347, 154, 45]	    
+		"VALORES": [150832, 0.683, 556, 650]	    
 	  },
 	  {
 	    "ID":3200508,
@@ -259,7 +259,7 @@
 	    "VALOR": 0.608,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [22449, 234347, 154, 45]	    
+		"VALORES": [22449, 0.608, 256, 654]	    
 	  },
 	  {
 	    "ID":3200607,
@@ -270,7 +270,7 @@
 	    "VALOR": 0.563,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5566, 234347, 154, 45]	    
+		"VALORES": [5566, 0.563, 555, 556]	    
 	  },
 	  {
 		"ID":3200706,
@@ -281,7 +281,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5566, 234347, 154, 45]	    
+		"VALORES": [5566, 0.625, 556, 656]	    
 	  },
 	  {
 	    "ID":3200805,
@@ -292,7 +292,7 @@
 	    "VALOR": 0.666,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25224, 234347, 154, 45]	    
+		"VALORES": [25224, 0.666, 556, 652]	    
 	  },
 	  {
 	     "ID":3200904,
@@ -303,7 +303,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16097, 234347, 154, 45]	    
+		"VALORES": [16097, 0.561, 655, 550]	    
 	  },
 	  {
 	    "ID":3201001,
@@ -314,7 +314,7 @@
 	    "VALOR": 0.54,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18194, 234347, 154, 45]	    
+		"VALORES": [18194, 0.54, 985, 45]	    
 	  },
 	  {
 	    "ID":3201100,
@@ -325,7 +325,7 @@
 	    "VALOR": 0.555,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13153, 234347, 154, 45]	    
+		"VALORES": [13153, 0.555, 355, 551]	    
 	  },
 	  {
 	    "ID":3201159,
@@ -336,7 +336,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14690, 234347, 154, 45]	    
+		"VALORES": [14690, 0.588, 455, 556]	    
 	  },
 	  {
 	    "ID":3201209,
@@ -347,7 +347,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14017, 234347, 154, 45]	    
+		"VALORES": [14017, 0.625, 456, 650]	    
 	  },
 	  {
 	    "ID":3201308,
@@ -358,7 +358,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11142, 234347, 154, 45]	    
+		"VALORES": [11142, 0.589, 155, 551]	    
 	  },
 	  {
 	    "ID":3201407,
@@ -369,7 +369,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [19093, 234347, 154, 45]	    
+		"VALORES": [19093, 0.592, 955, 550]	    
 	  },
 	  {
 	     "ID":3201506,
@@ -380,7 +380,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11691, 234347, 154, 45]	    
+		"VALORES": [11691, 0.561, 155, 556]	    
 	  },
 	  {
 	    "ID":3201605,
@@ -391,7 +391,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11715, 234347, 154, 45]	    
+		"VALORES": [11715, 0.598, 155, 557]	    
 	  },
 	  {
 	    "ID":3201704,
@@ -402,7 +402,7 @@
 	    "VALOR": 0.548,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17673, 234347, 154, 45]	    
+		"VALORES": [17673, 0.548, 755, 556]	    
 	  },
 	  {
 	    "ID":3201803,
@@ -413,7 +413,7 @@
 	    "VALOR": 0.552,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7360, 234347, 154, 45]	    
+		"VALORES": [7360, 0.552, 355, 556]	    
 	  },
 	  {
 	    "ID":3201902,
@@ -424,7 +424,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim", "Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12143, 234347, 154, 45]	    
+		"VALORES": [12143, 0.57, 367, 45]	    
 	  },
 	  {
 	    "ID":3202009,
@@ -435,7 +435,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13229, 234347, 154, 45]	    
+		"VALORES": [13229, 0.581, 355, 552]	    
 	  },
 	  {
 	     "ID":3202108,
@@ -446,7 +446,7 @@
 	    "VALOR": 0.588,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11332, 234347, 154, 45]	    
+		"VALORES": [11332, 0.588, 155, 553]	    
 	  },
 	  {
 	    "ID":3202207,
@@ -457,7 +457,7 @@
 	    "VALOR": 0.559,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11079, 234347, 154, 45]	    
+		"VALORES": [11079, 0.559, 155, 550]	    
 	  },
 	  {
 	    "ID":3202256,
@@ -468,7 +468,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8813, 234347, 154, 45]	    
+		"VALORES": [8813, 0.575, 855, 551]	    
 	  },
 	  {
 	    "ID":3202306,
@@ -479,7 +479,7 @@
 	    "VALOR": 0.568,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [11774, 234347, 154, 45]	    
+		"VALORES": [11774, 0.568, 155, 557]	    
 	  },
 	  {
 	    "ID":3202405,
@@ -490,7 +490,7 @@
 	    "VALOR": 0.589,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13824, 234347, 154, 45]	    
+		"VALORES": [13824, 0.589, 355, 558]	    
 	  },
 	  {
 	    "ID":3202454,
@@ -501,7 +501,7 @@
 	    "VALOR": 0.585,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [20488, 234347, 154, 45]	    
+		"VALORES": [20488, 0.585, 55, 554]	    
 	  },
 	  {
 	    "ID":3202504,
@@ -512,7 +512,7 @@
 	    "VALOR": 0.579,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13217, 234347, 154, 45]	    
+		"VALORES": [13217, 0.579, 355, 552]	    
 	  },
 	  {
 	    "ID":3202553,
@@ -523,7 +523,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [53231, 234347, 154, 45]	    
+		"VALORES": [53231, 0.557, 355, 552]	    
 	  },
 	  {
 	    "ID":3202603,
@@ -534,7 +534,7 @@
 	    "VALOR": 0.551,
 	    "CATEGORIA": ["Ruim", "Regular"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [32018, 234347, 154, 45]	    
+		"VALORES": [32018, 0.551, 255, 550]	    
 	  },
 	  {
 	    "ID":3202652,
@@ -545,7 +545,7 @@
 	    "VALOR": 0.63,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13900, 234347, 154, 45]	    
+		"VALORES": [13900, 0.63, 35, 45]	    
 	  },
 	  {
 	    "ID":3202702,
@@ -556,7 +556,7 @@
 	    "VALOR": 0.577,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5821, 234347, 154, 45]	    
+		"VALORES": [5821, 0.577, 855, 552]	    
 	  },
 	  {
 	    "ID":3202801,
@@ -567,7 +567,7 @@
 	    "VALOR": 0.721,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [153831, 234347, 154, 45]	    
+		"VALORES": [153831, 0.721, 557, 753]	    
 	  },
 	  {
 	    "ID":3202900,
@@ -578,7 +578,7 @@
 	    "VALOR": 0.607,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14802, 234347, 154, 45]	    
+		"VALORES": [14802, 0.607, 456, 658]	    
 	  },
 	  {
 	    "ID":3203007,
@@ -589,7 +589,7 @@
 	    "VALOR": 0.602,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [5743, 234347, 154, 45]	    
+		"VALORES": [5743, 0.602, 756, 654]	    
 	  },
 	  {
 	    "ID":3203056,
@@ -600,7 +600,7 @@
 	    "VALOR": 0.61,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15846, 234347, 154, 45]	    
+		"VALORES": [15846, 0.61, 379, 45]	    
 	  },
 	  {
 	    "ID":3203106,
@@ -611,7 +611,7 @@
 	    "VALOR": 0.598,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23214, 234347, 154, 45]	    
+		"VALORES": [23214, 0.598, 355, 552]	    
 	  },
 	  {
 	    "ID":3203130,
@@ -622,7 +622,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17317, 234347, 154, 45]	    
+		"VALORES": [17317, 0.575, 755, 553]	    
 	  },
 	  {
 	    "ID":3203163,
@@ -633,7 +633,7 @@
 	    "VALOR": 0.538,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15975, 234347, 154, 45]	    
+		"VALORES": [15975, 0.538, 555, 559]	    
 	  },
 	  {
 	    "ID":3203205,
@@ -644,7 +644,7 @@
 	    "VALOR": 0.567,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [12953, 234347, 154, 45]	    
+		"VALORES": [12953, 0.567, 255, 559]	    
 	  },
 	  {
 	    "ID":3203304,
@@ -655,7 +655,7 @@
 	    "VALOR": 0.551,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18622, 234347, 154, 45]	    
+		"VALORES": [18622, 0.551, 855, 556]	    
 	  },
 	  {
 	    "ID":3203320,
@@ -666,7 +666,7 @@
 	    "VALOR": 0.633,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [68609, 234347, 154, 45]	    
+		"VALORES": [68609, 0.633, 856, 656]	    
 	  },
 	  {
 	    "ID":3203346,
@@ -677,7 +677,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9942, 234347, 154, 45]	    
+		"VALORES": [9942, 0.546, 955, 554]	    
 	  },
 	  {
 	    "ID":3203353,
@@ -688,7 +688,7 @@
 	    "VALOR": 0.612,
 	    "CATEGORIA": ["Péssimo", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14288, 234347, 154, 45]	    
+		"VALORES": [14288, 0.612, 456, 652]	    
 	  },
 	  {
 	    "ID":3203403,
@@ -699,7 +699,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [16637, 234347, 154, 45]	    
+		"VALORES": [16637, 0.561, 655, 556]	    
 	  },
 	  {
 	    "ID":3203502,
@@ -710,7 +710,7 @@
 	    "VALOR": 0.603,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21520, 234347, 154, 45]	    
+		"VALORES": [21520, 0.603, 156, 655]	    
 	  },
 	  {
 	    "ID":3203601,
@@ -721,7 +721,7 @@
 	    "VALOR": 0.575,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10300, 234347, 154, 45]	    
+		"VALORES": [10300, 0.575, 55, 553]	    
 	  },
 	  {
 	    "ID":3203700,
@@ -732,7 +732,7 @@
 	    "VALOR": 0.597,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14370, 234347, 154, 45]	    
+		"VALORES": [14370, 0.597, 455, 553]	    
 	  },
 	  {
 	    "ID":3203809,
@@ -743,7 +743,7 @@
 	    "VALOR": 0.592,
 	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10493, 234347, 154, 45]	    
+		"VALORES": [10493, 0.592, 12, 554]	    
 	  },
 	  {
 	    "ID":3203908,
@@ -754,7 +754,7 @@
 	    "VALOR": 0.57,
 	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [10341, 234347, 154, 45]	    
+		"VALORES": [10341, 0.57, 46, 45]	    
 	  },
 	  {
 	    "ID":3204005,
@@ -765,7 +765,7 @@
 	    "VALOR": 0.656,
 	    "CATEGORIA": ["Péssimo", "Regular", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [67048, 234347, 154, 45]	    
+		"VALORES": [67048, 0.656, 756, 650]	    
 	  },
 	  {
 	    "ID":3204054,
@@ -776,7 +776,7 @@
 	    "VALOR": 0.613,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18391, 234347, 154, 45]	    
+		"VALORES": [18391, 0.613, 856, 653]	    
 	  },
 	  {
 	    "ID":3204104,
@@ -787,7 +787,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [21067, 234347, 154, 45]	    
+		"VALORES": [21067, 0.565, 155, 550]	    
 	  },
 	  {
 	    "ID":3204203,
@@ -798,7 +798,7 @@
 	    "VALOR": 0.561,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [7043, 234347, 154, 45]	    
+		"VALORES": [7043, 0.561, 87, 554]	    
 	  },
 	  {
 	    "ID":3204252,
@@ -809,7 +809,7 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18698, 234347, 154, 45]	    
+		"VALORES": [18698, 0.581, 855, 556]	    
 	  },
 	  {
 	    "ID":3204302,
@@ -820,7 +820,7 @@
 	    "VALOR": 0.647,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [33861, 234347, 154, 45]	    
+		"VALORES": [33861, 0.647, 356, 658]	    
 	  },
 	  {
 	    "ID":3204351,
@@ -828,10 +828,10 @@
       	"ID_MESO": 3202,
       	"ID_MICRO": 32006,
 	    "POPULACAO": 23045,
-	    "VALOR": 2.637,
+	    "VALOR": 0.637,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [23045, 234347, 154, 45]	    
+		"VALORES": [23045, 0.637, 356, 650]	    
 	  },
 	  {
 	    "ID":3204401,
@@ -842,7 +842,7 @@
 	    "VALOR": 0.546,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9372, 234347, 154, 45]	    
+		"VALORES": [9372, 0.546, 355, 557]	    
 	  },
 	  {
 	    "ID":3204500,
@@ -853,7 +853,7 @@
 	    "VALOR": 0.542,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [15524, 234347, 154, 45]	    
+		"VALORES": [15524, 0.542, 555, 555]	    
 	  },
 	  {
 	    "ID":3204559,
@@ -864,7 +864,7 @@
 	    "VALOR": 0.625,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [50861, 234347, 154, 45]	    
+		"VALORES": [50861, 0.625, 56, 658]	    
 	  },
 	  {
 	    "ID":3204609,
@@ -875,7 +875,7 @@
 	    "VALOR": 0.584,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [18356, 234347, 154, 45]	    
+		"VALORES": [18356, 0.584, 855, 553]	    
 	  },
 	  {
 	    "ID":3204658,
@@ -886,7 +886,7 @@
 	    "VALOR": 0.627,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [17913, 234347, 154, 45]	    
+		"VALORES": [17913, 0.627, 756, 659]	    
 	  },
 	  {
 	    "ID":3204708,
@@ -897,7 +897,7 @@
 	    "VALOR": 0.573,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [13260, 234347, 154, 45]	    
+		"VALORES": [13260, 0.573, 355, 552]	    
 	  },
 	  {
 	    "ID":3204807,
@@ -908,18 +908,18 @@
 	    "VALOR": 0.581,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31968, 234347, 154, 45]	    
+		"VALORES": [31968, 0.581, 155, 559]	    
 	  },
 	  {
 	    "ID":3204906,
       	"NOME_MUNICIPIO":"São Mateus",
       	"ID_MESO": 3202,
       	"ID_MICRO": 32005,
-	    "POPULACAO": 293723,
+	    "POPULACAO": 128542,
 	    "VALOR": 0.694,
 	    "CATEGORIA": ["Péssimo", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [293723, 234347, 154, 45]	    
+		"VALORES": [128542, 0.694, 956, 653]	    
 	  },
 	  {
 	    "ID":3204955,
@@ -930,7 +930,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [35248, 234347, 154, 45]	    
+		"VALORES": [35248, 0.565, 555, 552]	    
 	  },
 	  {
 	    "ID":3205002,
@@ -941,7 +941,7 @@
 	    "VALOR": 0.557,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [28844, 234347, 154, 45]	    
+		"VALORES": [28844, 0.557, 855, 558]	    
 	  },
 	  {
 	    "ID":3205010,
@@ -952,7 +952,7 @@
 	    "VALOR": 0.586,
 	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [70912, 234347, 154, 45]	    
+		"VALORES": [70912, 0.586, 865, 559]	    
 	  },
 	  {
 	    "ID":3205036,
@@ -963,7 +963,7 @@
 	    "VALOR": 0.565,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [9719, 234347, 154, 45]	    
+		"VALORES": [9719, 0.565, 755, 551]	    
 	  },
 	  {
 	    "ID":3205069,
@@ -974,7 +974,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [26020, 234347, 154, 45]	    
+		"VALORES": [26020, 0.587, 655, 550]	    
 	  },
 	  {
 	    "ID":3205101,
@@ -985,7 +985,7 @@
 	    "VALOR": 0.59,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [31301, 234347, 154, 45]	    
+		"VALORES": [31301, 0.59, 68, 45]	    
 	  },
 	  {
 	    "ID":3205150,
@@ -996,7 +996,7 @@
 	    "VALOR": 0.587,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [8338, 234347, 154, 45]	    
+		"VALORES": [8338, 0.587, 154, 45]	    
 	  },
 	  {
 	    "ID":3205176,
@@ -1007,7 +1007,7 @@
 	    "VALOR": 0.691,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [86677, 234347, 154, 45]	    
+		"VALORES": [86677, 0.691, 656, 656]	    
 	  },
 	  {
 	    "ID":3205200,
@@ -1018,7 +1018,7 @@
 	    "VALOR": 0.591,
 	    "CATEGORIA": ["Ruim"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [14268, 234347, 154, 45]	    
+		"VALORES": [14268, 0.591, 455, 552]	    
 	  },
 	  {
 	    "ID":3205309,
@@ -1029,7 +1029,7 @@
 	    "VALOR": 0.601,
 	    "CATEGORIA": ["Péssimo"],
 		"ATRIBUTOS": ["População", "PIB", "Natalidade", "Mortalidade"],
-		"VALORES": [25332, 234347, 154, 45]	    
+		"VALORES": [25332, 0.601, 556, 653]	    
 	  }
 	]
 }
