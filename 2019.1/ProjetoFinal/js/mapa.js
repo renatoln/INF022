@@ -7,9 +7,10 @@ let capitalId;// 2927408; //vitoria = 3205309; salvador = 2927408
 let capitalNome;//'Salvador'; //'Salvador' 'Vitoria';
 let periodoAtual;
 let indexAtributo = 1;
+let periodos;
 var svg;
 
-function loadJsonEstado(periodo){
+function inicializa(){
       //reading the config.json
       $.ajaxSetup({
             async: false
@@ -18,14 +19,8 @@ function loadJsonEstado(periodo){
             estado = data['ESTADO'];
             capitalId = data['ID_CAPITAL'];
             capitalNome = data['NOME_CAPITAL'];
-
-            if (periodo == ""){
-                  var ultimoPeriodo = data['PERIODOS'].length - 1;
-                  periodoAtual = data['PERIODOS'][ultimoPeriodo];
-            }else{
-                  periodoAtual = periodo;
-            }
-
+            periodos = data['PERIODOS'];
+            mudaPeriodo();
             svg = 'maps/'+estado+'.svg';
       });
       $.ajaxSetup({
@@ -35,8 +30,12 @@ function loadJsonEstado(periodo){
 
 }
 
-loadJsonEstado("");
- 
+inicializa();
+
+function mudaPeriodo(periodo = periodos[periodos.length - 1]){
+      periodoAtual = periodo;
+      loadJsonEstado();
+}
 
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
 var regioes = ['#Mesorregioes','#Microrregioes','#Municipios'];
@@ -50,9 +49,11 @@ var regiaoSelecionada;
 var zPressionado = false;
 var estadoJson;
 
-$.getJSON(getUrlJsonEstadoGeral(), function (data) {
-      estadoJson = data;
-});
+function loadJsonEstado(){
+      $.getJSON(getUrlJsonEstadoGeral(), function (data) {
+            estadoJson = data;
+      });
+}
 
 function getUrlJsonEstadoGeral(){
       var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_geral.json";
