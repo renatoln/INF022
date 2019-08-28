@@ -29,6 +29,7 @@ public class EstadoJsonGenerator {
 	String codigoEstado = "ba";
 	String urlFolderDados = "dados/";
 	HashMap<Integer, Integer> populacaoMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> pibMap = new HashMap<Integer, Integer>();
 	
 	public static void main(String[] args) {
 		EstadoJsonGenerator m = new EstadoJsonGenerator();
@@ -48,6 +49,8 @@ public class EstadoJsonGenerator {
 	private void addAtributosMunicipios(HashMap<Integer, Municipio> municipios) {
 		//carregar populacao a partir de arquivo
 		importPopulacaoPorMunicipio();
+		//carregar pib a partir de arquivo
+		importPibPorMunicipio();
 		
 		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
     	for (Integer codigoMun : codigosIBGEMunicipios)
@@ -55,8 +58,10 @@ public class EstadoJsonGenerator {
     		if(codigoMun != null) {
     			Municipio mun = municipios.get(codigoMun);
     			int populacao = populacaoMap.get(codigoMun);
+    			int pib = pibMap.get(codigoMun);
     			mun.addAtributo("População", populacao);
-    			mun.addAtributo("PIB / pop", 258649/populacao);
+    			mun.addAtributo("PIB", pib);
+    			mun.addAtributo("PIB / pop", pib/populacao);
     		}
     	}
 		
@@ -177,6 +182,34 @@ public class EstadoJsonGenerator {
 				populacao = Integer.parseInt(fields[3]);
 				
 				populacaoMap.put(codigoIBGE, populacao);
+				
+			} 
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void importPibPorMunicipio(){
+		try {
+			File file = new File(urlFolderDados+"municipio-pib.txt");
+			BufferedReader br = new BufferedReader(new FileReader(file)); 
+			int codigoIBGE;
+			int pib;
+			
+			String linha = br.readLine(); //pular a primeira linha
+			
+			while (br.ready()){ 
+				linha = br.readLine(); 
+				String[] fields = linha.split("\t");
+				
+				codigoIBGE = Integer.parseInt(fields[3]);
+				
+				pib = Integer.parseInt(fields[2]);
+				
+				pibMap.put(codigoIBGE, pib);
 				
 			} 
 			br.close();
