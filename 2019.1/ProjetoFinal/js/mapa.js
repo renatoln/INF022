@@ -6,7 +6,7 @@ let estado; //'ba'; //es ba
 let capitalId;// 2927408; //vitoria = 3205309; salvador = 2927408
 let capitalNome;//'Salvador'; //'Salvador' 'Vitoria';
 let periodoAtual;
-let indexAtributo = 1;
+let indexAtributo = 0;
 let periodos;
 var svg;
 
