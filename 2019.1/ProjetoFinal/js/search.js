@@ -35,8 +35,8 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
-    var valorMax = geral.MAX_Valor[indexAtributo];
-    var valorMin = geral.MIN_Valor[indexAtributo];
+    var valorMax = geral.MAX_Valores[indexAtributo];
+    var valorMin = geral.MIN_Valores[indexAtributo];
 
     /*console.log(regexCategoria);
     console.log(regexMeso);

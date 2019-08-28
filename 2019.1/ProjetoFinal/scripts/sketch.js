@@ -131,8 +131,8 @@ function addPopUp(cidade, cidadeEvolucao) {
 }
 
 function definirCor(valor) {
-	let min = geral.MIN_Valor[indexAtributo];
-	let max = geral.MAX_Valor[indexAtributo];
+	let min = geral.MIN_Valores[indexAtributo];
+	let max = geral.MAX_Valores[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min;

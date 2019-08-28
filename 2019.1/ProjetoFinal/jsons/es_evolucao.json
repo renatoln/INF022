@@ -1,6 +1,6 @@
 {
-	"MIN_Valor": 0.01,
-	"MAX_Valor": 9.01,
+	"MIN_Valores": 0.01,
+	"MAX_Valores": 9.01,
 
 	"MESORREGIOES":[
 	  {
