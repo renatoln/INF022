@@ -23,3 +23,9 @@ $.getJSON(jsonData, function (data) {
     dropMicro.append($('<option></option>').attr('value', value.ID).text(value.NOME_MICRORREGIAO));
   })
 });
+
+let dropAtributos = $('#dropdownAtributos');
+
+dropAtributos.empty();
+dropAtributos.append('<option selected="true">Atributos</option>');
+dropAtributos.prop('selectedIndex', 0);

@@ -479,7 +479,7 @@
                 <!-- Busca -->
                 <div class="row">
                     <div class="col-12">
-                        <div class="card" style="height: 15rem;">
+                        <div class="card" style="height: 19rem;">
                             <div class="container" style="padding: 16px;">
                                 <form role="form">
                                     <!-- Field Categoria -->
@@ -505,12 +505,23 @@
                                             <input type="input" name="valorMax" class="form-control mb-4"
                                                 id="txt-search-valorMax" placeholder="Valor maximo">
                                         </div>
-                                        <label id="labelPeriodos" for="valores"><strong style="text-align: center;">Período: 6</strong></label>
-                                        <div class="col-sm-2">
-                                            <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
-                                        </div>
+                                        
 
                                     </div>
+
+                                    <div class="form-group input-group mb-3">
+                                        <label id="labelPeriodos" for="valores"><strong style="text-align: center;">Período: 6</strong></label>
+                                        <div class="col-sm-2" style="margin-right: 50px;">
+                                            <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                                        </div>
+                                        <label for="valores"><strong
+                                                style="text-align: center;">Atributos</strong></label>
+                                        <div class="col-sm-3">
+                                            <select id="dropdownAtributos" class="custom-select custom-select mb-3"
+                                                name="DropAtributos"></select>
+                                        </div>
+                                    </div>
+
                                     <!-- Fields Select Meso e Micro -->
                                     <div class="form-group input-group mb-3">
                                         <label for="valores"><strong
