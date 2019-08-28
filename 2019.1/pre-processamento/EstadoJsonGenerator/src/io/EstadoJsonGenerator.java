@@ -207,7 +207,7 @@ public class EstadoJsonGenerator {
     	{
     		textoAppend = "  {\n" + 
 					"    \"ID\": " + meso.ID + " ,\n" + 
-					"    \"NOME_MESORREGIAO\": \"" + meso.NOME_MESORREGIAO + " \"," +
+					"    \"NOME_MESORREGIAO\": \"" + meso.NOME_MESORREGIAO + "\"," +
 					list_string_values(meso.CATEGORIA, "CATEGORIA", true)+
 					list_string_values(meso.ATRIBUTOS, "ATRIBUTOS", true)+
 					list_int_values(meso.VALORES, "VALORES", false)+"\n"+
@@ -234,7 +234,7 @@ public class EstadoJsonGenerator {
     	{
     		textoAppend = "  {\n" + 
 					"    \"ID\": " + micro.ID + ",\n" + 
-					"    \"NOME_MICRORREGIAO\": \"" + micro.NOME_MICRORREGIAO + " \"," +
+					"    \"NOME_MICRORREGIAO\": \"" + micro.NOME_MICRORREGIAO + "\"," +
 					list_string_values(micro.CATEGORIA, "CATEGORIA", true)+
 					list_string_values(micro.ATRIBUTOS, "ATRIBUTOS", true)+
 					list_int_values(micro.VALORES, "VALORES", true)+"\n"+
@@ -262,7 +262,7 @@ public class EstadoJsonGenerator {
     	{
     		textoAppend = "  {\n" + 
 					"    \"ID\": " + mun.ID + ",\n" + 
-					"    \"NOME_MUNICIPIO\": \"" + mun.NOME_MUNICIPIO + " \"," +
+					"    \"NOME_MUNICIPIO\": \"" + mun.NOME_MUNICIPIO + "\"," +
 					list_string_values(mun.CATEGORIA, "CATEGORIA", true)+
 					list_string_values(mun.ATRIBUTOS, "ATRIBUTOS", true)+
 					list_int_values(mun.VALORES, "VALORES", true)+"\n"+
