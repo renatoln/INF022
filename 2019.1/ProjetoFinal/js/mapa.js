@@ -9,6 +9,8 @@ let periodoAtual;
 let indexAtributo = 0;
 let periodos;
 var svg;
+let range = document.getElementById("myRange");
+let labEpoca = document.getElementById("labelPeriodos");
 
 function inicializa(){
       //reading the config.json
@@ -29,6 +31,25 @@ function inicializa(){
          
 
 }
+
+
+function formatarPeriodo(time){
+            return time.replace("-",".");
+}
+
+window.onload = function(){
+      range.value = formatarPeriodo(periodoAtual);
+      labEpoca.innerHTML = `Período: ${range.value}`;
+      range.setAttribute("min",formatarPeriodo(periodos[0]));
+      range.setAttribute("max",formatarPeriodo(periodos[periodos.length-1]));
+}
+
+range.addEventListener("change",function(){
+  labEpoca.innerHTML = `Período: ${range.value}`;
+})
+
+
+
 
 inicializa();
 
