@@ -36,6 +36,7 @@ function inicializa(){
             loadRange();
             loadJsonEstadoEvolucao();
             svg = 'maps/'+estado+'.svg';
+            loadSVG(svg);
       });
       $.ajaxSetup({
             async: true
@@ -114,7 +115,7 @@ function getJsonEstadoEvolucao(){
 
 
 
-loadSVG(svg);
+
 
 // Recebe o endereço de um svg como parâmetro e chama a funcao que o carrega
 function loadSVG(svgParam) {
