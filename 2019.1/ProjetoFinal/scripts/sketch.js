@@ -97,10 +97,10 @@ function primeiroMapa() {
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
-function addPopUp(cidade, cidadeEvolucao) {
+function addPopUp(local, localEvolucao) {
 
 	//FUNÇÃO QUE ABRE O POPUP
-	cidade.node.addEventListener("contextmenu", function (ev) {
+	local.node.addEventListener("contextmenu", function (ev) {
 		ev.preventDefault();
 		mouseX = ev.clientX;
 		mouseY = ev.clientY;
@@ -108,12 +108,24 @@ function addPopUp(cidade, cidadeEvolucao) {
 
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
 		line.addEventListener("click", function () {
-			lineChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES, cidadeEvolucao.NOME_MUNICIPIO);
+			if(local.node.attributes.id.value.includes("mun_"))
+				lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MUNICIPIO);
+			else
+				if(local.node.attributes.id.value.includes("mic_"))
+					lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MICRORREGIAO);
+				else
+					lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
 		bar.addEventListener("click", function () {
-			barChart(cidadeEvolucao.PERIODOS, cidadeEvolucao.VALORES, cidadeEvolucao.NOME_MUNICIPIO);
+			if(local.node.attributes.id.value.includes("mun_"))
+				barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MUNICIPIO);
+			else
+				if(local.node.attributes.id.value.includes("mic_"))
+					barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MICRORREGIAO);
+				else
+					barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
@@ -170,20 +182,57 @@ function setup() {
 	primeiroMapa();
 
 	let id;
-	let cidadeEvolucao;
-	//COMPARA O MAPA COM O JSON
+	let localEvolucao;
+	
+	//GERA O POPUP DAS CIDADES
 	for (let icount in cidades) {
-		id = cidades[icount].node.attributes.id.value;
-		id = id.replace("mun_", "");
-		for (let jcount in geral.MUNICIPIOS) {
+		generatePopUp(cidades[icount]);
+	}
+	//GERA O POPUP DAS MICRORREGIOES
+	for(let icount in microrregioes){
+		generatePopUp(microrregioes[icount]);
+	}
+	//GERA O POPUP DAS MESORREGIOES
+	for(let icount in mesorregioes){
+		generatePopUp(mesorregioes[icount]);
+	}
+}
 
+function generatePopUp(element){
+
+	let id = element.node.attributes.id.value;
+	//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
+	//CASO SEJA CIDADE, ALÉM DE CRIAR O POPUP ELE PINTA A MESMA NO MAPA
+	if(id.includes("mun_")){
+		id = id.replace("mun_","");
+		for (let jcount in geral.MUNICIPIOS) {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == geral.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
-				cidadeEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
-				addPopUp(cidades[icount], cidadeEvolucao);
+				element.node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				localEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
+				addPopUp(element, localEvolucao);
 				break;
 			}
 		}
-	}
+	}else
+		if(id.includes("mic_")){
+			id = id.replace("mic_","");
+			for(let jcount in geral.MICRORREGIOES){
+				if(id == geral.MICRORREGIOES[jcount].ID){
+					localEvolucao = searchEquivalent(id, evolucao.MICRORREGIOES);
+					addPopUp(element, localEvolucao);
+					break;
+				}
+			}
+		}else{
+			id = id.replace("mes_","");
+			for(let jcount in geral.MESORREGIOES){
+				if(id == geral.MESORREGIOES[jcount].ID){
+					localEvolucao = searchEquivalent(id, evolucao.MESORREGIOES);
+					addPopUp(element, localEvolucao);
+					break;
+				}
+			}
+
+		}
 }

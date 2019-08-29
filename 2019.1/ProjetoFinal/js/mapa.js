@@ -1,4 +1,6 @@
 let cidades = [];
+let microrregiao = [];
+let mesorregiao = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 
 //modificar os três atributos abaixo de acordo com o mapa a ser visualizado 
@@ -119,6 +121,10 @@ function onSVGLoaded(data) {
 
       //Essa linha abaixo que pega o PATH de cada municipio no SVG
       cidades = mapa.select("#Municipios").selectAll("path").items;
+      //Essa linha abaixo que pega o PATH de cada mesorregiao no SVG
+      mesorregioes = mapa.select("#Mesorregioes").selectAll("path").items;
+      //Essa linha abaixo que pega o PATH de cada municipio no SVG
+      microrregioes = mapa.select("#Microrregioes").selectAll("path").items;
 }
 
 // Seta os atributos da camada atual do mapa
