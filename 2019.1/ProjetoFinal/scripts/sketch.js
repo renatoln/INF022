@@ -1,5 +1,3 @@
-let evolucao = [];
-let geral = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
@@ -26,14 +24,6 @@ cor1 : "#f5f542",
 	cor5 : "#f56342",
 	cor6 : "#ed0505"
 */
-
-//CARREGA O JSON
-function preload() {
-	let url = getUrlJsonEstadoEvolucao();
-	evolucao = loadJSON(url);
-	url = getUrlJsonEstadoGeral();
-	geral = loadJSON(url);
-}
 
 async function toColorBySearch(jsonFiltered) {
 	let id;
@@ -77,11 +67,11 @@ function clearSearchOnMap() {
 		for (let icount in cidades) {
 			id = cidades[icount].node.attributes.id.value;
 			id = id.replace("mun_", "");
-			for (let jcount in geral.MUNICIPIOS) {
+			for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
 
 				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-				if (id == geral.MUNICIPIOS[jcount].ID) {
-					cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
+					cidades[icount].node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 					break;
 				}
 			}
@@ -92,7 +82,7 @@ function clearSearchOnMap() {
 
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
-	let capital = searchEquivalent(capitalId, evolucao.MUNICIPIOS);
+	let capital = searchEquivalent(capitalId, jsonEstadoEvolucao.MUNICIPIOS);
 	lineChart(capital.PERIODOS, capital.VALORES, capitalNome);
 }
 
@@ -143,8 +133,8 @@ function addPopUp(local, localEvolucao) {
 }
 
 function definirCor(valor) {
-	let min = geral.MIN_Valores[indexAtributo];
-	let max = geral.MAX_Valores[indexAtributo];
+	let min = jsonEstadoGeral.MIN_Valores[indexAtributo];
+	let max = jsonEstadoGeral.MAX_Valores[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min;
@@ -186,6 +176,7 @@ function setup() {
 	
 	//GERA O POPUP DAS CIDADES
 	for (let icount in cidades) {
+<<<<<<< HEAD
 		generatePopUp(cidades[icount]);
 	}
 	//GERA O POPUP DAS MICRORREGIOES
@@ -199,6 +190,11 @@ function setup() {
 }
 
 function generatePopUp(element){
+=======
+		id = cidades[icount].node.attributes.id.value;
+		id = id.replace("mun_", "");
+		for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
+>>>>>>> 6841f9cd8825464ce06327ed4a7cf22206c39cad
 
 	let id = element.node.attributes.id.value;
 	//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
@@ -207,10 +203,18 @@ function generatePopUp(element){
 		id = id.replace("mun_","");
 		for (let jcount in geral.MUNICIPIOS) {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
+<<<<<<< HEAD
 			if (id == geral.MUNICIPIOS[jcount].ID) {
 				element.node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 				localEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
 				addPopUp(element, localEvolucao);
+=======
+			if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
+				//console.log("Teste");
+				cidades[icount].node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				cidadeEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MUNICIPIOS);
+				addPopUp(cidades[icount], cidadeEvolucao);
+>>>>>>> 6841f9cd8825464ce06327ed4a7cf22206c39cad
 				break;
 			}
 		}

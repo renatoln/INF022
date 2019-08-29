@@ -1,3 +1,11 @@
+/*
+ToDo
+- quem chama a funcao setup(). ela é responsável por pintar o mapa e carregar os popups
+- em sketch.js, setup(), tem um for dentro do outro. verificar porque.
+- o mapa as vezes carrega no início, as vezes não.
+
+*/
+
 let cidades = [];
 let microrregiao = [];
 let mesorregiao = [];
@@ -25,6 +33,8 @@ function inicializa(){
             capitalNome = data['NOME_CAPITAL'];
             periodos = data['PERIODOS'];
             mudaPeriodo();
+            loadRange();
+            loadJsonEstadoEvolucao();
             svg = 'maps/'+estado+'.svg';
       });
       $.ajaxSetup({
@@ -39,7 +49,7 @@ function formatarPeriodo(time){
             return time.replace("-",".");
 }
 
-window.onload = function(){
+function loadRange(){
       range.value = formatarPeriodo(periodoAtual);
       labEpoca.innerHTML = `Período: ${range.value}`;
       range.setAttribute("min",formatarPeriodo(periodos[0]));
@@ -51,13 +61,11 @@ range.addEventListener("change",function(){
 })
 
 
-
-
 inicializa();
 
 function mudaPeriodo(periodo = periodos[periodos.length - 1]){
       periodoAtual = periodo;
-      loadJsonEstado();
+      loadJsonEstadoGeral();
 }
 
 var descricaoRegiao = ['mesorregião', 'microrregião', 'município'];
@@ -70,11 +78,18 @@ var jsonResponse;
 var regiao = regioes[nivel];
 var regiaoSelecionada;
 var zPressionado = false;
-var estadoJson;
+var jsonEstadoGeral;
+var jsonEstadoEvolucao;
 
-function loadJsonEstado(){
+function loadJsonEstadoGeral(){
       $.getJSON(getUrlJsonEstadoGeral(), function (data) {
-            estadoJson = data;
+            jsonEstadoGeral = data;
+      });
+}
+
+function loadJsonEstadoEvolucao(){
+      $.getJSON(getUrlJsonEstadoEvolucao(), function (data) {
+            jsonEstadoEvolucao = data;
       });
 }
 
@@ -88,6 +103,16 @@ function getUrlJsonEstadoEvolucao(){
       //console.log(urlJson);
       return urlJson;
 }
+
+function getJsonEstadoEvolucao(){
+      return jsonEstadoGeral;
+}
+
+function getJsonEstadoEvolucao(){
+      return jsonEstadoEvolucao; 
+}
+
+
 
 loadSVG(svg);
 
@@ -270,9 +295,9 @@ function tooltipAtributos(regiao){
 // Adiciona tooltip em um município
 function tooltipMunicipio(path) {
       let slicedId = path.attr('id').slice(4, 11);
-      let municipio = encontrarLocalPorId(estadoJson.MUNICIPIOS,slicedId);
-      let micro = encontrarLocalPorId(estadoJson.MICRORREGIOES,municipio.ID_MICRO);
-      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,municipio.ID_MESO);
+      let municipio = encontrarLocalPorId(jsonEstadoGeral.MUNICIPIOS,slicedId);
+      let micro = encontrarLocalPorId(jsonEstadoGeral.MICRORREGIOES,municipio.ID_MICRO);
+      let meso = encontrarLocalPorId(jsonEstadoGeral.MESORREGIOES,municipio.ID_MESO);
       let string = '<title>Município: ' + municipio.NOME_MUNICIPIO
       + '&#10;Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
@@ -286,8 +311,8 @@ function tooltipMunicipio(path) {
 // Adiciona tooltip em uma microrregião
 function tooltipMicrorregiao(path) {
       let slicedId = path.attr('id').slice(4, 9);
-      let micro = encontrarLocalPorId(estadoJson.MICRORREGIOES,slicedId);
-      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,micro.ID_MESO);
+      let micro = encontrarLocalPorId(jsonEstadoGeral.MICRORREGIOES,slicedId);
+      let meso = encontrarLocalPorId(jsonEstadoGeral.MESORREGIOES,micro.ID_MESO);
       let string = '<title>Microrregião: ' + micro.NOME_MICRORREGIAO
       + '&#10;Mesorregião: ' + meso.NOME_MESORREGIAO
       //+ '&#10;&#10;Valor: ' + micro.VALOR
@@ -300,7 +325,7 @@ function tooltipMicrorregiao(path) {
 // Adiciona tooltip em uma mesorregião
 function tooltipMesorregiao(path) {
       let slicedId = path.attr('id').slice(4, 8);
-      let meso = encontrarLocalPorId(estadoJson.MESORREGIOES,slicedId);
+      let meso = encontrarLocalPorId(jsonEstadoGeral.MESORREGIOES,slicedId);
       let string = '<title>Mesorregião: ' + meso.NOME_MESORREGIAO
       //+ '&#10;&#10;Valor: ' + meso.VALOR
       + tooltipAtributos(meso)
@@ -316,7 +341,7 @@ function getPath(path) {
 
       if (regioes[nivel]=='#Municipios') {
             slicedId = path.attr('id').slice(4, 11);
-            let municipio = encontrarLocalPorId(estadoJson.MUNICIPIOS,slicedId);
+            let municipio = encontrarLocalPorId(jsonEstadoGeral.MUNICIPIOS,slicedId);
             pai = 'mes_' + municipio.ID_MESO;
       } else if (regioes[nivel]=='#Microrregioes') {
             pai='Terreno';
@@ -326,7 +351,7 @@ function getPath(path) {
 }
 
 /**
- * @param jsonRegiao Json da região. Ex.:(estadoJson.MUNICIPIOS)
+ * @param jsonRegiao Json da região. Ex.:(jsonEstadoGeral.MUNICIPIOS)
  * @param id Id do local para ser encontrado na região. 
  */
 function encontrarLocalPorId(jsonRegiao, id) {
