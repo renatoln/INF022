@@ -35,8 +35,8 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     var output = [];
     var outputIndex = 0;
 
-    var valorMax = geral.MAX_Valores[indexAtributo];
-    var valorMin = geral.MIN_Valores[indexAtributo];
+    var valorMax = jsonEstadoGeral.MAX_Valores[indexAtributo];
+    var valorMin = jsonEstadoGeral.MIN_Valores[indexAtributo];
 
     /*console.log(regexCategoria);
     console.log(regexMeso);
@@ -44,16 +44,16 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     console.log(regexValorDe);
     console.log(regexValorAte);*/
 
-    /* geral é inicializado em sketch.js ; Json geral carregado com preload*/
+    /* jsonEstadoGeral é inicializado em mapa.js ; Json jsonEstadoGeral carregado com preload*/
 
     /*var toAddMeso = false;
 
-    for (i in geral.MESORREGIOES) {
+    for (i in jsonEstadoGeral.MESORREGIOES) {
         toAddMeso = false;
 
         if (regexCategoria != null) {
-            for (c in geral.MESORREGIOES[i].CATEGORIA) {
-                if (geral.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in jsonEstadoGeral.MESORREGIOES[i].CATEGORIA) {
+                if (jsonEstadoGeral.MESORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMeso = true;
                     break;
                 }
@@ -65,7 +65,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMeso != null) {
-            if (geral.MESORREGIOES[i].ID.toString().search(regexMeso) != -1) {
+            if (jsonEstadoGeral.MESORREGIOES[i].ID.toString().search(regexMeso) != -1) {
                 toAddMeso = true;
             }
             else {
@@ -78,7 +78,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (geral.MESORREGIOES[i].VALOR > regexValorDe && geral.MESORREGIOES[i].VALOR < regexValorAte) {
+            if (jsonEstadoGeral.MESORREGIOES[i].VALOR > regexValorDe && jsonEstadoGeral.MESORREGIOES[i].VALOR < regexValorAte) {
                 toAddMeso = true;
             }
             else {
@@ -91,7 +91,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMeso) {
-            output[outputIndex] = geral.MESORREGIOES[i];
+            output[outputIndex] = jsonEstadoGeral.MESORREGIOES[i];
             outputIndex++;
         }
 
@@ -99,12 +99,12 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
 
     var toAddMicro = false;
 
-    for (i in geral.MICRORREGIOES) {
+    for (i in jsonEstadoGeral.MICRORREGIOES) {
         toAddMicro = false;
 
         if (regexCategoria != null) {
-            for (c in geral.MICRORREGIOES[i].CATEGORIA) {
-                if (geral.MICRORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in jsonEstadoGeral.MICRORREGIOES[i].CATEGORIA) {
+                if (jsonEstadoGeral.MICRORREGIOES[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMicro = true;
                     break;
                 }
@@ -116,7 +116,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMicro != null) {
-            if (geral.MICRORREGIOES[i].ID.toString().search(regexMicro) != -1) {
+            if (jsonEstadoGeral.MICRORREGIOES[i].ID.toString().search(regexMicro) != -1) {
                 toAddMicro = true;
             }
             else {
@@ -129,7 +129,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (geral.MICRORREGIOES[i].VALOR > regexValorDe && geral.MICRORREGIOES[i].VALOR < regexValorAte) {
+            if (jsonEstadoGeral.MICRORREGIOES[i].VALOR > regexValorDe && jsonEstadoGeral.MICRORREGIOES[i].VALOR < regexValorAte) {
                 toAddMicro = true;
             }
             else {
@@ -142,7 +142,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMicro) {
-            output[outputIndex] = geral.MICRORREGIOES[i];
+            output[outputIndex] = jsonEstadoGeral.MICRORREGIOES[i];
             outputIndex++;
         }
 
@@ -151,11 +151,11 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
     var toAddMunicipios = false;
 
     /* Municipios*/
-    for (i in geral.MUNICIPIOS) {
+    for (i in jsonEstadoGeral.MUNICIPIOS) {
         toAddMunicipios = false;
         if (regexCategoria != null) {
-            for (c in geral.MUNICIPIOS[i].CATEGORIA) {
-                if (geral.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
+            for (c in jsonEstadoGeral.MUNICIPIOS[i].CATEGORIA) {
+                if (jsonEstadoGeral.MUNICIPIOS[i].CATEGORIA[c].search(regexCategoria) != -1) {
                     toAddMunicipios = true;
                     break;
                 }
@@ -167,7 +167,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMeso != null) {
-            if (geral.MUNICIPIOS[i].ID_MESO.toString().search(regexMeso) != -1) {
+            if (jsonEstadoGeral.MUNICIPIOS[i].ID_MESO.toString().search(regexMeso) != -1) {
                 toAddMunicipios = true;
             }
             else {
@@ -180,7 +180,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexMicro != null) {
-            if (geral.MUNICIPIOS[i].ID_MICRO.toString().search(regexMicro) != -1) {
+            if (jsonEstadoGeral.MUNICIPIOS[i].ID_MICRO.toString().search(regexMicro) != -1) {
                 toAddMunicipios = true;
             }
             else {
@@ -193,7 +193,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (regexValorDe != null && regexValorAte != null) {
-            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && geral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
+            if (jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {
@@ -205,7 +205,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
             }
         }
         else if (regexValorDe != null) {
-            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && geral.MUNICIPIOS[i].VALORES[indexAtributo] < valorMax) {
+            if (jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] > regexValorDe && jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] < valorMax) {
                 toAddMunicipios = true;
             }
             else {
@@ -217,7 +217,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
             }
         }
         else if (regexValorAte != null) { //Desnecessauro ; Mas apenas para facilitar leitura
-            if (geral.MUNICIPIOS[i].VALORES[indexAtributo] > valorMin && geral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
+            if (jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] > valorMin && jsonEstadoGeral.MUNICIPIOS[i].VALORES[indexAtributo] < regexValorAte) {
                 toAddMunicipios = true;
             }
             else {
@@ -230,7 +230,7 @@ async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
         }
 
         if (toAddMunicipios) {
-            output[outputIndex] = geral.MUNICIPIOS[i]; //Copia de referencia
+            output[outputIndex] = jsonEstadoGeral.MUNICIPIOS[i]; //Copia de referencia
             outputIndex++;
         }
 

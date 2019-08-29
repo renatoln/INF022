@@ -1,5 +1,3 @@
-let evolucao = [];
-let geral = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
@@ -26,14 +24,6 @@ cor1 : "#f5f542",
 	cor5 : "#f56342",
 	cor6 : "#ed0505"
 */
-
-//CARREGA O JSON
-function preload() {
-	let url = getUrlJsonEstadoEvolucao();
-	evolucao = loadJSON(url);
-	url = getUrlJsonEstadoGeral();
-	geral = loadJSON(url);
-}
 
 async function toColorBySearch(jsonFiltered) {
 	let id;
@@ -77,11 +67,11 @@ function clearSearchOnMap() {
 		for (let icount in cidades) {
 			id = cidades[icount].node.attributes.id.value;
 			id = id.replace("mun_", "");
-			for (let jcount in geral.MUNICIPIOS) {
+			for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
 
 				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-				if (id == geral.MUNICIPIOS[jcount].ID) {
-					cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
+					cidades[icount].node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 					break;
 				}
 			}
@@ -92,7 +82,7 @@ function clearSearchOnMap() {
 
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
-	let capital = searchEquivalent(capitalId, evolucao.MUNICIPIOS);
+	let capital = searchEquivalent(capitalId, jsonEstadoEvolucao.MUNICIPIOS);
 	lineChart(capital.PERIODOS, capital.VALORES, capitalNome);
 }
 
@@ -131,8 +121,8 @@ function addPopUp(cidade, cidadeEvolucao) {
 }
 
 function definirCor(valor) {
-	let min = geral.MIN_Valores[indexAtributo];
-	let max = geral.MAX_Valores[indexAtributo];
+	let min = jsonEstadoGeral.MIN_Valores[indexAtributo];
+	let max = jsonEstadoGeral.MAX_Valores[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min;
@@ -175,12 +165,13 @@ function setup() {
 	for (let icount in cidades) {
 		id = cidades[icount].node.attributes.id.value;
 		id = id.replace("mun_", "");
-		for (let jcount in geral.MUNICIPIOS) {
+		for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
 
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-			if (id == geral.MUNICIPIOS[jcount].ID) {
-				cidades[icount].node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
-				cidadeEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
+			if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
+				//console.log("Teste");
+				cidades[icount].node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				cidadeEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MUNICIPIOS);
 				addPopUp(cidades[icount], cidadeEvolucao);
 				break;
 			}
