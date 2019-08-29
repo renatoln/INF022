@@ -7,8 +7,8 @@ ToDo
 */
 
 let cidades = [];
-let microrregiao = [];
-let mesorregiao = [];
+let microrregioes = [];
+let mesorregioes = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 
 //modificar os três atributos abaixo de acordo com o mapa a ser visualizado 

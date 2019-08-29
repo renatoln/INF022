@@ -27,7 +27,7 @@ cor1 : "#f5f542",
 
 async function toColorBySearch(jsonFiltered) {
 	let id;
-
+	let icount;
 	//Apenas municipios possuem ID maior ;; jsonCount in jsonFiltered if(jsonFiltered[jsonCount].ID > 99999){
 
 	isDirty = true;
@@ -176,7 +176,6 @@ function setup() {
 	
 	//GERA O POPUP DAS CIDADES
 	for (let icount in cidades) {
-<<<<<<< HEAD
 		generatePopUp(cidades[icount]);
 	}
 	//GERA O POPUP DAS MICRORREGIOES
@@ -190,53 +189,47 @@ function setup() {
 }
 
 function generatePopUp(element){
-=======
-		id = cidades[icount].node.attributes.id.value;
-		id = id.replace("mun_", "");
-		for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
->>>>>>> 6841f9cd8825464ce06327ed4a7cf22206c39cad
 
-	let id = element.node.attributes.id.value;
-	//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
-	//CASO SEJA CIDADE, ALÉM DE CRIAR O POPUP ELE PINTA A MESMA NO MAPA
-	if(id.includes("mun_")){
-		id = id.replace("mun_","");
-		for (let jcount in geral.MUNICIPIOS) {
-			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
-<<<<<<< HEAD
-			if (id == geral.MUNICIPIOS[jcount].ID) {
-				element.node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
-				localEvolucao = searchEquivalent(id, evolucao.MUNICIPIOS);
-				addPopUp(element, localEvolucao);
-=======
-			if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
-				//console.log("Teste");
-				cidades[icount].node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
-				cidadeEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MUNICIPIOS);
-				addPopUp(cidades[icount], cidadeEvolucao);
->>>>>>> 6841f9cd8825464ce06327ed4a7cf22206c39cad
-				break;
+	id = cidades[icount].node.attributes.id.value;
+	id = id.replace("mun_", "");
+	for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
+
+
+		let id = element.node.attributes.id.value;
+		//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
+		//CASO SEJA CIDADE, ALÉM DE CRIAR O POPUP ELE PINTA A MESMA NO MAPA
+		if(id.includes("mun_")){
+			id = id.replace("mun_","");
+			for (let jcount in jsonEstadoGeral.MUNICIPIOS) {
+				//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
+				if (id == jsonEstadoGeral.MUNICIPIOS[jcount].ID) {
+					//console.log("Teste");
+					element.node.attributes.fill.value = definirCor(jsonEstadoGeral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+					localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MUNICIPIOS);
+					addPopUp(element, localEvolucao);
+
+					break;
+				}
 			}
-		}
-	}else
-		if(id.includes("mic_")){
+		}else if(id.includes("mic_")){
 			id = id.replace("mic_","");
-			for(let jcount in geral.MICRORREGIOES){
-				if(id == geral.MICRORREGIOES[jcount].ID){
-					localEvolucao = searchEquivalent(id, evolucao.MICRORREGIOES);
+			for(let jcount in jsonEstadoGeral.MICRORREGIOES){
+				if(id == jsonEstadoGeral.MICRORREGIOES[jcount].ID){
+					localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MICRORREGIOES);
 					addPopUp(element, localEvolucao);
 					break;
 				}
 			}
 		}else{
 			id = id.replace("mes_","");
-			for(let jcount in geral.MESORREGIOES){
-				if(id == geral.MESORREGIOES[jcount].ID){
-					localEvolucao = searchEquivalent(id, evolucao.MESORREGIOES);
+			for(let jcount in jsonEstadoGeral.MESORREGIOES){
+				if(id == jsonEstadoGeral.MESORREGIOES[jcount].ID){
+					localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MESORREGIOES);
 					addPopUp(element, localEvolucao);
 					break;
 				}
 			}
 
 		}
+	}
 }
