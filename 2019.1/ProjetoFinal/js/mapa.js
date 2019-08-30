@@ -1,11 +1,3 @@
-/*
-ToDo
-- quem chama a funcao setup(). ela é responsável por pintar o mapa e carregar os popups
-- em sketch.js, setup(), tem um for dentro do outro. verificar porque.
-- o mapa as vezes carrega no início, as vezes não.
-
-*/
-
 let cidades = [];
 let microrregioes = [];
 let mesorregioes = [];
@@ -41,10 +33,7 @@ function inicializa(){
       $.ajaxSetup({
             async: true
       }); 
-         
-
 }
-
 
 function formatarPeriodo(time){
             return time.replace("-",".");
@@ -60,7 +49,6 @@ function loadRange(){
 range.addEventListener("change",function(){
   labEpoca.innerHTML = `Período: ${range.value}`;
 })
-
 
 inicializa();
 
@@ -82,18 +70,6 @@ var zPressionado = false;
 var jsonEstadoGeral;
 var jsonEstadoEvolucao;
 
-function loadJsonEstadoGeral(){
-      $.getJSON(getUrlJsonEstadoGeral(), function (data) {
-            jsonEstadoGeral = data;
-      });
-}
-
-function loadJsonEstadoEvolucao(){
-      $.getJSON(getUrlJsonEstadoEvolucao(), function (data) {
-            jsonEstadoEvolucao = data;
-      });
-}
-
 function getUrlJsonEstadoGeral(){
       var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_geral.json";
       //console.log(urlJson);
@@ -105,17 +81,17 @@ function getUrlJsonEstadoEvolucao(){
       return urlJson;
 }
 
-function getJsonEstadoEvolucao(){
-      return jsonEstadoGeral;
+function loadJsonEstadoGeral(){
+      $.getJSON(getUrlJsonEstadoGeral(), function (data) {
+            jsonEstadoGeral = data;
+      });
 }
 
-function getJsonEstadoEvolucao(){
-      return jsonEstadoEvolucao; 
+function loadJsonEstadoEvolucao(){
+      $.getJSON(getUrlJsonEstadoEvolucao(), function (data) {
+            jsonEstadoEvolucao = data;
+      });
 }
-
-
-
-
 
 // Recebe o endereço de um svg como parâmetro e chama a funcao que o carrega
 function loadSVG(svgParam) {
@@ -352,7 +328,7 @@ function getPath(path) {
 }
 
 /**
- * @param jsonRegiao Json da região. Ex.:(jsonEstadoGeral.MUNICIPIOS)
+ * @param jsonRegiao Json da região. Ex.:(estadoJson.MUNICIPIOS)
  * @param id Id do local para ser encontrado na região. 
  */
 function encontrarLocalPorId(jsonRegiao, id) {
