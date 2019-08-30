@@ -1,6 +1,7 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Municipio {
 	
@@ -14,6 +15,8 @@ public class Municipio {
 	public ArrayList<String> ATRIBUTOS = new ArrayList<String>();
 	public ArrayList<Integer> VALORES = new ArrayList<Integer>();
 	
+	public HashMap<String, ArrayList<Integer>> valoresEvolucao = new HashMap<String, ArrayList<Integer>>();
+	
     public Municipio(int id, String nome_mun, int id_meso, int id_micro, int populacao){
     	ID = id;
     	NOME_MUNICIPIO = nome_mun;
@@ -25,6 +28,11 @@ public class Municipio {
     public void addAtributo(String nome, int valor) {
     	ATRIBUTOS.add(nome);
     	VALORES.add(valor);
+    }
+    
+    public void addValoresEvolucao(String periodo, ArrayList<Integer> valores) {
+    	valoresEvolucao.put(periodo, valores);
+    	
     }
 	
 

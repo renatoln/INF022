@@ -14,6 +14,8 @@ public class Mesorregiao {
 	public ArrayList<String> ATRIBUTOS = new ArrayList<String>();
 	public ArrayList<Integer> VALORES = new ArrayList<Integer>();
 	
+	public HashMap<String, ArrayList<Integer>> valoresEvolucao = new HashMap<String, ArrayList<Integer>>();
+	
     public Mesorregiao(int id, String nome_meso, int populacao){
     	ID = id;
       	NOME_MESORREGIAO = nome_meso;
@@ -26,6 +28,10 @@ public class Mesorregiao {
     	VALORES.add(valor);
     }
     
+    public void addValoresEvolucao(String periodo, ArrayList<Integer> valores) {
+    	valoresEvolucao.put(periodo, valores);
+    	
+    }
     public void calculaAtributoAPartirDasMicroregioes(HashMap<Integer, Microrregiao> microrregioes, int indexAtributo, String nomeAtributo) {
     	int valorAtributo = 0;
     	 
