@@ -1,3 +1,4 @@
+let config = [];
 let geral = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
@@ -28,7 +29,9 @@ cor1 : "#f5f542",
 
 //CARREGA O JSON
 function preload() {
+	config = loadJSON(getUrlConfig());
 	geral = loadJSON(getUrlJsonEstadoGeral());
+	jsonEstadoGeral = geral;
 }
 
 async function toColorBySearch(jsonFiltered) {
@@ -89,7 +92,7 @@ function clearSearchOnMap() {
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
 	let capital = searchEquivalent(capitalId, jsonEstadoEvolucao.MUNICIPIOS);
-	lineChart(capital.PERIODOS, capital.VALORES, capitalNome);
+	lineChart(config.PERIODOS, capital.ATRIBUTOS[indexAtributo].VALORES, capitalNome);
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
@@ -105,23 +108,23 @@ function addPopUp(local, localEvolucao) {
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
 		line.addEventListener("click", function () {
 			if(local.node.attributes.id.value.includes("mun_"))
-				lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MUNICIPIO);
+				lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
 			else
 				if(local.node.attributes.id.value.includes("mic_"))
-					lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MICRORREGIAO);
+					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MICRORREGIAO);
 				else
-					lineChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MESORREGIAO);
+					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
 		bar.addEventListener("click", function () {
 			if(local.node.attributes.id.value.includes("mun_"))
-				barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MUNICIPIO);
+				barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
 			else
 				if(local.node.attributes.id.value.includes("mic_"))
-					barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MICRORREGIAO);
+					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MICRORREGIAO);
 				else
-					barChart(localEvolucao.PERIODOS, localEvolucao.VALORES, localEvolucao.NOME_MESORREGIAO);
+					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ

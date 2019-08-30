@@ -19,7 +19,7 @@ function inicializa(){
       $.ajaxSetup({
             async: false
       });
-      $.getJSON("../jsons/config.json", function (data) {
+      $.getJSON(getUrlConfig(), function (data) {
             estado = data['ESTADO'];
             capitalId = data['ID_CAPITAL'];
             capitalNome = data['NOME_CAPITAL'];
@@ -69,6 +69,14 @@ var regiaoSelecionada;
 var zPressionado = false;
 var jsonEstadoGeral;
 var jsonEstadoEvolucao;
+
+
+
+function getUrlConfig(){
+      var urlJson = "../jsons/config.json";
+      //console.log(urlJson);
+      return urlJson;
+}
 
 function getUrlJsonEstadoGeral(){
       var urlJson = "../jsons/"+estado+"_"+periodoAtual+"_geral.json";
