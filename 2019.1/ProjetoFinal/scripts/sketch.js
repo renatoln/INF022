@@ -8,6 +8,8 @@ let bar = document.getElementById("barChart");
 
 var isDirty = false;
 
+var cinza = "#8C92AC";
+
 let cores = {
 	cor1: "#dcf757",
 	cor2: "#f7f257",
@@ -60,7 +62,7 @@ async function toColorBySearch(jsonFiltered) {
 					}
 					else if (jsonCount == jsonFiltered.length - 1) //andou todo o vetor e não encontrou ninguém identico ao ID
 					{
-						cidades[icount].node.attributes.fill.value = "#8C92AC";
+						cidades[icount].node.attributes.fill.value = cinza;
 					}
 				}
 			}
@@ -142,28 +144,31 @@ function addPopUp(local, localEvolucao) {
 }
 
 function definirCor(valor) {
+	
 	let min = geral.MIN_Valores[indexAtributo];
 	let max = geral.MAX_Valores[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
-	grupos[0] = min;
+	grupos[0] = min+faixa;
 
 	for (let i = 1; i < 6; i++) {
 		grupos[i] = grupos[i - 1] + faixa;
 	}
 
-	if (valor < grupos[1]) {
+	if (valor < grupos[0]) {
 		return cores.cor1;
-	} else if (valor < grupos[2]) {
+	} else if (valor < grupos[1]) {
 		return cores.cor2;
-	} else if (valor < grupos[3]) {
+	} else if (valor < grupos[2]) {
 		return cores.cor3;
-	} else if (valor < grupos[4]) {
+	} else if (valor < grupos[3]) {
 		return cores.cor4;
-	} else if (valor < grupos[5]) {
+	} else if (valor < grupos[4]) {
 		return cores.cor5;
-	} else {
+	} else if (valor <= grupos[5]) {
 		return cores.cor6;
+	} else {
+		return cinza;
 	}
 }
 
