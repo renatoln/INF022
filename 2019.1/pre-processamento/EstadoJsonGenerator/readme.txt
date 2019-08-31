@@ -23,3 +23,8 @@ Limitações
 		- gera a partir dos arquivos gerais de estado que existe
 		- monte o array de períodos "periodos[]" correspondente aos arquivos gerais que você tem na pasta dados
 		- monte o array de atributos "atributos[]"
+
+Dica
+	- se você tiver os dados em colunas no excel e copiar para um arquivo txt, ele já separa pelo \t. Assim você terá esforco mínimo para procesar os seus dados. Caso esteja em outro padrão, você deve adaptar o código de leitura de arquivos.
+	- Veja o exemplo de óbitos. Tem uma planilha excel, com os óbitos por ano. Isso foi copiado para um arquivo txt. É a partir dele que é gerado os arquivos gerais.
+	- IMPORTANTE: o código IBGE do munícipio tem que ser o mesmo fornecido pelo site do IBGE. Alguns dados vem com dígitos a menos. Na planilha óbitos tem os códigos dos municípios da Bahia.
