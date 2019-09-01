@@ -142,11 +142,9 @@ function addPopUp(local, localEvolucao) {
 	})
 
 }
-
-function definirCor(valor) {
-	
-	let min = geral.MIN_Valores[indexAtributo];
-	let max = geral.MAX_Valores[indexAtributo];
+function colorByMinMax(valor){
+	let min = geral.METADADOS.MIN_Valores[indexAtributo];
+	let max = geral.METADADOS.MAX_Valores[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min+faixa;
@@ -170,6 +168,33 @@ function definirCor(valor) {
 	} else {
 		return cinza;
 	}
+
+}
+
+function colorByPercentis(valor){
+	let percentis = geral.METADADOS.PERCENTIS[indexAtributo].VALORES;
+	
+
+	if (valor < percentis[0]) {
+		return cores.cor1;
+	} else if (valor < percentis[1]) {
+		return cores.cor2;
+	} else if (valor < percentis[2]) {
+		return cores.cor3;
+	} else if (valor < percentis[3]) {
+		return cores.cor4;
+	} else {
+		return cores.cor5;
+	} 
+
+}
+function definirCor(valor) {
+	if (estrategiaColoracao == colorMinMax)
+		return colorByMinMax(valor);
+
+	else if (estrategiaColoracao == colorPercentis)
+		return colorByPercentis(valor);
+	
 }
 
 //RECEBE UM ID E ENCONTRA O MUNICIPIO EQUIVALENTE NO JSON DE EVOLUCAO 

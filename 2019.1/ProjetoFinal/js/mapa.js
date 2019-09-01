@@ -14,6 +14,11 @@ var svg;
 let range = document.getElementById("myRange");
 let labEpoca = document.getElementById("labelPeriodos");
 
+//Coloracao 
+let colorMinMax = 1;
+let colorPercentis = 2;
+let estrategiaColoracao = colorMinMax;
+
 function inicializa(){
       //reading the config.json
       $.ajaxSetup({
