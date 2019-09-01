@@ -2,6 +2,7 @@ package model;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
@@ -19,10 +20,12 @@ public class Estado {
 	public HashMap<Integer, Microrregiao> microrregioes;
 	public HashMap<Integer, Municipio> municipios;
 	
-
 	public ArrayList<String> CATEGORIA = new ArrayList<String>();
 	public static ArrayList<String> ATRIBUTOS = new ArrayList<String>();
-	public ArrayList<Integer> VALORES = new ArrayList<Integer>();
+	
+	public HashMap<String, ArrayList<Integer>> valoresAtributos = new HashMap<String, ArrayList<Integer>>();
+	
+	public HashMap<String, ArrayList<Integer>> percentis = new HashMap<String, ArrayList<Integer>>();
 	
 	public Estado(String sigla, HashMap<Integer, Mesorregiao> mesos, HashMap<Integer, Microrregiao> micros,
 			HashMap<Integer, Municipio> muns) {
@@ -44,11 +47,38 @@ public class Estado {
 		for (int i = 0; i < qtdAtributos; i++) { 
 			min_values.add(munTemp.VALORES.get(i));
 			max_values.add(munTemp.VALORES.get(i));
+			//cria o arraylist para cada um dos atributos para poder definir os percentis
+			valoresAtributos.put(ATRIBUTOS.get(i), new ArrayList<Integer>());
+			percentis.put(ATRIBUTOS.get(i), new ArrayList<Integer>());
 		}	
 		
 		atualizaAtributosMicros();
 		atualizaAtributosMesos();
+		definePercentis();
 		System.out.println("");
+	}
+
+	@SuppressWarnings("unchecked")
+	private void definePercentis() {
+		int qtdAtributos = ATRIBUTOS.size();
+		
+		for (int i = 0; i < qtdAtributos; i++) { 
+			ArrayList<Integer> atributos = valoresAtributos.get(ATRIBUTOS.get(i));
+			atributos.sort(new Comparator() {  
+	            public int compare(Object o1, Object o2) {  
+	                 Integer c1 = (Integer) o1;  
+	                 Integer c2 = (Integer) o2;  
+	                 return c1.intValue() - c2.intValue();
+	               }
+				});
+			
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*20));
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*40));
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*60));
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*80));
+		}
+		//System.out.println("");
+		
 	}
 
 
@@ -72,18 +102,20 @@ public class Estado {
     	{
     		if(codigoMun != null) {
     			Municipio mun = municipios.get(codigoMun);
-    			atualizaMaxMin(mun);
+    			atualizaMaxMin_e_Percentis(mun);
     			Microrregiao micro = microrregioes.get(mun.ID_MICRO);
     			micro.atualizaAtributos(mun.VALORES);
     		}
     	}
 	}
-	
-	private void atualizaMaxMin(Municipio mun){
+
+
+	private void atualizaMaxMin_e_Percentis(Municipio mun){
 		int qtdAtributos = ATRIBUTOS.size();
 		
 		for (int i = 0; i < qtdAtributos; i++) { 
 			int currentValue = mun.VALORES.get(i);
+			valoresAtributos.get(ATRIBUTOS.get(i)).add(currentValue);
 			if (currentValue < min_values.get(i))
 				min_values.set(i, currentValue);
 			if (currentValue > max_values.get(i))

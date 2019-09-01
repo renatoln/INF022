@@ -28,13 +28,13 @@ public class EstadoJsonGenerator {
 	String urlBase = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/";
 	int idEstado = 29;
 	String codigoEstado = "ba";
-	String periodoAtual = "2013";
+	String periodoAtual = "2017";
 	String urlFolderDados = "dados/";
 
 	public static void main(String[] args) {
 		EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
-		//new EstadoJsonGeral(ejGenerator);
-		new EstadoJsonEvolucao(ejGenerator);
+		new EstadoJsonGeral(ejGenerator);
+		//new EstadoJsonEvolucao(ejGenerator);
 		
 
 	}
@@ -54,7 +54,8 @@ public class EstadoJsonGenerator {
 	
 	HashMap<Integer, Microrregiao> getMicrorregioes() {
 		String urlEspecifica = "/microrregioes";
-		ArrayList<JSONObject> joMicro = getJsonObjects(urlEspecifica);
+		//ArrayList<JSONObject> joMicro = getJsonObjects(urlEspecifica);
+		ArrayList<JSONObject> joMicro = getLocalJsonObjects("microrregioes-"+idEstado+"-ibge.json");
 		HashMap<Integer, Microrregiao> micros = new HashMap<Integer, Microrregiao>();
 		for (int i=0; i < joMicro.size(); i++) { 
 			JSONObject jsonObj = joMicro.get(i);
