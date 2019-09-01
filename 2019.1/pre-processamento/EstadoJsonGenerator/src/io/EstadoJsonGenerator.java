@@ -28,7 +28,7 @@ public class EstadoJsonGenerator {
 	String urlBase = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/";
 	int idEstado = 29;
 	String codigoEstado = "ba";
-	String periodoAtual = "2017";
+	String periodoAtual = "2013";
 	String urlFolderDados = "dados/";
 
 	public static void main(String[] args) {
