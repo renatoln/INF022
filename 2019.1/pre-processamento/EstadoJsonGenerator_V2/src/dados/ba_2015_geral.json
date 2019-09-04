@@ -1,0 +1,4069 @@
+{
+
+		"MIN_Valores": [3672, 26734, 3, 8],
+		"MAX_Valores": [2921087, 57918103, 219, 1393],
+	"MESORREGIOES":[
+  {
+    "ID": 2901 ,
+    "NOME_MESORREGIAO": "Extremo Oeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [644979, 17182844, 468, 1460]
+  },
+  {
+    "ID": 2902 ,
+    "NOME_MESORREGIAO": "Vale São-Franciscano da Bahia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [1053225, 10850313, 210, 2645]
+  },
+  {
+    "ID": 2903 ,
+    "NOME_MESORREGIAO": "Centro Norte Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [2410803, 28588757, 618, 4875]
+  },
+  {
+    "ID": 2904 ,
+    "NOME_MESORREGIAO": "Nordeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [1668418, 15588863, 469, 4079]
+  },
+  {
+    "ID": 2905 ,
+    "NOME_MESORREGIAO": "Metropolitana de Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4642465, 115583683, 787, 3723]
+  },
+  {
+    "ID": 2906 ,
+    "NOME_MESORREGIAO": "Centro Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [2635631, 26311320, 878, 6753]
+  },
+  {
+    "ID": 2907 ,
+    "NOME_MESORREGIAO": "Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [2147813, 30937908, 846, 4094]
+  }
+],
+	"MICRORREGIOES":[
+  {
+    "ID": 29001,
+    "NOME_MICRORREGIAO": "Barreiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [332223, 13329347, 281, 528],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29002,
+    "NOME_MICRORREGIAO": "Cotegipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [122743, 924692, 56, 413],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29003,
+    "NOME_MICRORREGIAO": "Santa Maria da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [190013, 2928805, 131, 519],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29004,
+    "NOME_MICRORREGIAO": "Juazeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [498392, 5328510, 69, 1218],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29005,
+    "NOME_MICRORREGIAO": "Paulo Afonso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [183634, 2691387, 52, 365],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29006,
+    "NOME_MICRORREGIAO": "Barra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [186837, 1318663, 48, 635],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29007,
+    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [184362, 1511753, 41, 427],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29008,
+    "NOME_MICRORREGIAO": "Senhor do Bonfim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [309957, 2642201, 66, 874],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29009,
+    "NOME_MICRORREGIAO": "Irecê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [404025, 3178834, 122, 928],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29010,
+    "NOME_MICRORREGIAO": "Jacobina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [349295, 3042381, 111, 834],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29011,
+    "NOME_MICRORREGIAO": "Itaberaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [264568, 2058944, 80, 736],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29012,
+    "NOME_MICRORREGIAO": "Feira de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [1082958, 17666397, 239, 1503],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29013,
+    "NOME_MICRORREGIAO": "Jeremoabo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [103200, 722597, 31, 360],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29014,
+    "NOME_MICRORREGIAO": "Euclides da Cunha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [316134, 2353514, 60, 927],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29015,
+    "NOME_MICRORREGIAO": "Ribeira do Pombal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [335586, 2661384, 101, 705],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29016,
+    "NOME_MICRORREGIAO": "Serrinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [449981, 3599485, 126, 1161],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29017,
+    "NOME_MICRORREGIAO": "Alagoinhas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [336783, 4714442, 94, 651],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29018,
+    "NOME_MICRORREGIAO": "Entre Rios",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [126734, 1537441, 57, 275],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29019,
+    "NOME_MICRORREGIAO": "Catu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [232579, 3681427, 96, 352],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29020,
+    "NOME_MICRORREGIAO": "Santo Antônio de Jesus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [585436, 6795870, 196, 1143],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29021,
+    "NOME_MICRORREGIAO": "Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [3824450, 105106386, 495, 2228],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29022,
+    "NOME_MICRORREGIAO": "Boquira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [199366, 1215697, 61, 855],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29023,
+    "NOME_MICRORREGIAO": "Seabra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [271254, 2441252, 155, 756],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29024,
+    "NOME_MICRORREGIAO": "Jequié",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [537271, 5333112, 199, 1141],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29025,
+    "NOME_MICRORREGIAO": "Livramento do Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [104132, 799224, 33, 394],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29026,
+    "NOME_MICRORREGIAO": "Guanambi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [405109, 3727032, 130, 1019],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29027,
+    "NOME_MICRORREGIAO": "Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [243257, 2329523, 95, 857],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29028,
+    "NOME_MICRORREGIAO": "Vitória da Conquista",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [668034, 8337223, 126, 1293],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29029,
+    "NOME_MICRORREGIAO": "Itapetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [207208, 2128257, 79, 438],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29030,
+    "NOME_MICRORREGIAO": "Valença",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [289292, 4093985, 147, 810],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29031,
+    "NOME_MICRORREGIAO": "Ilhéus-Itabuna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [1052837, 13942632, 415, 2132],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29032,
+    "NOME_MICRORREGIAO": "Porto Seguro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [805684, 12901291, 284, 1152],
+    "ID_MESO": 2907 
+  }
+],
+	"MUNICIPIOS":[
+  {
+    "ID": 2912301,
+    "NOME_MUNICIPIO": "Ibicuí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16696, 165542, 9, 39],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2908200,
+    "NOME_MUNICIPIO": "Conceição da Feira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22656, 248132, 10, 49],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904100,
+    "NOME_MUNICIPIO": "Boquira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22429, 128250, 5, 113],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929701,
+    "NOME_MUNICIPIO": "Sátiro Dias",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20320, 136424, 6, 53],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2902054,
+    "NOME_MUNICIPIO": "Araçás",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12450, 262311, 21, 40],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925600,
+    "NOME_MUNICIPIO": "Presidente Dutra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14712, 94149, 6, 39],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917409,
+    "NOME_MUNICIPIO": "Jacaraci",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15409, 83385, 5, 70],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903102,
+    "NOME_MUNICIPIO": "Barra do Rocha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6424, 64775, 10, 31],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928703,
+    "NOME_MUNICIPIO": "Santo Antônio de Jesus",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [101548, 1881134, 18, 132],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918456,
+    "NOME_MUNICIPIO": "Jucuruçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10148, 98339, 9, 59],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2924603,
+    "NOME_MUNICIPIO": "Pindobaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21062, 123108, 5, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920502,
+    "NOME_MUNICIPIO": "Maracás",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23751, 260156, 10, 65],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2916401,
+    "NOME_MUNICIPIO": "Itapetinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [76184, 940315, 12, 77],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2922508,
+    "NOME_MUNICIPIO": "Nazaré",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29406, 239884, 8, 50],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2901007,
+    "NOME_MUNICIPIO": "Amargosa",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [37807, 315353, 8, 60],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2920452,
+    "NOME_MUNICIPIO": "Mansidão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13761, 70296, 5, 66],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918407,
+    "NOME_MUNICIPIO": "Juazeiro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [218324, 3135297, 14, 208],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2914307,
+    "NOME_MUNICIPIO": "Iramaia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10487, 80874, 7, 21],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2921500,
+    "NOME_MUNICIPIO": "Monte Santo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [54733, 323318, 5, 201],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2913309,
+    "NOME_MUNICIPIO": "Ichu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6311, 38207, 6, 20],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2909208,
+    "NOME_MUNICIPIO": "Coronel João Sá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17098, 124629, 7, 67],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915353,
+    "NOME_MUNICIPIO": "Itaguaçu da Bahia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14667, 75935, 5, 104],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2911253,
+    "NOME_MUNICIPIO": "Gavião",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4712, 38270, 8, 43],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2930709,
+    "NOME_MUNICIPIO": "Simões Filho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [133202, 4580827, 34, 142],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2926608,
+    "NOME_MUNICIPIO": "Ribeira do Pombal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [51418, 478779, 9, 70],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905107,
+    "NOME_MUNICIPIO": "Caém",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10143, 80740, 7, 41],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924652,
+    "NOME_MUNICIPIO": "Pintadas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10742, 72941, 6, 22],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922607,
+    "NOME_MUNICIPIO": "Nilo Peçanha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14188, 109309, 7, 56],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2918506,
+    "NOME_MUNICIPIO": "Jussara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15841, 90788, 5, 43],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2914406,
+    "NOME_MUNICIPIO": "Iraquara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25006, 282787, 11, 50],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910305,
+    "NOME_MUNICIPIO": "Elísio Medrado",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8434, 54645, 6, 39],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930808,
+    "NOME_MUNICIPIO": "Souto Soares",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17332, 89196, 5, 55],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909307,
+    "NOME_MUNICIPIO": "Correntina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33183, 1297030, 39, 88],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905206,
+    "NOME_MUNICIPIO": "Caetité",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [52531, 724323, 13, 175],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2901106,
+    "NOME_MUNICIPIO": "Amélia Rodrigues",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26441, 264417, 10, 41],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2926707,
+    "NOME_MUNICIPIO": "Rio de Contas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13616, 105825, 7, 67],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930766,
+    "NOME_MUNICIPIO": "Sítio do Quinto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11767, 80844, 6, 37],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915403,
+    "NOME_MUNICIPIO": "Itaju do Colônia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7353, 68949, 9, 28],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2905156,
+    "NOME_MUNICIPIO": "Caetanos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15982, 73204, 4, 59],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2932804,
+    "NOME_MUNICIPIO": "Utinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19593, 139506, 7, 38],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930758,
+    "NOME_MUNICIPIO": "Sítio do Mato",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13320, 90719, 6, 43],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2911303,
+    "NOME_MUNICIPIO": "Gentio do Ouro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11423, 57569, 5, 63],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2926657,
+    "NOME_MUNICIPIO": "Ribeirão do Largo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8260, 88674, 10, 68],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2907202,
+    "NOME_MUNICIPIO": "Casa Nova",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [72172, 541116, 7, 273],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2906204,
+    "NOME_MUNICIPIO": "Canarana",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26382, 165354, 6, 53],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2931806,
+    "NOME_MUNICIPIO": "Tremedal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18187, 104101, 5, 122],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2902104,
+    "NOME_MUNICIPIO": "Araci",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [56370, 366516, 6, 133],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927705,
+    "NOME_MUNICIPIO": "Santa Cruz Cabrália",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [28226, 299180, 10, 35],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923605,
+    "NOME_MUNICIPIO": "Paramirim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22077, 157518, 7, 82],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2929750,
+    "NOME_MUNICIPIO": "Saubara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12238, 115673, 9, 20],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2930774,
+    "NOME_MUNICIPIO": "Sobradinho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23583, 361706, 15, 23],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2919504,
+    "NOME_MUNICIPIO": "Livramento de Nossa Senhora",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [46035, 404785, 8, 164],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2915502,
+    "NOME_MUNICIPIO": "Itajuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21754, 255692, 11, 48],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911402,
+    "NOME_MUNICIPIO": "Glória",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16072, 146864, 9, 61],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2907301,
+    "NOME_MUNICIPIO": "Castro Alves",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27286, 331795, 12, 85],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2932903,
+    "NOME_MUNICIPIO": "Valença",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [97305, 1325324, 13, 192],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2922656,
+    "NOME_MUNICIPIO": "Nordestina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13321, 80255, 6, 58],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903201,
+    "NOME_MUNICIPIO": "Barreiras",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [153918, 3718351, 24, 148],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2928802,
+    "NOME_MUNICIPIO": "Santo Estêvão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [53193, 582961, 10, 65],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2901155,
+    "NOME_MUNICIPIO": "América Dourada",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16923, 103621, 6, 62],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927804,
+    "NOME_MUNICIPIO": "Santa Cruz da Vitória",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6750, 54259, 8, 12],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925758,
+    "NOME_MUNICIPIO": "Presidente Tancredo Neves",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27505, 195296, 7, 95],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906303,
+    "NOME_MUNICIPIO": "Canavieiras",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33268, 298980, 8, 94],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2923704,
+    "NOME_MUNICIPIO": "Paratinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [32636, 185874, 5, 101],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902203,
+    "NOME_MUNICIPIO": "Aramari",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11314, 74097, 6, 31],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2913457,
+    "NOME_MUNICIPIO": "Igrapiúna",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14395, 178788, 12, 70],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2919603,
+    "NOME_MUNICIPIO": "Macajuba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11837, 64853, 5, 29],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2900108,
+    "NOME_MUNICIPIO": "Abaíra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9226, 54905, 5, 15],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925709,
+    "NOME_MUNICIPIO": "Presidente Jânio Quadros",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13178, 70241, 5, 69],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2929800,
+    "NOME_MUNICIPIO": "Saúde",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12739, 73067, 5, 52],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2921609,
+    "NOME_MUNICIPIO": "Morpará",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8967, 56387, 6, 38],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2917508,
+    "NOME_MUNICIPIO": "Jacobina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [84811, 1038299, 12, 111],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924678,
+    "NOME_MUNICIPIO": "Piraí do Norte",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10360, 57871, 5, 37],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2913408,
+    "NOME_MUNICIPIO": "Igaporã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16225, 189919, 11, 32],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919553,
+    "NOME_MUNICIPIO": "Luís Eduardo Magalhães",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [79162, 4376477, 55, 70],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2924702,
+    "NOME_MUNICIPIO": "Piripá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12238, 63711, 5, 75],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2920601,
+    "NOME_MUNICIPIO": "Maragogipe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [46106, 430960, 9, 94],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918555,
+    "NOME_MUNICIPIO": "Jussari",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6378, 54207, 8, 29],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2916500,
+    "NOME_MUNICIPIO": "Itapicuru",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [35987, 349735, 9, 96],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2908309,
+    "NOME_MUNICIPIO": "Conceição do Almeida",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18525, 139159, 7, 51],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2912400,
+    "NOME_MUNICIPIO": "Ibipeba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18674, 101567, 5, 42],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2904209,
+    "NOME_MUNICIPIO": "Botuporã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11021, 78349, 7, 57],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2902252,
+    "NOME_MUNICIPIO": "Arataca",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11737, 99125, 8, 55],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903276,
+    "NOME_MUNICIPIO": "Barrocas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15770, 192758, 12, 44],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2921708,
+    "NOME_MUNICIPIO": "Morro do Chapéu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [36717, 359136, 9, 113],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2900207,
+    "NOME_MUNICIPIO": "Abaré",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19574, 120085, 6, 66],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2922730,
+    "NOME_MUNICIPIO": "Nova Fátima",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8125, 67888, 8, 27],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917607,
+    "NOME_MUNICIPIO": "Jaguaquara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [55449, 507913, 9, 91],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2913507,
+    "NOME_MUNICIPIO": "Iguaí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27787, 198773, 7, 91],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2920700,
+    "NOME_MUNICIPIO": "Maraú",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21175, 208066, 9, 81],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2912509,
+    "NOME_MUNICIPIO": "Ibipitanga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15296, 88238, 5, 67],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908408,
+    "NOME_MUNICIPIO": "Conceição do Coité",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [68146, 677617, 9, 178],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904308,
+    "NOME_MUNICIPIO": "Brejões",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15214, 130821, 8, 39],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2929909,
+    "NOME_MUNICIPIO": "Seabra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [45202, 408052, 9, 113],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925808,
+    "NOME_MUNICIPIO": "Queimadas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26083, 195879, 7, 69],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2918605,
+    "NOME_MUNICIPIO": "Jussiape",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7229, 52290, 7, 45],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914505,
+    "NOME_MUNICIPIO": "Irará",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29950, 229254, 7, 82],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2910404,
+    "NOME_MUNICIPIO": "Encruzilhada",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20331, 195658, 9, 91],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2931905,
+    "NOME_MUNICIPIO": "Tucano",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [55777, 391782, 7, 101],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903235,
+    "NOME_MUNICIPIO": "Barro Alto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15377, 79352, 5, 41],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909406,
+    "NOME_MUNICIPIO": "Cotegipe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14403, 121527, 8, 69],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905305,
+    "NOME_MUNICIPIO": "Cafarnaum",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18695, 138400, 7, 36],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2930907,
+    "NOME_MUNICIPIO": "Tabocas do Brejo Velho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13025, 77972, 5, 35],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2901205,
+    "NOME_MUNICIPIO": "Anagé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20096, 156646, 7, 131],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2926806,
+    "NOME_MUNICIPIO": "Rio do Antônio",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15628, 91219, 5, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2922706,
+    "NOME_MUNICIPIO": "Nova Canaã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17082, 120251, 7, 54],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914604,
+    "NOME_MUNICIPIO": "Irecê",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [73380, 983841, 13, 82],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910503,
+    "NOME_MUNICIPIO": "Entre Rios",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [43006, 520663, 12, 83],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2906402,
+    "NOME_MUNICIPIO": "Candeal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9011, 51976, 5, 46],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932002,
+    "NOME_MUNICIPIO": "Uauá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25087, 181786, 7, 91],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2905404,
+    "NOME_MUNICIPIO": "Cairu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17730, 1200964, 67, 37],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2931004,
+    "NOME_MUNICIPIO": "Tanhaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21282, 194487, 9, 111],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2901304,
+    "NOME_MUNICIPIO": "Andaraí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13723, 88004, 6, 64],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2926905,
+    "NOME_MUNICIPIO": "Rio do Pires",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12084, 72427, 5, 43],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2922805,
+    "NOME_MUNICIPIO": "Nova Itarana",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8312, 44153, 5, 14],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928950,
+    "NOME_MUNICIPIO": "São Domingos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9877, 67420, 6, 28],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2918704,
+    "NOME_MUNICIPIO": "Lafaiete Coutinho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4020, 34373, 8, 12],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2911501,
+    "NOME_MUNICIPIO": "Gongogi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8082, 65949, 8, 23],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907400,
+    "NOME_MUNICIPIO": "Catolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [3672, 63932, 17, 14],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2933000,
+    "NOME_MUNICIPIO": "Valente",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27906, 196136, 7, 44],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2903300,
+    "NOME_MUNICIPIO": "Barro Preto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6492, 54914, 8, 20],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928901,
+    "NOME_MUNICIPIO": "São Desidério",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [32640, 2716625, 83, 78],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2916609,
+    "NOME_MUNICIPIO": "Itapitanga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10800, 74989, 6, 26],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924801,
+    "NOME_MUNICIPIO": "Piritiba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25027, 134486, 5, 48],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922755,
+    "NOME_MUNICIPIO": "Nova Ibiá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7036, 79070, 11, 36],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902302,
+    "NOME_MUNICIPIO": "Aratuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9127, 63534, 6, 40],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2927903,
+    "NOME_MUNICIPIO": "Santa Inês",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11177, 63801, 5, 21],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923803,
+    "NOME_MUNICIPIO": "Paripiranga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29878, 316294, 10, 25],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919702,
+    "NOME_MUNICIPIO": "Macarani",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18786, 147139, 7, 36],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2915601,
+    "NOME_MUNICIPIO": "Itamaraju",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [67249, 879172, 13, 117],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2931053,
+    "NOME_MUNICIPIO": "Tanque Novo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17702, 131937, 7, 78],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2901353,
+    "NOME_MUNICIPIO": "Andorinha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14791, 135203, 9, 69],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920809,
+    "NOME_MUNICIPIO": "Marcionílio Souza",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10951, 72804, 6, 27],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925931,
+    "NOME_MUNICIPIO": "Quixabeira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10033, 58203, 5, 24],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2916708,
+    "NOME_MUNICIPIO": "Itaquara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8519, 69054, 8, 36],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924900,
+    "NOME_MUNICIPIO": "Planaltino",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9473, 56384, 5, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922854,
+    "NOME_MUNICIPIO": "Nova Redenção",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9470, 45141, 4, 32],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2912608,
+    "NOME_MUNICIPIO": "Ibiquera",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [5158, 26734, 5, 19],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2918753,
+    "NOME_MUNICIPIO": "Lagoa Real",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15801, 82950, 5, 52],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2923902,
+    "NOME_MUNICIPIO": "Pau Brasil",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10905, 88303, 8, 17],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919801,
+    "NOME_MUNICIPIO": "Macaúbas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [50262, 296802, 5, 169],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2915700,
+    "NOME_MUNICIPIO": "Itamari",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8514, 79970, 9, 27],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907509,
+    "NOME_MUNICIPIO": "Catu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [55719, 623154, 11, 92],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2933109,
+    "NOME_MUNICIPIO": "Várzea do Poço",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9416, 68127, 7, 23],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2911600,
+    "NOME_MUNICIPIO": "Governador Mangabeira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21267, 229347, 10, 42],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929008,
+    "NOME_MUNICIPIO": "São Félix",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15091, 162257, 10, 34],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2903409,
+    "NOME_MUNICIPIO": "Belmonte",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23759, 280303, 11, 63],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2921807,
+    "NOME_MUNICIPIO": "Mortugaba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12477, 73923, 5, 47],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917706,
+    "NOME_MUNICIPIO": "Jaguarari",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33186, 463848, 13, 117],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913606,
+    "NOME_MUNICIPIO": "Ilhéus",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [180213, 3641506, 20, 108],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909505,
+    "NOME_MUNICIPIO": "Cravolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [5560, 38495, 6, 17],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2933059,
+    "NOME_MUNICIPIO": "Várzea da Roça",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14729, 88002, 5, 34],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2914653,
+    "NOME_MUNICIPIO": "Itabela",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [31055, 310776, 10, 43],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908507,
+    "NOME_MUNICIPIO": "Conceição do Jacuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33354, 1695547, 50, 44],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930006,
+    "NOME_MUNICIPIO": "Sebastião Laranjeiras",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11528, 70857, 6, 42],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2904407,
+    "NOME_MUNICIPIO": "Brejolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10698, 80762, 7, 19],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2900306,
+    "NOME_MUNICIPIO": "Acajutiba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15717, 116674, 7, 33],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925907,
+    "NOME_MUNICIPIO": "Quijingue",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [28655, 191529, 6, 57],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2917805,
+    "NOME_MUNICIPIO": "Jaguaripe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18647, 163414, 8, 69],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2913705,
+    "NOME_MUNICIPIO": "Inhambupe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [40915, 444593, 10, 88],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2911659,
+    "NOME_MUNICIPIO": "Guajeru",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8805, 53344, 6, 12],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2909604,
+    "NOME_MUNICIPIO": "Crisópolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21617, 138177, 6, 50],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2907558,
+    "NOME_MUNICIPIO": "Caturama",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9762, 51352, 5, 48],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2933158,
+    "NOME_MUNICIPIO": "Várzea Nova",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13470, 99562, 7, 16],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929057,
+    "NOME_MUNICIPIO": "São Félix do Coribe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15647, 138844, 8, 14],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2908606,
+    "NOME_MUNICIPIO": "Conde",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26194, 198558, 7, 66],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2930105,
+    "NOME_MUNICIPIO": "Senhor do Bonfim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [81330, 785353, 9, 132],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2904506,
+    "NOME_MUNICIPIO": "Brotas de Macaúbas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11070, 65378, 5, 76],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2928059,
+    "NOME_MUNICIPIO": "Santa Luzia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13626, 106032, 7, 66],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2926004,
+    "NOME_MUNICIPIO": "Remanso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [42275, 306707, 7, 158],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2900405,
+    "NOME_MUNICIPIO": "Água Fria",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17043, 106758, 6, 29],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933174,
+    "NOME_MUNICIPIO": "Varzedo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9363, 87271, 9, 28],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921906,
+    "NOME_MUNICIPIO": "Mucugê",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10244, 339788, 33, 36],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914703,
+    "NOME_MUNICIPIO": "Itaberaba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [66310, 721795, 10, 138],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910602,
+    "NOME_MUNICIPIO": "Esplanada",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [36724, 561380, 15, 87],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2925956,
+    "NOME_MUNICIPIO": "Rafael Jambeiro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [24349, 201370, 8, 61],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2906501,
+    "NOME_MUNICIPIO": "Candeias",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [88806, 3388543, 38, 80],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2932101,
+    "NOME_MUNICIPIO": "Ubaíra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20782, 167960, 8, 54],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928000,
+    "NOME_MUNICIPIO": "Santaluz",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [36915, 296267, 8, 87],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2902401,
+    "NOME_MUNICIPIO": "Aurelino Leal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13089, 106729, 8, 32],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2900355,
+    "NOME_MUNICIPIO": "Adustina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17153, 159878, 9, 40],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905503,
+    "NOME_MUNICIPIO": "Caldeirão Grande",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13641, 86426, 6, 48],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2931103,
+    "NOME_MUNICIPIO": "Tanquinho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8553, 52044, 6, 24],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922904,
+    "NOME_MUNICIPIO": "Nova Soure",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25854, 160434, 6, 68],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2927002,
+    "NOME_MUNICIPIO": "Rio Real",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [40809, 693003, 16, 90],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2901403,
+    "NOME_MUNICIPIO": "Angical",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14724, 126212, 8, 40],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918803,
+    "NOME_MUNICIPIO": "Laje",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23904, 217348, 9, 63],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2910701,
+    "NOME_MUNICIPIO": "Euclides da Cunha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [60066, 635593, 10, 207],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2928109,
+    "NOME_MUNICIPIO": "Santa Maria da Vitória",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [41795, 385773, 9, 118],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2906600,
+    "NOME_MUNICIPIO": "Candiba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14667, 94215, 6, 22],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2932200,
+    "NOME_MUNICIPIO": "Ubaitaba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20813, 213860, 10, 44],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924009,
+    "NOME_MUNICIPIO": "Paulo Afonso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [119214, 2225391, 18, 138],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2930154,
+    "NOME_MUNICIPIO": "Serra do Ramalho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33011, 235793, 7, 68],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902500,
+    "NOME_MUNICIPIO": "Baianópolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14195, 116942, 8, 41],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2915809,
+    "NOME_MUNICIPIO": "Itambé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23327, 209808, 8, 41],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2927101,
+    "NOME_MUNICIPIO": "Rodelas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8887, 90851, 10, 24],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2901502,
+    "NOME_MUNICIPIO": "Anguera",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11299, 60986, 5, 36],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2916856,
+    "NOME_MUNICIPIO": "Itatim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14763, 292830, 19, 37],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923001,
+    "NOME_MUNICIPIO": "Nova Viçosa",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [43216, 443832, 10, 47],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918902,
+    "NOME_MUNICIPIO": "Lajedão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4022, 84938, 21, 12],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919926,
+    "NOME_MUNICIPIO": "Madre de Deus",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20348, 494442, 24, 13],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2914802,
+    "NOME_MUNICIPIO": "Itabuna",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [219680, 3832794, 17, 207],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2920908,
+    "NOME_MUNICIPIO": "Mascote",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14877, 135543, 9, 28],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925006,
+    "NOME_MUNICIPIO": "Planalto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26632, 240192, 9, 51],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2916807,
+    "NOME_MUNICIPIO": "Itarantim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20091, 189721, 9, 52],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2912707,
+    "NOME_MUNICIPIO": "Ibirapitanga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [24180, 175809, 7, 78],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919900,
+    "NOME_MUNICIPIO": "Macururé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8365, 39269, 4, 18],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2911709,
+    "NOME_MUNICIPIO": "Guanambi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [85797, 1141389, 13, 61],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907608,
+    "NOME_MUNICIPIO": "Central",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18140, 133511, 7, 63],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2933208,
+    "NOME_MUNICIPIO": "Vera Cruz",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [42650, 503806, 11, 65],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903508,
+    "NOME_MUNICIPIO": "Belo Campo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18383, 104978, 5, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929107,
+    "NOME_MUNICIPIO": "São Felipe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21582, 172668, 8, 69],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921005,
+    "NOME_MUNICIPIO": "Mata de São João",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [45813, 1011017, 22, 74],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2916906,
+    "NOME_MUNICIPIO": "Itiruçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13307, 88118, 6, 34],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923050,
+    "NOME_MUNICIPIO": "Novo Triunfo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15993, 49411, 3, 35],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2912806,
+    "NOME_MUNICIPIO": "Ibirapuã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8735, 185724, 21, 25],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908705,
+    "NOME_MUNICIPIO": "Condeúba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18269, 121331, 6, 66],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910776,
+    "NOME_MUNICIPIO": "Feira da Mata",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [5914, 47034, 7, 12],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2907707,
+    "NOME_MUNICIPIO": "Chorrochó",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11522, 68927, 5, 58],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2933307,
+    "NOME_MUNICIPIO": "Vitória da Conquista",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [343230, 5760130, 16, 375],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929206,
+    "NOME_MUNICIPIO": "São Francisco do Conde",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [39329, 8643550, 219, 57],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903607,
+    "NOME_MUNICIPIO": "Biritinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15799, 100477, 6, 50],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925105,
+    "NOME_MUNICIPIO": "Poções",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [48729, 443014, 9, 73],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2913804,
+    "NOME_MUNICIPIO": "Ipecaetá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15521, 81026, 5, 34],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933257,
+    "NOME_MUNICIPIO": "Vereda",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6696, 72340, 10, 29],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2909703,
+    "NOME_MUNICIPIO": "Cristópolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14302, 113579, 7, 42],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2910727,
+    "NOME_MUNICIPIO": "Eunápolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [113191, 2276986, 20, 88],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2905602,
+    "NOME_MUNICIPIO": "Camacan",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [33197, 266589, 8, 60],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2931202,
+    "NOME_MUNICIPIO": "Taperoá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21091, 171825, 8, 74],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2930204,
+    "NOME_MUNICIPIO": "Sento Sé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [41464, 346923, 8, 100],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2904605,
+    "NOME_MUNICIPIO": "Brumado",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [69255, 1147683, 16, 121],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910750,
+    "NOME_MUNICIPIO": "Fátima",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18481, 226947, 12, 14],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2900504,
+    "NOME_MUNICIPIO": "Érico Cardoso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11437, 51682, 4, 55],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2924058,
+    "NOME_MUNICIPIO": "Pé de Serra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14471, 96082, 6, 48],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2923035,
+    "NOME_MUNICIPIO": "Novo Horizonte",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12238, 67414, 5, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2919959,
+    "NOME_MUNICIPIO": "Maetinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [5174, 43401, 8, 37],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926103,
+    "NOME_MUNICIPIO": "Retirolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13319, 107200, 8, 23],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917904,
+    "NOME_MUNICIPIO": "Jandaíra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11063, 170921, 15, 25],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2922003,
+    "NOME_MUNICIPIO": "Mucuri",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [41068, 1995636, 48, 39],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2913903,
+    "NOME_MUNICIPIO": "Ipiaú",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [47501, 430004, 9, 75],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909802,
+    "NOME_MUNICIPIO": "Cruz das Almas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [64197, 861525, 13, 75],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2905701,
+    "NOME_MUNICIPIO": "Camaçari",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [286919, 20390421, 71, 226],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2931301,
+    "NOME_MUNICIPIO": "Tapiramutá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17398, 116884, 6, 36],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2929255,
+    "NOME_MUNICIPIO": "São Gabriel",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19542, 110937, 5, 35],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927200,
+    "NOME_MUNICIPIO": "Ruy Barbosa",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [31867, 265651, 8, 105],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2901601,
+    "NOME_MUNICIPIO": "Antas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19183, 99135, 5, 40],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919009,
+    "NOME_MUNICIPIO": "Lajedinho",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [3974, 48473, 12, 29],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2930303,
+    "NOME_MUNICIPIO": "Serra Dourada",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18389, 142811, 7, 54],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2926202,
+    "NOME_MUNICIPIO": "Riachão das Neves",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23264, 731612, 31, 84],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2900603,
+    "NOME_MUNICIPIO": "Aiquara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4767, 52075, 10, 24],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922102,
+    "NOME_MUNICIPIO": "Mundo Novo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27165, 132614, 4, 50],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2911857,
+    "NOME_MUNICIPIO": "Heliópolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13762, 97310, 7, 54],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2918001,
+    "NOME_MUNICIPIO": "Jequié",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [161528, 2234942, 13, 208],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924108,
+    "NOME_MUNICIPIO": "Pedrão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7568, 39819, 5, 26],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2915908,
+    "NOME_MUNICIPIO": "Itanagra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8034, 58239, 7, 22],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2922052,
+    "NOME_MUNICIPIO": "Mulungu do Morro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12200, 75624, 6, 42],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2920007,
+    "NOME_MUNICIPIO": "Maiquinique",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10082, 88836, 8, 14],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2911808,
+    "NOME_MUNICIPIO": "Guaratinga",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22355, 225536, 10, 89],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923100,
+    "NOME_MUNICIPIO": "Olindina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26817, 171716, 6, 67],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2921054,
+    "NOME_MUNICIPIO": "Matina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12314, 62970, 5, 62],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2906709,
+    "NOME_MUNICIPIO": "Cândido Sales",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26855, 170019, 6, 60],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914901,
+    "NOME_MUNICIPIO": "Itacaré",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27619, 262128, 9, 88],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932309,
+    "NOME_MUNICIPIO": "Ubatã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27051, 175145, 6, 54],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910800,
+    "NOME_MUNICIPIO": "Feira de Santana",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [617528, 11962297, 19, 478],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2928208,
+    "NOME_MUNICIPIO": "Santana",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27260, 206865, 7, 43],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2902609,
+    "NOME_MUNICIPIO": "Baixa Grande",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21197, 132445, 6, 82],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2924207,
+    "NOME_MUNICIPIO": "Pedro Alexandre",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18135, 112682, 6, 69],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2920106,
+    "NOME_MUNICIPIO": "Mairi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20097, 125266, 6, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2916005,
+    "NOME_MUNICIPIO": "Itanhém",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20611, 203395, 9, 49],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2911907,
+    "NOME_MUNICIPIO": "Iaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [26178, 225272, 8, 92],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910909,
+    "NOME_MUNICIPIO": "Firmino Alves",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [5786, 43560, 7, 8],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2915007,
+    "NOME_MUNICIPIO": "Itaeté",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16446, 84480, 5, 48],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906808,
+    "NOME_MUNICIPIO": "Cansanção",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [35235, 244199, 6, 93],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2932408,
+    "NOME_MUNICIPIO": "Uibaí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14483, 89314, 6, 42],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2902708,
+    "NOME_MUNICIPIO": "Barra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [54188, 331766, 6, 132],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2904753,
+    "NOME_MUNICIPIO": "Buritirama",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21549, 112619, 5, 75],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2928307,
+    "NOME_MUNICIPIO": "Santanópolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9442, 56115, 5, 33],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2912905,
+    "NOME_MUNICIPIO": "Ibirataia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17947, 166075, 9, 57],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910859,
+    "NOME_MUNICIPIO": "Filadélfia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17583, 114339, 6, 35],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2917003,
+    "NOME_MUNICIPIO": "Itiúba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [38492, 236730, 6, 184],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2908804,
+    "NOME_MUNICIPIO": "Contendas do Sincorá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4326, 34369, 7, 19],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2904704,
+    "NOME_MUNICIPIO": "Buerarema",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19283, 217212, 11, 35],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902658,
+    "NOME_MUNICIPIO": "Banzaê",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13711, 75898, 5, 44],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2907806,
+    "NOME_MUNICIPIO": "Cícero Dantas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [34478, 248504, 7, 52],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933406,
+    "NOME_MUNICIPIO": "Wagner",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9731, 62804, 6, 29],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929305,
+    "NOME_MUNICIPIO": "São Gonçalo dos Campos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [37554, 620385, 16, 55],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2903706,
+    "NOME_MUNICIPIO": "Boa Nova",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14577, 93731, 6, 52],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2925204,
+    "NOME_MUNICIPIO": "Pojuca",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [37543, 955648, 25, 42],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2931350,
+    "NOME_MUNICIPIO": "Teixeira de Freitas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [157804, 2126825, 13, 129],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921104,
+    "NOME_MUNICIPIO": "Medeiros Neto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23478, 299481, 12, 50],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919058,
+    "NOME_MUNICIPIO": "Lajedo do Tabocal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8836, 71227, 8, 23],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917102,
+    "NOME_MUNICIPIO": "Itororó",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21178, 187926, 8, 37],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2906857,
+    "NOME_MUNICIPIO": "Capela do Alto Alegre",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12118, 81782, 6, 34],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932457,
+    "NOME_MUNICIPIO": "Umburanas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19055, 108030, 5, 46],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913002,
+    "NOME_MUNICIPIO": "Ibitiara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16699, 91214, 5, 63],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908903,
+    "NOME_MUNICIPIO": "Coração de Maria",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23146, 168055, 7, 68],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930402,
+    "NOME_MUNICIPIO": "Serra Preta",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15351, 94000, 6, 33],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904803,
+    "NOME_MUNICIPIO": "Caatiba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10166, 64977, 6, 49],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929404,
+    "NOME_MUNICIPIO": "São Miguel das Matas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12009, 118666, 9, 27],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2903805,
+    "NOME_MUNICIPIO": "Boa Vista do Tupim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18658, 110955, 5, 65],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2906873,
+    "NOME_MUNICIPIO": "Capim Grosso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29346, 343668, 11, 47],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2919157,
+    "NOME_MUNICIPIO": "Lapão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27521, 183312, 6, 40],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2925303,
+    "NOME_MUNICIPIO": "Porto Seguro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [145431, 2289906, 15, 145],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921203,
+    "NOME_MUNICIPIO": "Miguel Calmon",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27536, 198221, 7, 94],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2909901,
+    "NOME_MUNICIPIO": "Curaçá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [35208, 258036, 7, 81],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2927309,
+    "NOME_MUNICIPIO": "Salinas da Margarida",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15385, 156733, 10, 26],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2933455,
+    "NOME_MUNICIPIO": "Wanderley",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13008, 133572, 10, 56],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905800,
+    "NOME_MUNICIPIO": "Camamu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [36435, 348686, 9, 106],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906824,
+    "NOME_MUNICIPIO": "Canudos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17177, 109173, 6, 50],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2931400,
+    "NOME_MUNICIPIO": "Teodoro Sampaio",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8013, 67544, 8, 20],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923209,
+    "NOME_MUNICIPIO": "Oliveira dos Brejinhos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22774, 149349, 6, 112],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929354,
+    "NOME_MUNICIPIO": "São José da Vitória",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6118, 44822, 7, 15],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2901700,
+    "NOME_MUNICIPIO": "Antônio Cardoso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12225, 98897, 8, 39],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919108,
+    "NOME_MUNICIPIO": "Lamarão",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9442, 46583, 4, 21],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925253,
+    "NOME_MUNICIPIO": "Ponto Novo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16168, 104419, 6, 67],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2926301,
+    "NOME_MUNICIPIO": "Riachão do Jacuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [35403, 278152, 7, 68],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2900702,
+    "NOME_MUNICIPIO": "Alagoinhas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [154495, 2737826, 17, 211],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2922201,
+    "NOME_MUNICIPIO": "Muniz Ferreira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7893, 47556, 6, 22],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929370,
+    "NOME_MUNICIPIO": "São José do Jacuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11061, 74749, 6, 34],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2918100,
+    "NOME_MUNICIPIO": "Jeremoabo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [41100, 315046, 7, 135],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2914000,
+    "NOME_MUNICIPIO": "Ipirá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [62095, 611581, 9, 123],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923308,
+    "NOME_MUNICIPIO": "Ouriçangas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8839, 50583, 5, 22],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919207,
+    "NOME_MUNICIPIO": "Lauro de Freitas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [191436, 5655486, 29, 150],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2915106,
+    "NOME_MUNICIPIO": "Itagi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13359, 114068, 8, 45],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922300,
+    "NOME_MUNICIPIO": "Muritiba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [30743, 263970, 8, 34],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2914109,
+    "NOME_MUNICIPIO": "Ipupiara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10113, 67414, 6, 41],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2910008,
+    "NOME_MUNICIPIO": "Dário Meira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12022, 94881, 7, 33],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2905909,
+    "NOME_MUNICIPIO": "Campo Alegre de Lourdes",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29938, 182240, 6, 140],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2931509,
+    "NOME_MUNICIPIO": "Teofilândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23011, 137857, 5, 63],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927408,
+    "NOME_MUNICIPIO": "Salvador",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [2921087, 57918103, 19, 1393],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2901809,
+    "NOME_MUNICIPIO": "Antônio Gonçalves",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12187, 63629, 5, 29],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920205,
+    "NOME_MUNICIPIO": "Malhada",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17455, 123374, 7, 49],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2916104,
+    "NOME_MUNICIPIO": "Itaparica",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22615, 200067, 8, 34],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2922250,
+    "NOME_MUNICIPIO": "Muquém do São Francisco",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11495, 124226, 10, 26],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912004,
+    "NOME_MUNICIPIO": "Ibiassucê",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10502, 75189, 7, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907905,
+    "NOME_MUNICIPIO": "Cipó",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17602, 117767, 6, 47],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933505,
+    "NOME_MUNICIPIO": "Wenceslau Guimarães",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22530, 262180, 11, 96],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911006,
+    "NOME_MUNICIPIO": "Floresta Azul",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11313, 80458, 7, 41],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2906907,
+    "NOME_MUNICIPIO": "Caravelas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22548, 344764, 15, 43],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2932507,
+    "NOME_MUNICIPIO": "Una",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22105, 282558, 12, 89],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2904852,
+    "NOME_MUNICIPIO": "Cabaceiras do Paraguaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18978, 111660, 5, 38],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928406,
+    "NOME_MUNICIPIO": "Santa Rita de Cássia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [28822, 200772, 6, 86],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2902807,
+    "NOME_MUNICIPIO": "Barra da Estiva",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22394, 225676, 10, 66],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2924306,
+    "NOME_MUNICIPIO": "Piatã",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18473, 116967, 6, 27],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906899,
+    "NOME_MUNICIPIO": "Caraíbas",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10016, 59925, 5, 16],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910057,
+    "NOME_MUNICIPIO": "Dias d'Ávila",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [78058, 3331141, 42, 68],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2916203,
+    "NOME_MUNICIPIO": "Itapé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10228, 83329, 8, 15],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2933604,
+    "NOME_MUNICIPIO": "Xique-Xique",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [48316, 325877, 6, 187],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912103,
+    "NOME_MUNICIPIO": "Ibicaraí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [24029, 172565, 7, 48],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903904,
+    "NOME_MUNICIPIO": "Bom Jesus da Lapa",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [69526, 773330, 11, 123],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2908002,
+    "NOME_MUNICIPIO": "Coaraci",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19770, 154314, 7, 51],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907004,
+    "NOME_MUNICIPIO": "Cardeal da Silva",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9747, 85919, 8, 14],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2932606,
+    "NOME_MUNICIPIO": "Urandi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17301, 136810, 7, 62],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2928505,
+    "NOME_MUNICIPIO": "Santa Terezinha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10586, 67794, 6, 40],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2902906,
+    "NOME_MUNICIPIO": "Barra do Choça",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [34853, 441795, 12, 71],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2924405,
+    "NOME_MUNICIPIO": "Pilão Arcado",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [35428, 196485, 5, 235],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2920304,
+    "NOME_MUNICIPIO": "Malhada de Pedras",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8896, 52183, 5, 42],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2913101,
+    "NOME_MUNICIPIO": "Ibititá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18727, 108829, 5, 49],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909000,
+    "NOME_MUNICIPIO": "Cordeiros",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8834, 50593, 5, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2930501,
+    "NOME_MUNICIPIO": "Serrinha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [83275, 758297, 9, 204],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904902,
+    "NOME_MUNICIPIO": "Cachoeira",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [34535, 450446, 13, 67],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2926400,
+    "NOME_MUNICIPIO": "Riacho de Santana",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [36039, 218874, 6, 56],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2900801,
+    "NOME_MUNICIPIO": "Alcobaça",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23282, 234477, 10, 66],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918209,
+    "NOME_MUNICIPIO": "Jiquiriçá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15033, 95926, 6, 43],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923357,
+    "NOME_MUNICIPIO": "Ourolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17775, 130408, 7, 41],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929503,
+    "NOME_MUNICIPIO": "São Sebastião do Passé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [45482, 669668, 14, 53],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2925402,
+    "NOME_MUNICIPIO": "Potiraguá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [8969, 80180, 8, 22],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2921302,
+    "NOME_MUNICIPIO": "Milagres",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11659, 85727, 7, 21],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917201,
+    "NOME_MUNICIPIO": "Ituaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19406, 191645, 9, 71],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926509,
+    "NOME_MUNICIPIO": "Ribeira do Amparo",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15269, 109576, 7, 53],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2930600,
+    "NOME_MUNICIPIO": "Serrolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13373, 85396, 6, 33],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922409,
+    "NOME_MUNICIPIO": "Mutuípe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22833, 183015, 8, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2900900,
+    "NOME_MUNICIPIO": "Almadina",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [6145, 57993, 9, 19],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2918308,
+    "NOME_MUNICIPIO": "Jitaúna",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13300, 122868, 9, 63],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2914208,
+    "NOME_MUNICIPIO": "Irajuba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7472, 49866, 6, 27],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925501,
+    "NOME_MUNICIPIO": "Prado",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29218, 422019, 14, 62],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921401,
+    "NOME_MUNICIPIO": "Mirangaba",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [18039, 107474, 5, 42],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2917300,
+    "NOME_MUNICIPIO": "Ituberá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29108, 297856, 10, 62],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2909109,
+    "NOME_MUNICIPIO": "Coribe",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14976, 111094, 7, 58],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905008,
+    "NOME_MUNICIPIO": "Caculé",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [23545, 226874, 9, 34],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2913200,
+    "NOME_MUNICIPIO": "Ibotirama",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [27655, 291853, 10, 73],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2923407,
+    "NOME_MUNICIPIO": "Palmas de Monte Alto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [22416, 141463, 6, 42],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919306,
+    "NOME_MUNICIPIO": "Lençóis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11445, 112338, 9, 25],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2915205,
+    "NOME_MUNICIPIO": "Itagibá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15767, 355444, 22, 52],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911105,
+    "NOME_MUNICIPIO": "Formosa do Rio Preto",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25372, 1605408, 63, 93],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2931608,
+    "NOME_MUNICIPIO": "Teolândia",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15178, 112279, 7, 51],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910107,
+    "NOME_MUNICIPIO": "Dom Basílio",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12499, 112812, 9, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2901908,
+    "NOME_MUNICIPIO": "Aporá",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19146, 111337, 5, 55],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2906006,
+    "NOME_MUNICIPIO": "Campo Formoso",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [72271, 611961, 8, 205],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2903953,
+    "NOME_MUNICIPIO": "Bom Jesus da Serra",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10554, 50877, 4, 15],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2927507,
+    "NOME_MUNICIPIO": "Santa Bárbara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [20754, 150833, 7, 44],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919405,
+    "NOME_MUNICIPIO": "Licínio de Almeida",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [12966, 94756, 7, 54],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917359,
+    "NOME_MUNICIPIO": "Jaborandi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9225, 354521, 38, 23],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2915304,
+    "NOME_MUNICIPIO": "Itagimirim",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7351, 107965, 14, 25],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921450,
+    "NOME_MUNICIPIO": "Mirante",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9902, 55275, 5, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2911204,
+    "NOME_MUNICIPIO": "Gandu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [32809, 308095, 9, 71],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932705,
+    "NOME_MUNICIPIO": "Uruçuca",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [21849, 189304, 8, 88],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910206,
+    "NOME_MUNICIPIO": "Dom Macedo Costa",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [4153, 29377, 7, 16],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2906105,
+    "NOME_MUNICIPIO": "Canápolis",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10142, 60256, 5, 38],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2931707,
+    "NOME_MUNICIPIO": "Terra Nova",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [13547, 99284, 7, 28],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2902005,
+    "NOME_MUNICIPIO": "Aracatu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14089, 85659, 6, 43],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2927606,
+    "NOME_MUNICIPIO": "Santa Brígida",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [15100, 89396, 5, 52],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2904050,
+    "NOME_MUNICIPIO": "Bonito",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16873, 154962, 9, 38],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2923506,
+    "NOME_MUNICIPIO": "Palmeiras",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [9130, 65299, 7, 32],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2916302,
+    "NOME_MUNICIPIO": "Itapebi",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [10882, 446820, 41, 47],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2912202,
+    "NOME_MUNICIPIO": "Ibicoara",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19548, 271149, 13, 16],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2901957,
+    "NOME_MUNICIPIO": "Apuarema",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [7762, 57125, 7, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2908101,
+    "NOME_MUNICIPIO": "Cocos",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [19396, 231611, 11, 83],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2904001,
+    "NOME_MUNICIPIO": "Boninal",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14585, 79697, 5, 46],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929602,
+    "NOME_MUNICIPIO": "Sapeaçu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [17664, 167049, 9, 51],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928604,
+    "NOME_MUNICIPIO": "Santo Amaro",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [61702, 690458, 11, 100],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2907103,
+    "NOME_MUNICIPIO": "Carinhanha",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [29955, 179003, 5, 80],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2924504,
+    "NOME_MUNICIPIO": "Pindaí",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [16805, 98304, 5, 76],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903003,
+    "NOME_MUNICIPIO": "Barra do Mendes",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14526, 85833, 5, 61],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2918357,
+    "NOME_MUNICIPIO": "João Dourado",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [25141, 204850, 8, 30],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917334,
+    "NOME_MUNICIPIO": "Iuiu",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [11331, 87457, 7, 39],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2920403,
+    "NOME_MUNICIPIO": "Manoel Vitorino",
+		"CATEGORIA": ["Ruim", "Ruim", "Ruim", "Ruim"],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Escolas"],
+		"VALORES": [14488, 102938, 7, 65],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  }
+]
+}

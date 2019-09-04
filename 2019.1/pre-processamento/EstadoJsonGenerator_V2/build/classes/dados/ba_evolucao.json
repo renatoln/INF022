@@ -1,0 +1,7259 @@
+{
+
+  "MESORREGIOES":[
+  {
+    "ID": 2901,
+    "NOME_MESORREGIAO": "Extremo Oeste Baiano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [591869, 632538, 638941, 644979, 650635]},
+		{ "NOME": "PIB",
+		"VALORES": [13265770, 13170081, 15429847, 17182844, 14448029]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [397, 364, 429, 468, 398]},
+		{ "NOME": "Escolas",
+		"VALORES": [1346, 1505, 1512, 1460, 1646]}
+	] 
+  },
+  {
+    "ID": 2902,
+    "NOME_MESORREGIAO": "Vale São-Franciscano da Bahia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [977656, 1039302, 1046464, 1053225, 1059124]},
+		{ "NOME": "PIB",
+		"VALORES": [8681957, 8333985, 9525901, 10850313, 11633372]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [172, 162, 184, 210, 224]},
+		{ "NOME": "Escolas",
+		"VALORES": [2410, 2687, 2693, 2645, 2776]}
+	] 
+  },
+  {
+    "ID": 2903,
+    "NOME_MESORREGIAO": "Centro Norte Baiano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [2247354, 2387081, 2398966, 2410803, 2423611]},
+		{ "NOME": "PIB",
+		"VALORES": [20920095, 24535137, 26744115, 28588757, 31568409]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [452, 495, 555, 618, 691]},
+		{ "NOME": "Escolas",
+		"VALORES": [4645, 4981, 5167, 4875, 5244]}
+	] 
+  },
+  {
+    "ID": 2904,
+    "NOME_MESORREGIAO": "Nordeste Baiano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [1558532, 1654262, 1661858, 1668418, 1674176]},
+		{ "NOME": "PIB",
+		"VALORES": [12354199, 14285080, 14449582, 15588863, 16504585]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [389, 427, 429, 469, 477]},
+		{ "NOME": "Escolas",
+		"VALORES": [3724, 4128, 4195, 4079, 4269]}
+	] 
+  },
+  {
+    "ID": 2905,
+    "NOME_MESORREGIAO": "Metropolitana de Salvador",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [4285150, 4566702, 4605773, 4642465, 4677138]},
+		{ "NOME": "PIB",
+		"VALORES": [83715238, 95509414, 105017048, 115583683, 124706605]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [506, 550, 610, 787, 881]},
+		{ "NOME": "Escolas",
+		"VALORES": [3497, 3659, 3824, 3723, 3963]}
+	] 
+  },
+  {
+    "ID": 2906,
+    "NOME_MESORREGIAO": "Centro Sul Baiano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [2488686, 2627307, 2631711, 2635631, 2639246]},
+		{ "NOME": "PIB",
+		"VALORES": [18844365, 21403666, 24184192, 26311320, 28267677]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [630, 682, 797, 878, 941]},
+		{ "NOME": "Escolas",
+		"VALORES": [6233, 6942, 7141, 6753, 7176]}
+	] 
+  },
+  {
+    "ID": 2907,
+    "NOME_MESORREGIAO": "Sul Baiano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [2026094, 2136945, 2142658, 2147813, 2152636]},
+		{ "NOME": "PIB",
+		"VALORES": [24790913, 27606910, 28579280, 30937908, 31520373]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [784, 789, 787, 846, 824]},
+		{ "NOME": "Escolas",
+		"VALORES": [3914, 4364, 4408, 4094, 4385]}
+	] 
+  }
+],
+  "MICRORREGIOES":[
+  {
+    "ID": 29001,
+    "NOME_MICRORREGIAO": "Barreiras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [298118, 321062, 326787, 332223, 337316]},
+		{ "NOME": "PIB",
+		"VALORES": [10516958, 9956336, 11723033, 13329347, 10493931]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [252, 210, 247, 281, 198]},
+		{ "NOME": "Escolas",
+		"VALORES": [456, 536, 518, 528, 619]}
+	],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29002,
+    "NOME_MICRORREGIAO": "Cotegipe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [115428, 121912, 122358, 122743, 123104]},
+		{ "NOME": "PIB",
+		"VALORES": [613449, 710590, 812897, 924692, 1158109]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [38, 42, 50, 56, 72]},
+		{ "NOME": "Escolas",
+		"VALORES": [474, 440, 451, 413, 480]}
+	],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29003,
+    "NOME_MICRORREGIAO": "Santa Maria da Vitória",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [178323, 189564, 189796, 190013, 190215]},
+		{ "NOME": "PIB",
+		"VALORES": [2135363, 2503155, 2893917, 2928805, 2795989]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [107, 112, 132, 131, 128]},
+		{ "NOME": "Escolas",
+		"VALORES": [416, 529, 543, 519, 547]}
+	],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29004,
+    "NOME_MICRORREGIAO": "Juazeiro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [461441, 491297, 494867, 498392, 501662]},
+		{ "NOME": "PIB",
+		"VALORES": [3932266, 4310274, 4971568, 5328510, 5799880]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [61, 53, 59, 69, 73]},
+		{ "NOME": "Escolas",
+		"VALORES": [1108, 1213, 1206, 1218, 1278]}
+	],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29005,
+    "NOME_MICRORREGIAO": "Paulo Afonso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [169823, 180862, 182289, 183634, 184822]},
+		{ "NOME": "PIB",
+		"VALORES": [2792801, 1809786, 2008851, 2691387, 2768841]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [46, 39, 44, 52, 54]},
+		{ "NOME": "Escolas",
+		"VALORES": [362, 409, 407, 365, 415]}
+	],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29006,
+    "NOME_MICRORREGIAO": "Barra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [173417, 184705, 185881, 186837, 187403]},
+		{ "NOME": "PIB",
+		"VALORES": [932605, 1052473, 1219938, 1318663, 1417328]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [35, 37, 42, 48, 51]},
+		{ "NOME": "Escolas",
+		"VALORES": [571, 624, 632, 635, 638]}
+	],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29007,
+    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [172975, 182438, 183427, 184362, 185237]},
+		{ "NOME": "PIB",
+		"VALORES": [1024285, 1161452, 1325544, 1511753, 1647323]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [30, 33, 39, 41, 46]},
+		{ "NOME": "Escolas",
+		"VALORES": [369, 441, 448, 427, 445]}
+	],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29008,
+    "NOME_MICRORREGIAO": "Senhor do Bonfim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [289262, 307095, 308568, 309957, 310949]},
+		{ "NOME": "PIB",
+		"VALORES": [2169174, 2256974, 2500500, 2642201, 2723453]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [58, 54, 62, 66, 67]},
+		{ "NOME": "Escolas",
+		"VALORES": [884, 876, 899, 874, 908]}
+	],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29009,
+    "NOME_MICRORREGIAO": "Irecê",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [376724, 400033, 402131, 404025, 406243]},
+		{ "NOME": "PIB",
+		"VALORES": [2171001, 2454478, 2774468, 3178834, 3605586]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [84, 89, 103, 122, 144]},
+		{ "NOME": "Escolas",
+		"VALORES": [870, 968, 972, 928, 975]}
+	],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29010,
+    "NOME_MICRORREGIAO": "Jacobina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [328233, 347825, 348317, 349295, 350433]},
+		{ "NOME": "PIB",
+		"VALORES": [2227185, 2482628, 2572169, 3042381, 3353769]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [82, 89, 95, 111, 123]},
+		{ "NOME": "Escolas",
+		"VALORES": [823, 873, 952, 834, 946]}
+	],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29011,
+    "NOME_MICRORREGIAO": "Itaberaba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [249549, 264041, 264253, 264568, 264951]},
+		{ "NOME": "PIB",
+		"VALORES": [1497852, 1700335, 1891049, 2058944, 2206134]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [59, 64, 76, 80, 86]},
+		{ "NOME": "Escolas",
+		"VALORES": [649, 750, 756, 736, 759]}
+	],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29012,
+    "NOME_MICRORREGIAO": "Feira de Santana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [1003586, 1068087, 1075697, 1082958, 1091035]},
+		{ "NOME": "PIB",
+		"VALORES": [12854883, 15640722, 17005929, 17666397, 19679467]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [169, 199, 219, 239, 271]},
+		{ "NOME": "Escolas",
+		"VALORES": [1419, 1514, 1588, 1503, 1656]}
+	],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29013,
+    "NOME_MICRORREGIAO": "Jeremoabo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [98486, 103758, 103472, 103200, 103119]},
+		{ "NOME": "PIB",
+		"VALORES": [481699, 600635, 649307, 722597, 725985]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [22, 27, 27, 31, 31]},
+		{ "NOME": "Escolas",
+		"VALORES": [364, 371, 371, 360, 373]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29014,
+    "NOME_MICRORREGIAO": "Euclides da Cunha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [299146, 316859, 317665, 316134, 313827]},
+		{ "NOME": "PIB",
+		"VALORES": [1480628, 1852949, 1934704, 2353514, 2431188]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [38, 46, 49, 60, 63]},
+		{ "NOME": "Escolas",
+		"VALORES": [856, 977, 980, 927, 990]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29015,
+    "NOME_MICRORREGIAO": "Ribeira do Pombal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [311896, 331015, 332500, 335586, 340063]},
+		{ "NOME": "PIB",
+		"VALORES": [1700457, 2184443, 2273947, 2661384, 2731605]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [65, 79, 82, 101, 100]},
+		{ "NOME": "Escolas",
+		"VALORES": [624, 708, 709, 705, 722]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29016,
+    "NOME_MICRORREGIAO": "Serrinha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [419176, 445298, 447707, 449981, 451299]},
+		{ "NOME": "PIB",
+		"VALORES": [2681801, 2988238, 3228063, 3599485, 3927502]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [98, 102, 111, 126, 133]},
+		{ "NOME": "Escolas",
+		"VALORES": [1020, 1146, 1194, 1161, 1245]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29017,
+    "NOME_MICRORREGIAO": "Alagoinhas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [312520, 332440, 334674, 336783, 338298]},
+		{ "NOME": "PIB",
+		"VALORES": [4115343, 4668414, 4642052, 4714442, 5208920]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [97, 104, 98, 94, 94]},
+		{ "NOME": "Escolas",
+		"VALORES": [575, 631, 645, 651, 649]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29018,
+    "NOME_MICRORREGIAO": "Entre Rios",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [117308, 124892, 125840, 126734, 127570]},
+		{ "NOME": "PIB",
+		"VALORES": [1894271, 1990401, 1721509, 1537441, 1479385]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [69, 69, 62, 57, 56]},
+		{ "NOME": "Escolas",
+		"VALORES": [285, 295, 296, 275, 290]}
+	],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29019,
+    "NOME_MICRORREGIAO": "Catu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [215315, 229226, 230951, 232579, 234071]},
+		{ "NOME": "PIB",
+		"VALORES": [3993925, 4401981, 3948387, 3681427, 3382297]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [110, 114, 101, 96, 89]},
+		{ "NOME": "Escolas",
+		"VALORES": [304, 345, 358, 352, 363]}
+	],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29020,
+    "NOME_MICRORREGIAO": "Santo Antônio de Jesus",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [545271, 579220, 582505, 585436, 588529]},
+		{ "NOME": "PIB",
+		"VALORES": [5077893, 6162762, 6401435, 6795870, 7419502]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [148, 170, 177, 196, 210]},
+		{ "NOME": "Escolas",
+		"VALORES": [985, 1189, 1181, 1143, 1206]}
+	],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29021,
+    "NOME_MICRORREGIAO": "Salvador",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3524564, 3758256, 3792317, 3824450, 3854538]},
+		{ "NOME": "PIB",
+		"VALORES": [74643420, 84944671, 94667226, 105106386, 113904806]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [248, 266, 332, 495, 582]},
+		{ "NOME": "Escolas",
+		"VALORES": [2208, 2125, 2285, 2228, 2394]}
+	],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29022,
+    "NOME_MICRORREGIAO": "Boquira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [188675, 197866, 198620, 199366, 200064]},
+		{ "NOME": "PIB",
+		"VALORES": [886050, 1002084, 1107996, 1215697, 1301712]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [48, 50, 56, 61, 66]},
+		{ "NOME": "Escolas",
+		"VALORES": [821, 816, 854, 855, 857]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29023,
+    "NOME_MICRORREGIAO": "Seabra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [254396, 269630, 270898, 271254, 271594]},
+		{ "NOME": "PIB",
+		"VALORES": [1644851, 1878893, 2216764, 2441252, 2652731]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [107, 113, 142, 155, 168]},
+		{ "NOME": "Escolas",
+		"VALORES": [676, 770, 790, 756, 798]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29024,
+    "NOME_MICRORREGIAO": "Jequié",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [509608, 537105, 536988, 537271, 537482]},
+		{ "NOME": "PIB",
+		"VALORES": [3825631, 4396185, 4820549, 5333112, 5743191]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [146, 160, 178, 199, 212]},
+		{ "NOME": "Escolas",
+		"VALORES": [1104, 1181, 1238, 1141, 1235]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29025,
+    "NOME_MICRORREGIAO": "Livramento do Brumado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [98888, 102995, 103581, 104132, 104650]},
+		{ "NOME": "PIB",
+		"VALORES": [570117, 638737, 749771, 799224, 882065]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [25, 26, 31, 33, 36]},
+		{ "NOME": "Escolas",
+		"VALORES": [320, 379, 397, 394, 396]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29026,
+    "NOME_MICRORREGIAO": "Guanambi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [374180, 401741, 403473, 405109, 406639]},
+		{ "NOME": "PIB",
+		"VALORES": [2375441, 2769072, 3511995, 3727032, 3879987]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [90, 99, 124, 130, 137]},
+		{ "NOME": "Escolas",
+		"VALORES": [918, 1050, 1077, 1019, 1072]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29027,
+    "NOME_MICRORREGIAO": "Brumado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [233819, 245277, 244234, 243257, 242336]},
+		{ "NOME": "PIB",
+		"VALORES": [1826127, 2017463, 2217344, 2329523, 2618548]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [70, 78, 87, 95, 103]},
+		{ "NOME": "Escolas",
+		"VALORES": [783, 931, 937, 857, 938]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29028,
+    "NOME_MICRORREGIAO": "Vitória da Conquista",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [629222, 664905, 666427, 668034, 669534]},
+		{ "NOME": "PIB",
+		"VALORES": [6028056, 6948740, 7613548, 8337223, 8899435]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [85, 94, 107, 126, 130]},
+		{ "NOME": "Escolas",
+		"VALORES": [1183, 1354, 1351, 1293, 1385]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29029,
+    "NOME_MICRORREGIAO": "Itapetinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [199898, 207788, 207490, 207208, 206947]},
+		{ "NOME": "PIB",
+		"VALORES": [1688092, 1752492, 1946225, 2128257, 2290008]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [59, 62, 72, 79, 89]},
+		{ "NOME": "Escolas",
+		"VALORES": [428, 461, 497, 438, 495]}
+	],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29030,
+    "NOME_MICRORREGIAO": "Valença",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [267081, 284635, 286795, 289292, 291138]},
+		{ "NOME": "PIB",
+		"VALORES": [4814220, 5154114, 4413269, 4093985, 3531277]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [235, 227, 176, 147, 112]},
+		{ "NOME": "Escolas",
+		"VALORES": [762, 820, 822, 810, 824]}
+	],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29031,
+    "NOME_MICRORREGIAO": "Ilhéus-Itabuna",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [1016864, 1060853, 1057086, 1052837, 1049348]},
+		{ "NOME": "PIB",
+		"VALORES": [10979077, 11996707, 12942114, 13942632, 14339720]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [335, 329, 365, 415, 424]},
+		{ "NOME": "Escolas",
+		"VALORES": [2077, 2284, 2315, 2132, 2280]}
+	],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29032,
+    "NOME_MICRORREGIAO": "Porto Seguro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [742149, 791457, 798777, 805684, 812150]},
+		{ "NOME": "PIB",
+		"VALORES": [8997616, 10456089, 11223897, 12901291, 13649376]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [214, 233, 246, 284, 288]},
+		{ "NOME": "Escolas",
+		"VALORES": [1075, 1260, 1271, 1152, 1281]}
+	],
+    "ID_MESO": 2907 
+  }
+],
+  "MUNICIPIOS":[
+  {
+    "ID": 2912301,
+    "NOME_MUNICIPIO": "Ibicuí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15650, 16582, 16640, 16696, 16748]},
+		{ "NOME": "PIB",
+		"VALORES": [96607, 113228, 143597, 165542, 161612]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [30, 39, 40, 39, 38]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2908200,
+    "NOME_MUNICIPIO": "Conceição da Feira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20826, 22226, 22448, 22656, 22840]},
+		{ "NOME": "PIB",
+		"VALORES": [126421, 161098, 194277, 248132, 255524]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 53, 54, 49, 54]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904100,
+    "NOME_MUNICIPIO": "Boquira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22025, 22389, 22409, 22429, 22448]},
+		{ "NOME": "PIB",
+		"VALORES": [90109, 107278, 116886, 128250, 137385]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [105, 78, 113, 113, 113]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929701,
+    "NOME_MUNICIPIO": "Sátiro Dias",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19054, 20195, 20259, 20320, 20376]},
+		{ "NOME": "PIB",
+		"VALORES": [102157, 101531, 104459, 136424, 165579]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [47, 48, 48, 53, 54]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2902054,
+    "NOME_MUNICIPIO": "Araçás",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11642, 12351, 12402, 12450, 12495]},
+		{ "NOME": "PIB",
+		"VALORES": [374120, 434960, 358059, 262311, 125487]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [32, 35, 28, 21, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 40, 41, 40, 40]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925600,
+    "NOME_MUNICIPIO": "Presidente Dutra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13807, 14629, 14672, 14712, 15699]},
+		{ "NOME": "PIB",
+		"VALORES": [69823, 73112, 85609, 94149, 98559]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 39, 39, 39, 39]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917409,
+    "NOME_MUNICIPIO": "Jacaraci",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14500, 15350, 15380, 15409, 15435]},
+		{ "NOME": "PIB",
+		"VALORES": [58525, 65778, 75714, 83385, 94754]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [21, 70, 70, 70, 70]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903102,
+    "NOME_MUNICIPIO": "Barra do Rocha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6038, 6261, 6518, 6424, 6338]},
+		{ "NOME": "PIB",
+		"VALORES": [43490, 46147, 141515, 64775, 61857]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 21, 10, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 31, 31, 31, 31]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928703,
+    "NOME_MUNICIPIO": "Santo Antônio de Jesus",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [93077, 99407, 100550, 101548, 102469]},
+		{ "NOME": "PIB",
+		"VALORES": [1357083, 1643502, 1766378, 1881134, 2094682]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [14, 16, 17, 18, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [102, 130, 133, 132, 133]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918456,
+    "NOME_MUNICIPIO": "Jucuruçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9972, 10403, 10272, 10148, 10032]},
+		{ "NOME": "PIB",
+		"VALORES": [113241, 157029, 102252, 98339, 96532]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 15, 9, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [77, 77, 77, 59, 77]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2924603,
+    "NOME_MUNICIPIO": "Pindobaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20009, 21113, 21087, 21062, 21191]},
+		{ "NOME": "PIB",
+		"VALORES": [86561, 97497, 109567, 123108, 122273]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [54, 58, 58, 57, 58]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920502,
+    "NOME_MUNICIPIO": "Maracás",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25024, 24491, 24156, 23751, 23373]},
+		{ "NOME": "PIB",
+		"VALORES": [149701, 175846, 192822, 260156, 308900]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 7, 7, 10, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [63, 65, 65, 65, 65]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2916401,
+    "NOME_MUNICIPIO": "Itapetinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [69903, 74652, 75440, 76184, 76881]},
+		{ "NOME": "PIB",
+		"VALORES": [887015, 844595, 898576, 940315, 1015448]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [12, 11, 11, 12, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [70, 79, 80, 77, 79]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2922508,
+    "NOME_MUNICIPIO": "Nazaré",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27454, 29122, 29297, 29406, 29450]},
+		{ "NOME": "PIB",
+		"VALORES": [202806, 227475, 227820, 239884, 246709]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 64, 63, 50, 62]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2901007,
+    "NOME_MUNICIPIO": "Amargosa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [34845, 37081, 37557, 37807, 38041]},
+		{ "NOME": "PIB",
+		"VALORES": [231597, 268100, 294237, 315353, 338286]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [59, 59, 67, 60, 60]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2920452,
+    "NOME_MUNICIPIO": "Mansidão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12759, 13598, 13652, 13761, 13864]},
+		{ "NOME": "PIB",
+		"VALORES": [47028, 51854, 59525, 70296, 88889]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 4, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [66, 66, 66, 66, 66]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918407,
+    "NOME_MUNICIPIO": "Juazeiro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [201499, 214748, 216588, 218324, 220253]},
+		{ "NOME": "PIB",
+		"VALORES": [2148674, 2623338, 3011502, 3135297, 3435777]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 12, 13, 14, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [193, 199, 197, 208, 215]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2914307,
+    "NOME_MUNICIPIO": "Iramaia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11150, 11412, 10809, 10487, 10184]},
+		{ "NOME": "PIB",
+		"VALORES": [51989, 58937, 68511, 80874, 78037]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [41, 41, 41, 21, 41]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2921500,
+    "NOME_MUNICIPIO": "Monte Santo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [52023, 54884, 54807, 54733, 52015]},
+		{ "NOME": "PIB",
+		"VALORES": [214387, 265711, 265483, 323318, 310814]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [177, 197, 197, 201, 201]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2913309,
+    "NOME_MUNICIPIO": "Ichu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [5908, 6265, 6288, 6311, 6418]},
+		{ "NOME": "PIB",
+		"VALORES": [27108, 30136, 32880, 38207, 38498]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [14, 20, 20, 20, 21]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2909208,
+    "NOME_MUNICIPIO": "Coronel João Sá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16650, 17422, 17256, 17098, 16951]},
+		{ "NOME": "PIB",
+		"VALORES": [76107, 93812, 114874, 124629, 132814]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [73, 74, 74, 67, 77]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915353,
+    "NOME_MUNICIPIO": "Itaguaçu da Bahia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13487, 14392, 14533, 14667, 14604]},
+		{ "NOME": "PIB",
+		"VALORES": [53322, 58933, 69148, 75935, 82810]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [94, 101, 104, 104, 105]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2911253,
+    "NOME_MUNICIPIO": "Gavião",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [4510, 4747, 4729, 4712, 4740]},
+		{ "NOME": "PIB",
+		"VALORES": [24736, 28329, 31819, 38270, 37750]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 8, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 23, 42, 43, 43]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2930709,
+    "NOME_MUNICIPIO": "Simões Filho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [121416, 129964, 131630, 133202, 134674]},
+		{ "NOME": "PIB",
+		"VALORES": [3484652, 3960366, 4413660, 4580827, 4988848]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [28, 30, 33, 34, 37]},
+		{ "NOME": "Escolas",
+		"VALORES": [121, 139, 142, 142, 142]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2926608,
+    "NOME_MUNICIPIO": "Ribeira do Pombal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [47877, 50805, 51026, 51418, 54773]},
+		{ "NOME": "PIB",
+		"VALORES": [341051, 399182, 448906, 478779, 510036]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [68, 71, 72, 70, 72]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905107,
+    "NOME_MUNICIPIO": "Caém",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10013, 10429, 10282, 10143, 10179]},
+		{ "NOME": "PIB",
+		"VALORES": [52912, 60328, 66776, 80740, 87366]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [41, 39, 41, 41, 40]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924652,
+    "NOME_MUNICIPIO": "Pintadas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10250, 10798, 10769, 10742, 11036]},
+		{ "NOME": "PIB",
+		"VALORES": [50153, 59683, 65855, 72941, 77033]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [19, 21, 21, 22, 22]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922607,
+    "NOME_MUNICIPIO": "Nilo Peçanha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12729, 13555, 14119, 14188, 14279]},
+		{ "NOME": "PIB",
+		"VALORES": [80314, 96483, 97823, 109309, 129704]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 6, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [56, 56, 56, 56, 56]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2918506,
+    "NOME_MUNICIPIO": "Jussara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15004, 15848, 15844, 15841, 16006]},
+		{ "NOME": "PIB",
+		"VALORES": [65305, 74321, 84518, 90788, 94045]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 43, 43, 43, 43]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2914406,
+    "NOME_MUNICIPIO": "Iraquara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [23246, 24882, 24712, 25006, 25279]},
+		{ "NOME": "PIB",
+		"VALORES": [151258, 148252, 194711, 282787, 331163]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 5, 7, 11, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [37, 50, 50, 50, 52]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910305,
+    "NOME_MUNICIPIO": "Elísio Medrado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7961, 8426, 8420, 8434, 8448]},
+		{ "NOME": "PIB",
+		"VALORES": [37909, 44095, 50495, 54645, 58940]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 28, 39, 39, 39]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930808,
+    "NOME_MUNICIPIO": "Souto Soares",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16069, 17073, 17239, 17332, 17419]},
+		{ "NOME": "PIB",
+		"VALORES": [66528, 71454, 82287, 89196, 93720]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 55, 55, 55, 55]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909307,
+    "NOME_MUNICIPIO": "Correntina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [31397, 32980, 33084, 33183, 33275]},
+		{ "NOME": "PIB",
+		"VALORES": [848517, 1134738, 1235037, 1297030, 1123973]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [27, 34, 37, 39, 33]},
+		{ "NOME": "Escolas",
+		"VALORES": [74, 88, 87, 88, 88]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905206,
+    "NOME_MUNICIPIO": "Caetité",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [47774, 52166, 52353, 52531, 52696]},
+		{ "NOME": "PIB",
+		"VALORES": [359166, 442025, 639480, 724323, 637474]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 12, 13, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [172, 173, 175, 175, 174]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2901106,
+    "NOME_MUNICIPIO": "Amélia Rodrigues",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25080, 26477, 26458, 26441, 26424]},
+		{ "NOME": "PIB",
+		"VALORES": [197678, 230017, 263577, 264417, 280400]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 41, 42, 41, 43]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2926707,
+    "NOME_MUNICIPIO": "Rio de Contas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12891, 13592, 13653, 13616, 13581]},
+		{ "NOME": "PIB",
+		"VALORES": [71926, 77222, 97408, 105825, 109725]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 7, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 67, 67, 67, 67]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930766,
+    "NOME_MUNICIPIO": "Sítio do Quinto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11930, 12317, 12034, 11767, 11517]},
+		{ "NOME": "PIB",
+		"VALORES": [61588, 74972, 68584, 80844, 74128]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 40, 40, 37, 40]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915403,
+    "NOME_MUNICIPIO": "Itaju do Colônia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7118, 7507, 7428, 7353, 7284]},
+		{ "NOME": "PIB",
+		"VALORES": [49913, 55759, 61982, 68949, 65351]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [26, 35, 35, 28, 36]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2905156,
+    "NOME_MUNICIPIO": "Caetanos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14926, 15842, 15913, 15982, 16045]},
+		{ "NOME": "PIB",
+		"VALORES": [48946, 62517, 64918, 73204, 77193]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 4, 4, 4]},
+		{ "NOME": "Escolas",
+		"VALORES": [57, 65, 65, 59, 65]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2932804,
+    "NOME_MUNICIPIO": "Utinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18367, 19516, 19490, 19593, 19688]},
+		{ "NOME": "PIB",
+		"VALORES": [102600, 115145, 129643, 139506, 150627]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [26, 38, 38, 38, 38]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930758,
+    "NOME_MUNICIPIO": "Sítio do Mato",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12161, 13188, 13256, 13320, 13381]},
+		{ "NOME": "PIB",
+		"VALORES": [60293, 75056, 87943, 90719, 99448]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [28, 43, 42, 43, 42]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2911303,
+    "NOME_MUNICIPIO": "Gentio do Ouro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10690, 11338, 11381, 11423, 11603]},
+		{ "NOME": "PIB",
+		"VALORES": [42191, 46966, 52990, 57569, 197590]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 62, 62, 63, 63]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2926657,
+    "NOME_MUNICIPIO": "Ribeirão do Largo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10432, 9195, 8713, 8260, 7835]},
+		{ "NOME": "PIB",
+		"VALORES": [60308, 68408, 78081, 88674, 84524]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 7, 8, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [57, 68, 68, 68, 68]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2907202,
+    "NOME_MUNICIPIO": "Casa Nova",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [66331, 70796, 71504, 72172, 72798]},
+		{ "NOME": "PIB",
+		"VALORES": [380450, 409435, 545233, 541116, 584368]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 7, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [231, 272, 269, 273, 294]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2906204,
+    "NOME_MUNICIPIO": "Canarana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24430, 26006, 26200, 26382, 26702]},
+		{ "NOME": "PIB",
+		"VALORES": [111334, 127208, 143787, 165354, 174080]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [53, 53, 53, 53, 53]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2931806,
+    "NOME_MUNICIPIO": "Tremedal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17750, 18560, 18367, 18187, 17854]},
+		{ "NOME": "PIB",
+		"VALORES": [70670, 84944, 100665, 104101, 116144]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [78, 135, 136, 122, 136]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2902104,
+    "NOME_MUNICIPIO": "Araci",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [52325, 55655, 56023, 56370, 55637]},
+		{ "NOME": "PIB",
+		"VALORES": [257451, 297508, 339819, 366516, 391894]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [130, 150, 151, 133, 152]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927705,
+    "NOME_MUNICIPIO": "Santa Cruz Cabrália",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [26623, 27854, 28045, 28226, 28394]},
+		{ "NOME": "PIB",
+		"VALORES": [212967, 240011, 275955, 299180, 339478]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 47, 47, 35, 48]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923605,
+    "NOME_MUNICIPIO": "Paramirim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21226, 21838, 21961, 22077, 22184]},
+		{ "NOME": "PIB",
+		"VALORES": [110517, 124485, 144311, 157518, 189972]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [82, 82, 83, 82, 82]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2929750,
+    "NOME_MUNICIPIO": "Saubara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11354, 12078, 12161, 12238, 12311]},
+		{ "NOME": "PIB",
+		"VALORES": [89641, 103330, 107072, 115673, 121519]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 20, 20, 20, 20]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2930774,
+    "NOME_MUNICIPIO": "Sobradinho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22109, 23435, 23511, 23583, 23650]},
+		{ "NOME": "PIB",
+		"VALORES": [507540, 304590, 242403, 361706, 384852]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [22, 12, 10, 15, 16]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 25, 23, 23, 23]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2919504,
+    "NOME_MUNICIPIO": "Livramento de Nossa Senhora",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [43514, 45236, 45647, 46035, 46399]},
+		{ "NOME": "PIB",
+		"VALORES": [280578, 320617, 384861, 404785, 433471]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [110, 165, 165, 164, 164]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2915502,
+    "NOME_MUNICIPIO": "Itajuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20878, 21884, 21817, 21754, 21697]},
+		{ "NOME": "PIB",
+		"VALORES": [224032, 233898, 226845, 255692, 267247]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 10, 10, 11, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 53, 53, 48, 53]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911402,
+    "NOME_MUNICIPIO": "Glória",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15114, 16003, 16039, 16072, 15810]},
+		{ "NOME": "PIB",
+		"VALORES": [100574, 115123, 131834, 146864, 167411]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [61, 61, 61, 61, 62]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2907301,
+    "NOME_MUNICIPIO": "Castro Alves",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25555, 27097, 27194, 27286, 27161]},
+		{ "NOME": "PIB",
+		"VALORES": [199978, 233432, 278307, 331795, 362052]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 10, 12, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [69, 86, 86, 85, 86]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2932903,
+    "NOME_MUNICIPIO": "Valença",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [90319, 96287, 96507, 97305, 98053]},
+		{ "NOME": "PIB",
+		"VALORES": [919172, 1106119, 1195982, 1325324, 1399668]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 12, 13, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [179, 190, 192, 192, 189]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2922656,
+    "NOME_MUNICIPIO": "Nordestina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12458, 13216, 13270, 13321, 13552]},
+		{ "NOME": "PIB",
+		"VALORES": [51476, 57793, 64553, 80255, 102198]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 58, 58, 58, 58]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903201,
+    "NOME_MUNICIPIO": "Barreiras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [141081, 150896, 152208, 153918, 155519]},
+		{ "NOME": "PIB",
+		"VALORES": [2816370, 2888677, 3337723, 3718351, 3358643]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [19, 19, 21, 24, 21]},
+		{ "NOME": "Escolas",
+		"VALORES": [132, 146, 143, 148, 212]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2928802,
+    "NOME_MUNICIPIO": "Santo Estêvão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [48897, 52186, 52704, 53193, 53473]},
+		{ "NOME": "PIB",
+		"VALORES": [440379, 514438, 598998, 582961, 734035]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 9, 11, 10, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [59, 63, 70, 65, 66]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2901155,
+    "NOME_MUNICIPIO": "América Dourada",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15962, 16884, 16904, 16923, 16781]},
+		{ "NOME": "PIB",
+		"VALORES": [67637, 76842, 88549, 103621, 120759]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [50, 62, 62, 62, 62]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927804,
+    "NOME_MUNICIPIO": "Santa Cruz da Vitória",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6481, 6808, 6778, 6750, 6723]},
+		{ "NOME": "PIB",
+		"VALORES": [36725, 42098, 47086, 54259, 54820]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [13, 14, 14, 12, 14]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925758,
+    "NOME_MUNICIPIO": "Presidente Tancredo Neves",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24517, 26238, 27187, 27505, 27803]},
+		{ "NOME": "PIB",
+		"VALORES": [135065, 171327, 182212, 195296, 221303]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [72, 94, 94, 95, 94]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906303,
+    "NOME_MUNICIPIO": "Canavieiras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [31902, 33570, 33415, 33268, 33130]},
+		{ "NOME": "PIB",
+		"VALORES": [194938, 229268, 267174, 298980, 309233]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [89, 90, 90, 94, 94]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2923704,
+    "NOME_MUNICIPIO": "Paratinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [29853, 32258, 32452, 32636, 32807]},
+		{ "NOME": "PIB",
+		"VALORES": [140340, 160408, 181186, 185874, 200638]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [99, 100, 100, 101, 101]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902203,
+    "NOME_MUNICIPIO": "Aramari",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10483, 11157, 11237, 11314, 11385]},
+		{ "NOME": "PIB",
+		"VALORES": [54151, 63629, 69639, 74097, 84880]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [28, 30, 30, 31, 31]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2913457,
+    "NOME_MUNICIPIO": "Igrapiúna",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13028, 13636, 14509, 14395, 14288]},
+		{ "NOME": "PIB",
+		"VALORES": [130705, 145642, 162868, 178788, 177433]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 10, 11, 12, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [65, 71, 72, 70, 72]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2919603,
+    "NOME_MUNICIPIO": "Macajuba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11201, 11835, 11836, 11837, 11878]},
+		{ "NOME": "PIB",
+		"VALORES": [53189, 61352, 61779, 64853, 71175]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 34, 34, 29, 33]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2900108,
+    "NOME_MUNICIPIO": "Abaíra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8659, 9132, 9243, 9226, 9212]},
+		{ "NOME": "PIB",
+		"VALORES": [42148, 42485, 55320, 54905, 64325]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [17, 22, 22, 15, 22]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925709,
+    "NOME_MUNICIPIO": "Presidente Jânio Quadros",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12854, 13442, 13307, 13178, 13456]},
+		{ "NOME": "PIB",
+		"VALORES": [49754, 57130, 65980, 70241, 74388]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [60, 67, 69, 69, 69]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2929800,
+    "NOME_MUNICIPIO": "Saúde",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11921, 12644, 12693, 12739, 13343]},
+		{ "NOME": "PIB",
+		"VALORES": [55246, 60170, 64851, 73067, 82872]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 52, 52, 52, 52]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2921609,
+    "NOME_MUNICIPIO": "Morpará",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8233, 8987, 8977, 8967, 8958]},
+		{ "NOME": "PIB",
+		"VALORES": [37977, 45040, 48236, 56387, 60555]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [38, 38, 38, 38, 38]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2917508,
+    "NOME_MUNICIPIO": "Jacobina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [79580, 84328, 84577, 84811, 83435]},
+		{ "NOME": "PIB",
+		"VALORES": [922324, 868282, 887350, 1038299, 1268886]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 10, 10, 12, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [128, 131, 148, 111, 144]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924678,
+    "NOME_MUNICIPIO": "Piraí do Norte",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9833, 10415, 9777, 10360, 10386]},
+		{ "NOME": "PIB",
+		"VALORES": [47139, 56545, 55524, 57871, 77340]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 48, 47, 37, 50]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2913408,
+    "NOME_MUNICIPIO": "Igaporã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15238, 16159, 16193, 16225, 16255]},
+		{ "NOME": "PIB",
+		"VALORES": [78095, 90502, 211224, 189919, 167008]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 13, 11, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [32, 32, 32, 32, 32]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919553,
+    "NOME_MUNICIPIO": "Luís Eduardo Magalhães",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [66371, 73061, 76420, 79162, 81730]},
+		{ "NOME": "PIB",
+		"VALORES": [3261809, 3385205, 3824488, 4376477, 3999684]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [49, 46, 50, 55, 48]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 58, 65, 70, 71]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2924702,
+    "NOME_MUNICIPIO": "Piripá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12219, 12678, 12452, 12238, 12035]},
+		{ "NOME": "PIB",
+		"VALORES": [47026, 54210, 59039, 63711, 66480]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [30, 75, 75, 75, 75]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2920601,
+    "NOME_MUNICIPIO": "Maragogipe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [43114, 45740, 45928, 46106, 46106]},
+		{ "NOME": "PIB",
+		"VALORES": [494917, 754165, 547239, 430960, 402368]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 16, 11, 9, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [79, 105, 93, 94, 103]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918555,
+    "NOME_MUNICIPIO": "Jussari",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6322, 6493, 6434, 6378, 6324]},
+		{ "NOME": "PIB",
+		"VALORES": [42195, 46297, 47464, 54207, 51054]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 27, 28, 29, 29]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2916500,
+    "NOME_MUNICIPIO": "Itapicuru",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [33008, 35255, 35632, 35987, 36320]},
+		{ "NOME": "PIB",
+		"VALORES": [249320, 300608, 323726, 349735, 371220]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [95, 95, 96, 96, 96]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2908309,
+    "NOME_MUNICIPIO": "Conceição do Almeida",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17705, 18644, 18583, 18525, 18278]},
+		{ "NOME": "PIB",
+		"VALORES": [100055, 115089, 121617, 139159, 154762]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [34, 50, 51, 51, 51]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2912400,
+    "NOME_MUNICIPIO": "Ibipeba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17277, 18398, 18540, 18674, 18563]},
+		{ "NOME": "PIB",
+		"VALORES": [77533, 81344, 92513, 101567, 117999]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 42, 42, 42, 42]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2904209,
+    "NOME_MUNICIPIO": "Botuporã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10950, 11162, 11089, 11021, 10957]},
+		{ "NOME": "PIB",
+		"VALORES": [56293, 62670, 72032, 78349, 85716]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [56, 55, 57, 57, 57]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2902252,
+    "NOME_MUNICIPIO": "Arataca",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10307, 11822, 11779, 11737, 11697]},
+		{ "NOME": "PIB",
+		"VALORES": [72263, 73988, 91722, 99125, 97942]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 55, 55, 55, 56]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903276,
+    "NOME_MUNICIPIO": "Barrocas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14495, 15470, 15624, 15770, 16167]},
+		{ "NOME": "PIB",
+		"VALORES": [248166, 175420, 168872, 192758, 250869]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [17, 11, 10, 12, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 42, 41, 44, 44]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2921708,
+    "NOME_MUNICIPIO": "Morro do Chapéu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [35251, 37326, 36641, 36717, 36789]},
+		{ "NOME": "PIB",
+		"VALORES": [181545, 318334, 235760, 359136, 299843]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 8, 6, 9, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [103, 109, 112, 113, 110]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2900207,
+    "NOME_MUNICIPIO": "Abaré",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17685, 18989, 19290, 19574, 19939]},
+		{ "NOME": "PIB",
+		"VALORES": [73066, 89738, 107311, 120085, 124754]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [65, 66, 66, 66, 67]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2922730,
+    "NOME_MUNICIPIO": "Nova Fátima",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7630, 8083, 8105, 8125, 8101]},
+		{ "NOME": "PIB",
+		"VALORES": [46850, 53763, 57128, 67888, 69928]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 27, 27, 27, 27]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917607,
+    "NOME_MUNICIPIO": "Jaguaquara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [51635, 54902, 55127, 55449, 55751]},
+		{ "NOME": "PIB",
+		"VALORES": [339670, 398281, 440895, 507913, 549746]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [94, 95, 95, 91, 91]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2913507,
+    "NOME_MUNICIPIO": "Iguaí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [26053, 27615, 27704, 27787, 27865]},
+		{ "NOME": "PIB",
+		"VALORES": [124975, 145136, 176506, 198773, 195843]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [91, 91, 91, 91, 91]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2920700,
+    "NOME_MUNICIPIO": "Maraú",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19212, 21016, 21098, 21175, 21246]},
+		{ "NOME": "PIB",
+		"VALORES": [138973, 160481, 182366, 208066, 231972]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [80, 81, 81, 81, 82]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2912509,
+    "NOME_MUNICIPIO": "Ibipitanga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14285, 15162, 15231, 15296, 15356]},
+		{ "NOME": "PIB",
+		"VALORES": [59044, 69303, 77363, 88238, 92141]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [67, 67, 67, 67, 67]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908408,
+    "NOME_MUNICIPIO": "Conceição do Coité",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [63033, 67126, 67651, 68146, 67875]},
+		{ "NOME": "PIB",
+		"VALORES": [462612, 522783, 585923, 677617, 729657]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [179, 153, 180, 178, 181]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904308,
+    "NOME_MUNICIPIO": "Brejões",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14123, 14866, 15265, 15214, 15166]},
+		{ "NOME": "PIB",
+		"VALORES": [110716, 119766, 125837, 130821, 129112]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 8, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [38, 39, 39, 39, 39]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2929909,
+    "NOME_MUNICIPIO": "Seabra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [42163, 44765, 44999, 45202, 45395]},
+		{ "NOME": "PIB",
+		"VALORES": [284752, 337581, 363448, 408052, 444046]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [107, 109, 113, 113, 114]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925808,
+    "NOME_MUNICIPIO": "Queimadas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24602, 26023, 26054, 26083, 26525]},
+		{ "NOME": "PIB",
+		"VALORES": [123056, 147253, 159951, 195879, 208014]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 68, 69, 69, 70]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2918605,
+    "NOME_MUNICIPIO": "Jussiape",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7533, 7741, 7429, 7229, 7239]},
+		{ "NOME": "PIB",
+		"VALORES": [34735, 37104, 45942, 52290, 56631]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 46, 46, 45, 46]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914505,
+    "NOME_MUNICIPIO": "Irará",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27814, 29579, 29770, 29950, 29723]},
+		{ "NOME": "PIB",
+		"VALORES": [149148, 184790, 203294, 229254, 240266]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [80, 81, 81, 82, 82]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2910404,
+    "NOME_MUNICIPIO": "Encruzilhada",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22478, 21418, 20859, 20331, 19837]},
+		{ "NOME": "PIB",
+		"VALORES": [140953, 156193, 174269, 195658, 181804]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [87, 90, 92, 91, 91]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2931905,
+    "NOME_MUNICIPIO": "Tucano",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [52734, 55923, 56131, 55777, 52381]},
+		{ "NOME": "PIB",
+		"VALORES": [305345, 342046, 337921, 391782, 424731]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [94, 123, 123, 101, 124]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903235,
+    "NOME_MUNICIPIO": "Barro Alto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13914, 14855, 15230, 15377, 15093]},
+		{ "NOME": "PIB",
+		"VALORES": [55293, 63446, 71551, 79352, 82382]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [41, 42, 42, 41, 42]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909406,
+    "NOME_MUNICIPIO": "Cotegipe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13614, 14390, 14396, 14403, 14409]},
+		{ "NOME": "PIB",
+		"VALORES": [83842, 96722, 105499, 121527, 124783]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [68, 69, 69, 69, 69]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905305,
+    "NOME_MUNICIPIO": "Cafarnaum",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17398, 18489, 18595, 18695, 18917]},
+		{ "NOME": "PIB",
+		"VALORES": [77086, 96137, 115744, 138400, 242501]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 36, 36, 36, 36]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2930907,
+    "NOME_MUNICIPIO": "Tabocas do Brejo Velho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11433, 12990, 13008, 13025, 13043]},
+		{ "NOME": "PIB",
+		"VALORES": [63155, 65938, 70668, 77972, 204895]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 5, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [57, 57, 57, 35, 57]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2901205,
+    "NOME_MUNICIPIO": "Anagé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19889, 20698, 20388, 20096, 19824]},
+		{ "NOME": "PIB",
+		"VALORES": [98704, 114373, 134595, 156646, 160376]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [128, 129, 131, 131, 131]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2926806,
+    "NOME_MUNICIPIO": "Rio do Antônio",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15015, 15427, 15530, 15628, 15720]},
+		{ "NOME": "PIB",
+		"VALORES": [67167, 73260, 83428, 91219, 97702]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 28, 28, 28, 28]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2922706,
+    "NOME_MUNICIPIO": "Nova Canaã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16070, 17013, 17048, 17082, 17113]},
+		{ "NOME": "PIB",
+		"VALORES": [81571, 92992, 113063, 120251, 117992]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [63, 60, 65, 54, 66]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914604,
+    "NOME_MUNICIPIO": "Irecê",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [67527, 72041, 72730, 73380, 73915]},
+		{ "NOME": "PIB",
+		"VALORES": [727407, 842768, 899889, 983841, 1016283]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 12, 13, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [71, 79, 82, 82, 82]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910503,
+    "NOME_MUNICIPIO": "Entre Rios",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [40180, 42640, 42828, 43006, 43172]},
+		{ "NOME": "PIB",
+		"VALORES": [642297, 669512, 568544, 520663, 467036]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [15, 15, 13, 12, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [97, 99, 97, 83, 88]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2906402,
+    "NOME_MUNICIPIO": "Candeal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8720, 9143, 9075, 9011, 8894]},
+		{ "NOME": "PIB",
+		"VALORES": [36595, 44016, 47909, 51976, 53856]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 45, 45, 46, 46]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932002,
+    "NOME_MUNICIPIO": "Uauá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24015, 25274, 25178, 25087, 25853]},
+		{ "NOME": "PIB",
+		"VALORES": [112937, 139061, 160803, 181786, 192135]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [74, 91, 91, 91, 92]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2905404,
+    "NOME_MUNICIPIO": "Cairu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15973, 17168, 17457, 17730, 17985]},
+		{ "NOME": "PIB",
+		"VALORES": [2732748, 2723878, 1781174, 1200964, 452557]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [171, 158, 102, 67, 25]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 37, 37, 37, 37]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2931004,
+    "NOME_MUNICIPIO": "Tanhaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20001, 21246, 21264, 21282, 21299]},
+		{ "NOME": "PIB",
+		"VALORES": [181220, 191899, 206793, 194487, 207657]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 9, 9, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [104, 110, 111, 111, 110]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2901304,
+    "NOME_MUNICIPIO": "Andaraí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13942, 14738, 13716, 13723, 13732]},
+		{ "NOME": "PIB",
+		"VALORES": [65418, 70782, 75967, 88004, 95028]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 63, 64, 64, 64]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2926905,
+    "NOME_MUNICIPIO": "Rio do Pires",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11948, 12033, 12060, 12084, 12109]},
+		{ "NOME": "PIB",
+		"VALORES": [53730, 57903, 65413, 72427, 78323]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 27, 44, 43, 44]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2922805,
+    "NOME_MUNICIPIO": "Nova Itarana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7563, 8058, 8192, 8312, 8372]},
+		{ "NOME": "PIB",
+		"VALORES": [32431, 35840, 39912, 44153, 50130]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [10, 10, 14, 14, 14]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928950,
+    "NOME_MUNICIPIO": "São Domingos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9266, 9820, 9849, 9877, 9381]},
+		{ "NOME": "PIB",
+		"VALORES": [44793, 52407, 57122, 67420, 65380]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [16, 29, 28, 28, 28]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2918704,
+    "NOME_MUNICIPIO": "Lafaiete Coutinho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3830, 4017, 4046, 4020, 3996]},
+		{ "NOME": "PIB",
+		"VALORES": [22519, 25437, 29182, 34373, 36946]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [10, 12, 12, 12, 12]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2911501,
+    "NOME_MUNICIPIO": "Gongogi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8031, 8325, 8212, 8082, 7961]},
+		{ "NOME": "PIB",
+		"VALORES": [46600, 49340, 56787, 65949, 64370]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [18, 23, 23, 23, 23]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907400,
+    "NOME_MUNICIPIO": "Catolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3215, 3420, 3644, 3672, 3695]},
+		{ "NOME": "PIB",
+		"VALORES": [42809, 50785, 56623, 63932, 72469]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 14, 15, 17, 19]},
+		{ "NOME": "Escolas",
+		"VALORES": [12, 14, 14, 14, 14]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2933000,
+    "NOME_MUNICIPIO": "Valente",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25342, 27162, 27545, 27906, 28426]},
+		{ "NOME": "PIB",
+		"VALORES": [135536, 161493, 164642, 196136, 211864]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 46, 61, 44, 67]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2903300,
+    "NOME_MUNICIPIO": "Barro Preto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6122, 6767, 6627, 6492, 6367]},
+		{ "NOME": "PIB",
+		"VALORES": [46831, 49164, 50973, 54914, 60139]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [21, 21, 21, 20, 21]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928901,
+    "NOME_MUNICIPIO": "São Desidério",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [28921, 31785, 32078, 32640, 33168]},
+		{ "NOME": "PIB",
+		"VALORES": [2321445, 1965016, 2523795, 2716625, 1477592]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [80, 61, 78, 83, 44]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 79, 78, 78, 79]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2916609,
+    "NOME_MUNICIPIO": "Itapitanga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10181, 10799, 10799, 10800, 10799]},
+		{ "NOME": "PIB",
+		"VALORES": [53521, 61592, 66950, 74989, 79625]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 35, 36, 26, 37]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924801,
+    "NOME_MUNICIPIO": "Piritiba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22907, 24462, 24785, 25027, 25002]},
+		{ "NOME": "PIB",
+		"VALORES": [96162, 113175, 122630, 134486, 144639]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 50, 50, 48, 50]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922755,
+    "NOME_MUNICIPIO": "Nova Ibiá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6570, 6913, 7063, 7036, 7010]},
+		{ "NOME": "PIB",
+		"VALORES": [52962, 58372, 59094, 79070, 75663]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 8, 11, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 36, 36, 36, 37]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902302,
+    "NOME_MUNICIPIO": "Aratuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8632, 9146, 9104, 9127, 9150]},
+		{ "NOME": "PIB",
+		"VALORES": [42955, 53529, 59194, 63534, 67349]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 38, 40, 40, 40]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2927903,
+    "NOME_MUNICIPIO": "Santa Inês",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10312, 10884, 11186, 11177, 11169]},
+		{ "NOME": "PIB",
+		"VALORES": [48517, 57196, 56990, 63801, 66205]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [18, 20, 21, 21, 21]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923803,
+    "NOME_MUNICIPIO": "Paripiranga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27958, 29654, 29769, 29878, 29980]},
+		{ "NOME": "PIB",
+		"VALORES": [155254, 230623, 248619, 316294, 283646]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 7, 8, 10, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 24, 25, 25, 25]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919702,
+    "NOME_MUNICIPIO": "Macarani",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17253, 18419, 18608, 18786, 18954]},
+		{ "NOME": "PIB",
+		"VALORES": [104773, 118160, 137729, 147139, 152380]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 35, 36, 36, 36]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2915601,
+    "NOME_MUNICIPIO": "Itamaraju",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [63037, 67128, 67191, 67249, 67305]},
+		{ "NOME": "PIB",
+		"VALORES": [610297, 738590, 756718, 879172, 838539]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 11, 11, 13, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [102, 121, 122, 117, 120]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2931053,
+    "NOME_MUNICIPIO": "Tanque Novo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16323, 17493, 17601, 17702, 17797]},
+		{ "NOME": "PIB",
+		"VALORES": [96103, 110715, 121235, 131937, 137825]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [77, 77, 77, 78, 78]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2901353,
+    "NOME_MUNICIPIO": "Andorinha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14209, 14936, 14862, 14791, 15551]},
+		{ "NOME": "PIB",
+		"VALORES": [131894, 120273, 144598, 135203, 172216]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 8, 9, 9, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [71, 71, 71, 69, 71]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920809,
+    "NOME_MUNICIPIO": "Marcionílio Souza",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10447, 11026, 10962, 10951, 10941]},
+		{ "NOME": "PIB",
+		"VALORES": [56088, 65807, 73194, 72804, 76873]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 29, 29, 27, 29]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925931,
+    "NOME_MUNICIPIO": "Quixabeira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9514, 10045, 10038, 10033, 9414]},
+		{ "NOME": "PIB",
+		"VALORES": [39088, 47219, 51505, 58203, 59340]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [25, 25, 41, 24, 40]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2916708,
+    "NOME_MUNICIPIO": "Itaquara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7751, 8231, 8480, 8519, 8557]},
+		{ "NOME": "PIB",
+		"VALORES": [44440, 49946, 62391, 69054, 70852]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 35, 36, 36, 36]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924900,
+    "NOME_MUNICIPIO": "Planaltino",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8944, 9516, 9413, 9473, 9529]},
+		{ "NOME": "PIB",
+		"VALORES": [44135, 47892, 50810, 56384, 59180]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 31, 31, 31, 31]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922854,
+    "NOME_MUNICIPIO": "Nova Redenção",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8053, 8527, 9453, 9470, 9485]},
+		{ "NOME": "PIB",
+		"VALORES": [32869, 35249, 39925, 45141, 47251]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 4, 4]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 32, 32, 32, 31]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2912608,
+    "NOME_MUNICIPIO": "Ibiquera",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [4874, 5158, 5149, 5158, 4207]},
+		{ "NOME": "PIB",
+		"VALORES": [22529, 24523, 27050, 26734, 26367]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [19, 20, 20, 19, 19]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2918753,
+    "NOME_MUNICIPIO": "Lagoa Real",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14187, 15542, 15676, 15801, 15920]},
+		{ "NOME": "PIB",
+		"VALORES": [53769, 64177, 72595, 82950, 86420]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 52, 52, 52, 52]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2923902,
+    "NOME_MUNICIPIO": "Pau Brasil",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10479, 11166, 11031, 10905, 10784]},
+		{ "NOME": "PIB",
+		"VALORES": [59474, 68395, 75159, 88303, 89312]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [34, 34, 35, 17, 35]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919801,
+    "NOME_MUNICIPIO": "Macaúbas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [47915, 49436, 49861, 50262, 50637]},
+		{ "NOME": "PIB",
+		"VALORES": [213211, 243597, 270150, 296802, 322370]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [166, 168, 169, 169, 170]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2915700,
+    "NOME_MUNICIPIO": "Itamari",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7836, 8259, 8534, 8514, 8495]},
+		{ "NOME": "PIB",
+		"VALORES": [48115, 62151, 60159, 79970, 80683]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [20, 27, 27, 27, 27]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907509,
+    "NOME_MUNICIPIO": "Catu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [51734, 55021, 55380, 55719, 56037]},
+		{ "NOME": "PIB",
+		"VALORES": [671262, 749214, 651358, 623154, 516695]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [12, 13, 11, 11, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [87, 90, 92, 92, 92]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2933109,
+    "NOME_MUNICIPIO": "Várzea do Poço",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8759, 9309, 9364, 9416, 9404]},
+		{ "NOME": "PIB",
+		"VALORES": [45005, 49721, 58829, 68127, 79762]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [13, 24, 25, 23, 25]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2911600,
+    "NOME_MUNICIPIO": "Governador Mangabeira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19926, 21125, 21198, 21267, 21435]},
+		{ "NOME": "PIB",
+		"VALORES": [129648, 149508, 161344, 229347, 273117]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 10, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 43, 42, 42, 44]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929008,
+    "NOME_MUNICIPIO": "São Félix",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14159, 15004, 15049, 15091, 15272]},
+		{ "NOME": "PIB",
+		"VALORES": [108289, 136914, 148308, 162257, 171094]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 9, 9, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 35, 34, 34, 34]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2903409,
+    "NOME_MUNICIPIO": "Belmonte",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22067, 23471, 23620, 23759, 23891]},
+		{ "NOME": "PIB",
+		"VALORES": [208451, 226424, 229954, 280303, 284368]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 9, 9, 11, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [60, 60, 61, 63, 64]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2921807,
+    "NOME_MUNICIPIO": "Mortugaba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11729, 12421, 12450, 12477, 12505]},
+		{ "NOME": "PIB",
+		"VALORES": [57752, 63140, 67237, 73923, 86808]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 48, 48, 47, 48]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917706,
+    "NOME_MUNICIPIO": "Jaguarari",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [30769, 32740, 32969, 33186, 34304]},
+		{ "NOME": "PIB",
+		"VALORES": [529469, 404827, 425105, 463848, 289675]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [17, 12, 12, 13, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [118, 117, 119, 117, 120]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913606,
+    "NOME_MUNICIPIO": "Ilhéus",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [187315, 184616, 182350, 180213, 178210]},
+		{ "NOME": "PIB",
+		"VALORES": [2891095, 3219405, 3512481, 3641506, 3874970]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [15, 17, 19, 20, 21]},
+		{ "NOME": "Escolas",
+		"VALORES": [135, 142, 153, 108, 116]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909505,
+    "NOME_MUNICIPIO": "Cravolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [5048, 5341, 5552, 5560, 5568]},
+		{ "NOME": "PIB",
+		"VALORES": [28077, 31442, 34378, 38495, 41055]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 22, 22, 17, 22]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2933059,
+    "NOME_MUNICIPIO": "Várzea da Roça",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13834, 14654, 14693, 14729, 14632]},
+		{ "NOME": "PIB",
+		"VALORES": [62228, 68112, 77110, 88002, 88150]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 30, 33, 34, 35]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2914653,
+    "NOME_MUNICIPIO": "Itabela",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [28790, 30636, 30852, 31055, 31244]},
+		{ "NOME": "PIB",
+		"VALORES": [243206, 278028, 300689, 310776, 331073]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 9, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 45, 47, 43, 48]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908507,
+    "NOME_MUNICIPIO": "Conceição do Jacuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [30717, 32761, 33066, 33354, 33624]},
+		{ "NOME": "PIB",
+		"VALORES": [1025326, 1472186, 1637133, 1695547, 2023104]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [33, 44, 49, 50, 60]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 44, 47, 44, 45]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930006,
+    "NOME_MUNICIPIO": "Sebastião Laranjeiras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10563, 11336, 11435, 11528, 11615]},
+		{ "NOME": "PIB",
+		"VALORES": [52861, 60831, 64198, 70857, 76958]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 42, 42, 42, 42]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2904407,
+    "NOME_MUNICIPIO": "Brejolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11247, 10545, 10624, 10698, 10768]},
+		{ "NOME": "PIB",
+		"VALORES": [57987, 62928, 71332, 80762, 85591]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 20, 21, 19, 24]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2900306,
+    "NOME_MUNICIPIO": "Acajutiba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14730, 15615, 15668, 15717, 15764]},
+		{ "NOME": "PIB",
+		"VALORES": [97105, 109425, 114174, 116674, 115158]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 31, 32, 33, 33]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925907,
+    "NOME_MUNICIPIO": "Quijingue",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27357, 28996, 29088, 28655, 28556]},
+		{ "NOME": "PIB",
+		"VALORES": [104100, 154172, 144270, 191529, 194736]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 5, 4, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [79, 90, 90, 57, 91]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2917805,
+    "NOME_MUNICIPIO": "Jaguaripe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16927, 18114, 18432, 18647, 18849]},
+		{ "NOME": "PIB",
+		"VALORES": [107019, 124302, 145450, 163414, 158940]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 69, 69, 69, 74]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2913705,
+    "NOME_MUNICIPIO": "Inhambupe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [37321, 39938, 40441, 40915, 40908]},
+		{ "NOME": "PIB",
+		"VALORES": [324467, 366081, 355299, 444593, 443792]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 9, 8, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [80, 88, 88, 88, 89]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2911659,
+    "NOME_MUNICIPIO": "Guajeru",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9182, 9388, 9087, 8805, 8322]},
+		{ "NOME": "PIB",
+		"VALORES": [41581, 46407, 48597, 53344, 55176]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [12, 12, 12, 12, 12]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2909604,
+    "NOME_MUNICIPIO": "Crisópolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20199, 21435, 21529, 21617, 21700]},
+		{ "NOME": "PIB",
+		"VALORES": [111599, 121444, 132086, 138177, 143554]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [50, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2907558,
+    "NOME_MUNICIPIO": "Caturama",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8817, 9760, 9762, 9762, 9764]},
+		{ "NOME": "PIB",
+		"VALORES": [37029, 40921, 45134, 51352, 56093]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 48, 48, 48, 48]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2933158,
+    "NOME_MUNICIPIO": "Várzea Nova",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12910, 13581, 13524, 13470, 13500]},
+		{ "NOME": "PIB",
+		"VALORES": [62797, 81910, 87518, 99562, 105289]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 46, 46, 16, 43]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929057,
+    "NOME_MUNICIPIO": "São Félix do Coribe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13243, 15443, 15548, 15647, 15738]},
+		{ "NOME": "PIB",
+		"VALORES": [100183, 109859, 133331, 138844, 160392]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 8, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 17, 16, 14, 18]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2908606,
+    "NOME_MUNICIPIO": "Conde",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24103, 25714, 25961, 26194, 26412]},
+		{ "NOME": "PIB",
+		"VALORES": [137777, 156973, 178688, 198558, 253865]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [68, 73, 75, 66, 76]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2930105,
+    "NOME_MUNICIPIO": "Senhor do Bonfim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [75437, 80258, 80810, 81330, 80769]},
+		{ "NOME": "PIB",
+		"VALORES": [650873, 752314, 772983, 785353, 795942]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 9, 9, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [135, 132, 138, 132, 142]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2904506,
+    "NOME_MUNICIPIO": "Brotas de Macaúbas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10479, 11301, 11158, 11070, 11049]},
+		{ "NOME": "PIB",
+		"VALORES": [54895, 58568, 60745, 65378, 68481]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [75, 75, 75, 76, 76]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2928059,
+    "NOME_MUNICIPIO": "Santa Luzia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13025, 13710, 13579, 13626, 13508]},
+		{ "NOME": "PIB",
+		"VALORES": [71248, 79178, 89116, 106032, 107168]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 63, 65, 66, 66]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2926004,
+    "NOME_MUNICIPIO": "Remanso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [39365, 41824, 42056, 42275, 42481]},
+		{ "NOME": "PIB",
+		"VALORES": [211472, 243492, 270749, 306707, 318465]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [148, 154, 158, 158, 158]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2900405,
+    "NOME_MUNICIPIO": "Água Fria",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15884, 16871, 16959, 17043, 17431]},
+		{ "NOME": "PIB",
+		"VALORES": [69641, 80214, 91617, 106758, 138677]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 48, 48, 29, 48]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933174,
+    "NOME_MUNICIPIO": "Varzedo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8987, 9449, 9405, 9363, 9409]},
+		{ "NOME": "PIB",
+		"VALORES": [54014, 62362, 65494, 87271, 94303]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 6, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 31, 31, 28, 31]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921906,
+    "NOME_MUNICIPIO": "Mucugê",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10145, 10568, 10400, 10244, 10096]},
+		{ "NOME": "PIB",
+		"VALORES": [204346, 222708, 359831, 339788, 390094]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [20, 21, 34, 33, 38]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 38, 49, 36, 49]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914703,
+    "NOME_MUNICIPIO": "Itaberaba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [62037, 65806, 66065, 66310, 66592]},
+		{ "NOME": "PIB",
+		"VALORES": [492805, 579353, 641089, 721795, 799653]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 10, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [121, 134, 137, 138, 138]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910602,
+    "NOME_MUNICIPIO": "Esplanada",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [33618, 35930, 36339, 36724, 37085]},
+		{ "NOME": "PIB",
+		"VALORES": [871860, 920644, 707683, 561380, 489787]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [25, 25, 19, 15, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [84, 85, 86, 87, 87]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2925956,
+    "NOME_MUNICIPIO": "Rafael Jambeiro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22916, 24258, 24305, 24349, 23525]},
+		{ "NOME": "PIB",
+		"VALORES": [187336, 216414, 190395, 201370, 209932]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 51, 61, 61, 61]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2906501,
+    "NOME_MUNICIPIO": "Candeias",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [84121, 89419, 88308, 88806, 89271]},
+		{ "NOME": "PIB",
+		"VALORES": [2651895, 2641424, 3086409, 3388543, 3444178]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [31, 29, 34, 38, 38]},
+		{ "NOME": "Escolas",
+		"VALORES": [85, 80, 80, 80, 89]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2932101,
+    "NOME_MUNICIPIO": "Ubaíra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20714, 21897, 20770, 20782, 20793]},
+		{ "NOME": "PIB",
+		"VALORES": [120688, 139552, 148097, 167960, 186490]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [71, 61, 76, 54, 75]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928000,
+    "NOME_MUNICIPIO": "Santaluz",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [34274, 36452, 36690, 36915, 38219]},
+		{ "NOME": "PIB",
+		"VALORES": [191886, 253018, 272759, 296267, 331556]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [64, 86, 87, 87, 88]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2902401,
+    "NOME_MUNICIPIO": "Aurelino Leal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13059, 13525, 13301, 13089, 12891]},
+		{ "NOME": "PIB",
+		"VALORES": [76331, 84472, 96063, 106729, 114307]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 37, 37, 32, 37]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2900355,
+    "NOME_MUNICIPIO": "Adustina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15914, 16929, 17044, 17153, 17254]},
+		{ "NOME": "PIB",
+		"VALORES": [70095, 132827, 98679, 159878, 101478]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 7, 5, 9, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 40, 40, 40, 40]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905503,
+    "NOME_MUNICIPIO": "Caldeirão Grande",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12658, 13465, 13555, 13641, 13643]},
+		{ "NOME": "PIB",
+		"VALORES": [57671, 70506, 80951, 86426, 102492]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 49, 49, 48, 47]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2931103,
+    "NOME_MUNICIPIO": "Tanquinho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8035, 8510, 8532, 8553, 8214]},
+		{ "NOME": "PIB",
+		"VALORES": [38099, 42691, 46973, 52044, 48412]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 24, 23, 24, 25]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922904,
+    "NOME_MUNICIPIO": "Nova Soure",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24265, 25725, 25813, 25854, 25931]},
+		{ "NOME": "PIB",
+		"VALORES": [112781, 140634, 145077, 160434, 177652]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [65, 67, 67, 68, 68]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2927002,
+    "NOME_MUNICIPIO": "Rio Real",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [37754, 40203, 40515, 40809, 41085]},
+		{ "NOME": "PIB",
+		"VALORES": [609108, 722120, 650382, 693003, 834669]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [16, 17, 16, 16, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [81, 88, 89, 90, 90]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2901403,
+    "NOME_MUNICIPIO": "Angical",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13992, 14762, 14742, 14724, 14707]},
+		{ "NOME": "PIB",
+		"VALORES": [83925, 98184, 117161, 126212, 143722]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [78, 47, 56, 40, 78]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918803,
+    "NOME_MUNICIPIO": "Laje",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22679, 24207, 23682, 23904, 24112]},
+		{ "NOME": "PIB",
+		"VALORES": [147939, 165815, 177107, 217348, 228387]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 63, 63, 63, 63]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2910701,
+    "NOME_MUNICIPIO": "Euclides da Cunha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [56962, 60558, 60932, 60066, 61618]},
+		{ "NOME": "PIB",
+		"VALORES": [333069, 472377, 497806, 635593, 616993]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 7, 8, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [195, 205, 207, 207, 208]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2928109,
+    "NOME_MUNICIPIO": "Santa Maria da Vitória",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [40165, 41824, 41809, 41795, 41782]},
+		{ "NOME": "PIB",
+		"VALORES": [292566, 322638, 407743, 385773, 410562]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 9, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [88, 117, 117, 118, 118]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2906600,
+    "NOME_MUNICIPIO": "Candiba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13329, 14527, 14599, 14667, 14732]},
+		{ "NOME": "PIB",
+		"VALORES": [61916, 75541, 82693, 94215, 102327]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [14, 22, 22, 22, 23]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2932200,
+    "NOME_MUNICIPIO": "Ubaitaba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20214, 21183, 20993, 20813, 20646]},
+		{ "NOME": "PIB",
+		"VALORES": [159078, 177131, 192868, 213860, 206299]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 10, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [37, 44, 44, 44, 46]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924009,
+    "NOME_MUNICIPIO": "Paulo Afonso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [110193, 117377, 118323, 119214, 119930]},
+		{ "NOME": "PIB",
+		"VALORES": [2485527, 1439814, 1586666, 2225391, 2267981]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [22, 12, 13, 18, 18]},
+		{ "NOME": "Escolas",
+		"VALORES": [98, 142, 141, 138, 146]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2930154,
+    "NOME_MUNICIPIO": "Serra do Ramalho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [31525, 33034, 33022, 33011, 33000]},
+		{ "NOME": "PIB",
+		"VALORES": [170676, 194772, 216115, 235793, 280208]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 67, 68, 68, 68]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902500,
+    "NOME_MUNICIPIO": "Baianópolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13420, 13892, 14126, 14195, 14262]},
+		{ "NOME": "PIB",
+		"VALORES": [89822, 89874, 120434, 116942, 128079]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 8, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [43, 65, 42, 41, 66]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2915809,
+    "NOME_MUNICIPIO": "Itambé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22650, 23723, 23520, 23327, 23147]},
+		{ "NOME": "PIB",
+		"VALORES": [143472, 169490, 194555, 209808, 220952]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 72, 72, 41, 73]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2927101,
+    "NOME_MUNICIPIO": "Rodelas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8045, 8632, 8763, 8887, 9297]},
+		{ "NOME": "PIB",
+		"VALORES": [53775, 71228, 83840, 90851, 96663]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 8, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 24, 24, 24, 24]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2901502,
+    "NOME_MUNICIPIO": "Anguera",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10427, 11113, 11209, 11299, 11402]},
+		{ "NOME": "PIB",
+		"VALORES": [42495, 50754, 53044, 60986, 61805]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 32, 34, 36, 37]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2916856,
+    "NOME_MUNICIPIO": "Itatim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13841, 14700, 14691, 14763, 14895]},
+		{ "NOME": "PIB",
+		"VALORES": [193477, 261022, 272917, 292830, 305711]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 17, 18, 19, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 37, 37, 37, 37]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923001,
+    "NOME_MUNICIPIO": "Nova Viçosa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [39535, 42265, 42754, 43216, 43648]},
+		{ "NOME": "PIB",
+		"VALORES": [323819, 372480, 399216, 443832, 469825]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 45, 44, 47, 47]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918902,
+    "NOME_MUNICIPIO": "Lajedão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3782, 3971, 3997, 4022, 4046]},
+		{ "NOME": "PIB",
+		"VALORES": [48819, 49603, 72048, 84938, 59012]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [12, 12, 18, 21, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [12, 13, 13, 12, 13]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919926,
+    "NOME_MUNICIPIO": "Madre de Deus",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18183, 19600, 19985, 20348, 20689]},
+		{ "NOME": "PIB",
+		"VALORES": [330395, 406357, 412432, 494442, 455520]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [18, 20, 20, 24, 22]},
+		{ "NOME": "Escolas",
+		"VALORES": [14, 14, 11, 13, 18]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2914802,
+    "NOME_MUNICIPIO": "Itabuna",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [205885, 218124, 218925, 219680, 220386]},
+		{ "NOME": "PIB",
+		"VALORES": [2990607, 3450138, 3665696, 3832794, 3859881]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [14, 15, 16, 17, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [196, 217, 218, 207, 203]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2920908,
+    "NOME_MUNICIPIO": "Mascote",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14257, 15221, 15131, 14877, 14800]},
+		{ "NOME": "PIB",
+		"VALORES": [89774, 95575, 116793, 135543, 135288]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 52, 55, 28, 55]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925006,
+    "NOME_MUNICIPIO": "Planalto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24627, 26225, 26436, 26632, 26743]},
+		{ "NOME": "PIB",
+		"VALORES": [155880, 208470, 222217, 240192, 223299]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [54, 74, 74, 51, 75]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2916807,
+    "NOME_MUNICIPIO": "Itarantim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18651, 19837, 19968, 20091, 20206]},
+		{ "NOME": "PIB",
+		"VALORES": [118540, 138653, 163230, 189721, 244021]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 8, 9, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 38, 52, 52, 52]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2912707,
+    "NOME_MUNICIPIO": "Ibirapitanga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22683, 24059, 24118, 24180, 24238]},
+		{ "NOME": "PIB",
+		"VALORES": [139581, 151989, 140270, 175809, 214006]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 5, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [74, 78, 78, 78, 78]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919900,
+    "NOME_MUNICIPIO": "Macururé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7992, 8417, 8390, 8365, 8288]},
+		{ "NOME": "PIB",
+		"VALORES": [31993, 37998, 36681, 39269, 40558]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 4, 4]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 58, 58, 18, 58]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2911709,
+    "NOME_MUNICIPIO": "Guanambi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [79936, 84645, 85237, 85797, 86320]},
+		{ "NOME": "PIB",
+		"VALORES": [727225, 861467, 1041760, 1141389, 1198658]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 10, 12, 13, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [60, 66, 68, 61, 64]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907608,
+    "NOME_MUNICIPIO": "Central",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17057, 18061, 18101, 18140, 17935]},
+		{ "NOME": "PIB",
+		"VALORES": [77819, 94524, 111234, 133511, 142294]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [60, 63, 63, 63, 63]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2933208,
+    "NOME_MUNICIPIO": "Vera Cruz",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [38748, 41524, 42103, 42650, 43162]},
+		{ "NOME": "PIB",
+		"VALORES": [393787, 432069, 465766, 503806, 521784]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 10, 11, 11, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [71, 70, 71, 65, 70]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903508,
+    "NOME_MUNICIPIO": "Belo Campo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17625, 18539, 18459, 18383, 18312]},
+		{ "NOME": "PIB",
+		"VALORES": [74918, 87128, 95836, 104978, 118406]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 53, 53, 44, 54]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929107,
+    "NOME_MUNICIPIO": "São Felipe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20329, 21513, 21548, 21582, 21935]},
+		{ "NOME": "PIB",
+		"VALORES": [125657, 142582, 163859, 172668, 182468]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [20, 68, 69, 69, 70]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921005,
+    "NOME_MUNICIPIO": "Mata de São João",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [41527, 44538, 45194, 45813, 46392]},
+		{ "NOME": "PIB",
+		"VALORES": [877625, 988011, 1024200, 1011017, 1043734]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [21, 22, 22, 22, 22]},
+		{ "NOME": "Escolas",
+		"VALORES": [43, 72, 74, 74, 77]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2916906,
+    "NOME_MUNICIPIO": "Itiruçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12589, 13267, 13336, 13307, 13280]},
+		{ "NOME": "PIB",
+		"VALORES": [74613, 79444, 85933, 88118, 91225]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 34, 34, 34, 34]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923050,
+    "NOME_MUNICIPIO": "Novo Triunfo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15067, 15943, 15969, 15993, 16016]},
+		{ "NOME": "PIB",
+		"VALORES": [47328, 56987, 49212, 49411, 51100]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 3, 3, 3]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 35, 35, 35, 35]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2912806,
+    "NOME_MUNICIPIO": "Ibirapuã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8086, 8603, 8671, 8735, 8796]},
+		{ "NOME": "PIB",
+		"VALORES": [116614, 138458, 183602, 185724, 208808]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [14, 16, 21, 21, 23]},
+		{ "NOME": "Escolas",
+		"VALORES": [12, 25, 25, 25, 25]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908705,
+    "NOME_MUNICIPIO": "Condeúba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17421, 18359, 18312, 18269, 18229]},
+		{ "NOME": "PIB",
+		"VALORES": [86275, 97910, 107017, 121331, 126993]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [74, 74, 73, 66, 72]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910776,
+    "NOME_MUNICIPIO": "Feira da Mata",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6177, 5908, 5911, 5914, 5918]},
+		{ "NOME": "PIB",
+		"VALORES": [39195, 41824, 49315, 47034, 48397]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 30, 31, 12, 31]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2907707,
+    "NOME_MUNICIPIO": "Chorrochó",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10794, 11444, 11484, 11522, 11558]},
+		{ "NOME": "PIB",
+		"VALORES": [47866, 55885, 62519, 68927, 71474]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 58, 57, 58, 58]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2933307,
+    "NOME_MUNICIPIO": "Vitória da Conquista",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [315884, 336987, 340199, 343230, 346069]},
+		{ "NOME": "PIB",
+		"VALORES": [4355302, 4993373, 5385015, 5760130, 6226153]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 14, 15, 16, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [314, 387, 376, 375, 401]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929206,
+    "NOME_MUNICIPIO": "São Francisco do Conde",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [34226, 36677, 38838, 39329, 39790]},
+		{ "NOME": "PIB",
+		"VALORES": [1067470, 1282181, 2883033, 8643550, 11796118]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [31, 34, 74, 219, 296]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 59, 59, 57, 61]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903607,
+    "NOME_MUNICIPIO": "Biritinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14866, 15737, 15769, 15799, 16628]},
+		{ "NOME": "PIB",
+		"VALORES": [72883, 81851, 89057, 100477, 107488]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925105,
+    "NOME_MUNICIPIO": "Poções",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [45903, 48576, 48655, 48729, 48798]},
+		{ "NOME": "PIB",
+		"VALORES": [286479, 347332, 379518, 443014, 468594]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [72, 73, 74, 73, 73]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2913804,
+    "NOME_MUNICIPIO": "Ipecaetá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15025, 15753, 15634, 15521, 15596]},
+		{ "NOME": "PIB",
+		"VALORES": [59224, 66240, 73631, 81026, 79037]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [66, 67, 68, 34, 68]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933257,
+    "NOME_MUNICIPIO": "Vereda",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6681, 6781, 6737, 6696, 6657]},
+		{ "NOME": "PIB",
+		"VALORES": [88894, 106034, 71615, 72340, 81205]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 15, 10, 10, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [20, 29, 29, 29, 30]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2909703,
+    "NOME_MUNICIPIO": "Cristópolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13374, 14189, 14247, 14302, 14354]},
+		{ "NOME": "PIB",
+		"VALORES": [61874, 80463, 88912, 113579, 131286]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 42, 42, 42, 44]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2910727,
+    "NOME_MUNICIPIO": "Eunápolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [102628, 110803, 112032, 113191, 114275]},
+		{ "NOME": "PIB",
+		"VALORES": [1701478, 2004419, 2075774, 2276986, 2535370]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [16, 18, 18, 20, 22]},
+		{ "NOME": "Escolas",
+		"VALORES": [91, 98, 99, 88, 102]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2905602,
+    "NOME_MUNICIPIO": "Camacan",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [31535, 33068, 33135, 33197, 33257]},
+		{ "NOME": "PIB",
+		"VALORES": [221339, 247875, 252936, 266589, 269741]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [68, 69, 70, 60, 69]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2931202,
+    "NOME_MUNICIPIO": "Taperoá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19174, 20474, 20886, 21091, 21282]},
+		{ "NOME": "PIB",
+		"VALORES": [139208, 146019, 168900, 171825, 177260]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [73, 75, 75, 74, 75]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2930204,
+    "NOME_MUNICIPIO": "Sento Sé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [38174, 40720, 41102, 41464, 41576]},
+		{ "NOME": "PIB",
+		"VALORES": [193671, 204504, 303179, 346923, 406052]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [90, 91, 100, 100, 101]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2904605,
+    "NOME_MUNICIPIO": "Brumado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [64972, 68776, 69022, 69255, 69473]},
+		{ "NOME": "PIB",
+		"VALORES": [951099, 1024095, 1103185, 1147683, 1370329]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [14, 14, 15, 16, 19]},
+		{ "NOME": "Escolas",
+		"VALORES": [116, 122, 123, 121, 124]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910750,
+    "NOME_MUNICIPIO": "Fátima",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17555, 18524, 18502, 18481, 18461]},
+		{ "NOME": "PIB",
+		"VALORES": [108509, 178960, 153097, 226947, 222596]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 9, 8, 12, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [13, 13, 14, 14, 14]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2900504,
+    "NOME_MUNICIPIO": "Érico Cardoso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10746, 11509, 11472, 11437, 11405]},
+		{ "NOME": "PIB",
+		"VALORES": [41978, 42449, 48490, 51682, 56854]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 4, 4, 4]},
+		{ "NOME": "Escolas",
+		"VALORES": [53, 55, 55, 55, 56]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2924058,
+    "NOME_MUNICIPIO": "Pé de Serra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13707, 14478, 14474, 14471, 14229]},
+		{ "NOME": "PIB",
+		"VALORES": [72008, 80661, 89892, 96082, 95639]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 47, 48, 48, 48]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2923035,
+    "NOME_MUNICIPIO": "Novo Horizonte",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11001, 11786, 12085, 12238, 12381]},
+		{ "NOME": "PIB",
+		"VALORES": [45153, 53008, 58779, 67414, 70347]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 32, 32, 31, 32]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2919959,
+    "NOME_MUNICIPIO": "Maetinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6048, 5972, 5561, 5174, 4796]},
+		{ "NOME": "PIB",
+		"VALORES": [30010, 35948, 40340, 43401, 46058]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 37, 37, 37, 37]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926103,
+    "NOME_MUNICIPIO": "Retirolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12281, 13092, 13209, 13319, 14627]},
+		{ "NOME": "PIB",
+		"VALORES": [71755, 80661, 89685, 107200, 116197]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 8, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [25, 28, 24, 23, 51]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917904,
+    "NOME_MUNICIPIO": "Jandaíra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10377, 10997, 11031, 11063, 11092]},
+		{ "NOME": "PIB",
+		"VALORES": [116709, 134971, 170486, 170921, 194177]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 12, 15, 15, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 25, 25, 25, 25]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2922003,
+    "NOME_MUNICIPIO": "Mucuri",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [37229, 39927, 40514, 41068, 41587]},
+		{ "NOME": "PIB",
+		"VALORES": [1195332, 1334070, 1357371, 1995636, 1991626]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [32, 33, 33, 48, 47]},
+		{ "NOME": "Escolas",
+		"VALORES": [58, 62, 63, 39, 55]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2913903,
+    "NOME_MUNICIPIO": "Ipiaú",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [44538, 47178, 47388, 47501, 47606]},
+		{ "NOME": "PIB",
+		"VALORES": [314489, 377971, 415406, 430004, 429536]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [68, 74, 74, 75, 75]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909802,
+    "NOME_MUNICIPIO": "Cruz das Almas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [59470, 63299, 63761, 64197, 64552]},
+		{ "NOME": "PIB",
+		"VALORES": [653099, 776423, 809365, 861525, 961686]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 12, 12, 13, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [76, 73, 78, 75, 80]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2905701,
+    "NOME_MUNICIPIO": "Camaçari",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [255238, 275575, 281413, 286919, 292074]},
+		{ "NOME": "PIB",
+		"VALORES": [11534286, 14458290, 17601655, 20390421, 21935897]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [45, 52, 62, 71, 75]},
+		{ "NOME": "Escolas",
+		"VALORES": [210, 214, 236, 226, 232]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2931301,
+    "NOME_MUNICIPIO": "Tapiramutá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16434, 17345, 17413, 17398, 17855]},
+		{ "NOME": "PIB",
+		"VALORES": [95849, 99215, 108348, 116884, 123508]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 36, 36, 36, 36]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2929255,
+    "NOME_MUNICIPIO": "São Gabriel",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18430, 19495, 19519, 19542, 19594]},
+		{ "NOME": "PIB",
+		"VALORES": [81969, 89127, 102602, 110937, 109391]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [73, 76, 76, 35, 77]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927200,
+    "NOME_MUNICIPIO": "Ruy Barbosa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [30010, 31799, 31780, 31867, 31933]},
+		{ "NOME": "PIB",
+		"VALORES": [194387, 235823, 263933, 265651, 314916]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [104, 105, 105, 105, 105]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2901601,
+    "NOME_MUNICIPIO": "Antas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17526, 18744, 18970, 19183, 19382]},
+		{ "NOME": "PIB",
+		"VALORES": [67615, 83918, 93681, 99135, 112595]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 40, 40, 40, 40]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919009,
+    "NOME_MUNICIPIO": "Lajedinho",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3881, 4079, 3993, 3974, 4032]},
+		{ "NOME": "PIB",
+		"VALORES": [24229, 32254, 49626, 48473, 53697]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 12, 12, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [28, 29, 29, 29, 29]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2930303,
+    "NOME_MUNICIPIO": "Serra Dourada",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17963, 18467, 18428, 18389, 18352]},
+		{ "NOME": "PIB",
+		"VALORES": [102983, 110795, 121633, 142811, 137938]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [55, 55, 56, 54, 55]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2926202,
+    "NOME_MUNICIPIO": "Riachão das Neves",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21941, 23209, 23237, 23264, 23290]},
+		{ "NOME": "PIB",
+		"VALORES": [481499, 400907, 493737, 731612, 472011]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [21, 17, 21, 31, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [83, 83, 84, 84, 84]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2900603,
+    "NOME_MUNICIPIO": "Aiquara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [4536, 4767, 4790, 4767, 4745]},
+		{ "NOME": "PIB",
+		"VALORES": [37433, 40642, 47559, 52075, 49816]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 24, 24, 24, 24]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922102,
+    "NOME_MUNICIPIO": "Mundo Novo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24867, 26518, 26935, 27165, 27165]},
+		{ "NOME": "PIB",
+		"VALORES": [110830, 121987, 123381, 132614, 148578]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 4, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2911857,
+    "NOME_MUNICIPIO": "Heliópolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13099, 13812, 13786, 13762, 13739]},
+		{ "NOME": "PIB",
+		"VALORES": [58856, 79783, 78668, 97310, 88493]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 7, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 53, 44, 54, 56]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2918001,
+    "NOME_MUNICIPIO": "Jequié",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [152372, 161391, 161150, 161528, 161880]},
+		{ "NOME": "PIB",
+		"VALORES": [1635894, 1908466, 2057820, 2234942, 2438384]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 12, 13, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [180, 214, 219, 208, 224]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924108,
+    "NOME_MUNICIPIO": "Pedrão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6993, 7450, 7511, 7568, 7486]},
+		{ "NOME": "PIB",
+		"VALORES": [30068, 33053, 35368, 39819, 39629]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 27, 27, 26, 27]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2915908,
+    "NOME_MUNICIPIO": "Itanagra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7590, 8023, 8029, 8034, 8038]},
+		{ "NOME": "PIB",
+		"VALORES": [62076, 70580, 59517, 58239, 60750]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [18, 20, 20, 22, 22]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2922052,
+    "NOME_MUNICIPIO": "Mulungu do Morro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11743, 12191, 12398, 12200, 12159]},
+		{ "NOME": "PIB",
+		"VALORES": [47790, 55942, 62400, 75624, 81518]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 43, 43, 42, 43]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2920007,
+    "NOME_MUNICIPIO": "Maiquinique",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9229, 9864, 9976, 10082, 10183]},
+		{ "NOME": "PIB",
+		"VALORES": [68552, 73450, 80431, 88836, 93411]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 16, 21, 14, 22]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2911808,
+    "NOME_MUNICIPIO": "Guaratinga",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21840, 22583, 22465, 22355, 22251]},
+		{ "NOME": "PIB",
+		"VALORES": [154421, 173184, 197268, 225536, 219726]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 10, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [63, 105, 105, 89, 105]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923100,
+    "NOME_MUNICIPIO": "Olindina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25100, 26620, 26722, 26817, 26907]},
+		{ "NOME": "PIB",
+		"VALORES": [121210, 148022, 154101, 171716, 194095]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [66, 66, 67, 67, 67]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2921054,
+    "NOME_MUNICIPIO": "Matina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11342, 12114, 12217, 12314, 12404]},
+		{ "NOME": "PIB",
+		"VALORES": [45221, 50241, 54806, 62970, 67183]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [50, 62, 62, 62, 62]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2906709,
+    "NOME_MUNICIPIO": "Cândido Sales",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25711, 27057, 26952, 26855, 26760]},
+		{ "NOME": "PIB",
+		"VALORES": [117968, 145168, 155099, 170019, 174507]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [70, 71, 69, 60, 70]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914901,
+    "NOME_MUNICIPIO": "Itacaré",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25254, 26753, 27198, 27619, 28013]},
+		{ "NOME": "PIB",
+		"VALORES": [176042, 202724, 222490, 262128, 263245]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [73, 106, 107, 88, 111]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932309,
+    "NOME_MUNICIPIO": "Ubatã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25575, 27312, 26787, 27051, 27297]},
+		{ "NOME": "PIB",
+		"VALORES": [129662, 143447, 154248, 175145, 186884]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 53, 54, 54, 54]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910800,
+    "NOME_MUNICIPIO": "Feira de Santana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [568099, 606139, 612000, 617528, 622639]},
+		{ "NOME": "PIB",
+		"VALORES": [9148602, 10949907, 11727165, 11962297, 13107354]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [16, 18, 19, 19, 21]},
+		{ "NOME": "Escolas",
+		"VALORES": [439, 466, 476, 478, 524]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2928208,
+    "NOME_MUNICIPIO": "Santana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [24987, 26998, 27132, 27260, 27381]},
+		{ "NOME": "PIB",
+		"VALORES": [152902, 190749, 197248, 206865, 213894]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [53, 44, 53, 43, 54]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2902609,
+    "NOME_MUNICIPIO": "Baixa Grande",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20031, 21174, 21186, 21197, 21393]},
+		{ "NOME": "PIB",
+		"VALORES": [100423, 113554, 121193, 132445, 137300]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [57, 82, 82, 82, 85]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2924207,
+    "NOME_MUNICIPIO": "Pedro Alexandre",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17045, 18051, 18094, 18135, 18173]},
+		{ "NOME": "PIB",
+		"VALORES": [72184, 95456, 108391, 112682, 106432]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [69, 69, 69, 69, 69]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2920106,
+    "NOME_MUNICIPIO": "Mairi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19163, 20194, 20144, 20097, 19736]},
+		{ "NOME": "PIB",
+		"VALORES": [92580, 103837, 111016, 125266, 128983]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [43, 57, 57, 57, 57]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2916005,
+    "NOME_MUNICIPIO": "Itanhém",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20015, 20735, 20671, 20611, 20554]},
+		{ "NOME": "PIB",
+		"VALORES": [154284, 173476, 188859, 203395, 219272]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 49, 49, 49, 49]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2911907,
+    "NOME_MUNICIPIO": "Iaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25319, 26591, 26382, 26178, 26012]},
+		{ "NOME": "PIB",
+		"VALORES": [148758, 149740, 202247, 225272, 197016]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 7, 8, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [91, 92, 92, 92, 92]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910909,
+    "NOME_MUNICIPIO": "Firmino Alves",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [5417, 5744, 5766, 5786, 5804]},
+		{ "NOME": "PIB",
+		"VALORES": [29311, 34880, 38312, 43560, 44483]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [8, 8, 12, 8, 12]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2915007,
+    "NOME_MUNICIPIO": "Itaeté",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15063, 15996, 16370, 16446, 16519]},
+		{ "NOME": "PIB",
+		"VALORES": [65498, 74262, 79260, 84480, 87300]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 47, 48, 48, 48]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906808,
+    "NOME_MUNICIPIO": "Cansanção",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [33054, 35029, 35135, 35235, 36105]},
+		{ "NOME": "PIB",
+		"VALORES": [159937, 179908, 198072, 244199, 249978]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [95, 95, 95, 93, 96]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2932408,
+    "NOME_MUNICIPIO": "Uibaí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13642, 14436, 14460, 14483, 14454]},
+		{ "NOME": "PIB",
+		"VALORES": [64865, 74611, 83464, 89314, 96526]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 43, 43, 42, 42]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2902708,
+    "NOME_MUNICIPIO": "Barra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [50134, 53361, 53786, 54188, 54563]},
+		{ "NOME": "PIB",
+		"VALORES": [233472, 272376, 296407, 331766, 349674]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [104, 128, 130, 132, 135]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2904753,
+    "NOME_MUNICIPIO": "Buritirama",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19853, 21115, 21418, 21549, 21671]},
+		{ "NOME": "PIB",
+		"VALORES": [83401, 91044, 101171, 112619, 117640]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [72, 75, 75, 75, 75]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2928307,
+    "NOME_MUNICIPIO": "Santanópolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8835, 9370, 9407, 9442, 9232]},
+		{ "NOME": "PIB",
+		"VALORES": [34821, 46546, 47383, 56115, 56295]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 33, 33, 33, 33]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2912905,
+    "NOME_MUNICIPIO": "Ibirataia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17959, 18546, 18348, 17947, 17573]},
+		{ "NOME": "PIB",
+		"VALORES": [134178, 147247, 141825, 166075, 171186]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [56, 57, 57, 57, 57]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910859,
+    "NOME_MUNICIPIO": "Filadélfia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16672, 17603, 17593, 17583, 17184]},
+		{ "NOME": "PIB",
+		"VALORES": [74977, 87939, 103072, 114339, 117328]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 35, 35, 35, 34]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2917003,
+    "NOME_MUNICIPIO": "Itiúba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [36200, 38330, 38413, 38492, 37500]},
+		{ "NOME": "PIB",
+		"VALORES": [167956, 188801, 210500, 236730, 281185]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [183, 182, 184, 184, 185]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2908804,
+    "NOME_MUNICIPIO": "Contendas do Sincorá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [4613, 4354, 4340, 4326, 4312]},
+		{ "NOME": "PIB",
+		"VALORES": [24037, 27223, 30873, 34369, 34529]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [19, 19, 19, 19, 19]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2904704,
+    "NOME_MUNICIPIO": "Buerarema",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18528, 19311, 19297, 19283, 19269]},
+		{ "NOME": "PIB",
+		"VALORES": [206324, 224255, 234293, 217212, 177335]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 11, 12, 11, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 51, 51, 35, 51]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902658,
+    "NOME_MUNICIPIO": "Banzaê",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11840, 12534, 12560, 13711, 13738]},
+		{ "NOME": "PIB",
+		"VALORES": [51748, 59951, 68903, 75898, 82156]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 49, 50, 44, 51]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2907806,
+    "NOME_MUNICIPIO": "Cícero Dantas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [32470, 34424, 34540, 34478, 34581]},
+		{ "NOME": "PIB",
+		"VALORES": [162513, 202707, 216195, 248504, 256155]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 50, 56, 52, 55]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933406,
+    "NOME_MUNICIPIO": "Wagner",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8985, 9504, 9720, 9731, 9743]},
+		{ "NOME": "PIB",
+		"VALORES": [47143, 46668, 64828, 62804, 72823]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 4, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 27, 27, 29, 29]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929305,
+    "NOME_MUNICIPIO": "São Gonçalo dos Campos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [34232, 36641, 37111, 37554, 37634]},
+		{ "NOME": "PIB",
+		"VALORES": [287108, 321715, 458715, 620385, 770492]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 12, 16, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [53, 66, 66, 55, 68]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2903706,
+    "NOME_MUNICIPIO": "Boa Nova",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14620, 15141, 14861, 14577, 14314]},
+		{ "NOME": "PIB",
+		"VALORES": [70990, 79050, 85788, 93731, 94193]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 52, 52, 52, 52]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2925204,
+    "NOME_MUNICIPIO": "Pojuca",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [34106, 36551, 37061, 37543, 37993]},
+		{ "NOME": "PIB",
+		"VALORES": [1327604, 1444677, 1157448, 955648, 800661]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [38, 39, 31, 25, 21]},
+		{ "NOME": "Escolas",
+		"VALORES": [38, 33, 39, 42, 39]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2931350,
+    "NOME_MUNICIPIO": "Teixeira de Freitas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [143001, 153385, 155659, 157804, 159813]},
+		{ "NOME": "PIB",
+		"VALORES": [1512014, 1776848, 1939606, 2126825, 2255519]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 12, 13, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [102, 131, 136, 129, 138]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921104,
+    "NOME_MUNICIPIO": "Medeiros Neto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21642, 23358, 23420, 23478, 23535]},
+		{ "NOME": "PIB",
+		"VALORES": [196860, 214900, 268388, 299481, 302756]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 9, 11, 12, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [50, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919058,
+    "NOME_MUNICIPIO": "Lajedo do Tabocal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8346, 8847, 8810, 8836, 8862]},
+		{ "NOME": "PIB",
+		"VALORES": [52985, 61805, 65108, 71227, 73023]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 23, 23, 23, 23]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917102,
+    "NOME_MUNICIPIO": "Itororó",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19942, 21106, 21143, 21178, 21210]},
+		{ "NOME": "PIB",
+		"VALORES": [103723, 117448, 141919, 187926, 216694]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 8, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 38, 43, 37, 42]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2906857,
+    "NOME_MUNICIPIO": "Capela do Alto Alegre",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11485, 12128, 12123, 12118, 12203]},
+		{ "NOME": "PIB",
+		"VALORES": [55849, 64618, 80326, 81782, 81460]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [20, 34, 34, 34, 34]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932457,
+    "NOME_MUNICIPIO": "Umburanas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17432, 18635, 18851, 19055, 19343]},
+		{ "NOME": "PIB",
+		"VALORES": [66316, 73705, 94900, 108030, 154419]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 5, 5, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 46, 46, 46, 46]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913002,
+    "NOME_MUNICIPIO": "Ibitiara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15669, 16647, 16614, 16699, 16779]},
+		{ "NOME": "PIB",
+		"VALORES": [70145, 75592, 83120, 91214, 97800]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [52, 63, 63, 63, 63]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908903,
+    "NOME_MUNICIPIO": "Coração de Maria",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22149, 23314, 23228, 23146, 23961]},
+		{ "NOME": "PIB",
+		"VALORES": [120308, 145168, 161047, 168055, 179339]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 55, 68, 68, 68]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930402,
+    "NOME_MUNICIPIO": "Serra Preta",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14993, 15672, 15507, 15351, 16171]},
+		{ "NOME": "PIB",
+		"VALORES": [68931, 80332, 89722, 94000, 100206]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [47, 39, 49, 33, 52]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904803,
+    "NOME_MUNICIPIO": "Caatiba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10576, 10828, 10486, 10166, 10044]},
+		{ "NOME": "PIB",
+		"VALORES": [56221, 54056, 60191, 64977, 66278]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 48, 48, 49, 49]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929404,
+    "NOME_MUNICIPIO": "São Miguel das Matas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10474, 11105, 11963, 12009, 12051]},
+		{ "NOME": "PIB",
+		"VALORES": [74570, 91001, 111656, 118666, 110272]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 25, 26, 27, 28]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2903805,
+    "NOME_MUNICIPIO": "Boa Vista do Tupim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17898, 18888, 18677, 18658, 19516]},
+		{ "NOME": "PIB",
+		"VALORES": [100045, 110585, 104277, 110955, 116791]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [61, 81, 81, 65, 80]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2906873,
+    "NOME_MUNICIPIO": "Capim Grosso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27067, 28853, 29107, 29346, 31181]},
+		{ "NOME": "PIB",
+		"VALORES": [202530, 253545, 290884, 343668, 353837]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 11, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 52, 63, 47, 66]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2919157,
+    "NOME_MUNICIPIO": "Lapão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25785, 27338, 27432, 27521, 28166]},
+		{ "NOME": "PIB",
+		"VALORES": [122102, 134080, 159654, 183312, 194053]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [38, 38, 39, 40, 40]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2925303,
+    "NOME_MUNICIPIO": "Porto Seguro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [131642, 141006, 143282, 145431, 147444]},
+		{ "NOME": "PIB",
+		"VALORES": [1514841, 1831809, 2077893, 2289906, 2523425]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 12, 14, 15, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [163, 168, 169, 145, 175]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921203,
+    "NOME_MUNICIPIO": "Miguel Calmon",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [26188, 27569, 27627, 27536, 27600]},
+		{ "NOME": "PIB",
+		"VALORES": [144559, 166910, 177717, 198221, 220896]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [94, 94, 94, 94, 94]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2909901,
+    "NOME_MUNICIPIO": "Curaçá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [32631, 34725, 34974, 35208, 35320]},
+		{ "NOME": "PIB",
+		"VALORES": [213263, 225587, 270295, 258036, 269056]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [82, 82, 82, 81, 82]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2927309,
+    "NOME_MUNICIPIO": "Salinas da Margarida",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13921, 14937, 15171, 15385, 15585]},
+		{ "NOME": "PIB",
+		"VALORES": [106005, 139614, 146237, 156733, 167687]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 9, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 30, 30, 26, 30]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2933455,
+    "NOME_MUNICIPIO": "Wanderley",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12356, 13089, 13047, 13008, 12971]},
+		{ "NOME": "PIB",
+		"VALORES": [84040, 100959, 117753, 133572, 132065]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 9, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [54, 55, 55, 56, 56]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905800,
+    "NOME_MUNICIPIO": "Camamu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [35366, 37207, 36321, 36435, 36543]},
+		{ "NOME": "PIB",
+		"VALORES": [255298, 277483, 296278, 348686, 338646]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [98, 106, 106, 106, 106]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906824,
+    "NOME_MUNICIPIO": "Canudos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15941, 16956, 17070, 17177, 17222]},
+		{ "NOME": "PIB",
+		"VALORES": [76321, 94628, 105845, 109173, 131589]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [49, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2931400,
+    "NOME_MUNICIPIO": "Teodoro Sampaio",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7746, 8125, 8067, 8013, 7984]},
+		{ "NOME": "PIB",
+		"VALORES": [54666, 56471, 62718, 67544, 128772]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 6, 7, 8, 16]},
+		{ "NOME": "Escolas",
+		"VALORES": [20, 15, 14, 20, 22]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923209,
+    "NOME_MUNICIPIO": "Oliveira dos Brejinhos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21813, 22738, 22756, 22774, 22789]},
+		{ "NOME": "PIB",
+		"VALORES": [119316, 129371, 145081, 149349, 159429]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [111, 112, 112, 112, 112]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929354,
+    "NOME_MUNICIPIO": "São José da Vitória",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [5609, 6202, 6158, 6118, 6081]},
+		{ "NOME": "PIB",
+		"VALORES": [33172, 36494, 40299, 44822, 48553]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [11, 17, 18, 15, 18]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2901700,
+    "NOME_MUNICIPIO": "Antônio Cardoso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11545, 12206, 12216, 12225, 12200]},
+		{ "NOME": "PIB",
+		"VALORES": [79406, 99034, 95743, 98897, 90898]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 8, 7, 8, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 32, 39, 39, 39]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919108,
+    "NOME_MUNICIPIO": "Lamarão",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9271, 9673, 9554, 9442, 9099]},
+		{ "NOME": "PIB",
+		"VALORES": [33457, 39048, 41739, 46583, 49035]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 4, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 31, 22, 21, 29]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925253,
+    "NOME_MUNICIPIO": "Ponto Novo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15524, 16321, 16242, 16168, 15892]},
+		{ "NOME": "PIB",
+		"VALORES": [81121, 87560, 95974, 104419, 111251]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [66, 50, 68, 67, 68]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2926301,
+    "NOME_MUNICIPIO": "Riachão do Jacuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [33271, 35237, 35322, 35403, 34715]},
+		{ "NOME": "PIB",
+		"VALORES": [190536, 216226, 250996, 278152, 324992]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [67, 70, 71, 68, 67]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2900702,
+    "NOME_MUNICIPIO": "Alagoinhas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [143460, 152570, 153560, 154495, 155362]},
+		{ "NOME": "PIB",
+		"VALORES": [2363471, 2659131, 2757406, 2737826, 3177575]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [16, 17, 17, 17, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [181, 203, 212, 211, 210]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2922201,
+    "NOME_MUNICIPIO": "Muniz Ferreira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7374, 7825, 7860, 7893, 7650]},
+		{ "NOME": "PIB",
+		"VALORES": [34350, 37358, 41939, 47556, 48567]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 30, 30, 22, 28]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929370,
+    "NOME_MUNICIPIO": "São José do Jacuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10293, 10938, 11002, 11061, 10735]},
+		{ "NOME": "PIB",
+		"VALORES": [51554, 58658, 66184, 74749, 78457]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 34, 34, 34, 35]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2918100,
+    "NOME_MUNICIPIO": "Jeremoabo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [38163, 40587, 40851, 41100, 41387]},
+		{ "NOME": "PIB",
+		"VALORES": [208092, 253274, 274370, 315046, 315003]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [134, 136, 136, 135, 135]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2914000,
+    "NOME_MUNICIPIO": "Ipirá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [59001, 62253, 62172, 62095, 62697]},
+		{ "NOME": "PIB",
+		"VALORES": [409387, 524787, 590930, 611581, 693069]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 8, 9, 9, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [106, 118, 118, 123, 124]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923308,
+    "NOME_MUNICIPIO": "Ouriçangas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8316, 8804, 8822, 8839, 8895]},
+		{ "NOME": "PIB",
+		"VALORES": [39577, 40591, 46598, 50583, 52665]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [21, 22, 22, 22, 22]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919207,
+    "NOME_MUNICIPIO": "Lauro de Freitas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [171042, 184383, 188013, 191436, 194641]},
+		{ "NOME": "PIB",
+		"VALORES": [4578168, 5351015, 5930813, 5655486, 6104081]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [26, 29, 31, 29, 31]},
+		{ "NOME": "Escolas",
+		"VALORES": [125, 142, 149, 150, 160]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2915106,
+    "NOME_MUNICIPIO": "Itagi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12805, 13433, 13448, 13359, 13276]},
+		{ "NOME": "PIB",
+		"VALORES": [79075, 88518, 104397, 114068, 107395]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 45, 45, 45, 46]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922300,
+    "NOME_MUNICIPIO": "Muritiba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [28944, 30635, 30691, 30743, 30585]},
+		{ "NOME": "PIB",
+		"VALORES": [192803, 219883, 247051, 263970, 288093]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [34, 42, 35, 34, 41]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2914109,
+    "NOME_MUNICIPIO": "Ipupiara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9398, 9992, 10054, 10113, 10107]},
+		{ "NOME": "PIB",
+		"VALORES": [44752, 51061, 57471, 67414, 74125]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [41, 41, 41, 41, 41]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2910008,
+    "NOME_MUNICIPIO": "Dário Meira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12217, 12721, 12190, 12022, 11864]},
+		{ "NOME": "PIB",
+		"VALORES": [47702, 53640, 57566, 94881, 92041]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 33, 33, 33, 33]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2905909,
+    "NOME_MUNICIPIO": "Campo Alegre de Lourdes",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [28156, 29812, 29877, 29938, 29994]},
+		{ "NOME": "PIB",
+		"VALORES": [132054, 139953, 156005, 182240, 193097]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [147, 154, 141, 140, 169]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2931509,
+    "NOME_MUNICIPIO": "Teofilândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21581, 22873, 22944, 23011, 23319]},
+		{ "NOME": "PIB",
+		"VALORES": [96431, 115872, 124272, 137857, 150373]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 63, 63, 63, 64]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927408,
+    "NOME_MUNICIPIO": "Salvador",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [2710968, 2883682, 2902927, 2921087, 2938092]},
+		{ "NOME": "PIB",
+		"VALORES": [47940350, 53471659, 56551329, 57918103, 61102373]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [17, 18, 19, 19, 20]},
+		{ "NOME": "Escolas",
+		"VALORES": [1439, 1316, 1438, 1393, 1518]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2901809,
+    "NOME_MUNICIPIO": "Antônio Gonçalves",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11229, 11973, 12083, 12187, 11989]},
+		{ "NOME": "PIB",
+		"VALORES": [43679, 48600, 56408, 63629, 63539]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [43, 33, 44, 29, 44]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920205,
+    "NOME_MUNICIPIO": "Malhada",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16058, 17375, 17416, 17455, 17491]},
+		{ "NOME": "PIB",
+		"VALORES": [83684, 108517, 112516, 123374, 125249]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 47, 49, 49, 49]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2916104,
+    "NOME_MUNICIPIO": "Itaparica",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20994, 22329, 22476, 22615, 22744]},
+		{ "NOME": "PIB",
+		"VALORES": [161402, 183559, 193541, 200067, 209875]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [32, 33, 32, 34, 33]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2922250,
+    "NOME_MUNICIPIO": "Muquém do São Francisco",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10433, 11465, 11552, 11495, 11571]},
+		{ "NOME": "PIB",
+		"VALORES": [78443, 89343, 103556, 124226, 127077]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 10, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 25, 26, 26, 26]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912004,
+    "NOME_MUNICIPIO": "Ibiassucê",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9607, 10866, 10679, 10502, 10337]},
+		{ "NOME": "PIB",
+		"VALORES": [53911, 63840, 69233, 75189, 81015]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [44, 44, 44, 44, 44]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907905,
+    "NOME_MUNICIPIO": "Cipó",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15884, 16860, 16938, 17602, 17673]},
+		{ "NOME": "PIB",
+		"VALORES": [78000, 88400, 98118, 117767, 119426]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 50, 48, 47, 48]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933505,
+    "NOME_MUNICIPIO": "Wenceslau Guimarães",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21910, 23046, 22621, 22530, 22445]},
+		{ "NOME": "PIB",
+		"VALORES": [177590, 198234, 223686, 262180, 319406]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 8, 9, 11, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [95, 96, 96, 96, 96]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911006,
+    "NOME_MUNICIPIO": "Floresta Azul",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10657, 11392, 11352, 11313, 11279]},
+		{ "NOME": "PIB",
+		"VALORES": [58069, 70075, 72625, 80458, 78633]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [41, 41, 41, 41, 41]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2906907,
+    "NOME_MUNICIPIO": "Caravelas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21612, 22328, 22442, 22548, 22646]},
+		{ "NOME": "PIB",
+		"VALORES": [283502, 277084, 285985, 344764, 392261]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 12, 12, 15, 17]},
+		{ "NOME": "Escolas",
+		"VALORES": [34, 44, 43, 43, 44]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2932507,
+    "NOME_MUNICIPIO": "Una",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22992, 22989, 22535, 22105, 21706]},
+		{ "NOME": "PIB",
+		"VALORES": [227976, 242869, 269723, 282558, 287790]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 10, 11, 12, 13]},
+		{ "NOME": "Escolas",
+		"VALORES": [90, 89, 89, 89, 89]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2904852,
+    "NOME_MUNICIPIO": "Cabaceiras do Paraguaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17582, 18713, 18850, 18978, 19199]},
+		{ "NOME": "PIB",
+		"VALORES": [90021, 104664, 113449, 111660, 131693]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 36, 38, 38, 38]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928406,
+    "NOME_MUNICIPIO": "Santa Rita de Cássia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [26653, 28349, 28642, 28822, 28988]},
+		{ "NOME": "PIB",
+		"VALORES": [131598, 153542, 182047, 200772, 246878]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 6, 6, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [87, 84, 85, 86, 86]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2902807,
+    "NOME_MUNICIPIO": "Barra da Estiva",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20767, 22409, 22566, 22394, 22232]},
+		{ "NOME": "PIB",
+		"VALORES": [121695, 180919, 207078, 225676, 245374]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 8, 9, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [67, 76, 78, 66, 78]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2924306,
+    "NOME_MUNICIPIO": "Piatã",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17257, 18421, 18584, 18473, 18366]},
+		{ "NOME": "PIB",
+		"VALORES": [94678, 88738, 104904, 116967, 116625]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 26, 27, 27, 27]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906899,
+    "NOME_MUNICIPIO": "Caraíbas",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9879, 10292, 10150, 10016, 9890]},
+		{ "NOME": "PIB",
+		"VALORES": [43446, 50468, 55864, 59925, 66434]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [9, 18, 18, 16, 18]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910057,
+    "NOME_MUNICIPIO": "Dias d'Ávila",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [69628, 75103, 76624, 78058, 79401]},
+		{ "NOME": "PIB",
+		"VALORES": [2501015, 2757751, 3128588, 3331141, 3346132]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [35, 36, 40, 42, 42]},
+		{ "NOME": "Escolas",
+		"VALORES": [53, 58, 67, 68, 71]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2916203,
+    "NOME_MUNICIPIO": "Itapé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10436, 10682, 10448, 10228, 10022]},
+		{ "NOME": "PIB",
+		"VALORES": [58294, 68839, 75173, 83329, 94674]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [17, 17, 17, 15, 17]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2933604,
+    "NOME_MUNICIPIO": "Xique-Xique",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [45660, 48100, 48210, 48316, 48274]},
+		{ "NOME": "PIB",
+		"VALORES": [237066, 278198, 326177, 325877, 342261]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [168, 185, 186, 187, 186]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912103,
+    "NOME_MUNICIPIO": "Ibicaraí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [23560, 24595, 24303, 24029, 23770]},
+		{ "NOME": "PIB",
+		"VALORES": [132653, 146660, 155807, 172565, 173802]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 47, 48, 48, 47]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903904,
+    "NOME_MUNICIPIO": "Bom Jesus da Lapa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [64740, 68282, 68922, 69526, 70090]},
+		{ "NOME": "PIB",
+		"VALORES": [486537, 550848, 634594, 773330, 824384]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 11, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [117, 124, 129, 123, 123]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2908002,
+    "NOME_MUNICIPIO": "Coaraci",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19937, 20620, 20183, 19770, 19383]},
+		{ "NOME": "PIB",
+		"VALORES": [109508, 126114, 137973, 154314, 158871]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 52, 52, 51, 51]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907004,
+    "NOME_MUNICIPIO": "Cardeal da Silva",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9030, 9611, 9681, 9747, 9809]},
+		{ "NOME": "PIB",
+		"VALORES": [125628, 108301, 96108, 85919, 74520]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [13, 11, 9, 8, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [12, 13, 13, 14, 14]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2932606,
+    "NOME_MUNICIPIO": "Urandi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16493, 17239, 17270, 17301, 17329]},
+		{ "NOME": "PIB",
+		"VALORES": [113555, 127914, 136398, 136810, 163105]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 7, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 62, 62, 62, 62]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2928505,
+    "NOME_MUNICIPIO": "Santa Terezinha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9792, 10423, 10514, 10586, 10619]},
+		{ "NOME": "PIB",
+		"VALORES": [47099, 50694, 62730, 67794, 72168]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [35, 39, 40, 40, 41]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2902906,
+    "NOME_MUNICIPIO": "Barra do Choça",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [35501, 35567, 35200, 34853, 34421]},
+		{ "NOME": "PIB",
+		"VALORES": [258877, 286329, 351122, 441795, 501705]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 9, 12, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [54, 68, 69, 71, 71]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2924405,
+    "NOME_MUNICIPIO": "Pilão Arcado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [33176, 35237, 35255, 35428, 35590]},
+		{ "NOME": "PIB",
+		"VALORES": [145142, 159375, 172202, 196485, 208213]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 4, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [193, 236, 236, 235, 236]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2920304,
+    "NOME_MUNICIPIO": "Malhada de Pedras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8389, 8942, 8918, 8896, 8875]},
+		{ "NOME": "PIB",
+		"VALORES": [37451, 43850, 48930, 52183, 55756]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 42, 42, 42, 42]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2913101,
+    "NOME_MUNICIPIO": "Ibititá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17763, 18752, 18740, 18727, 17957]},
+		{ "NOME": "PIB",
+		"VALORES": [76422, 84804, 95063, 108829, 105589]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 51, 51, 49, 49]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909000,
+    "NOME_MUNICIPIO": "Cordeiros",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8245, 8752, 8795, 8834, 8870]},
+		{ "NOME": "PIB",
+		"VALORES": [36203, 40152, 45897, 50593, 52834]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 5]},
+		{ "NOME": "Escolas",
+		"VALORES": [42, 42, 44, 44, 44]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2930501,
+    "NOME_MUNICIPIO": "Serrinha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [77211, 82157, 82733, 83275, 82621]},
+		{ "NOME": "PIB",
+		"VALORES": [613149, 690428, 703223, 758297, 821066]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 8, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [146, 202, 200, 204, 205]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904902,
+    "NOME_MUNICIPIO": "Cachoeira",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [32270, 34244, 34394, 34535, 35013]},
+		{ "NOME": "PIB",
+		"VALORES": [323948, 387812, 429673, 450446, 523162]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 12, 13, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 69, 72, 67, 73]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2926400,
+    "NOME_MUNICIPIO": "Riacho de Santana",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [31027, 35586, 35819, 36039, 36246]},
+		{ "NOME": "PIB",
+		"VALORES": [147906, 176211, 215895, 218874, 241958]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 6, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [34, 36, 56, 56, 56]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2900801,
+    "NOME_MUNICIPIO": "Alcobaça",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21328, 23176, 23231, 23282, 23331]},
+		{ "NOME": "PIB",
+		"VALORES": [193453, 198823, 209489, 234477, 260134]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 8, 9, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [39, 66, 67, 66, 69]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918209,
+    "NOME_MUNICIPIO": "Jiquiriçá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14096, 14936, 14993, 15033, 15071]},
+		{ "NOME": "PIB",
+		"VALORES": [67098, 84041, 88323, 95926, 109084]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [28, 42, 42, 43, 43]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923357,
+    "NOME_MUNICIPIO": "Ourolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16578, 17603, 17691, 17775, 17954]},
+		{ "NOME": "PIB",
+		"VALORES": [95546, 95781, 115215, 130408, 152104]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [28, 42, 40, 41, 43]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929503,
+    "NOME_MUNICIPIO": "São Sebastião do Passé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [42485, 45090, 45292, 45482, 45660]},
+		{ "NOME": "PIB",
+		"VALORES": [769916, 830624, 707152, 669668, 560528]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [18, 18, 15, 14, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [56, 63, 63, 53, 62]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2925402,
+    "NOME_MUNICIPIO": "Potiraguá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9360, 9574, 9263, 8969, 8694]},
+		{ "NOME": "PIB",
+		"VALORES": [60756, 66095, 77435, 80180, 80774]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [30, 25, 33, 22, 32]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2921302,
+    "NOME_MUNICIPIO": "Milagres",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10994, 11569, 11700, 11659, 11621]},
+		{ "NOME": "PIB",
+		"VALORES": [80329, 70649, 100533, 85727, 91049]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 6, 8, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [19, 22, 24, 21, 25]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917201,
+    "NOME_MUNICIPIO": "Ituaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18302, 19211, 19311, 19406, 19494]},
+		{ "NOME": "PIB",
+		"VALORES": [122228, 139200, 170398, 191645, 193248]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [93, 95, 95, 71, 97]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926509,
+    "NOME_MUNICIPIO": "Ribeira do Amparo",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14333, 15186, 15229, 15269, 15308]},
+		{ "NOME": "PIB",
+		"VALORES": [76177, 81841, 96965, 109576, 160957]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [47, 55, 55, 53, 55]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2930600,
+    "NOME_MUNICIPIO": "Serrolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12464, 13238, 13308, 13373, 13774]},
+		{ "NOME": "PIB",
+		"VALORES": [62883, 67990, 75824, 85396, 93453]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [19, 39, 38, 33, 39]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922409,
+    "NOME_MUNICIPIO": "Mutuípe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [21608, 22928, 22742, 22833, 22917]},
+		{ "NOME": "PIB",
+		"VALORES": [128196, 150338, 163635, 183015, 210022]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [45, 49, 69, 44, 68]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2900900,
+    "NOME_MUNICIPIO": "Almadina",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [6130, 6327, 6234, 6145, 6062]},
+		{ "NOME": "PIB",
+		"VALORES": [38568, 41406, 69222, 57993, 55434]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 11, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [25, 25, 25, 19, 25]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2918308,
+    "NOME_MUNICIPIO": "Jitaúna",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13280, 13667, 13636, 13300, 12985]},
+		{ "NOME": "PIB",
+		"VALORES": [86177, 88895, 102031, 122868, 117518]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 7, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [62, 63, 63, 63, 63]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2914208,
+    "NOME_MUNICIPIO": "Irajuba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7046, 7471, 7443, 7472, 7497]},
+		{ "NOME": "PIB",
+		"VALORES": [35497, 41698, 46056, 49866, 57290]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 6, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [25, 27, 27, 27, 27]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925501,
+    "NOME_MUNICIPIO": "Prado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [27693, 29095, 29158, 29218, 29273]},
+		{ "NOME": "PIB",
+		"VALORES": [267059, 302543, 369230, 422019, 416557]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 10, 12, 14, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [50, 60, 61, 62, 61]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921401,
+    "NOME_MUNICIPIO": "Mirangaba",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16606, 17714, 17881, 18039, 18588]},
+		{ "NOME": "PIB",
+		"VALORES": [76242, 82539, 94201, 107474, 113282]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [46, 37, 51, 42, 50]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2917300,
+    "NOME_MUNICIPIO": "Ituberá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [26930, 28639, 28934, 29108, 29273]},
+		{ "NOME": "PIB",
+		"VALORES": [235598, 270137, 290142, 297856, 325394]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 9, 10, 10, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [57, 62, 62, 62, 63]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2909109,
+    "NOME_MUNICIPIO": "Coribe",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14210, 15024, 15000, 14976, 14954]},
+		{ "NOME": "PIB",
+		"VALORES": [87272, 88056, 103752, 111094, 122929]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 5, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 60, 60, 58, 60]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905008,
+    "NOME_MUNICIPIO": "Caculé",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [22577, 23232, 23392, 23545, 23685]},
+		{ "NOME": "PIB",
+		"VALORES": [198009, 184301, 298323, 226874, 240374]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 7, 12, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 33, 34, 34, 34]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2913200,
+    "NOME_MUNICIPIO": "Ibotirama",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [25617, 27285, 27405, 27655, 27762]},
+		{ "NOME": "PIB",
+		"VALORES": [208924, 217539, 275243, 291853, 337311]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 7, 10, 10, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [71, 72, 73, 73, 73]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2923407,
+    "NOME_MUNICIPIO": "Palmas de Monte Alto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [20894, 22260, 22340, 22416, 22487]},
+		{ "NOME": "PIB",
+		"VALORES": [95345, 115778, 124879, 141463, 151861]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [90, 90, 90, 42, 90]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919306,
+    "NOME_MUNICIPIO": "Lençóis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10589, 11300, 11340, 11445, 11544]},
+		{ "NOME": "PIB",
+		"VALORES": [71818, 79970, 93742, 112338, 113963]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [22, 27, 27, 25, 27]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2915205,
+    "NOME_MUNICIPIO": "Itagibá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15088, 15829, 15871, 15767, 15669]},
+		{ "NOME": "PIB",
+		"VALORES": [562828, 312030, 340183, 355444, 187185]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [37, 19, 21, 22, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [52, 52, 52, 52, 52]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911105,
+    "NOME_MUNICIPIO": "Formosa do Rio Preto",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [23169, 24799, 25074, 25372, 25652]},
+		{ "NOME": "PIB",
+		"VALORES": [1503204, 1175872, 1366233, 1605408, 985453]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [64, 47, 54, 63, 38]},
+		{ "NOME": "Escolas",
+		"VALORES": [88, 91, 92, 93, 93]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2931608,
+    "NOME_MUNICIPIO": "Teolândia",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14113, 15016, 15079, 15178, 15269]},
+		{ "NOME": "PIB",
+		"VALORES": [79898, 89853, 93434, 112279, 143430]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 51, 51, 51, 51]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910107,
+    "NOME_MUNICIPIO": "Dom Basílio",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [11454, 12379, 12441, 12499, 12553]},
+		{ "NOME": "PIB",
+		"VALORES": [83314, 93283, 106696, 112812, 123445]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [36, 50, 50, 50, 50]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2901908,
+    "NOME_MUNICIPIO": "Aporá",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17877, 18976, 19063, 19146, 19223]},
+		{ "NOME": "PIB",
+		"VALORES": [79165, 90093, 100548, 111337, 118226]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [52, 53, 55, 55, 52]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2906006,
+    "NOME_MUNICIPIO": "Campo Formoso",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [67305, 71507, 71900, 72271, 73118]},
+		{ "NOME": "PIB",
+		"VALORES": [417449, 483018, 583367, 611961, 726876]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [201, 202, 204, 205, 208]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2903953,
+    "NOME_MUNICIPIO": "Bom Jesus da Serra",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10120, 10644, 10597, 10554, 10515]},
+		{ "NOME": "PIB",
+		"VALORES": [39895, 41176, 44171, 50877, 52293]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 3, 4, 4, 4]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 15, 15, 15, 19]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2927507,
+    "NOME_MUNICIPIO": "Santa Bárbara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19292, 20509, 20635, 20754, 21310]},
+		{ "NOME": "PIB",
+		"VALORES": [115302, 138799, 149181, 150833, 156104]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [48, 53, 53, 44, 52]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919405,
+    "NOME_MUNICIPIO": "Licínio de Almeida",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12268, 12962, 12965, 12966, 12967]},
+		{ "NOME": "PIB",
+		"VALORES": [63503, 71811, 80967, 94756, 101050]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [55, 56, 56, 54, 55]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917359,
+    "NOME_MUNICIPIO": "Jaborandi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8728, 9417, 9318, 9225, 9138]},
+		{ "NOME": "PIB",
+		"VALORES": [299906, 302120, 409262, 354521, 345574]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [34, 32, 43, 38, 37]},
+		{ "NOME": "Escolas",
+		"VALORES": [21, 33, 33, 23, 33]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2915304,
+    "NOME_MUNICIPIO": "Itagimirim",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7013, 7420, 7384, 7351, 7319]},
+		{ "NOME": "PIB",
+		"VALORES": [66515, 88700, 91939, 107965, 108258]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [9, 11, 12, 14, 14]},
+		{ "NOME": "Escolas",
+		"VALORES": [25, 25, 25, 25, 25]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921450,
+    "NOME_MUNICIPIO": "Mirante",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9902, 10270, 10081, 9902, 9735]},
+		{ "NOME": "PIB",
+		"VALORES": [39234, 44041, 50040, 55275, 59727]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [3, 4, 4, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 31, 31, 31, 32]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2911204,
+    "NOME_MUNICIPIO": "Gandu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [30816, 32814, 33097, 32809, 33030]},
+		{ "NOME": "PIB",
+		"VALORES": [220579, 249876, 273424, 308095, 318970]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [60, 70, 71, 71, 71]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932705,
+    "NOME_MUNICIPIO": "Uruçuca",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [19642, 22004, 21924, 21849, 21778]},
+		{ "NOME": "PIB",
+		"VALORES": [127503, 157664, 179293, 189304, 199181]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 7, 8, 8, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [65, 88, 88, 88, 88]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910206,
+    "NOME_MUNICIPIO": "Dom Macedo Costa",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [3894, 4127, 4140, 4153, 4201]},
+		{ "NOME": "PIB",
+		"VALORES": [21368, 25121, 26698, 29377, 31596]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 16, 16, 16, 16]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2906105,
+    "NOME_MUNICIPIO": "Canápolis",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [9395, 10130, 10137, 10142, 10146]},
+		{ "NOME": "PIB",
+		"VALORES": [45486, 50739, 56208, 60256, 61321]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [32, 35, 38, 38, 38]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2931707,
+    "NOME_MUNICIPIO": "Terra Nova",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [12793, 13526, 13537, 13547, 13527]},
+		{ "NOME": "PIB",
+		"VALORES": [87764, 88858, 85135, 99284, 119529]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [23, 26, 28, 28, 28]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2902005,
+    "NOME_MUNICIPIO": "Aracatu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13542, 14232, 14158, 14089, 14023]},
+		{ "NOME": "PIB",
+		"VALORES": [61997, 77990, 81211, 85659, 89349]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 6, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [69, 74, 74, 43, 74]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2927606,
+    "NOME_MUNICIPIO": "Santa Brígida",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [14698, 15381, 15237, 15100, 15091]},
+		{ "NOME": "PIB",
+		"VALORES": [63728, 83121, 83088, 89396, 97608]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 5, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [52, 52, 52, 52, 52]}
+	],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2904050,
+    "NOME_MUNICIPIO": "Bonito",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15126, 16132, 16730, 16873, 17006]},
+		{ "NOME": "PIB",
+		"VALORES": [94825, 102563, 113147, 154962, 157859]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 6, 9, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [33, 38, 38, 38, 41]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2923506,
+    "NOME_MUNICIPIO": "Palmeiras",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [8545, 9122, 9066, 9130, 9191]},
+		{ "NOME": "PIB",
+		"VALORES": [42994, 54583, 57018, 65299, 66632]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [27, 32, 32, 32, 32]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2916302,
+    "NOME_MUNICIPIO": "Itapebi",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10398, 10942, 10910, 10882, 10856]},
+		{ "NOME": "PIB",
+		"VALORES": [343870, 317413, 255611, 446820, 577798]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [33, 29, 23, 41, 53]},
+		{ "NOME": "Escolas",
+		"VALORES": [29, 47, 47, 47, 47]}
+	],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2912202,
+    "NOME_MUNICIPIO": "Ibicoara",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [17805, 19071, 19309, 19548, 19578]},
+		{ "NOME": "PIB",
+		"VALORES": [181977, 220066, 223258, 271149, 311070]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [10, 11, 11, 13, 15]},
+		{ "NOME": "Escolas",
+		"VALORES": [15, 17, 17, 16, 19]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2901957,
+    "NOME_MUNICIPIO": "Apuarema",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [7397, 7795, 7780, 7762, 7745]},
+		{ "NOME": "PIB",
+		"VALORES": [45257, 50831, 53135, 57125, 67914]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [6, 6, 6, 7, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [31, 31, 31, 31, 31]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2908101,
+    "NOME_MUNICIPIO": "Cocos",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [18235, 19281, 19340, 19396, 19449]},
+		{ "NOME": "PIB",
+		"VALORES": [205548, 193461, 229703, 231611, 219406]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [11, 10, 11, 11, 11]},
+		{ "NOME": "Escolas",
+		"VALORES": [51, 80, 83, 83, 83]}
+	],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2904001,
+    "NOME_MUNICIPIO": "Boninal",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13893, 14742, 14490, 14585, 14675]},
+		{ "NOME": "PIB",
+		"VALORES": [61392, 65625, 75172, 79697, 88829]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [24, 46, 46, 46, 47]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929602,
+    "NOME_MUNICIPIO": "Sapeaçu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [16619, 17594, 17630, 17664, 18083]},
+		{ "NOME": "PIB",
+		"VALORES": [126496, 140683, 147656, 167049, 182552]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [7, 7, 8, 9, 10]},
+		{ "NOME": "Escolas",
+		"VALORES": [52, 51, 52, 51, 52]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928604,
+    "NOME_MUNICIPIO": "Santo Amaro",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [57978, 61407, 61559, 61702, 61836]},
+		{ "NOME": "PIB",
+		"VALORES": [517741, 585014, 647285, 690458, 755103]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [8, 9, 10, 11, 12]},
+		{ "NOME": "Escolas",
+		"VALORES": [92, 103, 99, 100, 100]}
+	],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2907103,
+    "NOME_MUNICIPIO": "Carinhanha",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [28519, 29768, 29864, 29955, 30041]},
+		{ "NOME": "PIB",
+		"VALORES": [127244, 138544, 156391, 179003, 194248]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [40, 77, 78, 80, 80]}
+	],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2924504,
+    "NOME_MUNICIPIO": "Pindaí",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [15695, 16708, 16758, 16805, 16849]},
+		{ "NOME": "PIB",
+		"VALORES": [64214, 72357, 83845, 98304, 167047]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 9]},
+		{ "NOME": "Escolas",
+		"VALORES": [76, 76, 76, 76, 76]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903003,
+    "NOME_MUNICIPIO": "Barra do Mendes",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13914, 14684, 14540, 14526, 14570]},
+		{ "NOME": "PIB",
+		"VALORES": [64115, 71045, 78462, 85833, 90753]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [4, 4, 5, 5, 6]},
+		{ "NOME": "Escolas",
+		"VALORES": [61, 61, 61, 61, 61]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2918357,
+    "NOME_MUNICIPIO": "João Dourado",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [23066, 24633, 24894, 25141, 25431]},
+		{ "NOME": "PIB",
+		"VALORES": [124524, 148495, 169441, 204850, 216381]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 6, 8, 8]},
+		{ "NOME": "Escolas",
+		"VALORES": [30, 30, 30, 30, 31]}
+	],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917334,
+    "NOME_MUNICIPIO": "Iuiu",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [10963, 11253, 11294, 11331, 11366]},
+		{ "NOME": "PIB",
+		"VALORES": [60784, 74641, 80232, 87457, 90738]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 6, 7, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [38, 39, 39, 39, 39]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2920403,
+    "NOME_MUNICIPIO": "Manoel Vitorino",
+	"ATRIBUTOS": [
+		{ "NOME": "População",
+		"VALORES": [13948, 14600, 14618, 14488, 14364]},
+		{ "NOME": "PIB",
+		"VALORES": [73787, 80731, 94306, 102938, 109223]},
+		{ "NOME": "PIB / pop",
+		"VALORES": [5, 5, 6, 7, 7]},
+		{ "NOME": "Escolas",
+		"VALORES": [65, 65, 65, 65, 65]}
+	],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  }
+]
+}
