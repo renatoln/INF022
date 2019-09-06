@@ -143,6 +143,35 @@ function addPopUp(local, localEvolucao) {
 	})
 
 }
+
+function colorByLog(valor){
+	let min = Math.log10(geral.METADADOS.MIN_Valores[indexAtributo]);
+	let max = Math.log10(geral.METADADOS.MAX_Valores[indexAtributo]);
+	let faixa = (max - min) / 6;
+	let grupos = [6];
+	grupos[0] = min+faixa;
+
+	for (let i = 1; i < 6; i++) {
+		grupos[i] = grupos[i - 1] + faixa;
+	}
+	
+	valor = Math.log10(valor);
+
+	if (valor < grupos[0]) {
+		return cores.cor1;
+	} else if (valor < grupos[1]) {
+		return cores.cor2;
+	} else if (valor < grupos[2]) {
+		return cores.cor3;
+	} else if (valor < grupos[3]) {
+		return cores.cor4;
+	} else if (valor < grupos[4]) {
+		return cores.cor5;
+	} else {
+		return cores.cor6;
+	} 
+}
+
 function colorByMinMax(valor){
 	let min = geral.METADADOS.MIN_Valores[indexAtributo];
 	let max = geral.METADADOS.MAX_Valores[indexAtributo];
@@ -195,6 +224,9 @@ function definirCor(valor) {
 
 	else if (estrategiaColoracao == colorPercentis)
 		return colorByPercentis(valor);
+
+	else if (estrategiaColoracao == colorLog)
+		return colorByLog(valor);
 	
 }
 

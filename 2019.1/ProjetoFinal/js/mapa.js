@@ -18,7 +18,8 @@ let currentPlace = null;
 //Coloracao 
 let colorMinMax = 1;
 let colorPercentis = 2;
-let estrategiaColoracao = colorMinMax;
+let colorLog = 3;
+let estrategiaColoracao = colorLog;
 
 function inicializa(){
       //reading the config.json
