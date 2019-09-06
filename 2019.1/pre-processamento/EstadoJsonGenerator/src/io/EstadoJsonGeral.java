@@ -58,7 +58,7 @@ public class EstadoJsonGeral {
 		Set<Integer> populacaoMunicipios = populacaoMap.keySet();
     	for (Integer codigoMun : populacaoMunicipios)
     	{
-    		if(codigoMun != null && codigoMun.toString().startsWith("32")) {
+    		if(codigoMun != null && codigoMun.toString().startsWith("29")) {
     			int populacao = populacaoMap.get(codigoMun);
     			System.out.println(codigoMun + "\t" + populacao);
     		}
