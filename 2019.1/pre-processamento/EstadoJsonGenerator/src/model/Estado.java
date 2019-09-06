@@ -71,11 +71,14 @@ public class Estado {
 	                 return c1.intValue() - c2.intValue();
 	               }
 				});
-			
-			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*20));
-			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*40));
-			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*60));
-			percentis.get(ATRIBUTOS.get(i)).add(atributos.get(atributos.size()/100*80));
+			double index = (atributos.size()/100d)*20;
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
+			index = (atributos.size()/100d)*40;
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
+			index = (atributos.size()/100d)*60;
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
+			index = (atributos.size()/100d)*80;
+			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
 		}
 		//System.out.println("");
 		
