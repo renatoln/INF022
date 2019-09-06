@@ -95,6 +95,7 @@ function clearSearchOnMap() {
 function primeiroMapa() {
 	let capital = searchEquivalent(capitalId, jsonEstadoEvolucao.MUNICIPIOS);
 	lineChart(config.PERIODOS, capital.ATRIBUTOS[indexAtributo].VALORES, capitalNome);
+	currentPlace = capital;
 }
 
 //FUNÇÃO QUE ADICIONA O POPUP EM CADA CIDADE E TB ADICIONA OS GRAFICOS
@@ -108,7 +109,7 @@ function addPopUp(local, localEvolucao) {
 
 
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
-		line.addEventListener("click", function () {
+		line.addEventListener("click", function (){
 			if(local.node.attributes.id.value.includes("mun_"))
 				lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
 			else

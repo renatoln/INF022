@@ -13,6 +13,7 @@ let periodos;
 var svg;
 let range = document.getElementById("myRange");
 let labEpoca = document.getElementById("labelPeriodos");
+let currentPlace = null;
 
 //Coloracao 
 let colorMinMax = 1;
