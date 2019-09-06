@@ -5,7 +5,7 @@ let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
 let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
-
+cidades
 var isDirty = false;
 
 var cinza = "#8C92AC";
@@ -264,4 +264,4 @@ function generatePopUp(element){
 				}
 			}
 		}
-}
+}currentPlace

@@ -35,5 +35,8 @@ function myFunction(item, index) {
 
 function checkAlert(evt){
 	indexAtributo = evt.target.value;
-	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO)
+	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO);
+	for (let icount in cidades) {
+		generatePopUp(cidades[icount]);
+	}
 }
