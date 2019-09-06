@@ -32,3 +32,7 @@ atributos.forEach(myFunction);
 function myFunction(item, index) {
   dropAtributos.append($('<option></option>').attr('value', index).text(item));
 }
+
+function checkAlert(evt){
+	indexAtributo = evt.target.value;
+}
