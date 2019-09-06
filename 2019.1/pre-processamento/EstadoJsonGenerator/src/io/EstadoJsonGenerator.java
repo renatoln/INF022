@@ -33,8 +33,8 @@ public class EstadoJsonGenerator {
 
 	public static void main(String[] args) {
 		EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
-		//new EstadoJsonGeral(ejGenerator);
-		new EstadoJsonEvolucao(ejGenerator);
+		new EstadoJsonGeral(ejGenerator);
+		//new EstadoJsonEvolucao(ejGenerator);
 		
 
 	}

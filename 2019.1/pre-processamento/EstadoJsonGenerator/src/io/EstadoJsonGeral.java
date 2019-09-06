@@ -35,10 +35,10 @@ public class EstadoJsonGeral {
 		HashMap<Integer, Municipio> municipios = myEstadoJsonGenerator.getMunicipios();
 		//printMunicipios(municipios);
 		addAtributosMunicipios(municipios);
+		printPopulacaoMunicipios();
+		//Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios);
 		
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios);
-		
-		gerarJsonGeralEstado(estado);
+		//gerarJsonGeralEstado(estado);
 		
 	}
 	
@@ -49,6 +49,18 @@ public class EstadoJsonGeral {
     		if(codigoMun != null) {
     			Municipio mun = municipios.get(codigoMun);
     			System.out.println("municipios.put(\""+mun.NOME_MUNICIPIO+"\","+mun.ID+");");
+    		}
+    	}	
+		
+	}
+	
+	private void printPopulacaoMunicipios() {
+		Set<Integer> populacaoMunicipios = populacaoMap.keySet();
+    	for (Integer codigoMun : populacaoMunicipios)
+    	{
+    		if(codigoMun != null && codigoMun.toString().startsWith("32")) {
+    			int populacao = populacaoMap.get(codigoMun);
+    			System.out.println(codigoMun + "\t" + populacao);
     		}
     	}	
 		
