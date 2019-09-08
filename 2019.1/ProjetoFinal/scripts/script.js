@@ -125,9 +125,9 @@ function sunburst(localizacao) {
     margin: { l: 0, r: 0, b: 0, t: 0 },
     width: 500,
     height: 500,
-    sunburstcolorway:[
-      "#636efa","#EF553B","#00cc96","#ab63fa","#19d3f3",
-      "#e763fa", "#FECB52","#FFA15A","#FF6692","#B6E880"
+    sunburstcolorway: [
+      "#636efa", "#EF553B", "#00cc96", "#ab63fa", "#19d3f3",
+      "#e763fa", "#FECB52", "#FFA15A", "#FF6692", "#B6E880"
     ],
     extendsunburstcolorway: true
   };
@@ -270,17 +270,44 @@ function sunburst(localizacao) {
     }
   }
 
+  /* Poderia existir uma função mais inteligente para realizar o ajuste no tamanho da fonte */
 
-  var data = [{
-    type: "sunburst",
-    labels: labels,
-    parents: parents,
-    values: values,
-    outsidetextfont: { size: 15, color: "#377eb8" },
-    leaf: { opacity: 0.4 },
-    marker: { line: { width: 2 } },
-    branchvalues: 'total'
-  }];
+  if (localizacao.length > 25) {
+    var data = [{
+      type: "sunburst",
+      labels: labels,
+      parents: parents,
+      values: values,
+      outsidetextfont: { size: 10, color: "#377eb8" },
+      leaf: { opacity: 0.4 },
+      marker: { line: { width: 2 } },
+      branchvalues: 'total'
+    }];
+  }
+  else if (localizacao.length > 20) {
+    var data = [{
+      type: "sunburst",
+      labels: labels,
+      parents: parents,
+      values: values,
+      outsidetextfont: { size: 12, color: "#377eb8" },
+      leaf: { opacity: 0.4 },
+      marker: { line: { width: 2 } },
+      branchvalues: 'total'
+    }];
+  }
+  else {
+    var data = [{
+      type: "sunburst",
+      labels: labels,
+      parents: parents,
+      values: values,
+      outsidetextfont: { size: 14, color: "#377eb8" },
+      leaf: { opacity: 0.4 },
+      marker: { line: { width: 2 } },
+      branchvalues: 'total'
+    }];
+  }
 
   //branchvalues: 'total' -> Note that this means that the sum of the values of the children 
   //cannot exceed the value of their parent when branchvalues "total".
