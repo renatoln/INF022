@@ -155,6 +155,7 @@ function colorByLog(valor){
 		grupos[i] = grupos[i - 1] + faixa;
 	}
 	
+	if (valor == 0) return cinza;
 	valor = Math.log10(valor);
 
 	if (valor < grupos[0]) {
