@@ -132,7 +132,7 @@ function addPopUp(local, localEvolucao) {
 		})
 
 		sun.addEventListener("click", function () {
-					sunburst(document.getElementById('dropdownAtributos').value, localEvolucao.NOME_MICRORREGIAO);
+					sunburst(localEvolucao.NOME_MICRORREGIAO);
 		})
 
 

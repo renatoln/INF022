@@ -109,8 +109,8 @@ function ponto() {
 }
 /* Atributo para plotar ; localizacao = meso ou micro */
 /* Plota todos os municipios dado atributo e localizacao */
-/* Se meso, plota agrupando por micro ; Se micro, plota agrupando por muni */
-function sunburst(atributo, localizacao) {
+/* Se meso, plota agrupando por micro e muni; Se micro, plota agrupando por muni */
+function sunburst(localizacao) {
 
   var layout = {
     margin: { l: 0, r: 0, b: 0, t: 0 },
@@ -119,10 +119,6 @@ function sunburst(atributo, localizacao) {
   };
 
   if (!localizacao) {
-    return;
-  }
-
-  if (!atributo) {
     return;
   }
 
