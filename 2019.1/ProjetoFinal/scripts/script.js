@@ -124,7 +124,12 @@ function sunburst(localizacao) {
   var layout = {
     margin: { l: 0, r: 0, b: 0, t: 0 },
     width: 500,
-    height: 500
+    height: 500,
+    sunburstcolorway:[
+      "#636efa","#EF553B","#00cc96","#ab63fa","#19d3f3",
+      "#e763fa", "#FECB52","#FFA15A","#FF6692","#B6E880"
+    ],
+    extendsunburstcolorway: true
   };
 
   var toUseMeso = false;
@@ -247,7 +252,6 @@ function sunburst(localizacao) {
         for (mun in geral.MUNICIPIOS) {
           if (geral.MUNICIPIOS[mun].ID_MICRO == geral.MICRORREGIOES[micro].ID) {
 
-            console.log(idMeso);
             if (geral.MUNICIPIOS[mun].VALORES[indexAtributo] != 0) {
 
               if (geral.MUNICIPIOS[mun].NOME_MUNICIPIO === geral.MICRORREGIOES[micro].NOME_MICRORREGIAO) {
@@ -275,7 +279,13 @@ function sunburst(localizacao) {
     outsidetextfont: { size: 15, color: "#377eb8" },
     leaf: { opacity: 0.4 },
     marker: { line: { width: 2 } },
+    branchvalues: 'total'
   }];
+
+  //branchvalues: 'total' -> Note that this means that the sum of the values of the children 
+  //cannot exceed the value of their parent when branchvalues "total".
+  //When branchvalues "relative" (the default), children will not take up all of 
+  //the space below their parent (unless the parent is the root and it has a value of 0).
 
   Plotly.newPlot('myDiv', data, layout);
 }
