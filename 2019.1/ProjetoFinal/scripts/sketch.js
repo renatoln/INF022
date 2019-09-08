@@ -5,6 +5,7 @@ let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
 let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
+let sun = document.getElementById("sunChart");
 cidades
 var isDirty = false;
 
@@ -129,6 +130,14 @@ function addPopUp(local, localEvolucao) {
 				else
 					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
+
+		sun.addEventListener("click", function () {
+				if(local.node.attributes.id.value.includes("mic_"))
+					sunburst(localEvolucao.NOME_MICRORREGIAO);
+				else
+					sunburst(localEvolucao.NOME_MESORREGIAO);
+		})
+
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;
