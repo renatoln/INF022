@@ -132,7 +132,10 @@ function addPopUp(local, localEvolucao) {
 		})
 
 		sun.addEventListener("click", function () {
+				if(local.node.attributes.id.value.includes("mic_"))
 					sunburst(localEvolucao.NOME_MICRORREGIAO);
+				else
+					sunburst(localEvolucao.NOME_MESORREGIAO);
 		})
 
 

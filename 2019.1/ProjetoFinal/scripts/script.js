@@ -107,20 +107,25 @@ function ponto() {
   };
   Plotly.newPlot('myDiv', data, layout);
 }
-/* Atributo para plotar ; localizacao = meso ou micro */
-/* Plota todos os municipios dado atributo e localizacao */
-/* Se meso, plota agrupando por micro e muni; Se micro, plota agrupando por muni */
+/* Localizacao = meso ou micro */
+/* Plota todos os municipios pela localizacao */
+/* Se a localização passada for a meso, plota os municipios agrupando por micro */
+/* Se micro, plota os municipios */
+/* Não faz sentido plotar isso aqui por municipios, uma vez que não existe agrupamento nesse nivel */
+/* Valores iguais a 0 não são plotados, uma vez que poluem o gráfico (o tamanho da forma depende do valor) */
+/* Tamanho 0 implica sem forma, o que faz com que as informações se agrupem em algum canto do gráfico */
+/* Seria interessante fazer uma notificação para utilizarmos nessas situações */
 function sunburst(localizacao) {
+
+  if (!localizacao) {
+    return;
+  }
 
   var layout = {
     margin: { l: 0, r: 0, b: 0, t: 0 },
     width: 500,
     height: 500
   };
-
-  if (!localizacao) {
-    return;
-  }
 
   var toUseMeso = false;
 
@@ -134,7 +139,7 @@ function sunburst(localizacao) {
   var parents = new Array();
   var values = new Array();
 
-  parents.push("");
+  parents.push(""); //O primeiro nó (Root) é vazio, pois aqui começa o agrupamento
 
   for (i in geral.MESORREGIOES) {
     if (geral.MESORREGIOES[i].NOME_MESORREGIAO === localizacao) {
@@ -211,32 +216,63 @@ function sunburst(localizacao) {
 
     console.log(idMicro);
 
-    for (m in geral.MUNICIPIOS) {
-      if (geral.MUNICIPIOS[m].ID_MICRO == idMicro) {
-        if (geral.MUNICIPIOS[m].VALORES[indexAtributo] != 0) {
+    for (mun in geral.MUNICIPIOS) {
+      if (geral.MUNICIPIOS[mun].ID_MICRO == idMicro) {
+        if (geral.MUNICIPIOS[mun].VALORES[indexAtributo] != 0) {
 
-          if(geral.MUNICIPIOS[m].NOME_MUNICIPIO === localizacao)
-          {
-            labels.push(geral.MUNICIPIOS[m].NOME_MUNICIPIO + " ");
+          if (geral.MUNICIPIOS[mun].NOME_MUNICIPIO === localizacao) {
+            labels.push(geral.MUNICIPIOS[mun].NOME_MUNICIPIO + " ");
           }
-          else
-          {
-            labels.push(geral.MUNICIPIOS[m].NOME_MUNICIPIO);
+          else {
+            labels.push(geral.MUNICIPIOS[mun].NOME_MUNICIPIO);
           }
           parents.push(localizacao);
-          values.push(geral.MUNICIPIOS[m].VALORES[indexAtributo]);
+          values.push(geral.MUNICIPIOS[mun].VALORES[indexAtributo]);
 
         }
       }
     }
   }
+  else {
+    labels.push(localizacao);
+    values.push(valueMeso);
+
+    for (micro in geral.MICRORREGIOES) {
+      if (geral.MICRORREGIOES[micro].ID_MESO == idMeso) {
+
+        labels.push(geral.MICRORREGIOES[micro].NOME_MICRORREGIAO);
+        values.push(geral.MICRORREGIOES[micro].VALORES[indexAtributo]);
+        parents.push(localizacao);
+
+        for (mun in geral.MUNICIPIOS) {
+          if (geral.MUNICIPIOS[mun].ID_MICRO == geral.MICRORREGIOES[micro].ID) {
+
+            console.log(idMeso);
+            if (geral.MUNICIPIOS[mun].VALORES[indexAtributo] != 0) {
+
+              if (geral.MUNICIPIOS[mun].NOME_MUNICIPIO === geral.MICRORREGIOES[micro].NOME_MICRORREGIAO) {
+                labels.push(geral.MUNICIPIOS[mun].NOME_MUNICIPIO + " ");
+              }
+              else {
+                labels.push(geral.MUNICIPIOS[mun].NOME_MUNICIPIO);
+              }
+              parents.push(geral.MICRORREGIOES[micro].NOME_MICRORREGIAO);
+              values.push(geral.MUNICIPIOS[mun].VALORES[indexAtributo]);
+
+            }
+          }
+        }
+      }
+    }
+  }
+
 
   var data = [{
     type: "sunburst",
     labels: labels,
     parents: parents,
     values: values,
-    outsidetextfont: { size: 20, color: "#377eb8" },
+    outsidetextfont: { size: 15, color: "#377eb8" },
     leaf: { opacity: 0.4 },
     marker: { line: { width: 2 } },
   }];
