@@ -1,6 +1,6 @@
 # Para rodar: 
-- para rodar, utilize o node.js
-- Considerando que você está na pasta ProjetoFinal, execute: 
+- para rodar, utilize um conteiner web
+- utilizando o node.js e Considerando que você está na pasta ProjetoFinal, execute: 
 > node node/index.js
 - os arquivos de entrada estão em jsons.
 	- uf_geral_periodo.json (1..n), corresponde aos arquivos gerais utilizados para o mapa.
