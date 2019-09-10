@@ -19,7 +19,7 @@ let currentPlace = null;
 let colorMinMax = 1;
 let colorPercentis = 2;
 let colorLog = 3;
-let estrategiaColoracao = colorLog;
+let estrategiaColoracao = colorPercentis;
 
 function inicializa(){
       //reading the config.json
@@ -271,6 +271,12 @@ function fillTooltipData(path) {
                         + ' de ID '+ jsonResponse.id + ':');
                         return false;
       });
+}
+
+function numberToReal(numero) {
+    var numero = numero.toFixed(2).split('.');
+    numero[0] = "R$ " + numero[0].split(/(?=(?:...)*$)/).join('.');
+    return numero.join(',');
 }
 
 function tooltipAtributos(regiao){
