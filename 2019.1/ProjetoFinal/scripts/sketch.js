@@ -192,6 +192,7 @@ function colorByMinMax(valor){
 	for (let i = 1; i < 6; i++) {
 		grupos[i] = grupos[i - 1] + faixa;
 	}
+	if (valor == 0) return cinza;
 
 	if (valor < grupos[0]) {
 		return cores.cor1;
@@ -214,7 +215,7 @@ function colorByMinMax(valor){
 function colorByPercentis(valor){
 	let percentis = geral.METADADOS.PERCENTIS[indexAtributo].VALORES;
 	
-
+	if (valor == 0) return cinza;
 	if (valor < percentis[0]) {
 		return cores.cor1;
 	} else if (valor < percentis[1]) {
