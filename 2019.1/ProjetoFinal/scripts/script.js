@@ -107,6 +107,13 @@ function ponto() {
   };
   Plotly.newPlot('myDiv', data, layout);
 }
+
+//Dummy TODO
+function radar(localizacao)
+{
+
+}
+
 /* Localizacao = meso ou micro */
 /* Plota todos os municipios pela localizacao */
 /* Se a localização passada for a meso, plota os municipios agrupando por micro */

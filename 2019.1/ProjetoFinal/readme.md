@@ -23,3 +23,8 @@
 - corrigir o componente período
 - adicionar feature para formatar o dado quando ele for real (moeda). Isso deve ser uma informação em config.json
 - adição de novas visualizações multivariadas
+
+# Sugestões
+- Adicionar Console.error e warn para eventuais erros e afins
+- Documentação de First Steps/First Guide/First Time da aplicação
+- Documentação dos principais scripts (Mapa.js, Search.js, Script.js e sketch.js)
