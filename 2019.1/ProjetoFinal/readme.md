@@ -23,6 +23,7 @@
 - corrigir o componente período
 - adicionar feature para formatar o dado quando ele for real (moeda). Isso deve ser uma informação em config.json
 - adição de novas visualizações multivariadas
+- Ver possível bug do dropdownSelectField.js (linha 38) = "Uncaught TypeError: Cannot read property 'VALORES' of undefined"
 
 # Sugestões
 - Adicionar Console.error e warn para eventuais erros e afins
