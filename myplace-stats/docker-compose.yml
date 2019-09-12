@@ -1,0 +1,21 @@
+version: '3'
+
+volumes:
+  vespa_data: {}
+  vespa_logs: {}
+
+services:
+
+    ruy_vespa:
+      container_name: vespa
+      hostname: vespa
+      image: vespaengine/vespa:7.92.7
+      privileged: true
+      ports:
+        - "8080:8080"
+        - "19071:19071"
+      volumes:
+        - ./resources/config/vendor/vespa/:/app:ro
+        - vespa_data:/opt/vespa/var
+        - vespa_logs:/opt/vespa/logs
+      restart: unless-stopped

@@ -1,0 +1,10 @@
+@default
+
+# Replacements
+#lotr -> lord of the rings;
+#colour -> color;
+#e-mail -> email;
+
+# Stopwords from nltk.corpus.stopwords('portuguese') and stopwords-iso/stopwords-pt
+[stopword] -> ;
+[stopword] :- a, as, um, uma, umas, uns, à, às, é, és;

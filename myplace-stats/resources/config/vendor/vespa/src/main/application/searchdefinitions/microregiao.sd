@@ -1,0 +1,21 @@
+search microregiao {
+    document microregiao inherits base_definition {
+        field id type long {
+            indexing: summary | index
+            attribute: fast-search
+        }
+        field nome_microregiao type string {
+            indexing: summary | index
+        }
+        field categoria type array<string> {
+            indexing: summary | index
+        }
+        field categoria type array<string> {
+            indexing: summary | index
+        }
+    }
+
+    fieldset default {
+      fields: nome_mesorregiao
+    }
+}

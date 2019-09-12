@@ -1,0 +1,13 @@
+search base_definition {
+
+    document base_definition {
+
+        field language type string {
+            indexing: set_language
+        }
+
+        field timestamp type long {
+           indexing: attribute
+        }
+    }
+}
