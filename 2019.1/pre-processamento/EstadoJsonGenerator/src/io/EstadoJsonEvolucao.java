@@ -42,16 +42,12 @@ public class EstadoJsonEvolucao {
 		microrregioes = myEstadoJsonGenerator.getMicrorregioes();
 		municipios = myEstadoJsonGenerator.getMunicipios();
 
-		String periodos[] = { "2013", "2014", "2015", "2016", "2017" };
-
-		for (int i = 0; i < periodos.length; i++)
-			lerJsonGeral(periodos[i]);
-
-		String atributos[] = {"População", "PIB", "PIB / pop", "Óbitos"};
+		for (int i = 0; i < myEstadoJsonGenerator.periodos.length; i++)
+			lerJsonGeral(myEstadoJsonGenerator.periodos[i]);
 		
 		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios);
 
-		gerarJsonEstadoEvolucao(estado, periodos, atributos);
+		gerarJsonEstadoEvolucao(estado, myEstadoJsonGenerator.periodos, myEstadoJsonGenerator.atributos);
 
 	}
 

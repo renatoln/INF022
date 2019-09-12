@@ -28,13 +28,17 @@ public class EstadoJsonGenerator {
 	String urlBase = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/";
 	int idEstado = 29;
 	String codigoEstado = "ba";
-	String periodoAtual = "2013";
+	String periodos[] = {"2013", "2014", "2015", "2016", "2017"};
+	String atributos[] = {"Qtd Neoplasias", "Qtd Apar. Circulatório", "Qtd Causas Externas", "Qtd Anormalidades"};
+
 	String urlFolderDados = "dados/";
 
 	public static void main(String[] args) {
-		EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
-		new EstadoJsonGeral(ejGenerator);
-		//new EstadoJsonEvolucao(ejGenerator);
+		for (int i = 0; i < 5; i ++) {
+			EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
+			new EstadoJsonGeral(ejGenerator, i);
+		}
+		new EstadoJsonEvolucao(new EstadoJsonGenerator());
 		
 
 	}
