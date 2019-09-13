@@ -6,7 +6,7 @@ let popOUT = document.getElementById("municipios");
 let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
 let sun = document.getElementById("sunChart");
-cidades
+let compare = document.getElementById("atrCompare");
 var isDirty = false;
 
 var cinza = "#8C92AC";
@@ -131,6 +131,7 @@ function addPopUp(local, localEvolucao) {
 					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
+		//ADICIONA FUNÇÃO DE SUNBURST NO CLIQUE
 		sun.addEventListener("click", function () {
 				if(local.node.attributes.id.value.includes("mic_"))
 					sunburst(localEvolucao.NOME_MICRORREGIAO);
@@ -138,6 +139,16 @@ function addPopUp(local, localEvolucao) {
 					sunburst(localEvolucao.NOME_MESORREGIAO);
 		})
 
+		//COMPARA TODOS OS ATRIBUTOS EM UM LINECHART QUANDO CLICA NO POPUP
+		compare.addEventListener("click", function(){
+				if(local.node.attributes.id.value.includes("mun_"))
+				attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MUNICIPIO);
+			else
+				if(local.node.attributes.id.value.includes("mic_"))
+					attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MICRORREGIAO);
+				else
+					attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MESORREGIAO);
+		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;

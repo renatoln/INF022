@@ -91,6 +91,8 @@ public class EstadoJsonGeral {
     			/*int populacao = populacaoMap.get(codigoMun);
     			int pib = pibMap.get(codigoMun);
     			int obitos = obitosMap.get(codigoMun);*/
+    			
+    			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
     			int qtdNeoplasisas = qtdNeoplasisasMap.get(codigoMun);
     			int qtdAparelhoCirculatorio = qtdAparelhoCirculatorioMap.get(codigoMun);
     			int qtdCausasExternas = qtdCausasExternasMap.get(codigoMun);
@@ -109,7 +111,7 @@ public class EstadoJsonGeral {
 	
 	public void importMortalidade(int index){
 		try {
-			File file = new File(myEstadoJsonGenerator.urlFolderDados+"municipio-29-mortalidade.txt");
+			File file = new File(myEstadoJsonGenerator.urlFolderDados+"dados-classe-mortalidade.txt");
 			BufferedReader br = new BufferedReader(new FileReader(file)); 
 			int codigoIBGE = 0;
 			int populacao = 0;
