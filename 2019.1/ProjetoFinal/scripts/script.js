@@ -149,8 +149,6 @@ function sunburst(localizacao) {
     labels.push(localizacao);
     values.push(valueMicro);
 
-    console.log(idMicro);
-
     for (mun in geral.MUNICIPIOS) {
       if (geral.MUNICIPIOS[mun].ID_MICRO == idMicro) {
         if (geral.MUNICIPIOS[mun].VALORES[indexAtributo] != 0) {
