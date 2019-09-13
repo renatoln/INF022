@@ -1,4 +1,8 @@
 let dropMeso = $('#dropdownMeso');
+let dropMicro = $('#dropdownMicro');
+let dropAtributos = $('#dropdownAtributos');
+
+//DROPDOWN MESORREGIÕES
 
 dropMeso.empty();
 dropMeso.append('<option selected="true">Mesorregião</option>');
@@ -10,7 +14,7 @@ $.each(jsonEstadoGeral.MESORREGIOES, function (key, value) {
    dropMeso.append($('<option></option>').attr('value', value.ID).text(value.NOME_MESORREGIAO));
 })
 
-let dropMicro = $('#dropdownMicro');
+//DROPDOWN MICRORREGIÕES
 
 dropMicro.empty();
 dropMicro.append('<option selected="true">Microrregião</option>');
@@ -20,7 +24,7 @@ $.each(jsonEstadoGeral.MICRORREGIOES, function (key, value) {
 	dropMicro.append($('<option></option>').attr('value', value.ID).text(value.NOME_MICRORREGIAO));
 })
 
-let dropAtributos = $('#dropdownAtributos');
+//DROPDOWN ATRIBUTOS
 
 dropAtributos.empty();
 dropAtributos.prop('selectedIndex', 0);
@@ -38,5 +42,13 @@ function checkAlert(evt){
 	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO);
 	for (let icount in cidades) {
 		generatePopUp(cidades[icount]);
+	}
+}
+
+function getCurrentAttribute(){
+	for(let icount of dropAtributos[0]){
+		if(icount.selected){
+			return icount.innerHTML;
+		}
 	}
 }
