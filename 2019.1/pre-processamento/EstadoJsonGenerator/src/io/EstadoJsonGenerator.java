@@ -39,8 +39,6 @@ public class EstadoJsonGenerator {
 			new EstadoJsonGeral(ejGenerator, i);
 		}
 		new EstadoJsonEvolucao(new EstadoJsonGenerator());
-		
-
 	}
 	
 	HashMap<Integer, Mesorregiao> getMesorregioes() {

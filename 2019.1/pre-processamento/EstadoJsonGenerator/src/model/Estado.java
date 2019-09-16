@@ -52,7 +52,6 @@ public class Estado {
 		Municipio munTemp = itMun.next();
 		ATRIBUTOS = munTemp.ATRIBUTOS;
 		
-		
 		//inicializa min e max values
 		int qtdAtributos = ATRIBUTOS.size();
 		
@@ -67,20 +66,8 @@ public class Estado {
 		atualizaAtributosMicros();
 		atualizaAtributosMesos();
 		definePercentis();
-		if (multiplosPeriodos) {//evolucao
-			
-			/*Collection<Mesorregiao> mesosTemp = mesorregioes.values();
-			Iterator<Mesorregiao> itMeso = mesosTemp.iterator();
-			Mesorregiao meso = itMeso.next();
-			for (int i = 0; i < qtdAtributos; i++) {
-				mesorregioes_min_values_evolution.add(meso.VALORES.get(i));
-			}*/
-			//inicializa atributos min max na evolução
-			//mesorregioes_min_values_evolution.add(munTemp.VALORES.get(i));
-			//mesorregioes_max_values_evolution.add(munTemp.VALORES.get(i));
-
+		if (multiplosPeriodos) //evolucao
 			defineMinMaxEvolucao();
-		}	
 		System.out.println("");
 	}
 
@@ -148,7 +135,6 @@ public class Estado {
         	}	
     	}
     	
-    	System.out.println("");
     	
 	}
 

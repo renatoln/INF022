@@ -173,8 +173,8 @@ function addPopUp(local, localEvolucao) {
 }
 
 function colorByLog(valor) {
-	let min = Math.log10(geral.METADADOS.MIN_Valores[indexAtributo]);
-	let max = Math.log10(geral.METADADOS.MAX_Valores[indexAtributo]);
+	let min = Math.log10(geral.METADADOS.MIN_VALORES[indexAtributo]);
+	let max = Math.log10(geral.METADADOS.MAX_VALORES[indexAtributo]);
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min + faixa;
@@ -202,8 +202,8 @@ function colorByLog(valor) {
 }
 
 function colorByMinMax(valor) {
-	let min = geral.METADADOS.MIN_Valores[indexAtributo];
-	let max = geral.METADADOS.MAX_Valores[indexAtributo];
+	let min = geral.METADADOS.MIN_VALORES[indexAtributo];
+	let max = geral.METADADOS.MAX_VALORES[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
 	grupos[0] = min + faixa;
