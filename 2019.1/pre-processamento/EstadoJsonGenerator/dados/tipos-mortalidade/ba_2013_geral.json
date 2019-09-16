@@ -1,7 +1,7 @@
 {
 	"METADADOS":{
-		"MIN_Valores": [0, 0, 0, 0],
-		"MAX_Valores": [2748, 807, 2485, 506],
+		"MIN_VALORES": [0, 0, 0, 0],
+		"MAX_VALORES": [2748, 807, 2485, 506],
 		"PERCENTIS":[
 		{ "NOME": "Qtd Neoplasias",
 		"VALORES": [5, 8, 12, 20]},
