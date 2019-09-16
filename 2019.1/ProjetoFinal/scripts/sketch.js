@@ -137,6 +137,8 @@ function addPopUp(local, localEvolucao) {
 					sunburst(localEvolucao.NOME_MICRORREGIAO);
 				else
 					sunburst(localEvolucao.NOME_MESORREGIAO);
+				if(local.node.attributes.id.value.includes("mun_"))
+					sunburstAll();
 		})
 
 		//COMPARA TODOS OS ATRIBUTOS EM UM LINECHART QUANDO CLICA NO POPUP
