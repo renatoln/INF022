@@ -245,11 +245,24 @@ function sunburst(localizacao) {
   Plotly.newPlot('myDiv', data, layout);
 }
 
-function sunburstAll() {
+function Radar() {
+
+  layout = {
+    polar: {
+      radialaxis: {
+        visible: true,
+        range: [0, 50]
+      }
+    }
+  }
+
+}
+
+function sunburstAll(div) {
 
   var layout = {
-    margin: { l: 0, r: 0, b: 0, t: 0 },
-    width: 500,
+    margin: { l: 10, r: 10, b: 10, t: 50 },
+    width: 450,
     height: 500,
     sunburstcolorway: [
       "#636efa", "#EF553B", "#00cc96", "#ab63fa", "#19d3f3",
@@ -330,8 +343,12 @@ function sunburstAll() {
   //cannot exceed the value of their parent when branchvalues "total".
   //When branchvalues "relative" (the default), children will not take up all of 
   //the space below their parent (unless the parent is the root and it has a value of 0).
-
-  Plotly.newPlot('myDiv', data, layout);
+  if (div == null) {
+    Plotly.newPlot("myDiv", data, layout);
+  }
+  else {
+    Plotly.newPlot(div, data, layout);
+  }
 }
 
 /****************************************************************************************************************/
