@@ -45,7 +45,7 @@ public class EstadoJsonEvolucao {
 		for (int i = 0; i < myEstadoJsonGenerator.periodos.length; i++)
 			lerJsonGeral(myEstadoJsonGenerator.periodos[i]);
 		
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios);
+		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios, true);
 
 		gerarJsonEstadoEvolucao(estado, myEstadoJsonGenerator.periodos, myEstadoJsonGenerator.atributos);
 

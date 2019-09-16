@@ -42,7 +42,7 @@ public class EstadoJsonGeral {
 		//printMunicipios(municipios);
 		addAtributosMunicipios(municipios, index);
 		//printPopulacaoMunicipios();
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios);
+		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios, false);
 		
 		gerarJsonGeralEstado(estado, index);
 		
@@ -262,8 +262,8 @@ public class EstadoJsonGeral {
 		myEstadoJsonGenerator.createFile(fileName, "{\n\t\"METADADOS\":{");
 
 		
-		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.min_values, "MIN_Valores", true));
-		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.max_values, "MAX_Valores", true));
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.min_values_periodo, "MIN_Valores", true));
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.max_values_periodo, "MAX_Valores", true));
 		
 		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\t\"PERCENTIS\":[");
 		for (int i = 0; i < estado.percentis.size(); i++) {
