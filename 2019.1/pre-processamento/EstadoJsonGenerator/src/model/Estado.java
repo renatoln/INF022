@@ -12,10 +12,11 @@ public class Estado {
 	public String sigla = "ba";
 	public String nome_capital = "Salvador";
 	public int codigo_capital = 2927408;
-	public ArrayList<Integer>  min_values = new ArrayList<Integer>();
-	public ArrayList<Integer>  max_values = new ArrayList<Integer>();
-	public String periodos[] = {"2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06"};
-	
+
+	//min max por período
+	public ArrayList<Integer>  min_values_periodo = new ArrayList<Integer>();
+	public ArrayList<Integer>  max_values_periodo = new ArrayList<Integer>();
+
 	public HashMap<Integer, Mesorregiao> mesorregioes;
 	public HashMap<Integer, Microrregiao> microrregioes;
 	public HashMap<Integer, Municipio> municipios;
@@ -27,8 +28,19 @@ public class Estado {
 	
 	public HashMap<String, ArrayList<Integer>> percentis = new HashMap<String, ArrayList<Integer>>();
 	
+	
+	//definir max e min na evolução
+	public ArrayList<Integer>  mesorregioes_min_values_evolution = new ArrayList<Integer>();
+	public ArrayList<Integer>  mesorregioes_max_values_evolution = new ArrayList<Integer>();
+	public ArrayList<Integer>  microrregioes_min_values_evolution = new ArrayList<Integer>();
+	public ArrayList<Integer>  microrregioes_max_values_evolution = new ArrayList<Integer>();
+	public ArrayList<Integer>  municipios_min_values_evolution = new ArrayList<Integer>();
+	public ArrayList<Integer>  municipios_max_values_evolution = new ArrayList<Integer>();
+
+	
+	
 	public Estado(String sigla, HashMap<Integer, Mesorregiao> mesos, HashMap<Integer, Microrregiao> micros,
-			HashMap<Integer, Municipio> muns) {
+			HashMap<Integer, Municipio> muns, boolean multiplosPeriodos) {
 		this.sigla = sigla;
 		mesorregioes = mesos;
 		microrregioes = micros;
@@ -40,13 +52,12 @@ public class Estado {
 		Municipio munTemp = itMun.next();
 		ATRIBUTOS = munTemp.ATRIBUTOS;
 		
-		
 		//inicializa min e max values
 		int qtdAtributos = ATRIBUTOS.size();
 		
 		for (int i = 0; i < qtdAtributos; i++) { 
-			min_values.add(munTemp.VALORES.get(i));
-			max_values.add(munTemp.VALORES.get(i));
+			min_values_periodo.add(munTemp.VALORES.get(i));
+			max_values_periodo.add(munTemp.VALORES.get(i));
 			//cria o arraylist para cada um dos atributos para poder definir os percentis
 			valoresAtributos.put(ATRIBUTOS.get(i), new ArrayList<Integer>());
 			percentis.put(ATRIBUTOS.get(i), new ArrayList<Integer>());
@@ -55,6 +66,8 @@ public class Estado {
 		atualizaAtributosMicros();
 		atualizaAtributosMesos();
 		definePercentis();
+		if (multiplosPeriodos) //evolucao
+			defineMinMaxEvolucao();
 		System.out.println("");
 	}
 
@@ -79,12 +92,112 @@ public class Estado {
 			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
 			index = (atributos.size()/100d)*80;
 			percentis.get(ATRIBUTOS.get(i)).add(atributos.get((int)index));
-		}
-		//System.out.println("");
+		}		
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void defineMinMaxEvolucao() {
 		
+		Set<Integer> codigosMesos = mesorregioes.keySet();
+    	for (Integer codigoMeso : codigosMesos)
+    	{
+    		Mesorregiao meso = mesorregioes.get(codigoMeso);
+    		Set<String> periodos = meso.valoresEvolucao.keySet();
+        	for (String periodo : periodos)
+        	{	        		
+        		ArrayList<Integer> valores =  meso.valoresEvolucao.get(periodo);
+        		atualizaMinMaxEvolucaoMeso(valores);
+        	}	
+    	}
+    	
+    	Set<Integer> codigosMicros = microrregioes.keySet();
+    	for (Integer codigoMicro : codigosMicros)
+    	{
+    		Microrregiao micro = microrregioes.get(codigoMicro);
+    		Set<String> periodos = micro.valoresEvolucao.keySet();
+        	for (String periodo : periodos)
+        	{	        		
+        		ArrayList<Integer> valores =  micro.valoresEvolucao.get(periodo);
+        		atualizaMinMaxEvolucaoMicro(valores);
+        	}	
+    	}
+    	
+    	
+    	Set<Integer> codigosMuns = municipios.keySet();
+    	for (Integer codigoMun : codigosMuns)
+    	{
+    		Municipio mun = municipios.get(codigoMun);
+    		Set<String> periodos = mun.valoresEvolucao.keySet();
+        	for (String periodo : periodos)
+        	{	        		
+        		ArrayList<Integer> valores =  mun.valoresEvolucao.get(periodo);
+        		atualizaMinMaxEvolucaoMunicipios(valores);
+        	}	
+    	}
+    	
+    	
 	}
 
-
+	private void atualizaMinMaxEvolucaoMeso(ArrayList<Integer> valores){
+		int qtdAtributos = valores.size();
+		
+		boolean arrayVazio = (mesorregioes_min_values_evolution.size() == 0);
+		for (int i = 0; i < qtdAtributos; i++) { 
+			int currentValue = valores.get(i);
+			
+			if (arrayVazio) {
+				mesorregioes_min_values_evolution.add(currentValue);
+				mesorregioes_max_values_evolution.add(currentValue);			
+			}else {	
+				if (currentValue < mesorregioes_min_values_evolution.get(i))
+					mesorregioes_min_values_evolution.set(i, currentValue);
+				if (currentValue > mesorregioes_max_values_evolution.get(i))
+					mesorregioes_max_values_evolution.set(i, currentValue);
+			}	
+		}
+		
+	}
+	
+	private void atualizaMinMaxEvolucaoMicro(ArrayList<Integer> valores){
+		int qtdAtributos = valores.size();
+		
+		boolean arrayVazio = (microrregioes_min_values_evolution.size() == 0);
+		for (int i = 0; i < qtdAtributos; i++) { 
+			int currentValue = valores.get(i);
+			
+			if (arrayVazio) {
+				microrregioes_min_values_evolution.add(currentValue);
+				microrregioes_max_values_evolution.add(currentValue);			
+			}else {	
+				if (currentValue < microrregioes_min_values_evolution.get(i))
+					microrregioes_min_values_evolution.set(i, currentValue);
+				if (currentValue > microrregioes_max_values_evolution.get(i))
+					microrregioes_max_values_evolution.set(i, currentValue);
+			}	
+		}
+		
+	}
+	
+	private void atualizaMinMaxEvolucaoMunicipios(ArrayList<Integer> valores){
+		int qtdAtributos = valores.size();
+		
+		boolean arrayVazio = (municipios_min_values_evolution.size() == 0);
+		for (int i = 0; i < qtdAtributos; i++) { 
+			int currentValue = valores.get(i);
+			
+			if (arrayVazio) {
+				municipios_min_values_evolution.add(currentValue);
+				municipios_max_values_evolution.add(currentValue);			
+			}else {	
+				if (currentValue < municipios_min_values_evolution.get(i))
+					municipios_min_values_evolution.set(i, currentValue);
+				if (currentValue > municipios_max_values_evolution.get(i))
+					municipios_max_values_evolution.set(i, currentValue);
+			}	
+		}
+		
+	}
+	
 	private void atualizaAtributosMesos() {
 		Set<Integer> codigosIBGEMicros = microrregioes.keySet();
     	for (Integer codigoMicro : codigosIBGEMicros)
@@ -119,10 +232,10 @@ public class Estado {
 		for (int i = 0; i < qtdAtributos; i++) { 
 			int currentValue = mun.VALORES.get(i);
 			valoresAtributos.get(ATRIBUTOS.get(i)).add(currentValue);
-			if (currentValue < min_values.get(i))
-				min_values.set(i, currentValue);
-			if (currentValue > max_values.get(i))
-				max_values.set(i, currentValue);
+			if (currentValue < min_values_periodo.get(i))
+				min_values_periodo.set(i, currentValue);
+			if (currentValue > max_values_periodo.get(i))
+				max_values_periodo.set(i, currentValue);
 		}
 		
 	}

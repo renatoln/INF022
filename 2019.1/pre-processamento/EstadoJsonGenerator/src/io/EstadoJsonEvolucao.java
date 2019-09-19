@@ -42,16 +42,12 @@ public class EstadoJsonEvolucao {
 		microrregioes = myEstadoJsonGenerator.getMicrorregioes();
 		municipios = myEstadoJsonGenerator.getMunicipios();
 
-		String periodos[] = { "2013", "2014", "2015", "2016", "2017" };
-
-		for (int i = 0; i < periodos.length; i++)
-			lerJsonGeral(periodos[i]);
-
-		String atributos[] = {"População", "PIB", "PIB / pop", "Óbitos"};
+		for (int i = 0; i < myEstadoJsonGenerator.periodos.length; i++)
+			lerJsonGeral(myEstadoJsonGenerator.periodos[i]);
 		
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios);
+		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios, true);
 
-		gerarJsonEstadoEvolucao(estado, periodos, atributos);
+		gerarJsonEstadoEvolucao(estado, myEstadoJsonGenerator.periodos, myEstadoJsonGenerator.atributos);
 
 	}
 
@@ -138,7 +134,25 @@ public class EstadoJsonEvolucao {
 	public void gerarJsonEstadoEvolucao(Estado estado, String periodos[], String atributos[]) {
 		String fileName = myEstadoJsonGenerator.getNomeJsonEvolucao();
 
-		myEstadoJsonGenerator.createFile(fileName, "{\n");
+		myEstadoJsonGenerator.createFile(fileName, "{\n\t\"METADADOS\":{");
+		
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\"MESORREGIOES\":{");
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.mesorregioes_min_values_evolution), "MIN_VALORES", true));
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.mesorregioes_max_values_evolution), "MAX_VALORES", false));
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\t},");
+		
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\"MICRORREGIOES\":{");
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.microrregioes_min_values_evolution), "MIN_VALORES", true));
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.microrregioes_max_values_evolution), "MAX_VALORES", false));
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\t},");
+
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\"MUNICIPIOS\":{");
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.municipios_min_values_evolution), "MIN_VALORES", true));
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(arrayListToIntVector(estado.municipios_max_values_evolution), "MAX_VALORES", false));
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\t}\n");
+		
+		myEstadoJsonGenerator.appendTexto(fileName, "\n\t},");
+		
 
 		// mesorregioes
 		myEstadoJsonGenerator.appendTexto(fileName, "\n  \"MESORREGIOES\":[\n");
@@ -256,6 +270,16 @@ public class EstadoJsonEvolucao {
 		if (virgulaFinal) str += ",";
 		
 		return str;
+	}
+	
+	private int[] arrayListToIntVector(ArrayList<Integer> listOrigem) {
+		int size = listOrigem.size();
+		int[] listDestino = new int [size];
+		
+		for (int i = 0; i < size; i ++ ) {
+			listDestino[i] = listOrigem.get(i);
+		}
+		return listDestino;	
 	}
 
 }

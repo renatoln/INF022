@@ -6,7 +6,7 @@ let popOUT = document.getElementById("municipios");
 let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
 let sun = document.getElementById("sunChart");
-cidades
+let compare = document.getElementById("atrCompare");
 var isDirty = false;
 
 var cinza = "#8C92AC";
@@ -35,6 +35,12 @@ function preload() {
 	config = loadJSON(getUrlConfig());
 	geral = loadJSON(getUrlJsonEstadoGeral());
 	jsonEstadoGeral = geral;
+
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+
 }
 
 async function toColorBySearch(jsonFiltered) {
@@ -110,11 +116,11 @@ function addPopUp(local, localEvolucao) {
 
 
 		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
-		line.addEventListener("click", function (){
-			if(local.node.attributes.id.value.includes("mun_"))
+		line.addEventListener("click", function () {
+			if (local.node.attributes.id.value.includes("mun_"))
 				lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
 			else
-				if(local.node.attributes.id.value.includes("mic_"))
+				if (local.node.attributes.id.value.includes("mic_"))
 					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MICRORREGIAO);
 				else
 					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
@@ -122,22 +128,35 @@ function addPopUp(local, localEvolucao) {
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
 		bar.addEventListener("click", function () {
-			if(local.node.attributes.id.value.includes("mun_"))
+			if (local.node.attributes.id.value.includes("mun_"))
 				barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
 			else
-				if(local.node.attributes.id.value.includes("mic_"))
+				if (local.node.attributes.id.value.includes("mic_"))
 					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MICRORREGIAO);
 				else
 					barChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
 		})
 
+		//ADICIONA FUNÇÃO DE SUNBURST NO CLIQUE
 		sun.addEventListener("click", function () {
-				if(local.node.attributes.id.value.includes("mic_"))
-					sunburst(localEvolucao.NOME_MICRORREGIAO);
-				else
-					sunburst(localEvolucao.NOME_MESORREGIAO);
+			if (local.node.attributes.id.value.includes("mic_"))
+				sunburst(localEvolucao.NOME_MICRORREGIAO);
+			else
+				sunburst(localEvolucao.NOME_MESORREGIAO);
+			if (local.node.attributes.id.value.includes("mun_"))
+				sunburstAll();
 		})
 
+		//COMPARA TODOS OS ATRIBUTOS EM UM LINECHART QUANDO CLICA NO POPUP
+		compare.addEventListener("click", function () {
+			if (local.node.attributes.id.value.includes("mun_"))
+				attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MUNICIPIO);
+			else
+				if (local.node.attributes.id.value.includes("mic_"))
+					attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MICRORREGIAO);
+				else
+					attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MESORREGIAO);
+		})
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;
@@ -153,17 +172,17 @@ function addPopUp(local, localEvolucao) {
 
 }
 
-function colorByLog(valor){
-	let min = Math.log10(geral.METADADOS.MIN_Valores[indexAtributo]);
-	let max = Math.log10(geral.METADADOS.MAX_Valores[indexAtributo]);
+function colorByLog(valor) {
+	let min = Math.log10(geral.METADADOS.MIN_VALORES[indexAtributo]);
+	let max = Math.log10(geral.METADADOS.MAX_VALORES[indexAtributo]);
 	let faixa = (max - min) / 6;
 	let grupos = [6];
-	grupos[0] = min+faixa;
+	grupos[0] = min + faixa;
 
 	for (let i = 1; i < 6; i++) {
 		grupos[i] = grupos[i - 1] + faixa;
 	}
-	
+
 	if (valor == 0) return cinza;
 	valor = Math.log10(valor);
 
@@ -179,15 +198,15 @@ function colorByLog(valor){
 		return cores.cor5;
 	} else {
 		return cores.cor6;
-	} 
+	}
 }
 
-function colorByMinMax(valor){
-	let min = geral.METADADOS.MIN_Valores[indexAtributo];
-	let max = geral.METADADOS.MAX_Valores[indexAtributo];
+function colorByMinMax(valor) {
+	let min = geral.METADADOS.MIN_VALORES[indexAtributo];
+	let max = geral.METADADOS.MAX_VALORES[indexAtributo];
 	let faixa = (max - min) / 6;
 	let grupos = [6];
-	grupos[0] = min+faixa;
+	grupos[0] = min + faixa;
 
 	for (let i = 1; i < 6; i++) {
 		grupos[i] = grupos[i - 1] + faixa;
@@ -212,9 +231,9 @@ function colorByMinMax(valor){
 
 }
 
-function colorByPercentis(valor){
+function colorByPercentis(valor) {
 	let percentis = geral.METADADOS.PERCENTIS[indexAtributo].VALORES;
-	
+
 	if (valor == 0) return cinza;
 	if (valor < percentis[0]) {
 		return cores.cor1;
@@ -226,7 +245,7 @@ function colorByPercentis(valor){
 		return cores.cor4;
 	} else {
 		return cores.cor5;
-	} 
+	}
 
 }
 function definirCor(valor) {
@@ -238,7 +257,7 @@ function definirCor(valor) {
 
 	else if (estrategiaColoracao == colorLog)
 		return colorByLog(valor);
-	
+
 }
 
 //RECEBE UM ID E ENCONTRA O MUNICIPIO EQUIVALENTE NO JSON DE EVOLUCAO 
@@ -256,28 +275,28 @@ function setup() {
 
 	let id;
 	let localEvolucao;
-	
+
 	//GERA O POPUP DAS CIDADES
 	for (let icount in cidades) {
 		generatePopUp(cidades[icount]);
 	}
 	//GERA O POPUP DAS MICRORREGIOES
-	for(let icount in microrregioes){
+	for (let icount in microrregioes) {
 		generatePopUp(microrregioes[icount]);
 	}
 	//GERA O POPUP DAS MESORREGIOES
-	for(let icount in mesorregioes){
+	for (let icount in mesorregioes) {
 		generatePopUp(mesorregioes[icount]);
 	}
 }
 
-function generatePopUp(element){
+function generatePopUp(element) {
 
 	let id = element.node.attributes.id.value;
 	//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
 	//CASO SEJA CIDADE, ALÉM DE CRIAR O POPUP ELE PINTA A MESMA NO MAPA
-	if(id.includes("mun_")){
-		id = id.replace("mun_","");
+	if (id.includes("mun_")) {
+		id = id.replace("mun_", "");
 		for (let jcount in geral.MUNICIPIOS) {
 			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == geral.MUNICIPIOS[jcount].ID) {
@@ -287,24 +306,24 @@ function generatePopUp(element){
 				break;
 			}
 		}
-	}else
-		if(id.includes("mic_")){
-			id = id.replace("mic_","");
-			for(let jcount in geral.MICRORREGIOES){
-				if(id == geral.MICRORREGIOES[jcount].ID){
+	} else
+		if (id.includes("mic_")) {
+			id = id.replace("mic_", "");
+			for (let jcount in geral.MICRORREGIOES) {
+				if (id == geral.MICRORREGIOES[jcount].ID) {
 					localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MICRORREGIOES);
 					addPopUp(element, localEvolucao);
 					break;
 				}
 			}
-		}else{
-			id = id.replace("mes_","");
-			for(let jcount in geral.MESORREGIOES){
-				if(id == geral.MESORREGIOES[jcount].ID){
+		} else {
+			id = id.replace("mes_", "");
+			for (let jcount in geral.MESORREGIOES) {
+				if (id == geral.MESORREGIOES[jcount].ID) {
 					localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MESORREGIOES);
 					addPopUp(element, localEvolucao);
 					break;
 				}
 			}
 		}
-}currentPlace
+}

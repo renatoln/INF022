@@ -28,3 +28,15 @@ Dica
 	- se você tiver os dados em colunas no excel e copiar para um arquivo txt, ele já separa pelo \t. Assim você terá esforco mínimo para procesar os seus dados. Caso esteja em outro padrão, você deve adaptar o código de leitura de arquivos.
 	- Veja o exemplo de óbitos. Tem uma planilha excel, com os óbitos por ano. Isso foi copiado para um arquivo txt. É a partir dele que é gerado os arquivos gerais.
 	- IMPORTANTE: o código IBGE do munícipio tem que ser o mesmo fornecido pelo site do IBGE. Alguns dados vem com dígitos a menos. Na planilha óbitos tem os códigos dos municípios da Bahia.
+	
+Passo a passo mais detalhado:
+1. colocar os dados no excel, por periodo.
+2. copiar para um arquivo txt na pasta dados
+3. na classe EstadoJsonGenerator modificar: 
+	periodos[]
+	atributos[]
+4. Para fazer o processamento, a ferramenta considera a extração de atributos do arquivo de dados. Essa extração armazena os dados em hashmaps (codigo estado, valor atributo)
+4.1. os hashmaps são definidos no início da classe EstadoJsonGeral.java
+4.2. Deve ser modificado o método addAtributosMunicipios para adicionar seus atributos. logo abaixo do comentário 
+	//Mudar: Atualize os dados abaixo de acordo com sua realidade //
+4.3 adpatar o método de importação chamado dentro de addAtributosMunicipios(..) para a sua realidade.	
