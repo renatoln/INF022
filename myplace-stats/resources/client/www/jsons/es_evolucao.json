@@ -1,0 +1,922 @@
+{
+	"MIN_Valores": 0.01,
+	"MAX_Valores": 9.01,
+
+	"MESORREGIOES":[
+	  {
+	    "ID":3201,
+      	"NOME_MESORREGIAO":"Noroeste Espírito-santense",
+	    "POPULACAO": 2534147,
+	    "VALOR": 0.586,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3202,
+      	"NOME_MESORREGIAO":"Litoral Norte Espírito-santense",
+	    "POPULACAO": 1030551,
+	    "VALOR": 0.59,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3203,
+      	"NOME_MESORREGIAO":"Central Espírito-santense",
+	    "POPULACAO": 1619658,
+	    "VALOR": 0.573,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3204,
+      	"NOME_MESORREGIAO":"Sul Espírito-santense",
+	    "POPULACAO": 2348960,
+	    "VALOR": 0.588,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"]
+	  }
+	],
+	"MICRORREGIOES":[
+	   {
+	    "ID":32001,
+      	"NOME_MICRORREGIAO":"Barra de São Francisco", 
+	    "POPULACAO": 260833,
+	    "VALOR": 0.593,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "ID":32002,
+      	"NOME_MICRORREGIAO":"Nova Venécia",
+	    "POPULACAO": 180265,
+	    "VALOR": 0.613,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "ID":32003,
+      	"NOME_MICRORREGIAO":"Colatina",
+	    "POPULACAO": 327767,
+	    "VALOR": 0.575,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3201
+	  },
+	  {
+	    "ID":32004,
+      	"NOME_MICRORREGIAO":"Montanha",
+	    "POPULACAO": 330260,
+	    "VALOR": 0.562,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "ID":32005,
+      	"NOME_MICRORREGIAO":"São Mateus",
+	    "POPULACAO": 1062422,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "ID":32006,
+      	"NOME_MICRORREGIAO":"Linhares",
+	    "POPULACAO": 101368,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3202
+	  },
+	  {
+	    "ID":32007,
+      	"NOME_MICRORREGIAO":"Afonso Cláudio",
+	    "POPULACAO": 510133,
+	    "VALOR": 0.584,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "ID":32008,
+      	"NOME_MICRORREGIAO":"Santa Teresa",
+	    "POPULACAO": 794765,
+	    "VALOR": 0.626,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "ID":32009,
+      	"NOME_MICRORREGIAO":"Vitória",
+	    "POPULACAO": 993810,
+	    "VALOR": 0.591,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "ID":32010,
+      	"NOME_MICRORREGIAO":"Guarapari",
+	    "POPULACAO": 228281,
+	    "VALOR": 0.642,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3203
+	  },
+	  {
+	    "ID":32011,
+      	"NOME_MICRORREGIAO":"Alegre",
+	    "POPULACAO": 393471,
+	    "VALOR": 0.599,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  },
+	  {
+	    "ID":32012,
+      	"NOME_MICRORREGIAO":"Cachoeiro de Itapemirim",
+	    "VALOR": 0.567,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  },
+	  {
+	    "ID":32013,
+      	"NOME_MICRORREGIAO":"Itapemirim",
+	    "POPULACAO": 301001,
+	    "VALOR": 0.589,
+	    "CATEGORIA": ["Péssimo","Ruim", "Regular", "Bom", "Ótimo"],
+	    "ID_MESO": 3204
+	  }
+	],
+	"MUNICIPIOS": [
+	  {
+	    "ID":3200102,
+      	"NOME_MUNICIPIO":"Afonso Cláudio",
+      	"ID_MESO": 3203,
+      	"ID_MICRO":32007,
+	    "POPULACAO": 8767,
+	    "VALORES": [7.78, 6.98, 7.2, 7.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]	    
+	  },
+	  {
+	    "ID":3200136,
+      	"NOME_MUNICIPIO":"Águia Branca",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 19814,
+	    "VALORES": [4.78, 1.98, 4.2, 8.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3200169,
+      	"NOME_MUNICIPIO":"Água Doce do Norte",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,      	
+	    "POPULACAO": 15129,
+	    "VALORES": [9.78, 2.98, 9.2, 1.45, 3.1 , 2.41, 7.71, 8.91],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "ID":3200201,
+      	"NOME_MUNICIPIO":"Alegre",      
+	    "ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+      	"POPULACAO": 16784,
+	    "VALORES": [4.78, 8.98, 4.2, 7.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Multinacional"]
+	  },
+	  {
+	    "ID":3200300,
+      	"NOME_MUNICIPIO":"Alfredo Chaves",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 16901,
+	    "VALORES": [1.78, 0.98, 1.2, 9.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3200359,
+      	"NOME_MUNICIPIO":"Alto Rio Novo",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 4478,
+	    "VALORES": [8.78, 7.98, 8.2, 4.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]	    
+	  },
+	  {
+	    "ID":3200409,
+      	"NOME_MUNICIPIO":"Anchieta",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 150832,
+	    "VALORES": [2.78, 3.98, 2.2, 8.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Ruim"]	    
+	  },
+	  {
+	    "ID":3200508,
+	    "NOME_MUNICIPIO":"Apiacá",
+	    "ID_MESO": 3204,
+	    "ID_MICRO": 32012,
+	    "POPULACAO": 22449,
+	    "VALORES": [9.78, 4.98, 9.2, 4.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	    "ID":3200607,
+      	"NOME_MUNICIPIO":"Aracruz",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 5566,
+	    "VALORES": [6.78, 6.98, 6.2, 5.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+		"ID":3200706,
+      	"NOME_MUNICIPIO":"Atílio Vivacqua",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+      	"POPULACAO": 5566,
+	    "VALORES": [6.78, 6.98, 6.2, 5.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Ótimo"]
+	  },
+	  {
+	    "ID":3200805,
+      	"NOME_MUNICIPIO":"Baixo Guandu",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 25224,
+	    "VALORES": [4.78, 2.98, 4.2, 2.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	     "ID":3200904,
+      	"NOME_MUNICIPIO":"Barra de São Francisco",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 16097,
+	    "VALORES": [7.78, 9.98, 7.2, 0.45, 1.11, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3201001,
+      	"NOME_MUNICIPIO":"Boa Esperança",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 18194,
+	    "VALORES": [4.78, 9.98, 4.2, 1.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3201100,
+      	"NOME_MUNICIPIO":"Bom Jesus do Norte",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 13153,
+	    "VALORES": [3.78, 5.98, 3.2, 1.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3201159,
+      	"NOME_MUNICIPIO":"Brejetuba",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 14690,
+	    "VALORES": [0.78, 9.98, 0.2, 6.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3201209,
+      	"NOME_MUNICIPIO":"Cachoeiro de Itapemirim",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 14017,
+	    "VALORES": [7.78, 1.98, 7.2, 0.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Ruim"]
+	  },
+	  {
+	    "ID":3201308,
+      	"NOME_MUNICIPIO":"Cariacica",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 11142,
+	    "VALORES": [2.78, 4.98, 2.2, 1.45, 9.19, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3201407,
+      	"NOME_MUNICIPIO":"Castelo",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 19093,
+	    "VALORES": [3.78, 9.98, 3.2, 0.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	     "ID":3201506,
+      	"NOME_MUNICIPIO":"Colatina",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 11691,
+	    "VALORES": [1.78, 9.98, 1.2, 6.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "ID":3201605,
+      	"NOME_MUNICIPIO":"Conceição da Barra",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 11715,
+	    "VALORES": [5.78, 1.98, 5.2, 7.45, 5.15, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Ótimo"]
+	  },
+	  {
+	    "ID":3201704,
+      	"NOME_MUNICIPIO":"Conceição do Castelo",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 17673,
+	    "VALORES": [3.78, 7.98, 3.2, 6.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3201803,
+      	"NOME_MUNICIPIO":"Divino de São Lourenço",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 7360,
+	    "VALORES": [0.78, 6.98, 0.2, 3.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3201902,
+      	"NOME_MUNICIPIO":"Domingos Martins",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 12143,
+	    "VALORES": [3.78, 4.98, 3.2, 1.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Ruim"]
+	  },
+	  {
+	    "ID":3202009,
+      	"NOME_MUNICIPIO":"Dores do Rio Preto",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 13229,
+	    "VALORES": [9.78, 2.98, 9.2, 2.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	     "ID":3202108,
+      	"NOME_MUNICIPIO":"Ecoporanga",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 11332,
+	    "VALORES": [2.78, 3.98, 2.2, 3.45, 1.11, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202207,
+      	"NOME_MUNICIPIO":"Fundão",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 11079,
+	    "VALORES": [9.78, 7.98, 9.2, 0.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3202256,
+      	"NOME_MUNICIPIO":"Governador Lindenberg",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 8813,
+	    "VALORES": [3.78, 1.98, 3.2, 8.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202306,
+      	"NOME_MUNICIPIO":"Guaçuí",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 11774,
+	    "VALORES": [4.78, 7.98, 4.2, 7.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202405,
+      	"NOME_MUNICIPIO":"Guarapari",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 13824,
+	    "VALORES": [4.78, 2.98, 4.2, 8.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3202454,
+      	"NOME_MUNICIPIO":"Ibatiba",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 20488,
+	    "VALORES": [8.78, 8.98, 8.2, 4.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202504,
+      	"NOME_MUNICIPIO":"Ibiraçu",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 13217,
+	    "VALORES": [7.78, 1.98, 7.2, 2.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202553,
+      	"NOME_MUNICIPIO":"Ibitirama",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 53231,
+	    "VALORES": [1.78, 3.98, 1.2, 2.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202603,
+      	"NOME_MUNICIPIO":"Iconha",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 32018,
+	    "VALORES": [8.78, 1.98, 8.2, 0.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular"]
+	  },
+	  {
+	    "ID":3202652,
+      	"NOME_MUNICIPIO":"Irupi",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 13900,
+	    "VALORES": [0.78, 0.98, 0.2, 9.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3202702,
+      	"NOME_MUNICIPIO":"Itaguaçu",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 5821,
+	    "VALORES": [1.78, 2.98, 1.2, 8.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3202801,
+      	"NOME_MUNICIPIO":"Itapemirim",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 153831,
+	    "VALORES": [1.78, 3.98, 1.2, 8.45, 3.13, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3202900,
+      	"NOME_MUNICIPIO":"Itarana",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 14802,
+	    "VALORES": [2.78, 0.98, 2.2, 8.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3203007,
+      	"NOME_MUNICIPIO":"Iúna",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 5743,
+	    "VALORES": [3.78, 4.98, 3.2, 7.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3203056,
+      	"NOME_MUNICIPIO":"Jaguaré",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 15846,
+	    "VALORES": [6.78, 4.98, 6.2, 8.45, 5.15, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3203106,
+      	"NOME_MUNICIPIO":"Jerônimo Monteiro",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 23214,
+	    "VALORES": [4.78, 1.98, 4.2, 2.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203130,
+      	"NOME_MUNICIPIO":"João Neiva",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 17317,
+	    "VALORES": [7.78, 1.98, 7.2, 3.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203163,
+      	"NOME_MUNICIPIO":"Laranja da Terra",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 15975,
+	    "VALORES": [5.78, 7.98, 5.2, 9.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203205,
+      	"NOME_MUNICIPIO":"Linhares",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 12953,
+	    "VALORES": [3.78, 5.98, 3.2, 9.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203304,
+      	"NOME_MUNICIPIO":"Mantenópolis",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32001,
+	    "POPULACAO": 18622,
+	    "VALORES": [2.78, 2.98, 2.2, 6.45, 1.11, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203320,
+      	"NOME_MUNICIPIO":"Marataízes",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 68609,
+	    "VALORES": [9.78, 0.98, 9.2, 6.45, 3.13, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "ID":3203346,
+      	"NOME_MUNICIPIO":"Marechal Floriano",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 9942,
+	    "VALORES": [2.78, 4.98, 2.2, 9.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203353,
+      	"NOME_MUNICIPIO":"Marilândia",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 14288,
+	    "VALORES": [8.78, 8.98, 8.2, 2.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Bom"]
+	  },
+	  {
+	    "ID":3203403,
+      	"NOME_MUNICIPIO":"Mimoso do Sul",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 16637,
+	    "VALORES": [7.78, 3.98, 7.2, 6.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Bom"]
+	  },
+	  {
+	    "ID":3203502,
+      	"NOME_MUNICIPIO":"Montanha",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 21520,
+	    "VALORES": [0.78, 2.98, 0.2, 5.45, 4.14, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "ID":3203601,
+      	"NOME_MUNICIPIO":"Mucurici",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 10300,
+	    "VALORES": [0.78, 0.98, 0.2, 3.45, 4.14, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203700,
+      	"NOME_MUNICIPIO":"Muniz Freire",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32011,
+	    "POPULACAO": 14370,
+	    "VALORES": [0.78, 7.98, 0.2, 3.45, 1.11, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3203809,
+      	"NOME_MUNICIPIO":"Muqui",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 10493,
+	    "VALORES": [3.78, 9.98, 3.2, 4.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"]
+	  },
+	  {
+	    "ID":3203908,
+      	"NOME_MUNICIPIO":"Nova Venécia",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 10341,
+	    "VALORES": [1.78, 4.98, 1.2, 3.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Ótimo"]
+	  },
+	  {
+	    "ID":3204005,
+      	"NOME_MUNICIPIO":"Pancas",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 67048,
+	    "VALORES": [8.78, 4.98, 8.2, 0.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Ótimo"]
+	  },
+	  {
+	    "ID":3204054,
+      	"NOME_MUNICIPIO":"Pedro Canário",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 18391,
+	    "VALORES": [1.78, 9.98, 1.2, 3.45, 5.15, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204104,
+      	"NOME_MUNICIPIO":"Pinheiros",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 21067,
+	    "VALORES": [7.78, 6.98, 7.2, 0.45, 4.14, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204203,
+      	"NOME_MUNICIPIO":"Piúma",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 7043,
+	    "VALORES": [3.78, 4.98, 3.2, 0.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3204252,
+      	"NOME_MUNICIPIO":"Ponto Belo",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32004,
+	    "POPULACAO": 18698,
+	    "VALORES": [8.78, 9.98, 8.2, 6.45, 4.14, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204302,
+      	"NOME_MUNICIPIO":"Presidente Kennedy",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32013,
+	    "POPULACAO": 33861,
+	    "VALORES": [1.78, 6.98, 1.2, 8.45, 3.13, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "ID":3204351,
+      	"NOME_MUNICIPIO":"Rio Bananal",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 23045,
+	    "VALORES": [5.78, 4.98, 5.2, 0.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204401,
+      	"NOME_MUNICIPIO":"Rio Novo do Sul",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32010,
+	    "POPULACAO": 9372,
+	    "VALORES": [2.78, 7.98, 2.2, 3.45, 0.10, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204500,
+      	"NOME_MUNICIPIO":"Santa Leopoldina",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 15524,
+	    "VALORES": [4.78, 2.98, 4.2, 5.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204559,
+      	"NOME_MUNICIPIO":"Santa Maria de Jetibá",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 50861,
+	    "VALORES": [1.78, 6.98, 1.2, 8.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204609,
+      	"NOME_MUNICIPIO":"Santa Teresa",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 18356,
+	    "VALORES": [6.78, 5.98, 6.2, 3.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204658,
+      	"NOME_MUNICIPIO":"São Domingos do Norte",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32003,
+	    "POPULACAO": 17913,
+	    "VALORES": [3.78, 1.98, 3.2, 9.45, 3.13, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom"]
+	  },
+	  {
+	    "ID":3204708,
+      	"NOME_MUNICIPIO":"São Gabriel da Palha",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 13260,
+	    "VALORES": [0.78, 6.98, 0.2, 2.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3204807,
+      	"NOME_MUNICIPIO":"São José do Calçado",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 31968,
+	    "VALORES": [8.78, 6.98, 8.2, 9.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3204906,
+      	"NOME_MUNICIPIO":"São Mateus",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32005,
+	    "POPULACAO": 293723,
+	    "VALORES": [3.78, 2.98, 3.2, 7.45, 5.15, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3204955,
+      	"NOME_MUNICIPIO":"São Roque do Canaã",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32008,
+	    "POPULACAO": 35248,
+	    "VALORES": [8.78, 4.98, 8.2, 2.45, 8.18, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3205002,
+      	"NOME_MUNICIPIO":"Serra",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 28844,
+	    "VALORES": [4.78, 4.98, 4.2, 8.45, 9.19, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3205010,
+      	"NOME_MUNICIPIO":"Sooretama",
+      	"ID_MESO": 3202,
+      	"ID_MICRO": 32006,
+	    "POPULACAO": 70912,
+	    "VALORES": [2.78, 1.98, 2.2, 9.45, 6.16, 2.45, 2.78, 8.28],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim", "Regular", "Bom", "Ótimo"]
+	  },
+	  {
+	    "ID":3205036,
+      	"NOME_MUNICIPIO":"Vargem Alta",
+      	"ID_MESO": 3204,
+      	"ID_MICRO": 32012,
+	    "POPULACAO": 9719,
+	    "VALORES": [9.78, 1.98, 9.2, 7.45, 2.12, 4.45, 4.78, 8.48],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3205069,
+      	"NOME_MUNICIPIO":"Venda Nova do Imigrante",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32007,
+	    "POPULACAO": 26020,
+	    "VALORES": [0.78, 2.98, 0.2, 0.45, 7.17, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3205101,
+      	"NOME_MUNICIPIO":"Viana",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 31301,
+	    "VALORES": [1.78, 0.98, 1.2, 3.45, 9.19, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3205150,
+      	"NOME_MUNICIPIO":"Vila Pavão",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 8338,
+	    "VALORES": [8.78, 3.98, 8.2, 3.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3205176,
+      	"NOME_MUNICIPIO":"Vila Valério",
+      	"ID_MESO": 3201,
+      	"ID_MICRO": 32002,
+	    "POPULACAO": 86677,
+	    "VALORES": [7.78, 7.98, 7.2, 6.45, 2.12, 1.45, 1.78, 8.18],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]
+	  },
+	  {
+	    "ID":3205200,
+      	"NOME_MUNICIPIO":"Vila Velha",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 14268,
+	    "VALORES": [8.78, 6.98, 8.2, 2.45, 9.19, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Ruim"]
+	  },
+	  {
+	    "ID":3205309,
+      	"NOME_MUNICIPIO":"Vitória",
+      	"ID_MESO": 3203,
+      	"ID_MICRO": 32009,
+	    "POPULACAO": 25332,
+	    "VALORES": [2.78, 3.98, 2.2, 3.45, 9.19, 3.45, 3.78, 8.38],
+		"PERIODOS": ["Jan/2019", "Fev/2019", "Mar/2019", "Abr/2019", "Mai/2019", "Jun/2019", "Jul/2019"],
+	    "CATEGORIA": ["Péssimo"]
+	  }
+	]
+}

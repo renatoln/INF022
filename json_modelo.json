@@ -1,0 +1,93 @@
+{
+  "categoria": [
+    {
+      "id": 1,
+      "nome": "Ruim"
+    }
+  ],
+  "grupo_atributo": [
+    {
+      "id": 1,
+      "nome": "Doença"
+    }
+  ],
+  "atributo": [
+    {
+      "id": 1,
+      "id_grupo_atributo": 1,
+      "nome": "Cardiaca",
+      "id_categorias": [1, 2, 3]
+    }
+  ],
+  "estado": [
+    {
+      "id": 1,
+      "nome": "Bahia"
+    }
+  ],
+  "mesorregiao": [
+    {
+      "id": 2906,
+      "nome": "Centro Sul Baiano"
+    }
+  ],
+  "microrregiao": [
+    {
+      "id": 1,
+      "id_mesorregiao": 2,
+      "nome": "Seabra"
+    }
+  ],
+  "municipio": [
+    {
+      "id": 123,
+      "id_microrregiao": 1,
+      "nome": "Salvador",
+      "capital": true
+    }
+  ],
+  
+  "tipo_dado": [
+    {
+      "id": 1,
+      "nome": "Numérico"
+    },
+    {
+      "id": 2,
+      "nome": "Categorico"
+    }
+  ],
+  
+  "dado": [
+    {
+      "id_municipio": 1,
+      "atributo": 1,
+      "valor": 1,
+      "tipo_dado": 1
+    },
+    {
+      "id_municipio": 1,
+      "atributo": 1,
+      "valor": "Ruim",
+      "tipo_dado": 2
+    }
+  ]
+}
+
+
+//periodos
+//diario
+//hora_a_hora
+//semanal
+//anual
+
+
+UF_PERIODO_GERAL.json
+
+
+Bahia_statistics
+
+//permitir troca de coloração: percentil, min_max, log
+//permitir aumentar faixa da coloração
+
+//Aplicar zoom semântico no mapa. Ex: Uma microregião inteira está no percentil 1, mas ao selecionar microregião, recalcular os percentis, e recolorir a microregião. Assim será possível ver quais daquelas é melhor ou não.
