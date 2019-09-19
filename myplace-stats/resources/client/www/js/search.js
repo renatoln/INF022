@@ -259,3 +259,47 @@ function clearSearch() {
     });
     clearSearchOnMap();
 };
+
+function initSearch() {
+    var categoria = document.getElementById('txt-search-categoria').value;
+
+    var mesoDrop = document.getElementById('dropdownMeso');
+    var microDrop = document.getElementById('dropdownMicro');
+
+    var meso = '';
+
+    if (mesoDrop.selectedIndex > 0) {
+        meso = mesoDrop.options[mesoDrop.selectedIndex].value;
+    }
+
+    if (meso === 'Mesorregião') {
+        meso = '';
+    }
+
+    var micro = '';
+
+    if (microDrop.selectedIndex > 0) {
+        micro = microDrop.options[microDrop.selectedIndex].value;
+    }
+
+    if (micro === 'Microrregião') {
+        micro = '';
+    }
+
+    var valorMin = document.getElementById('txt-search-valorMin').value;
+
+    if (valorMin === '') {
+        valorMin = null;
+    }
+
+    var valorMax = document.getElementById('txt-search-valorMax').value;
+
+    if (valorMax === '') {
+        valorMax = null;
+    }
+
+    //Devo limpar o mapa com clear antes de cada busca?
+
+    filterFunction(categoria, meso, micro, valorMin, valorMax);
+
+};
