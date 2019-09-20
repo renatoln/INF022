@@ -37,6 +37,11 @@ function SwitchChart(chartName) {
             {
                 sunburstAll("sunburstChartTab");
             }
+        case "treMapChartTab":
+            {   console.log("porra")
+                drawChart();
+                console.log("porra2")
+            }
     }
 
 }

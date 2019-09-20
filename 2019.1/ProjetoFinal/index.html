@@ -17,6 +17,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/tab.css" rel="tab">
+    
 
 </head>
 
@@ -585,6 +586,8 @@
                                     <div class="tablinks">
                                         <button class="btn btn-md btn-info"
                                             onclick="openChart(event, 'sunChartTab')">Sunburst</button>
+                                        <button class="btn btn-md btn-info"
+                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>    
                                     </div>
                                     <div id="sunChartTab" class="tabcontent">
                                         <div class="row">
@@ -599,6 +602,19 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div id="treMapChartTab" class="tabcontent">
+                                        <div class="row">
+                                            <div class="container">
+                                                <div class="card" style="float: right; ">
+                                                    <div class="col-lg-12">
+                                                        <section>
+                                                            <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </ul>
                             </div>
                         </div>
@@ -606,7 +622,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- Grafico -->
     <div class="row">
@@ -620,7 +635,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Grafico3 Não é do projeto -->
     <!-- <div class="row">
                         <div class="col-lg-3 col-md-6">
@@ -690,7 +705,8 @@
     <!--**********************************
             Footer start
         ***********************************-->
-    <div class="footer">
+        
+        <div class="footer">
         <div class="copyright">
             <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018
             </p>
@@ -777,6 +793,7 @@
     <script src="js/styleSwitcher.js"></script>
 
     <!-- Chartjs -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="./plugins/chart.js/Chart.bundle.min.js"></script>
     <!-- Circle progress -->
     <script src="./plugins/circle-progress/circle-progress.min.js"></script>
