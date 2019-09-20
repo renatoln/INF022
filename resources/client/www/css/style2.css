@@ -1,0 +1,54 @@
+/* *{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+
+#municipios{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+#mapa{
+	margin: 0px;
+	padding: 0px;
+	width: 450px;
+	height: 450px;
+	border: 1px solid #000;
+} */
+
+#popUp{
+	position: absolute;
+	visibility: hidden;
+	width: 150px;
+	height: 80px;
+}
+
+#popUp ul{
+	background-color: rgba(255,255,255,0.7);
+}
+
+#popUp a{
+	font-size: 15px;
+}
+
+#popUp li{
+	border: 1px solid rgba(0,0,0,0.1);
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+}
+
+#popUp li:hover{
+	background-color: #2574A9;
+	cursor: pointer;
+}
