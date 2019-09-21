@@ -7,13 +7,18 @@
 /* Tamanho 0 implica sem forma, o que faz com que as informações se agrupem em algum canto do gráfico */
 /* Seria interessante fazer uma notificação para utilizarmos nessas situações */
 
+/*
+Putting the async keyword before a function makes it an asynchronous function. This basically does 2 things to the function:
+1 - If a function doesn't return a promise the JS engine will wrap this value into a resolved promise. Thus, the function will always return a promise.
+*/
+
 var oldLocalizacao = "";
 
 var labelsLocation = new Array();
 var parentsLocation = new Array();
 var valuesLocation = new Array();
 
-function sunburst(localizacao) {
+async function sunburst(localizacao) {
 
     if (!localizacao) {
         return;
@@ -223,25 +228,12 @@ function sunburst(localizacao) {
     Plotly.newPlot('myDiv', data, layout);
 }
 
-function Radar() {
-
-    layout = {
-        polar: {
-            radialaxis: {
-                visible: true,
-                range: [0, 50]
-            }
-        }
-    }
-
-}
-
 var labelsGlobal = new Array();
 var parentsGlobal = new Array();
 var valuesGlobal = new Array();
 var oldIndexAtributo = -1;
 
-function sunburstAll(div) {
+async function sunburstAll(div) {
 
     if (oldIndexAtributo == indexAtributo) {
         return;
