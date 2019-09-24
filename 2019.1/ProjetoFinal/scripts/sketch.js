@@ -393,7 +393,6 @@ function gerarArrayTreeMap(tam, numColor){
 	}
 }
 
-
 gerarArrayTreeMap(tam, numColor);
 
 google.charts.load('current', {'packages':['treemap']});
@@ -413,9 +412,9 @@ google.charts.load('current', {'packages':['treemap']});
 		});
 		function showFullTooltip(row, size, value) {
 
-			return '<div style="background:#fd9; padding:10px; border-style:solid">' +
-					'<span style="font-family:Courier"><b>' 
-					+ data.getValue(row, 0) + " - " + data.getValue(row, 2);
+			return '<div style="background:#fd9; padding:2px; border-style:solid; color:Black">' +
+					'<span style="font-family:Courier; color:Black"><n>' 
+					+ data.getValue(row, 0) + " --> " + data.getValue(row, 2);
 		  }	
 	  }
 
