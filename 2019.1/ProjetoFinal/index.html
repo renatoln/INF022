@@ -542,10 +542,11 @@
                     </div>
                     <div class="col-4">
                         <div class="card" style="height: 19rem;">
-                            <label id="labelPeriodos" for="valores"><strong
-                                    style="text-align: center;">Período: 6</strong></label>
-                            <div class="col-sm-2" style="margin-right: 50px;">
-                                <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                            <label for="labelPeriodos"><strong
+                                    style="text-align: center;">Períodos</strong></label>
+                            <div class="col-sm-8">
+                                <select id="dropdownPeriodos" class="custom-select custom-select mb-3"
+                                    name="DropPeriodos" onchange=changeTime(event)></select>
                             </div>
                             <label for="valores"><strong
                                     style="text-align: center;">Atributos</strong></label>

@@ -19,7 +19,6 @@ let periodoAtual;
 let indexAtributo = 0;
 let periodos;
 var svg;
-let range = document.getElementById("myRange");
 let labEpoca = document.getElementById("labelPeriodos");
 let currentPlace = null;
 
@@ -40,7 +39,6 @@ function inicializa(){
             capitalNome = data['NOME_CAPITAL'];
             periodos = data['PERIODOS'];
             mudaPeriodo();
-            loadRange();
             loadJsonEstadoEvolucao();
             svg = 'maps/'+estado+'.svg';
             loadSVG(svg);
@@ -54,20 +52,9 @@ function formatarPeriodo(time){
             return time.replace("-",".");
 }
 
-function loadRange(){
-      range.value = formatarPeriodo(periodoAtual);
-      labEpoca.innerHTML = `Período: ${range.value}`;
-      range.setAttribute("min",formatarPeriodo(periodos[0]));
-      range.setAttribute("max",formatarPeriodo(periodos[periodos.length-1]));
-}
-
-range.addEventListener("change",function(){
-  labEpoca.innerHTML = `Período: ${range.value}`;
-})
-
 inicializa();
 
-function mudaPeriodo(periodo = periodos[periodos.length - 1]){
+function mudaPeriodo(periodo = periodos[0]){
       periodoAtual = periodo;
       loadJsonEstadoGeral();
 }

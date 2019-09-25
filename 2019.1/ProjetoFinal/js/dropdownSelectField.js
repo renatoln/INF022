@@ -1,6 +1,7 @@
 let dropMeso = $('#dropdownMeso');
 let dropMicro = $('#dropdownMicro');
 let dropAtributos = $('#dropdownAtributos');
+let dropPeriodos = $('#dropdownPeriodos');
 
 //DROPDOWN MESORREGIÕES
 
@@ -51,4 +52,22 @@ function getCurrentAttribute(){
 			return icount.innerHTML;
 		}
 	}
+}
+
+//DROPDOWN PERIODOS
+
+dropPeriodos.empty();
+dropPeriodos.prop('selectedIndex', 0);
+
+let time = periodos;
+
+time.forEach(addOption);
+
+function addOption(item, index) {
+  dropPeriodos.append($('<option></option>').attr('value', index).text(item));
+}
+
+function changeTime(evt){
+	mudaPeriodo(time[evt.target.value]);
+	colorirMun(cidades);
 }
