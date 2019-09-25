@@ -1,3 +1,11 @@
+/*
+ToDo
+- ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
+- ao mudar o periodo, tem que gerar os tootips e recolorir
+
+
+*/
+
 let cidades = [];
 let microrregioes = [];
 let mesorregioes = [];

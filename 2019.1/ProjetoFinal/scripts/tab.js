@@ -37,6 +37,10 @@ function SwitchChart(chartName) {
             {
                 sunburstAll("sunburstChartTab");
             }
+        case "treMapChartTab":
+            {
+                drawChart();
+            }
     }
 
 }

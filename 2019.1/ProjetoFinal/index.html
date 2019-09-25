@@ -17,6 +17,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/tab.css" rel="tab">
+    
 
 </head>
 
@@ -479,7 +480,7 @@
 
                 <!-- Busca -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-8">
                         <div class="card" style="height: 19rem;">
                             <div class="container" style="padding: 16px;">
                                 <form role="form">
@@ -510,20 +511,6 @@
 
                                     </div>
 
-                                    <div class="form-group input-group mb-3">
-                                        <label id="labelPeriodos" for="valores"><strong
-                                                style="text-align: center;">Período: 6</strong></label>
-                                        <div class="col-sm-2" style="margin-right: 50px;">
-                                            <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
-                                        </div>
-                                        <label for="valores"><strong
-                                                style="text-align: center;">Atributos</strong></label>
-                                        <div class="col-sm-3">
-                                            <select id="dropdownAtributos" class="custom-select custom-select mb-3"
-                                                name="DropAtributos" onchange=checkAlert(event)></select>
-                                        </div>
-                                    </div>
-
                                     <!-- Fields Select Meso e Micro -->
                                     <div class="form-group input-group mb-3">
                                         <label for="valores"><strong
@@ -550,11 +537,28 @@
                                         </div>
                                     </div>
                                 </form>
-                                <div id="filter-records"></div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-4">
+                        <div class="card" style="height: 19rem;">
+                            <label id="labelPeriodos" for="valores"><strong
+                                    style="text-align: center;">Período: 6</strong></label>
+                            <div class="col-sm-2" style="margin-right: 50px;">
+                                <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                            </div>
+                            <label for="valores"><strong
+                                    style="text-align: center;">Atributos</strong></label>
+                            <div class="col-sm-8">
+                                <select id="dropdownAtributos" class="custom-select custom-select mb-3"
+                                    name="DropAtributos" onchange=checkAlert(event)></select>
+                            </div>
+                        </div>
+                    </div>
+                                
                 </div>
+
+                <!-- Atributos dinâmicos -->
 
                 <!-- Map -->
                 <div class="row">
@@ -585,6 +589,8 @@
                                     <div class="tablinks">
                                         <button class="btn btn-md btn-info"
                                             onclick="openChart(event, 'sunChartTab')">Sunburst</button>
+                                        <button class="btn btn-md btn-info"
+                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>    
                                     </div>
                                     <div id="sunChartTab" class="tabcontent">
                                         <div class="row">
@@ -599,6 +605,19 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div id="treMapChartTab" class="tabcontent">
+                                        <div class="row">
+                                            <div class="container">
+                                                <div class="card" style="float: right; ">
+                                                    <div class="col-lg-12">
+                                                        <section>
+                                                            <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </ul>
                             </div>
                         </div>
@@ -606,7 +625,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- Grafico -->
     <div class="row">
@@ -620,7 +638,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Grafico3 Não é do projeto -->
     <!-- <div class="row">
                         <div class="col-lg-3 col-md-6">
@@ -690,7 +708,8 @@
     <!--**********************************
             Footer start
         ***********************************-->
-    <div class="footer">
+        
+        <div class="footer">
         <div class="copyright">
             <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018
             </p>
@@ -777,6 +796,7 @@
     <script src="js/styleSwitcher.js"></script>
 
     <!-- Chartjs -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="./plugins/chart.js/Chart.bundle.min.js"></script>
     <!-- Circle progress -->
     <script src="./plugins/circle-progress/circle-progress.min.js"></script>
@@ -809,6 +829,7 @@
     <script type="text/javascript" src="scripts/script.js"></script>
     <script type="text/javascript" src="scripts/p5.min.js"></script>
     <script type="text/javascript" src="scripts/sketch.js"></script>
+    <script type="text/javascript" src="scripts/sunburst.js"></script>
 
     <!-- Search -->
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
