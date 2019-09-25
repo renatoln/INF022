@@ -1,9 +1,17 @@
+/*
+ToDo
+- ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
+- ao mudar o periodo, tem que gerar os tootips e recolorir
+
+
+*/
+
 let cidades = [];
 let microrregioes = [];
 let mesorregioes = [];
 var mapa = Snap('#mapa'); // Passa ao Snap o id da tag <svg> de trabalho
 
-//modificar os três atributos abaixo de acordo com o mapa a ser visualizado
+//modificar os três atributos abaixo de acordo com o mapa a ser visualizado 
 let estado; //'ba'; //es ba
 let capitalId;// 2927408; //vitoria = 3205309; salvador = 2927408
 let capitalNome;//'Salvador'; //'Salvador' 'Vitoria';
@@ -15,11 +23,11 @@ let range = document.getElementById("myRange");
 let labEpoca = document.getElementById("labelPeriodos");
 let currentPlace = null;
 
-//Coloracao
+//Coloracao 
 let colorMinMax = 1;
 let colorPercentis = 2;
 let colorLog = 3;
-let estrategiaColoracao = colorPercentis;
+let estrategiaColoracao = colorMinMax;
 
 function inicializa(){
       //reading the config.json
@@ -39,7 +47,7 @@ function inicializa(){
       });
       $.ajaxSetup({
             async: true
-      });
+      }); 
 }
 
 function formatarPeriodo(time){
@@ -126,14 +134,14 @@ function onSVGLoaded(data) {
       // Adiciona o svg dentro da tag <svg> com o id (nesse caso, #mapa) passado para o snap
       // Obs.: Realmente faz um append. Se existir dados, os novos dados serao acrescentados no final
       if(!init)
-            mapa.append(data);
-
+            mapa.append(data); 
+      
       init = true;
 
       regiaoSelecionada = mapa.select(regiao);
 
-      let selected = regiaoSelecionada.selectAll("path").items;
-
+      let selected = regiaoSelecionada.selectAll("path").items; 
+      
       setAtributosCamada(selected);
 
       //Essa linha abaixo que pega o PATH de cada municipio no SVG
@@ -152,23 +160,23 @@ function setAtributosCamada(selected){
                   (e) => {
                         if (zPressionado) {
                               if(nivel>0){
-                                    zoomOutAnimation(this, regiaoSelecionada);
+                                    zoomOutAnimation(this, regiaoSelecionada);                    
                                     sobeNivel();
                                     regiao = regioes[nivel];
                                     regiaoSelecionada = mapa.select(regiao);
-                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);
+                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                    
                               }
                               else {
                                     //alert('Não é mais possivel afastar');
                               }
-
+                              
                         } else {
                               if(nivel<2){
-                                    zoomInAnimation(this, regiaoSelecionada);
+                                    zoomInAnimation(this, regiaoSelecionada);                    
                                     desceNivel();
                                     regiao = regioes[nivel];
-                                    regiaoSelecionada = mapa.select(regiao);
-                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);
+                                    regiaoSelecionada = mapa.select(regiao);            
+                                    setAtributosCamada(regiaoSelecionada.selectAll("path").items);                                                            
                               }
                               else {
                                     //alert('Não é mais possivel aproximar');
@@ -261,11 +269,11 @@ function fillTooltipData(path) {
       } else {
             tooltipMesorregiao(path);
       }
-
+      
       $(classes[nivel]).bind('contextmenu', function () {
             $('#modal')
                   .modal()
-                  .text('Dados de ' + descricaoRegiao[nivel]
+                  .text('Dados de ' + descricaoRegiao[nivel] 
                         + ' '
                         + jsonResponse.nome
                         + ' de ID '+ jsonResponse.id + ':');
@@ -282,10 +290,10 @@ function numberToReal(numero) {
 function tooltipAtributos(regiao){
       var i;
       var str = '';
-      for (i = 0; i < regiao.ATRIBUTOS.length; i++) {
+      for (i = 0; i < regiao.ATRIBUTOS.length; i++) { 
         str += '&#10;'+ regiao.ATRIBUTOS[i]+': '+regiao.VALORES[i];
       }
-
+      
       return str;
 
 }
@@ -302,7 +310,7 @@ function tooltipMunicipio(path) {
       //+ '&#10;&#10;Valor: ' + municipio.VALOR
       + tooltipAtributos(municipio)
       + '</title>';
-      path.append(Snap.parse(string));
+      path.append(Snap.parse(string)); 
       jsonResponse = municipio;
 }
 
@@ -316,7 +324,7 @@ function tooltipMicrorregiao(path) {
       //+ '&#10;&#10;Valor: ' + micro.VALOR
       + tooltipAtributos(micro)
       + '</title>';
-      path.append(Snap.parse(string));
+      path.append(Snap.parse(string)); 
       jsonResponse = micro;
 }
 
@@ -328,7 +336,7 @@ function tooltipMesorregiao(path) {
       //+ '&#10;&#10;Valor: ' + meso.VALOR
       + tooltipAtributos(meso)
       + '</title>';
-      path.append(Snap.parse(string));
+      path.append(Snap.parse(string)); 
       jsonResponse = meso;
 }
 
@@ -343,14 +351,14 @@ function getPath(path) {
             pai = 'mes_' + municipio.ID_MESO;
       } else if (regioes[nivel]=='#Microrregioes') {
             pai='Terreno';
-      }
+      } 
 
       return pai;
 }
 
 /**
  * @param jsonRegiao Json da região. Ex.:(estadoJson.MUNICIPIOS)
- * @param id Id do local para ser encontrado na região.
+ * @param id Id do local para ser encontrado na região. 
  */
 function encontrarLocalPorId(jsonRegiao, id) {
       return jsonRegiao.find(resultado => resultado.ID == id);
@@ -367,7 +375,7 @@ function setAtributosRegiao(elemento, cor ,opacidade) {
 }
 
 
-// Preenche com uma cor passada o município com o id passado
+// Preenche com uma cor passada o município com o id passado 
 function colorirMunicipio(idMunicipio, cor) {
       municipio = "#mun_"+idMunicipio;
       $(municipio).attr({ 'fill': cor, 'fill-opacity': 1 });

@@ -60,20 +60,6 @@
 
                                     </div>
 
-                                    <div class="form-group input-group mb-3">
-                                        <label id="labelPeriodos" for="valores"><strong
-                                                style="text-align: center;">Período: 6</strong></label>
-                                        <div class="col-sm-2" style="margin-right: 50px;">
-                                            <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
-                                        </div>
-                                        <label for="valores"><strong
-                                                style="text-align: center;">Atributos</strong></label>
-                                        <div class="col-sm-3">
-                                            <select id="dropdownAtributos" class="custom-select custom-select mb-3"
-                                                name="DropAtributos" onchange=checkAlert(event)></select>
-                                        </div>
-                                    </div>
-
                                     <!-- Fields Select Meso e Micro -->
                                     <div class="form-group input-group mb-3">
                                         <label for="valores"><strong
@@ -100,7 +86,22 @@
                                         </div>
                                     </div>
                                 </form>
-                                <div id="filter-records"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card" style="height: 19rem;">
+                            <label id="labelPeriodos" for="valores"><strong
+                                    style="text-align: center;">Período: 6</strong></label>
+                            <div class="col-sm-2" style="margin-right: 50px;">
+                                <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                            </div>
+                            <label for="valores"><strong
+                                    style="text-align: center;">Atributos</strong></label>
+                            <div class="col-sm-8">
+                                <select id="dropdownAtributos" class="custom-select custom-select mb-3"
+                                    name="DropAtributos" onchange=checkAlert(event)></select>
                             </div>
                         </div>
                     </div>
@@ -135,6 +136,9 @@
                                     <div class="tablinks">
                                         <button class="btn btn-md btn-info"
                                             onclick="openChart(event, 'sunChartTab')">Sunburst</button>
+                                        <button class="btn btn-md btn-info"
+                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>    
+
                                     </div>
                                     <div id="sunChartTab" class="tabcontent">
                                         <div class="row">
@@ -143,6 +147,19 @@
                                                     <div class="col-lg-12">
                                                         <section>
                                                             <div id="sunburstChartTab"></div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="treMapChartTab" class="tabcontent">
+                                        <div class="row">
+                                            <div class="container">
+                                                <div class="card" style="float: right; ">
+                                                    <div class="col-lg-12">
+                                                        <section>
+                                                            <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
                                                         </section>
                                                     </div>
                                                 </div>
@@ -187,6 +204,7 @@
     <script src="plugins/moment/moment.min.js"></script>
     <script src="plugins/pg-calendar/js/pignose.calendar.min.js"></script>
     <!-- ChartistJS -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="plugins/chartist/js/chartist.min.js"></script>
     <script src="plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
 
@@ -202,6 +220,7 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/p5.min.js"></script>
     <script type="text/javascript" src="js/sketch.js"></script>
+    <script type="text/javascript" src="js/sunburst.js"></script>
 
     <!-- Search -->
     <script src="js/bootstrap.min.js"></script>
