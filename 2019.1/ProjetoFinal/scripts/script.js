@@ -1,7 +1,10 @@
-$.getScript("views/bubble.js");
+atualizarVisoes();
 
 function atualizarVisoes(){
-
+  atualizaTreeMap();
+  atualizaBubble();
+  atualizaSunburst();
+  atualizaGauge();
 }
 
 

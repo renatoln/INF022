@@ -1,9 +1,11 @@
 /*
 ToDo
-- ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
-- ao mudar o periodo, tem que gerar os tootips e recolorir
-
-
+- [Jadson] ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
+- [Jadson] ao mudar o periodo, tem que gerar os tootips e recolorir
+- [Dagoberto] mover código para treemap.js; Adicionar 2 dropdowns, um para área e outro para cor; Remover div do TreeMap
+- [Alison] mover código para bubble.js; Adicionar 3 dropdowns, um para cada atributo(x,y e tamanho)
+- [Paulo] mover código para sunburst.js; Implementar o radar em evolução.
+- [Daniel] implementar gauge.js; Fazer os tabs
 */
 
 let cidades = [];
@@ -26,7 +28,7 @@ let currentPlace = null;
 let colorMinMax = 1;
 let colorPercentis = 2;
 let colorLog = 3;
-let estrategiaColoracao = colorMinMax;
+let estrategiaColoracao = colorPercentis;
 
 function inicializa(){
       //reading the config.json
