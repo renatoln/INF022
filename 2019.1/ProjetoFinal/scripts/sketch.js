@@ -3,7 +3,6 @@ let geral = [];
 let popUp = document.getElementById("popUp");
 let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
-let line = document.getElementById("lineChart");
 let bar = document.getElementById("barChart");
 let sun = document.getElementById("sunChart");
 let compare = document.getElementById("atrCompare");
@@ -105,7 +104,7 @@ function clearSearchOnMap() {
 //FUNÇÃO QUE CARREGA O PRIMEIRO MAPA
 function primeiroMapa() {
 	let capital = searchEquivalent(capitalId, jsonEstadoEvolucao.MUNICIPIOS);
-	lineChart(config.PERIODOS, capital.ATRIBUTOS[indexAtributo].VALORES, capitalNome);
+	attributeCompare(config.PERIODOS, capital.ATRIBUTOS, capitalNome);
 	currentPlace = capital;
 }
 
@@ -117,18 +116,6 @@ function addPopUp(local, localEvolucao) {
 		ev.preventDefault();
 		mouseX = ev.clientX;
 		mouseY = ev.clientY;
-
-
-		//ADICIONA FUNÇÃO DE LINECHART NO CLIQUE
-		line.addEventListener("click", function () {
-			if (local.node.attributes.id.value.includes("mun_"))
-				lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MUNICIPIO);
-			else
-				if (local.node.attributes.id.value.includes("mic_"))
-					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MICRORREGIAO);
-				else
-					lineChart(config.PERIODOS, localEvolucao.ATRIBUTOS[indexAtributo].VALORES, localEvolucao.NOME_MESORREGIAO);
-		})
 
 		//ADICIONA FUNÇÃO DE BARCHART NO CLIQUE
 		bar.addEventListener("click", function () {
@@ -151,7 +138,7 @@ function addPopUp(local, localEvolucao) {
 				sunburstAll();
 		})
 
-		//COMPARA TODOS OS ATRIBUTOS EM UM LINECHART QUANDO CLICA NO POPUP
+		//ABRE UM LINECHART QUANDO CLICA NO POPUP
 		compare.addEventListener("click", function () {
 			if (local.node.attributes.id.value.includes("mun_"))
 				attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MUNICIPIO);
