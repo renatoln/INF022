@@ -543,14 +543,24 @@
                     <div class="col-4">
                         <div class="card" style="height: 19rem;">
                             <label for="labelPeriodos"><strong
-                                    style="text-align: center;">Períodos</strong></label>
-                            <div class="col-sm-8">
+                                    style="text-align: center;">Períodos:</strong></label>
+                            <div class="col-sm-8 dinamicos">
                                 <select id="dropdownPeriodos" class="custom-select custom-select mb-3"
                                     name="DropPeriodos" onchange=changeTime(event)></select>
                             </div>
+                            <label for="labelEstrategia"><strong
+                                    style="text-align: center;">Estratégia de coloração:</strong></label>
+                            <div class="col-sm-8 dinamicos">
+                                <select id="dropdownEstrategia" class="custom-select custom-select mb-3"
+                                    name="DropEstrategia" onchange=changeColorOption(event)>
+                                        <option value="1">Min-Max</option>
+                                        <option value="2">Percentis</option>
+                                        <option value="3">Log</option>
+                                    </select>
+                            </div>
                             <label for="valores"><strong
-                                    style="text-align: center;">Atributos</strong></label>
-                            <div class="col-sm-8">
+                                    style="text-align: center;">Atributos:</strong></label>
+                            <div class="col-sm-8 dinamicos">
                                 <select id="dropdownAtributos" class="custom-select custom-select mb-3"
                                     name="DropAtributos" onchange=checkAlert(event)></select>
                             </div>
