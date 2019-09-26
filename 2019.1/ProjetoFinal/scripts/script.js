@@ -1,3 +1,11 @@
+$.getScript("views/bubble.js");
+
+function atualizarVisoes(){
+
+}
+
+
+
 function lineChart(periodo, valor, cidade) {
   var trace1 = {
     x: periodo,
