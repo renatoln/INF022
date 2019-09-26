@@ -1,3 +1,14 @@
+atualizarVisoes();
+
+function atualizarVisoes(){
+  atualizaTreeMap();
+  atualizaBubble();
+  atualizaSunburst();
+  atualizaGauge();
+}
+
+
+
 function lineChart(periodo, valor, cidade) {
   var trace1 = {
     x: periodo,

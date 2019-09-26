@@ -1,6 +1,7 @@
 let dropMeso = $('#dropdownMeso');
 let dropMicro = $('#dropdownMicro');
 let dropAtributos = $('#dropdownAtributos');
+let dropPeriodos = $('#dropdownPeriodos');
 
 //DROPDOWN MESORREGIÕES
 
@@ -40,9 +41,9 @@ function myFunction(item, index) {
 function checkAlert(evt){
 	indexAtributo = evt.target.value;
 	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO);
-	for (let icount in cidades) {
-		generatePopUp(cidades[icount]);
-	}
+	setup();
+	gerarArrayTreeMap(indexAtributo, indexAtributo);
+	drawChart();
 }
 
 function getCurrentAttribute(){
@@ -51,4 +52,28 @@ function getCurrentAttribute(){
 			return icount.innerHTML;
 		}
 	}
+}
+
+//DROPDOWN PERIODOS
+
+dropPeriodos.empty();
+dropPeriodos.prop('selectedIndex', 0);
+
+let time = periodos;
+
+time.forEach(addOption);
+
+function addOption(item, index) {
+  dropPeriodos.append($('<option></option>').attr('value', index).text(item));
+}
+
+function changeTime(evt){
+	mudaPeriodo(time[evt.target.value]);
+	colorirMun(cidades);
+}
+
+function changeColorOption(evt){
+	estrategiaColoracao = evt.target.value;
+	console.log(estrategiaColoracao);
+	colorirMun(cidades);
 }

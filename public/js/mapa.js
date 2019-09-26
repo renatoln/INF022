@@ -1,9 +1,11 @@
 /*
 ToDo
-- ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
-- ao mudar o periodo, tem que gerar os tootips e recolorir
-
-
+- [Jadson] ao mudar o atributo ou sistema de coloração só deve colorir e nao regerar os tootips, logo a coloraçào tem que estar desacoplada do tooltip
+- [Jadson] ao mudar o periodo, tem que gerar os tootips e recolorir
+- [Dagoberto] mover código para treemap.js; Adicionar 2 dropdowns, um para área e outro para cor; Remover div do TreeMap
+- [Alison] mover código para bubble.js; Adicionar 3 dropdowns, um para cada atributo(x,y e tamanho)
+- [Paulo] mover código para sunburst.js; Implementar o radar em evolução.
+- [Daniel] implementar gauge.js; Fazer os tabs
 */
 
 let cidades = [];
@@ -19,7 +21,6 @@ let periodoAtual;
 let indexAtributo = 0;
 let periodos;
 var svg;
-let range = document.getElementById("myRange");
 let labEpoca = document.getElementById("labelPeriodos");
 let currentPlace = null;
 
@@ -40,7 +41,6 @@ function inicializa(){
             capitalNome = data['NOME_CAPITAL'];
             periodos = data['PERIODOS'];
             mudaPeriodo();
-            loadRange();
             loadJsonEstadoEvolucao();
             svg = 'maps/'+estado+'.svg';
             loadSVG(svg);
@@ -54,20 +54,9 @@ function formatarPeriodo(time){
             return time.replace("-",".");
 }
 
-function loadRange(){
-      range.value = formatarPeriodo(periodoAtual);
-      labEpoca.innerHTML = `Período: ${range.value}`;
-      range.setAttribute("min",formatarPeriodo(periodos[0]));
-      range.setAttribute("max",formatarPeriodo(periodos[periodos.length-1]));
-}
-
-range.addEventListener("change",function(){
-  labEpoca.innerHTML = `Período: ${range.value}`;
-})
-
 inicializa();
 
-function mudaPeriodo(periodo = periodos[periodos.length - 1]){
+function mudaPeriodo(periodo = periodos[0]){
       periodoAtual = periodo;
       loadJsonEstadoGeral();
 }

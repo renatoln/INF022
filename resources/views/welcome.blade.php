@@ -92,10 +92,11 @@
 
                     <div class="col-4">
                         <div class="card" style="height: 19rem;">
-                            <label id="labelPeriodos" for="valores"><strong
-                                    style="text-align: center;">Período: 6</strong></label>
-                            <div class="col-sm-2" style="margin-right: 50px;">
-                                <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                             <label for="labelPeriodos"><strong
+                                    style="text-align: center;">Períodos</strong></label>
+                            <div class="col-sm-8">
+                                <select id="dropdownPeriodos" class="custom-select custom-select mb-3"
+                                    name="DropPeriodos" onchange=changeTime(event)></select>
                             </div>
                             <label for="valores"><strong
                                     style="text-align: center;">Atributos</strong></label>
@@ -116,10 +117,9 @@
                                     <svg id='mapa' class='img-responsive' viewBox="0 0 945 1030"></svg>
                                     <div id="popUp">
                                         <ul>
-                                            <li id="lineChart"><a>Line Chart</a></li>
+                                            <li id="atrCompare"><a>Line Chart</a></li>
                                             <li id="barChart"><a>Bar Chart</a></li>
                                             <li id="sunChart"><a>Sunburst</a></li>
-                                            <li id="atrCompare"><a>Comparacao de Atributos</a></li>
                                             <li><a>Grafico Torta</a></li>
                                             <li><a>Grafico Multilinha</a></li>
                                         </ul>
@@ -135,9 +135,17 @@
                                 <ul class="tab">
                                     <div class="tablinks">
                                         <button class="btn btn-md btn-info"
-                                            onclick="openChart(event, 'sunChartTab')">Sunburst</button>
+                                            onclick="openChart(event, 'sunChartTab')">
+                                            Sunburst
+                                        </button>
                                         <button class="btn btn-md btn-info"
-                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>    
+                                            onclick="openChart(event, 'treMapChartTab')">
+                                            TreeMap
+                                        </button>
+                                        <button class="btn btn-md btn-info"
+                                            onclick="openChart(event, 'zoomableSunburstChartTab')">
+                                            Zoomable-Sunburst
+                                        </button>                                            
 
                                     </div>
                                     <div id="sunChartTab" class="tabcontent">
@@ -160,6 +168,19 @@
                                                     <div class="col-lg-12">
                                                         <section>
                                                             <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="zoomableSunburstChartTab" class="tabcontent">
+                                        <div class="row">
+                                            <div class="container">
+                                                <div class="card" style="float: right; ">
+                                                    <div class="col-lg-12">
+                                                        <section>
+                                                            <div id="chart_div_zoomableSunburstChartTab" style="width: 450px; height: 250px;"></div>
                                                         </section>
                                                     </div>
                                                 </div>
@@ -193,10 +214,6 @@
     </div>
 
 
-    <script type="text/javascript">
-        
-    </script>
-
     <script src="plugins/common/common.min.js"></script>
     <script src="js/custom.min.js"></script>
 
@@ -207,6 +224,8 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="plugins/chartist/js/chartist.min.js"></script>
     <script src="plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+    <!--D3 Data-Driven Documents-->
+    <script src="js/d3.v5.min.js"></script>
 
     <!-- Imports do Projeto Snap.js -->
     <script src="js/jquery.min.js"></script>
@@ -220,7 +239,14 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/p5.min.js"></script>
     <script type="text/javascript" src="js/sketch.js"></script>
-    <script type="text/javascript" src="js/sunburst.js"></script>
+
+
+    <!-- Imports Visões -->
+    <script type="text/javascript" src="js/views/sunburst.js"></script>
+    <script type="text/javascript" src="js/views/bubble.js"></script>
+    <script type="text/javascript" src="js/views/gauge.js"></script>
+    <script type="text/javascript" src="js/views/treemap.js"></script>
+    <script type="text/javascript" src="js/views/zoomable-sunburst.js"></script>
 
     <!-- Search -->
     <script src="js/bootstrap.min.js"></script>
@@ -229,10 +255,6 @@
 
     <!-- Tab -->
     <script type="text/javascript" src="js/tab.js"></script>
-
-    <!--D3 Data-Driven Documents-->
-    <script src="js/d3.v5.min.js"></script>
-
 </body>
 
 </html>
