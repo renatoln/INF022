@@ -542,10 +542,11 @@
                     </div>
                     <div class="col-4">
                         <div class="card" style="height: 19rem;">
-                            <label id="labelPeriodos" for="valores"><strong
-                                    style="text-align: center;">Período: 6</strong></label>
-                            <div class="col-sm-2" style="margin-right: 50px;">
-                                <input id="myRange" type="range" min="2019.01" max="2019.06" step="0.01" />
+                            <label for="labelPeriodos"><strong
+                                    style="text-align: center;">Períodos</strong></label>
+                            <div class="col-sm-8">
+                                <select id="dropdownPeriodos" class="custom-select custom-select mb-3"
+                                    name="DropPeriodos" onchange=changeTime(event)></select>
                             </div>
                             <label for="valores"><strong
                                     style="text-align: center;">Atributos</strong></label>
@@ -824,12 +825,19 @@
     <script src="js/mapa.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
+
+    <!-- Imports Visões -->
+    <script type="text/javascript" src="scripts/views/sunburst.js"></script>
+    <script type="text/javascript" src="scripts/views/bubble.js"></script>
+    <script type="text/javascript" src="scripts/views/gauge.js"></script>
+    <script type="text/javascript" src="scripts/views/treemap.js"></script>
+
+
     <!-- Imports da coloracao e do grafico de evolucao -->
     <script type="text/javascript" src="scripts/plotly-latest.min.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
     <script type="text/javascript" src="scripts/p5.min.js"></script>
     <script type="text/javascript" src="scripts/sketch.js"></script>
-    <script type="text/javascript" src="scripts/sunburst.js"></script>
 
     <!-- Search -->
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>

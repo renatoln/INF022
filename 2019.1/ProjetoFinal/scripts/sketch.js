@@ -292,19 +292,19 @@ function setup() {
 	for (let icount in mesorregioes) {
 		generatePopUp(mesorregioes[icount]);
 	}
+
+	colorirMun(cidades);
 }
 
 function generatePopUp(element) {
 
 	let id = element.node.attributes.id.value;
 	//VERIFICA SE O ELEMENTO É UMA CIDADE, MICRO OU MESORREGIAO
-	//CASO SEJA CIDADE, ALÉM DE CRIAR O POPUP ELE PINTA A MESMA NO MAPA
 	if (id.includes("mun_")) {
 		id = id.replace("mun_", "");
 		for (let jcount in geral.MUNICIPIOS) {
-			//QUANDO ENCONTRA IDS IGUAIS, ELE COLORE A CIDADE DE ACORDO COM O VALOR NO JSON
 			if (id == geral.MUNICIPIOS[jcount].ID) {
-				element.node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
+				//element.node.attributes.fill.value = definirCor(geral.MUNICIPIOS[jcount].VALORES[indexAtributo]);
 				localEvolucao = searchEquivalent(id, jsonEstadoEvolucao.MUNICIPIOS);
 				addPopUp(element, localEvolucao);
 				break;
@@ -330,6 +330,18 @@ function generatePopUp(element) {
 				}
 			}
 		}
+}
+
+
+function colorirMun(cidades){
+	let id = "";
+	let element = null;
+	for(let icount in cidades){
+		id = cidades[icount].node.attributes.id.value;
+		id = id.replace("mun_","");
+		element = searchEquivalent(id,jsonEstadoEvolucao.MUNICIPIOS);
+		cidades[icount].node.attributes.fill.value = definirCor(element.ATRIBUTOS[indexAtributo].VALORES[periodos.indexOf(periodoAtual)]);
+	}
 }
 
 function gerarArrayTreeMap(tam, numColor){
