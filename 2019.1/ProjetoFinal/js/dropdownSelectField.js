@@ -71,3 +71,9 @@ function changeTime(evt){
 	mudaPeriodo(time[evt.target.value]);
 	colorirMun(cidades);
 }
+
+function changeColorOption(evt){
+	estrategiaColoracao = evt.target.value;
+	console.log(estrategiaColoracao);
+	colorirMun(cidades);
+}

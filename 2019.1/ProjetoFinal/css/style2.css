@@ -52,3 +52,7 @@ section{
 	background-color: #2574A9;
 	cursor: pointer;
 }
+
+.dinamicos{
+	flex:0 0 22.66667%;
+}
