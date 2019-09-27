@@ -1,0 +1,4084 @@
+{
+	"METADADOS":{
+		"MIN_VALORES": [0, 0, 0, 0, 0],
+		"MAX_VALORES": [313, 252, 157, 269, 116],
+		"PERCENTIS":[
+		{ "NOME": "QtProfissionais/100000Hab",
+		"VALORES": [62, 76, 94, 118]},
+		{ "NOME": "QtMédicos/100000Hab",
+		"VALORES": [20, 31, 42, 64]},
+		{ "NOME": "QtEnfermeiros/100000Hab",
+		"VALORES": [34, 42, 51, 63]},
+		{ "NOME": "QtSUS/100000Hab",
+		"VALORES": [59, 74, 93, 116]},
+		{ "NOME": "QtNãoSUS/100000Hab",
+		"VALORES": [0, 0, 0, 4]}
+		]
+
+	},
+
+	"MESORREGIOES":[
+  {
+    "ID": 2901 ,
+    "NOME_MESORREGIAO": "Extremo Oeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1759, 803, 953, 1709, 51]
+  },
+  {
+    "ID": 2902 ,
+    "NOME_MESORREGIAO": "Vale São-Franciscano da Bahia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [2077, 961, 1116, 2015, 62]
+  },
+  {
+    "ID": 2903 ,
+    "NOME_MESORREGIAO": "Centro Norte Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [6282, 2854, 3420, 6163, 119]
+  },
+  {
+    "ID": 2904 ,
+    "NOME_MESORREGIAO": "Nordeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [4899, 2337, 2561, 4736, 162]
+  },
+  {
+    "ID": 2905 ,
+    "NOME_MESORREGIAO": "Metropolitana de Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [4688, 2798, 1894, 4222, 468]
+  },
+  {
+    "ID": 2906 ,
+    "NOME_MESORREGIAO": "Centro Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [11809, 5273, 6548, 11493, 317]
+  },
+  {
+    "ID": 2907 ,
+    "NOME_MESORREGIAO": "Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [7435, 3498, 3940, 7154, 281]
+  }
+],
+	"MICRORREGIOES":[
+  {
+    "ID": 29001,
+    "NOME_MICRORREGIAO": "Barreiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [560, 290, 272, 534, 27],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29002,
+    "NOME_MICRORREGIAO": "Cotegipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [468, 159, 306, 468, 0],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29003,
+    "NOME_MICRORREGIAO": "Santa Maria da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [731, 354, 375, 707, 24],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29004,
+    "NOME_MICRORREGIAO": "Juazeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [585, 325, 261, 570, 15],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29005,
+    "NOME_MICRORREGIAO": "Paulo Afonso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [537, 253, 284, 507, 30],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29006,
+    "NOME_MICRORREGIAO": "Barra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [465, 181, 284, 452, 13],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29007,
+    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [490, 202, 287, 486, 4],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29008,
+    "NOME_MICRORREGIAO": "Senhor do Bonfim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [615, 252, 362, 595, 19],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29009,
+    "NOME_MICRORREGIAO": "Irecê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1331, 582, 746, 1314, 17],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29010,
+    "NOME_MICRORREGIAO": "Jacobina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1141, 507, 633, 1115, 27],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29011,
+    "NOME_MICRORREGIAO": "Itaberaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1010, 481, 529, 988, 23],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29012,
+    "NOME_MICRORREGIAO": "Feira de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [2185, 1032, 1150, 2151, 33],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29013,
+    "NOME_MICRORREGIAO": "Jeremoabo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [369, 160, 209, 357, 12],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29014,
+    "NOME_MICRORREGIAO": "Euclides da Cunha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [621, 274, 345, 618, 3],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29015,
+    "NOME_MICRORREGIAO": "Ribeira do Pombal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [997, 433, 566, 963, 33],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29016,
+    "NOME_MICRORREGIAO": "Serrinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1580, 762, 816, 1569, 11],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29017,
+    "NOME_MICRORREGIAO": "Alagoinhas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [853, 428, 426, 779, 73],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29018,
+    "NOME_MICRORREGIAO": "Entre Rios",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [479, 280, 199, 450, 30],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29019,
+    "NOME_MICRORREGIAO": "Catu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [719, 430, 291, 672, 46],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29020,
+    "NOME_MICRORREGIAO": "Santo Antônio de Jesus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [2164, 1165, 1000, 2054, 113],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29021,
+    "NOME_MICRORREGIAO": "Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1805, 1203, 603, 1496, 309],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29022,
+    "NOME_MICRORREGIAO": "Boquira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [921, 362, 562, 910, 11],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29023,
+    "NOME_MICRORREGIAO": "Seabra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1704, 784, 920, 1695, 9],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29024,
+    "NOME_MICRORREGIAO": "Jequié",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [2677, 1181, 1502, 2596, 81],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29025,
+    "NOME_MICRORREGIAO": "Livramento do Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [567, 262, 304, 508, 59],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29026,
+    "NOME_MICRORREGIAO": "Guanambi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1599, 750, 852, 1533, 67],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29027,
+    "NOME_MICRORREGIAO": "Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1787, 771, 1016, 1764, 23],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29028,
+    "NOME_MICRORREGIAO": "Vitória da Conquista",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [1776, 844, 934, 1723, 53],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29029,
+    "NOME_MICRORREGIAO": "Itapetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [778, 319, 458, 764, 14],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29030,
+    "NOME_MICRORREGIAO": "Valença",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [659, 313, 344, 633, 25],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29031,
+    "NOME_MICRORREGIAO": "Ilhéus-Itabuna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [4384, 1951, 2436, 4276, 108],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29032,
+    "NOME_MICRORREGIAO": "Porto Seguro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [2392, 1234, 1160, 2245, 148],
+    "ID_MESO": 2907 
+  }
+],
+	"MUNICIPIOS":[
+  {
+    "ID": 2912301,
+    "NOME_MUNICIPIO": "Ibicuí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [113, 54, 60, 107, 6],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2908200,
+    "NOME_MUNICIPIO": "Conceição da Feira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [83, 35, 48, 78, 4],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904100,
+    "NOME_MUNICIPIO": "Boquira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 36, 53, 89, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929701,
+    "NOME_MUNICIPIO": "Sátiro Dias",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 29, 34, 64, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2902054,
+    "NOME_MUNICIPIO": "Araçás",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [103, 40, 63, 103, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925600,
+    "NOME_MUNICIPIO": "Presidente Dutra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 25, 51, 76, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917409,
+    "NOME_MUNICIPIO": "Jacaraci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [110, 32, 78, 110, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903102,
+    "NOME_MUNICIPIO": "Barra do Rocha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [96, 48, 48, 96, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928703,
+    "NOME_MUNICIPIO": "Santo Antônio de Jesus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [177, 112, 65, 154, 23],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918456,
+    "NOME_MUNICIPIO": "Jucuruçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [181, 91, 91, 181, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2924603,
+    "NOME_MUNICIPIO": "Pindobaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 33, 57, 90, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920502,
+    "NOME_MUNICIPIO": "Maracás",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [78, 9, 70, 78, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2916401,
+    "NOME_MUNICIPIO": "Itapetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [115, 72, 43, 101, 14],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2922508,
+    "NOME_MUNICIPIO": "Nazaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 61, 41, 95, 7],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2901007,
+    "NOME_MUNICIPIO": "Amargosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [154, 102, 52, 136, 18],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2920452,
+    "NOME_MUNICIPIO": "Mansidão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [29, 7, 21, 29, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918407,
+    "NOME_MUNICIPIO": "Juazeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [194, 134, 60, 181, 13],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2914307,
+    "NOME_MUNICIPIO": "Iramaia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [151, 81, 71, 151, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2921500,
+    "NOME_MUNICIPIO": "Monte Santo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [56, 23, 33, 56, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2913309,
+    "NOME_MUNICIPIO": "Ichu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [109, 78, 31, 109, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2909208,
+    "NOME_MUNICIPIO": "Coronel João Sá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [77, 24, 54, 77, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915353,
+    "NOME_MUNICIPIO": "Itaguaçu da Bahia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [54, 20, 34, 54, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2911253,
+    "NOME_MUNICIPIO": "Gavião",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [127, 63, 63, 127, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2930709,
+    "NOME_MUNICIPIO": "Simões Filho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [51, 32, 20, 46, 5],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2926608,
+    "NOME_MUNICIPIO": "Ribeira do Pombal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [73, 31, 42, 65, 7],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905107,
+    "NOME_MUNICIPIO": "Caém",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [99, 60, 40, 99, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924652,
+    "NOME_MUNICIPIO": "Pintadas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [100, 45, 54, 100, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922607,
+    "NOME_MUNICIPIO": "Nilo Peçanha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 28, 42, 70, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2918506,
+    "NOME_MUNICIPIO": "Jussara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [56, 12, 44, 56, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2914406,
+    "NOME_MUNICIPIO": "Iraquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 35, 47, 82, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910305,
+    "NOME_MUNICIPIO": "Elísio Medrado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [83, 24, 59, 83, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930808,
+    "NOME_MUNICIPIO": "Souto Soares",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [57, 23, 34, 57, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909307,
+    "NOME_MUNICIPIO": "Correntina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 27, 39, 57, 9],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905206,
+    "NOME_MUNICIPIO": "Caetité",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [79, 55, 25, 64, 15],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2901106,
+    "NOME_MUNICIPIO": "Amélia Rodrigues",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [87, 53, 34, 87, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2926707,
+    "NOME_MUNICIPIO": "Rio de Contas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 15, 51, 66, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930766,
+    "NOME_MUNICIPIO": "Sítio do Quinto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [71, 9, 62, 71, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915403,
+    "NOME_MUNICIPIO": "Itaju do Colônia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [97, 28, 69, 97, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2905156,
+    "NOME_MUNICIPIO": "Caetanos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 31, 31, 62, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2932804,
+    "NOME_MUNICIPIO": "Utinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [71, 20, 51, 71, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930758,
+    "NOME_MUNICIPIO": "Sítio do Mato",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 22, 67, 89, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2911303,
+    "NOME_MUNICIPIO": "Gentio do Ouro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [52, 34, 17, 52, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2926657,
+    "NOME_MUNICIPIO": "Ribeirão do Largo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [108, 40, 67, 108, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2907202,
+    "NOME_MUNICIPIO": "Casa Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [46, 29, 18, 46, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2906204,
+    "NOME_MUNICIPIO": "Canarana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [56, 34, 22, 56, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2931806,
+    "NOME_MUNICIPIO": "Tremedal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 34, 56, 90, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2902104,
+    "NOME_MUNICIPIO": "Araci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [88, 36, 52, 84, 4],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927705,
+    "NOME_MUNICIPIO": "Santa Cruz Cabrália",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 35, 49, 84, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923605,
+    "NOME_MUNICIPIO": "Paramirim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [175, 76, 99, 135, 40],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2929750,
+    "NOME_MUNICIPIO": "Saubara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [16, 8, 8, 16, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2930774,
+    "NOME_MUNICIPIO": "Sobradinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [80, 42, 38, 80, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2919504,
+    "NOME_MUNICIPIO": "Livramento de Nossa Senhora",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 36, 53, 71, 19],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2915502,
+    "NOME_MUNICIPIO": "Itajuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [83, 46, 37, 83, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911402,
+    "NOME_MUNICIPIO": "Glória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 38, 38, 76, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2907301,
+    "NOME_MUNICIPIO": "Castro Alves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [169, 92, 77, 154, 15],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2932903,
+    "NOME_MUNICIPIO": "Valença",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 38, 26, 59, 6],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2922656,
+    "NOME_MUNICIPIO": "Nordestina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [59, 15, 44, 59, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903201,
+    "NOME_MUNICIPIO": "Barreiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [221, 130, 91, 207, 15],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2928802,
+    "NOME_MUNICIPIO": "Santo Estêvão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 35, 30, 63, 2],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2901155,
+    "NOME_MUNICIPIO": "América Dourada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [101, 54, 48, 101, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927804,
+    "NOME_MUNICIPIO": "Santa Cruz da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [119, 60, 60, 119, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925758,
+    "NOME_MUNICIPIO": "Presidente Tancredo Neves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [46, 21, 25, 46, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906303,
+    "NOME_MUNICIPIO": "Canavieiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [121, 64, 58, 112, 9],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2923704,
+    "NOME_MUNICIPIO": "Paratinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [49, 18, 30, 49, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902203,
+    "NOME_MUNICIPIO": "Aramari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [43, 9, 34, 43, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2913457,
+    "NOME_MUNICIPIO": "Igrapiúna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [106, 56, 49, 106, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2919603,
+    "NOME_MUNICIPIO": "Macajuba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 25, 42, 67, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2900108,
+    "NOME_MUNICIPIO": "Abaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [120, 54, 65, 120, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925709,
+    "NOME_MUNICIPIO": "Presidente Jânio Quadros",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [105, 37, 67, 105, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2929800,
+    "NOME_MUNICIPIO": "Saúde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 22, 45, 67, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2921609,
+    "NOME_MUNICIPIO": "Morpará",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [56, 11, 45, 56, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2917508,
+    "NOME_MUNICIPIO": "Jacobina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 66, 29, 72, 23],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924678,
+    "NOME_MUNICIPIO": "Piraí do Norte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [48, 10, 38, 48, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2913408,
+    "NOME_MUNICIPIO": "Igaporã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [104, 55, 49, 104, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919553,
+    "NOME_MUNICIPIO": "Luís Eduardo Magalhães",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 41, 25, 54, 12],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2924702,
+    "NOME_MUNICIPIO": "Piripá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [110, 34, 76, 110, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2920601,
+    "NOME_MUNICIPIO": "Maragogipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 43, 32, 76, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918555,
+    "NOME_MUNICIPIO": "Jussari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [112, 32, 80, 112, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2916500,
+    "NOME_MUNICIPIO": "Itapicuru",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [69, 39, 30, 69, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2908309,
+    "NOME_MUNICIPIO": "Conceição do Almeida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [132, 82, 49, 121, 11],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2912400,
+    "NOME_MUNICIPIO": "Ibipeba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [59, 21, 37, 59, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2904209,
+    "NOME_MUNICIPIO": "Botuporã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [165, 83, 83, 156, 9],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2902252,
+    "NOME_MUNICIPIO": "Arataca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [77, 17, 60, 77, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903276,
+    "NOME_MUNICIPIO": "Barrocas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [86, 43, 43, 86, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2921708,
+    "NOME_MUNICIPIO": "Morro do Chapéu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 35, 49, 84, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2900207,
+    "NOME_MUNICIPIO": "Abaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [99, 50, 50, 99, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2922730,
+    "NOME_MUNICIPIO": "Nova Fátima",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 12, 62, 74, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917607,
+    "NOME_MUNICIPIO": "Jaguaquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [75, 37, 37, 64, 11],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2913507,
+    "NOME_MUNICIPIO": "Iguaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [54, 21, 32, 54, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2920700,
+    "NOME_MUNICIPIO": "Maraú",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [80, 33, 47, 80, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2912509,
+    "NOME_MUNICIPIO": "Ibipitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [58, 6, 52, 58, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908408,
+    "NOME_MUNICIPIO": "Conceição do Coité",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [98, 67, 31, 91, 7],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904308,
+    "NOME_MUNICIPIO": "Brejões",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [79, 13, 66, 79, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2929909,
+    "NOME_MUNICIPIO": "Seabra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [59, 33, 26, 55, 4],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925808,
+    "NOME_MUNICIPIO": "Queimadas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 30, 41, 72, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2918605,
+    "NOME_MUNICIPIO": "Jussiape",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [198, 99, 99, 198, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914505,
+    "NOME_MUNICIPIO": "Irará",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 37, 27, 64, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2910404,
+    "NOME_MUNICIPIO": "Encruzilhada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [103, 31, 72, 103, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2931905,
+    "NOME_MUNICIPIO": "Tucano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [57, 21, 36, 57, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903235,
+    "NOME_MUNICIPIO": "Barro Alto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 33, 39, 72, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909406,
+    "NOME_MUNICIPIO": "Cotegipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [49, 28, 21, 49, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905305,
+    "NOME_MUNICIPIO": "Cafarnaum",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [79, 37, 42, 79, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2930907,
+    "NOME_MUNICIPIO": "Tabocas do Brejo Velho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [46, 0, 46, 46, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2901205,
+    "NOME_MUNICIPIO": "Anagé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [118, 61, 56, 118, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2926806,
+    "NOME_MUNICIPIO": "Rio do Antônio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 19, 51, 70, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2922706,
+    "NOME_MUNICIPIO": "Nova Canaã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 47, 47, 93, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914604,
+    "NOME_MUNICIPIO": "Irecê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [196, 107, 89, 185, 11],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910503,
+    "NOME_MUNICIPIO": "Entre Rios",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [160, 116, 44, 141, 19],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2906402,
+    "NOME_MUNICIPIO": "Candeal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [79, 34, 45, 79, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932002,
+    "NOME_MUNICIPIO": "Uauá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [47, 12, 35, 47, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2905404,
+    "NOME_MUNICIPIO": "Cairu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [49, 27, 22, 49, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2931004,
+    "NOME_MUNICIPIO": "Tanhaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 38, 56, 94, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2901304,
+    "NOME_MUNICIPIO": "Andaraí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [131, 73, 58, 131, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2926905,
+    "NOME_MUNICIPIO": "Rio do Pires",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [91, 33, 58, 91, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2922805,
+    "NOME_MUNICIPIO": "Nova Itarana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [47, 12, 36, 47, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928950,
+    "NOME_MUNICIPIO": "São Domingos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [128, 43, 85, 128, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2918704,
+    "NOME_MUNICIPIO": "Lafaiete Coutinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [75, 0, 75, 75, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2911501,
+    "NOME_MUNICIPIO": "Gongogi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [140, 64, 76, 140, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907400,
+    "NOME_MUNICIPIO": "Catolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [0, 0, 0, 0, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2933000,
+    "NOME_MUNICIPIO": "Valente",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 38, 24, 63, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2903300,
+    "NOME_MUNICIPIO": "Barro Preto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [256, 192, 64, 240, 16],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928901,
+    "NOME_MUNICIPIO": "São Desidério",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 24, 42, 65, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2916609,
+    "NOME_MUNICIPIO": "Itapitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [83, 28, 56, 83, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924801,
+    "NOME_MUNICIPIO": "Piritiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [44, 12, 32, 44, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922755,
+    "NOME_MUNICIPIO": "Nova Ibiá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 29, 43, 72, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902302,
+    "NOME_MUNICIPIO": "Aratuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 33, 44, 76, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2927903,
+    "NOME_MUNICIPIO": "Santa Inês",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [108, 27, 81, 108, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923803,
+    "NOME_MUNICIPIO": "Paripiranga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 43, 27, 47, 23],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919702,
+    "NOME_MUNICIPIO": "Macarani",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [58, 21, 37, 58, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2915601,
+    "NOME_MUNICIPIO": "Itamaraju",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [108, 50, 58, 99, 9],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2931053,
+    "NOME_MUNICIPIO": "Tanque Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [78, 17, 62, 78, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2901353,
+    "NOME_MUNICIPIO": "Andorinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 19, 45, 65, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920809,
+    "NOME_MUNICIPIO": "Marcionílio Souza",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [91, 37, 55, 91, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925931,
+    "NOME_MUNICIPIO": "Quixabeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [96, 32, 64, 96, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2916708,
+    "NOME_MUNICIPIO": "Itaquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [116, 70, 47, 116, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924900,
+    "NOME_MUNICIPIO": "Planaltino",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 31, 63, 94, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922854,
+    "NOME_MUNICIPIO": "Nova Redenção",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [32, 11, 21, 32, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2912608,
+    "NOME_MUNICIPIO": "Ibiquera",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [24, 0, 24, 24, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2918753,
+    "NOME_MUNICIPIO": "Lagoa Real",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 19, 44, 62, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2923902,
+    "NOME_MUNICIPIO": "Pau Brasil",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 19, 66, 84, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919801,
+    "NOME_MUNICIPIO": "Macaúbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [80, 49, 31, 78, 2],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2915700,
+    "NOME_MUNICIPIO": "Itamari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [106, 24, 83, 106, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907509,
+    "NOME_MUNICIPIO": "Catu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [120, 89, 32, 97, 23],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2933109,
+    "NOME_MUNICIPIO": "Várzea do Poço",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [85, 42, 42, 85, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2911600,
+    "NOME_MUNICIPIO": "Governador Mangabeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [98, 51, 47, 84, 14],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929008,
+    "NOME_MUNICIPIO": "São Félix",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [189, 131, 59, 189, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2903409,
+    "NOME_MUNICIPIO": "Belmonte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [158, 96, 62, 150, 8],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2921807,
+    "NOME_MUNICIPIO": "Mortugaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [112, 64, 48, 104, 8],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917706,
+    "NOME_MUNICIPIO": "Jaguarari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 32, 38, 70, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913606,
+    "NOME_MUNICIPIO": "Ilhéus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [201, 117, 83, 176, 25],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909505,
+    "NOME_MUNICIPIO": "Cravolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [143, 108, 36, 143, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2933059,
+    "NOME_MUNICIPIO": "Várzea da Roça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [75, 34, 41, 75, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2914653,
+    "NOME_MUNICIPIO": "Itabela",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 38, 64, 95, 6],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908507,
+    "NOME_MUNICIPIO": "Conceição do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [115, 86, 30, 106, 9],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930006,
+    "NOME_MUNICIPIO": "Sebastião Laranjeiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [85, 17, 68, 85, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2904407,
+    "NOME_MUNICIPIO": "Brejolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 28, 37, 65, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2900306,
+    "NOME_MUNICIPIO": "Acajutiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [108, 64, 45, 89, 19],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925907,
+    "NOME_MUNICIPIO": "Quijingue",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 21, 42, 63, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2917805,
+    "NOME_MUNICIPIO": "Jaguaripe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [58, 26, 32, 58, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2913705,
+    "NOME_MUNICIPIO": "Inhambupe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [54, 15, 40, 54, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2911659,
+    "NOME_MUNICIPIO": "Guajeru",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [111, 37, 74, 111, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2909604,
+    "NOME_MUNICIPIO": "Crisópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [92, 32, 60, 92, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2907558,
+    "NOME_MUNICIPIO": "Caturama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [61, 20, 41, 61, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2933158,
+    "NOME_MUNICIPIO": "Várzea Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [30, 7, 22, 30, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929057,
+    "NOME_MUNICIPIO": "São Félix do Coribe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 38, 32, 57, 13],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2908606,
+    "NOME_MUNICIPIO": "Conde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [95, 49, 46, 95, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2930105,
+    "NOME_MUNICIPIO": "Senhor do Bonfim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [91, 49, 42, 80, 11],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2904506,
+    "NOME_MUNICIPIO": "Brotas de Macaúbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [100, 46, 55, 100, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2928059,
+    "NOME_MUNICIPIO": "Santa Luzia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [45, 7, 37, 45, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2926004,
+    "NOME_MUNICIPIO": "Remanso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [96, 52, 45, 94, 2],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2900405,
+    "NOME_MUNICIPIO": "Água Fria",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [114, 51, 63, 114, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933174,
+    "NOME_MUNICIPIO": "Varzedo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [32, 0, 32, 32, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921906,
+    "NOME_MUNICIPIO": "Mucugê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [141, 70, 70, 141, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914703,
+    "NOME_MUNICIPIO": "Itaberaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [109, 57, 52, 99, 10],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910602,
+    "NOME_MUNICIPIO": "Esplanada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [95, 55, 40, 85, 11],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2925956,
+    "NOME_MUNICIPIO": "Rafael Jambeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 34, 59, 93, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2906501,
+    "NOME_MUNICIPIO": "Candeias",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [192, 140, 51, 127, 65],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2932101,
+    "NOME_MUNICIPIO": "Ubaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 19, 43, 63, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928000,
+    "NOME_MUNICIPIO": "Santaluz",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [73, 39, 34, 73, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2902401,
+    "NOME_MUNICIPIO": "Aurelino Leal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [126, 63, 63, 126, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2900355,
+    "NOME_MUNICIPIO": "Adustina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 29, 35, 63, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905503,
+    "NOME_MUNICIPIO": "Caldeirão Grande",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 44, 58, 102, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2931103,
+    "NOME_MUNICIPIO": "Tanquinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [73, 24, 49, 73, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922904,
+    "NOME_MUNICIPIO": "Nova Soure",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [55, 31, 24, 55, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2927002,
+    "NOME_MUNICIPIO": "Rio Real",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 29, 43, 72, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2901403,
+    "NOME_MUNICIPIO": "Angical",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 54, 27, 82, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918803,
+    "NOME_MUNICIPIO": "Laje",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [103, 62, 41, 99, 4],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2910701,
+    "NOME_MUNICIPIO": "Euclides da Cunha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [71, 44, 27, 68, 3],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2928109,
+    "NOME_MUNICIPIO": "Santa Maria da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 31, 43, 72, 2],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2906600,
+    "NOME_MUNICIPIO": "Candiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [101, 68, 34, 101, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2932200,
+    "NOME_MUNICIPIO": "Ubaitaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [68, 29, 39, 68, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924009,
+    "NOME_MUNICIPIO": "Paulo Afonso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [135, 85, 50, 105, 30],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2930154,
+    "NOME_MUNICIPIO": "Serra do Ramalho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [55, 12, 42, 55, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902500,
+    "NOME_MUNICIPIO": "Baianópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [98, 63, 35, 98, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2915809,
+    "NOME_MUNICIPIO": "Itambé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [92, 36, 56, 92, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2927101,
+    "NOME_MUNICIPIO": "Rodelas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 21, 43, 64, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2901502,
+    "NOME_MUNICIPIO": "Anguera",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [105, 35, 70, 105, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2916856,
+    "NOME_MUNICIPIO": "Itatim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 20, 53, 74, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923001,
+    "NOME_MUNICIPIO": "Nova Viçosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [123, 82, 41, 118, 5],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918902,
+    "NOME_MUNICIPIO": "Lajedão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [98, 25, 74, 98, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919926,
+    "NOME_MUNICIPIO": "Madre de Deus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [262, 148, 114, 257, 5],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2914802,
+    "NOME_MUNICIPIO": "Itabuna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [257, 139, 119, 238, 19],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2920908,
+    "NOME_MUNICIPIO": "Mascote",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [48, 14, 34, 48, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925006,
+    "NOME_MUNICIPIO": "Planalto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 41, 41, 82, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2916807,
+    "NOME_MUNICIPIO": "Itarantim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 20, 44, 64, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2912707,
+    "NOME_MUNICIPIO": "Ibirapitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 21, 49, 70, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919900,
+    "NOME_MUNICIPIO": "Macururé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [85, 24, 60, 85, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2911709,
+    "NOME_MUNICIPIO": "Guanambi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [196, 126, 70, 165, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907608,
+    "NOME_MUNICIPIO": "Central",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 22, 45, 67, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2933208,
+    "NOME_MUNICIPIO": "Vera Cruz",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [96, 53, 44, 96, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903508,
+    "NOME_MUNICIPIO": "Belo Campo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [181, 99, 82, 181, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929107,
+    "NOME_MUNICIPIO": "São Felipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [68, 18, 50, 68, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921005,
+    "NOME_MUNICIPIO": "Mata de São João",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [134, 91, 43, 126, 9],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2916906,
+    "NOME_MUNICIPIO": "Itiruçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [106, 45, 60, 106, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923050,
+    "NOME_MUNICIPIO": "Novo Triunfo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [25, 0, 25, 25, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2912806,
+    "NOME_MUNICIPIO": "Ibirapuã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 45, 56, 102, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908705,
+    "NOME_MUNICIPIO": "Condeúba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [99, 38, 60, 99, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910776,
+    "NOME_MUNICIPIO": "Feira da Mata",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [118, 68, 51, 118, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2907707,
+    "NOME_MUNICIPIO": "Chorrochó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [78, 35, 43, 78, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2933307,
+    "NOME_MUNICIPIO": "Vitória da Conquista",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [141, 93, 48, 112, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929206,
+    "NOME_MUNICIPIO": "São Francisco do Conde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 60, 30, 90, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903607,
+    "NOME_MUNICIPIO": "Biritinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 30, 36, 66, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925105,
+    "NOME_MUNICIPIO": "Poções",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [59, 33, 27, 43, 16],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2913804,
+    "NOME_MUNICIPIO": "Ipecaetá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 45, 45, 90, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933257,
+    "NOME_MUNICIPIO": "Vereda",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [196, 136, 60, 196, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2909703,
+    "NOME_MUNICIPIO": "Cristópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [42, 7, 35, 42, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2910727,
+    "NOME_MUNICIPIO": "Eunápolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [168, 110, 58, 142, 26],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2905602,
+    "NOME_MUNICIPIO": "Camacan",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [117, 75, 42, 117, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2931202,
+    "NOME_MUNICIPIO": "Taperoá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [47, 19, 28, 47, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2930204,
+    "NOME_MUNICIPIO": "Sento Sé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [31, 7, 24, 31, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2904605,
+    "NOME_MUNICIPIO": "Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [151, 92, 59, 128, 23],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910750,
+    "NOME_MUNICIPIO": "Fátima",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 33, 43, 76, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2900504,
+    "NOME_MUNICIPIO": "Érico Cardoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [116, 54, 62, 116, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2924058,
+    "NOME_MUNICIPIO": "Pé de Serra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [91, 42, 49, 91, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2923035,
+    "NOME_MUNICIPIO": "Novo Horizonte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [48, 16, 32, 48, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2919959,
+    "NOME_MUNICIPIO": "Maetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [269, 112, 157, 269, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926103,
+    "NOME_MUNICIPIO": "Retirolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [68, 54, 14, 68, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917904,
+    "NOME_MUNICIPIO": "Jandaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [45, 18, 27, 45, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2922003,
+    "NOME_MUNICIPIO": "Mucuri",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [159, 116, 43, 102, 57],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2913903,
+    "NOME_MUNICIPIO": "Ipiaú",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [145, 69, 75, 132, 13],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909802,
+    "NOME_MUNICIPIO": "Cruz das Almas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [148, 92, 55, 123, 25],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2905701,
+    "NOME_MUNICIPIO": "Camaçari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [216, 159, 57, 174, 42],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2931301,
+    "NOME_MUNICIPIO": "Tapiramutá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [101, 45, 56, 101, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2929255,
+    "NOME_MUNICIPIO": "São Gabriel",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [51, 15, 36, 51, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927200,
+    "NOME_MUNICIPIO": "Ruy Barbosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 28, 34, 59, 3],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2901601,
+    "NOME_MUNICIPIO": "Antas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [128, 77, 51, 128, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919009,
+    "NOME_MUNICIPIO": "Lajedinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [50, 25, 25, 50, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2930303,
+    "NOME_MUNICIPIO": "Serra Dourada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 11, 55, 66, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2926202,
+    "NOME_MUNICIPIO": "Riachão das Neves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 9, 56, 64, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2900603,
+    "NOME_MUNICIPIO": "Aiquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [190, 127, 63, 190, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922102,
+    "NOME_MUNICIPIO": "Mundo Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [55, 22, 33, 55, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2911857,
+    "NOME_MUNICIPIO": "Heliópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [44, 22, 22, 44, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2918001,
+    "NOME_MUNICIPIO": "Jequié",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [185, 91, 94, 174, 11],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924108,
+    "NOME_MUNICIPIO": "Pedrão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 27, 40, 66, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2915908,
+    "NOME_MUNICIPIO": "Itanagra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 30, 59, 89, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2922052,
+    "NOME_MUNICIPIO": "Mulungu do Morro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 25, 42, 67, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2920007,
+    "NOME_MUNICIPIO": "Maiquinique",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [19, 0, 19, 19, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2911808,
+    "NOME_MUNICIPIO": "Guaratinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [95, 41, 54, 95, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923100,
+    "NOME_MUNICIPIO": "Olindina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [48, 7, 41, 48, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2921054,
+    "NOME_MUNICIPIO": "Matina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [88, 32, 56, 88, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2906709,
+    "NOME_MUNICIPIO": "Cândido Sales",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [97, 41, 56, 97, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914901,
+    "NOME_MUNICIPIO": "Itacaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 32, 42, 70, 4],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932309,
+    "NOME_MUNICIPIO": "Ubatã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [36, 4, 33, 36, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910800,
+    "NOME_MUNICIPIO": "Feira de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [189, 113, 76, 180, 9],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2928208,
+    "NOME_MUNICIPIO": "Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [55, 29, 25, 55, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2902609,
+    "NOME_MUNICIPIO": "Baixa Grande",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [107, 65, 42, 103, 5],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2924207,
+    "NOME_MUNICIPIO": "Pedro Alexandre",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [60, 33, 27, 60, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2920106,
+    "NOME_MUNICIPIO": "Mairi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [147, 71, 76, 142, 5],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2916005,
+    "NOME_MUNICIPIO": "Itanhém",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [141, 63, 78, 137, 5],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2911907,
+    "NOME_MUNICIPIO": "Iaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [116, 58, 58, 116, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910909,
+    "NOME_MUNICIPIO": "Firmino Alves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [34, 0, 34, 34, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2915007,
+    "NOME_MUNICIPIO": "Itaeté",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [78, 30, 48, 78, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906808,
+    "NOME_MUNICIPIO": "Cansanção",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [80, 39, 41, 80, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2932408,
+    "NOME_MUNICIPIO": "Uibaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [35, 14, 21, 35, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2902708,
+    "NOME_MUNICIPIO": "Barra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [78, 40, 38, 78, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2904753,
+    "NOME_MUNICIPIO": "Buritirama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [28, 14, 14, 28, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2928307,
+    "NOME_MUNICIPIO": "Santanópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [76, 22, 54, 76, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2912905,
+    "NOME_MUNICIPIO": "Ibirataia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [151, 81, 70, 151, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910859,
+    "NOME_MUNICIPIO": "Filadélfia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 35, 58, 93, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2917003,
+    "NOME_MUNICIPIO": "Itiúba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [40, 16, 24, 40, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2908804,
+    "NOME_MUNICIPIO": "Contendas do Sincorá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 47, 47, 93, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2904704,
+    "NOME_MUNICIPIO": "Buerarema",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [125, 68, 57, 125, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902658,
+    "NOME_MUNICIPIO": "Banzaê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 15, 80, 94, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2907806,
+    "NOME_MUNICIPIO": "Cícero Dantas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 35, 37, 69, 3],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933406,
+    "NOME_MUNICIPIO": "Wagner",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 21, 62, 82, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929305,
+    "NOME_MUNICIPIO": "São Gonçalo dos Campos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 42, 42, 82, 3],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2903706,
+    "NOME_MUNICIPIO": "Boa Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 14, 50, 64, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2925204,
+    "NOME_MUNICIPIO": "Pojuca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [144, 86, 58, 133, 10],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2931350,
+    "NOME_MUNICIPIO": "Teixeira de Freitas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [132, 68, 64, 119, 14],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921104,
+    "NOME_MUNICIPIO": "Medeiros Neto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [174, 106, 68, 174, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919058,
+    "NOME_MUNICIPIO": "Lajedo do Tabocal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 23, 68, 90, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917102,
+    "NOME_MUNICIPIO": "Itororó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 28, 61, 89, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2906857,
+    "NOME_MUNICIPIO": "Capela do Alto Alegre",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [123, 57, 66, 123, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932457,
+    "NOME_MUNICIPIO": "Umburanas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [51, 20, 31, 51, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913002,
+    "NOME_MUNICIPIO": "Ibitiara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 36, 53, 89, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908903,
+    "NOME_MUNICIPIO": "Coração de Maria",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [109, 63, 46, 109, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930402,
+    "NOME_MUNICIPIO": "Serra Preta",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 31, 31, 62, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904803,
+    "NOME_MUNICIPIO": "Caatiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [140, 64, 77, 140, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929404,
+    "NOME_MUNICIPIO": "São Miguel das Matas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 17, 50, 66, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2903805,
+    "NOME_MUNICIPIO": "Boa Vista do Tupim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [97, 51, 46, 97, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2906873,
+    "NOME_MUNICIPIO": "Capim Grosso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 48, 41, 89, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2919157,
+    "NOME_MUNICIPIO": "Lapão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [57, 14, 42, 57, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2925303,
+    "NOME_MUNICIPIO": "Porto Seguro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [125, 56, 69, 106, 19],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921203,
+    "NOME_MUNICIPIO": "Miguel Calmon",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 58, 44, 98, 4],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2909901,
+    "NOME_MUNICIPIO": "Curaçá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [51, 23, 28, 51, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2927309,
+    "NOME_MUNICIPIO": "Salinas da Margarida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [51, 32, 19, 51, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2933455,
+    "NOME_MUNICIPIO": "Wanderley",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 8, 54, 62, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905800,
+    "NOME_MUNICIPIO": "Camamu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 57, 33, 74, 16],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906824,
+    "NOME_MUNICIPIO": "Canudos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [116, 69, 46, 116, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2931400,
+    "NOME_MUNICIPIO": "Teodoro Sampaio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [113, 63, 50, 113, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923209,
+    "NOME_MUNICIPIO": "Oliveira dos Brejinhos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [35, 4, 31, 35, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929354,
+    "NOME_MUNICIPIO": "São José da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 0, 66, 66, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2901700,
+    "NOME_MUNICIPIO": "Antônio Cardoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 16, 57, 74, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919108,
+    "NOME_MUNICIPIO": "Lamarão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 11, 56, 67, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925253,
+    "NOME_MUNICIPIO": "Ponto Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 25, 38, 63, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2926301,
+    "NOME_MUNICIPIO": "Riachão do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [109, 57, 52, 109, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2900702,
+    "NOME_MUNICIPIO": "Alagoinhas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [175, 128, 47, 126, 49],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2922201,
+    "NOME_MUNICIPIO": "Muniz Ferreira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [91, 26, 65, 91, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929370,
+    "NOME_MUNICIPIO": "São José do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [37, 9, 28, 37, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2918100,
+    "NOME_MUNICIPIO": "Jeremoabo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 67, 26, 82, 12],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2914000,
+    "NOME_MUNICIPIO": "Ipirá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [77, 49, 27, 70, 6],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923308,
+    "NOME_MUNICIPIO": "Ouriçangas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [112, 56, 56, 112, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919207,
+    "NOME_MUNICIPIO": "Lauro de Freitas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [313, 252, 61, 197, 116],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2915106,
+    "NOME_MUNICIPIO": "Itagi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [136, 68, 68, 136, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922300,
+    "NOME_MUNICIPIO": "Muritiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [104, 65, 39, 95, 10],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2914109,
+    "NOME_MUNICIPIO": "Ipupiara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [118, 49, 69, 118, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2910008,
+    "NOME_MUNICIPIO": "Dário Meira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [111, 43, 68, 111, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2905909,
+    "NOME_MUNICIPIO": "Campo Alegre de Lourdes",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 30, 37, 67, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2931509,
+    "NOME_MUNICIPIO": "Teofilândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [43, 13, 30, 43, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927408,
+    "NOME_MUNICIPIO": "Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [309, 209, 100, 255, 54],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2901809,
+    "NOME_MUNICIPIO": "Antônio Gonçalves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [41, 0, 41, 41, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920205,
+    "NOME_MUNICIPIO": "Malhada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [63, 23, 40, 63, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2916104,
+    "NOME_MUNICIPIO": "Itaparica",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [140, 57, 83, 140, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2922250,
+    "NOME_MUNICIPIO": "Muquém do São Francisco",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [52, 0, 52, 52, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912004,
+    "NOME_MUNICIPIO": "Ibiassucê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [88, 29, 59, 88, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907905,
+    "NOME_MUNICIPIO": "Cipó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [96, 45, 51, 96, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933505,
+    "NOME_MUNICIPIO": "Wenceslau Guimarães",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [80, 22, 58, 80, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911006,
+    "NOME_MUNICIPIO": "Floresta Azul",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [160, 80, 80, 160, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2906907,
+    "NOME_MUNICIPIO": "Caravelas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [101, 40, 62, 101, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2932507,
+    "NOME_MUNICIPIO": "Una",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 42, 52, 89, 5],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2904852,
+    "NOME_MUNICIPIO": "Cabaceiras do Paraguaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [62, 16, 47, 62, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928406,
+    "NOME_MUNICIPIO": "Santa Rita de Cássia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 27, 65, 93, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2902807,
+    "NOME_MUNICIPIO": "Barra da Estiva",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [136, 86, 50, 131, 5],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2924306,
+    "NOME_MUNICIPIO": "Piatã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 44, 38, 82, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906899,
+    "NOME_MUNICIPIO": "Caraíbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [102, 20, 82, 102, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910057,
+    "NOME_MUNICIPIO": "Dias d'Ávila",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [136, 93, 43, 114, 22],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2916203,
+    "NOME_MUNICIPIO": "Itapé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [122, 41, 81, 122, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2933604,
+    "NOME_MUNICIPIO": "Xique-Xique",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [50, 21, 29, 48, 2],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912103,
+    "NOME_MUNICIPIO": "Ibicaraí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [145, 55, 89, 145, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903904,
+    "NOME_MUNICIPIO": "Bom Jesus da Lapa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [89, 42, 47, 85, 4],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2908002,
+    "NOME_MUNICIPIO": "Coaraci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [184, 84, 100, 184, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907004,
+    "NOME_MUNICIPIO": "Cardeal da Silva",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 42, 42, 84, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2932606,
+    "NOME_MUNICIPIO": "Urandi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [81, 46, 35, 81, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2928505,
+    "NOME_MUNICIPIO": "Santa Terezinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [94, 37, 56, 94, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2902906,
+    "NOME_MUNICIPIO": "Barra do Choça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [149, 88, 62, 147, 3],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2924405,
+    "NOME_MUNICIPIO": "Pilão Arcado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [20, 8, 11, 20, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2920304,
+    "NOME_MUNICIPIO": "Malhada de Pedras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [56, 23, 34, 56, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2913101,
+    "NOME_MUNICIPIO": "Ibititá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [39, 17, 22, 33, 6],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909000,
+    "NOME_MUNICIPIO": "Cordeiros",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [191, 112, 79, 191, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2930501,
+    "NOME_MUNICIPIO": "Serrinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [88, 45, 43, 88, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904902,
+    "NOME_MUNICIPIO": "Cachoeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [122, 77, 46, 117, 6],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2926400,
+    "NOME_MUNICIPIO": "Riacho de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [55, 16, 38, 55, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2900801,
+    "NOME_MUNICIPIO": "Alcobaça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [128, 77, 51, 128, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918209,
+    "NOME_MUNICIPIO": "Jiquiriçá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [86, 46, 40, 79, 7],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923357,
+    "NOME_MUNICIPIO": "Ourolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 17, 50, 67, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929503,
+    "NOME_MUNICIPIO": "São Sebastião do Passé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [79, 44, 35, 74, 4],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2925402,
+    "NOME_MUNICIPIO": "Potiraguá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [130, 71, 59, 130, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2921302,
+    "NOME_MUNICIPIO": "Milagres",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [60, 17, 43, 60, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917201,
+    "NOME_MUNICIPIO": "Ituaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [117, 46, 72, 117, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926509,
+    "NOME_MUNICIPIO": "Ribeira do Amparo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [84, 26, 58, 84, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2930600,
+    "NOME_MUNICIPIO": "Serrolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [29, 14, 14, 29, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922409,
+    "NOME_MUNICIPIO": "Mutuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [87, 52, 35, 57, 30],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2900900,
+    "NOME_MUNICIPIO": "Almadina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [33, 0, 33, 33, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2918308,
+    "NOME_MUNICIPIO": "Jitaúna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [71, 8, 63, 71, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2914208,
+    "NOME_MUNICIPIO": "Irajuba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [120, 40, 80, 120, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925501,
+    "NOME_MUNICIPIO": "Prado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [106, 41, 65, 99, 7],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921401,
+    "NOME_MUNICIPIO": "Mirangaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [53, 16, 37, 53, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2917300,
+    "NOME_MUNICIPIO": "Ituberá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [58, 24, 34, 54, 3],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2909109,
+    "NOME_MUNICIPIO": "Coribe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 33, 40, 74, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905008,
+    "NOME_MUNICIPIO": "Caculé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [113, 80, 34, 101, 13],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2913200,
+    "NOME_MUNICIPIO": "Ibotirama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [147, 75, 72, 136, 11],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2923407,
+    "NOME_MUNICIPIO": "Palmas de Monte Alto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [53, 18, 35, 53, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919306,
+    "NOME_MUNICIPIO": "Lençóis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [95, 43, 52, 95, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2915205,
+    "NOME_MUNICIPIO": "Itagibá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [64, 13, 51, 64, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911105,
+    "NOME_MUNICIPIO": "Formosa do Rio Preto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [46, 23, 23, 46, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2931608,
+    "NOME_MUNICIPIO": "Teolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [72, 26, 46, 72, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910107,
+    "NOME_MUNICIPIO": "Dom Basílio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [95, 63, 32, 95, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2901908,
+    "NOME_MUNICIPIO": "Aporá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [142, 82, 60, 136, 5],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2906006,
+    "NOME_MUNICIPIO": "Campo Formoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [74, 48, 26, 65, 8],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2903953,
+    "NOME_MUNICIPIO": "Bom Jesus da Serra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [134, 76, 57, 134, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2927507,
+    "NOME_MUNICIPIO": "Santa Bárbara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [70, 42, 28, 70, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919405,
+    "NOME_MUNICIPIO": "Licínio de Almeida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [100, 46, 54, 100, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917359,
+    "NOME_MUNICIPIO": "Jaborandi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [121, 55, 66, 121, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2915304,
+    "NOME_MUNICIPIO": "Itagimirim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [69, 14, 55, 69, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921450,
+    "NOME_MUNICIPIO": "Mirante",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [73, 10, 63, 73, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2911204,
+    "NOME_MUNICIPIO": "Gandu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [111, 72, 39, 102, 9],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932705,
+    "NOME_MUNICIPIO": "Uruçuca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [69, 32, 37, 69, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910206,
+    "NOME_MUNICIPIO": "Dom Macedo Costa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [190, 119, 71, 190, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2906105,
+    "NOME_MUNICIPIO": "Canápolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [128, 89, 39, 128, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2931707,
+    "NOME_MUNICIPIO": "Terra Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [66, 37, 30, 66, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2902005,
+    "NOME_MUNICIPIO": "Aracatu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [222, 129, 93, 222, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2927606,
+    "NOME_MUNICIPIO": "Santa Brígida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [67, 27, 40, 67, 0],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2904050,
+    "NOME_MUNICIPIO": "Bonito",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [93, 35, 58, 93, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2923506,
+    "NOME_MUNICIPIO": "Palmeiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 32, 32, 65, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2916302,
+    "NOME_MUNICIPIO": "Itapebi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [83, 18, 65, 83, 0],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2912202,
+    "NOME_MUNICIPIO": "Ibicoara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [81, 30, 51, 81, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2901957,
+    "NOME_MUNICIPIO": "Apuarema",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [103, 39, 65, 103, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2908101,
+    "NOME_MUNICIPIO": "Cocos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [77, 41, 36, 77, 0],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2904001,
+    "NOME_MUNICIPIO": "Boninal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [81, 41, 41, 81, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929602,
+    "NOME_MUNICIPIO": "Sapeaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [116, 33, 83, 116, 0],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928604,
+    "NOME_MUNICIPIO": "Santo Amaro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [87, 48, 39, 86, 2],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2907103,
+    "NOME_MUNICIPIO": "Carinhanha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [90, 40, 50, 90, 0],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2924504,
+    "NOME_MUNICIPIO": "Pindaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [65, 24, 41, 65, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903003,
+    "NOME_MUNICIPIO": "Barra do Mendes",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [82, 41, 41, 82, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2918357,
+    "NOME_MUNICIPIO": "João Dourado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [47, 19, 27, 47, 0],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917334,
+    "NOME_MUNICIPIO": "Iuiu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [44, 0, 44, 44, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2920403,
+    "NOME_MUNICIPIO": "Manoel Vitorino",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["QtProfissionais/100000Hab", "QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"],
+		"VALORES": [105, 28, 77, 105, 0],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  }
+]
+}

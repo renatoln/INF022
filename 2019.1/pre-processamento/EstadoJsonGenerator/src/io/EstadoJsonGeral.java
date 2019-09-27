@@ -145,7 +145,7 @@ public class EstadoJsonGeral {
 				linha = br.readLine(); 
 				String[] fields = linha.split("\t");
 				
-				codigoIBGE = Integer.parseInt(fields[1]);
+				codigoIBGE = Integer.parseInt(fields[0]);
 				
 				if (index == 1) {
 					qtdProfissionais = Integer.parseInt(fields[1]);
