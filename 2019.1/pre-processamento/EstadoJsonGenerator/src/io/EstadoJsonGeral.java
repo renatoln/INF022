@@ -28,13 +28,18 @@ public class EstadoJsonGeral {
 	HashMap<Integer, Integer> qtdCausasExternasMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdAnormalidadeMap = new HashMap<Integer, Integer>();
 	
-	
 	/*hash maps para Diabetes/Sifilis*/
-	
 	HashMap<Integer, Integer> qtdDiabetesTipo2Map = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdSifilisCongenitaMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdSifilisGestacionalMap = new HashMap<Integer, Integer>();
 	
+	/*hash maps para Profissionais Saúde*/
+	HashMap<Integer, Integer> qtdProfissionaisMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdMedicosMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdEnfermeirosMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdSusMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdNaoSusMap = new HashMap<Integer, Integer>();
+
 	EstadoJsonGenerator myEstadoJsonGenerator; 
 	
 			
@@ -47,7 +52,13 @@ public class EstadoJsonGeral {
 		HashMap<Integer, Mesorregiao> mesos = myEstadoJsonGenerator.getMesorregioes();
 		HashMap<Integer, Microrregiao> micros = myEstadoJsonGenerator.getMicrorregioes();
 		HashMap<Integer, Municipio> municipios = myEstadoJsonGenerator.getMunicipios();
-		addAtributosMunicipios(municipios, index);
+		
+		//addAtributosMortalidadeMunicipios(municipios, index);
+		//addAtributosDiabetesSifilisMunicipios(municipios, index);
+		addAtributosProfisionaisSaudePorMunicipios(municipios, index);
+		
+		
+		
 		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios, false);
 		
 		gerarJsonGeralEstado(estado, index);
@@ -79,7 +90,134 @@ public class EstadoJsonGeral {
 		
 	}
 	
+	/*
+	 * ##########
+	 * 
+	 *    Trabalho com dados de Profissionais Saúde
+	 * 
+	 * ##########
+	 * */
+	/* add atributos para profissionais saude*/
 	
+	private void addAtributosProfisionaisSaudePorMunicipios(HashMap<Integer, Municipio> municipios, int index) {
+		
+		importProfissionaisSaude(index);
+		
+		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
+    	for (Integer codigoMun : codigosIBGEMunicipios)
+    	{
+    		if(codigoMun != null) {
+    			Municipio mun = municipios.get(codigoMun);
+    			
+    			int qtdProfissionais = qtdProfissionaisMap.get(codigoMun);
+    			int qtdMedicos = qtdMedicosMap.get(codigoMun);
+    			int qtdEnfermeiros = qtdEnfermeirosMap.get(codigoMun);
+    			int qtdSus = qtdSusMap.get(codigoMun);
+    			int qtdNaoSus = qtdNaoSusMap.get(codigoMun);
+    			    			
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[0], qtdProfissionais);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[1], qtdMedicos);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[2], qtdEnfermeiros);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[3], qtdSus);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[4], qtdNaoSus);
+    			
+    		}
+    	}
+		
+	}
+	
+	/* import atributos para tipo mortalidade*/
+	
+	public void importProfissionaisSaude(int index){
+		try {
+			File file = new File(myEstadoJsonGenerator.urlFolderDados+"dados-profissionais-saude.txt");
+			BufferedReader br = new BufferedReader(new FileReader(file)); 
+			int codigoIBGE = 0;
+			int qtdProfissionais = 0;
+			int qtdMedicos = 0;
+			int qtdEnfermeiros = 0;
+			int qtdSus = 0;
+			int qtdNaoSus = 0;
+			
+			String linha = br.readLine(); //pular a primeira linha
+			index ++;
+			while (br.ready()){ 
+				linha = br.readLine(); 
+				String[] fields = linha.split("\t");
+				
+				codigoIBGE = Integer.parseInt(fields[1]);
+				
+				if (index == 1) {
+					qtdProfissionais = Integer.parseInt(fields[1]);
+					qtdMedicos = Integer.parseInt(fields[2]);
+					qtdEnfermeiros = Integer.parseInt(fields[3]);
+					qtdSus = Integer.parseInt(fields[4]);
+					qtdNaoSus = Integer.parseInt(fields[5]);
+				}else if (index == 2) {
+					qtdProfissionais = Integer.parseInt(fields[6]);
+					qtdMedicos = Integer.parseInt(fields[7]);
+					qtdEnfermeiros = Integer.parseInt(fields[8]);
+					qtdSus = Integer.parseInt(fields[9]);
+					qtdNaoSus = Integer.parseInt(fields[10]);
+				}else if (index == 3) {
+					qtdProfissionais = Integer.parseInt(fields[11]);
+					qtdMedicos = Integer.parseInt(fields[12]);
+					qtdEnfermeiros = Integer.parseInt(fields[13]);
+					qtdSus = Integer.parseInt(fields[14]);
+					qtdNaoSus = Integer.parseInt(fields[15]);
+				}else if (index == 4) {
+					qtdProfissionais = Integer.parseInt(fields[16]);
+					qtdMedicos = Integer.parseInt(fields[17]);
+					qtdEnfermeiros = Integer.parseInt(fields[18]);
+					qtdSus = Integer.parseInt(fields[19]);
+					qtdNaoSus = Integer.parseInt(fields[20]);
+				}else if (index == 5) {
+					qtdProfissionais = Integer.parseInt(fields[21]);
+					qtdMedicos = Integer.parseInt(fields[22]);
+					qtdEnfermeiros = Integer.parseInt(fields[23]);
+					qtdSus = Integer.parseInt(fields[24]);
+					qtdNaoSus = Integer.parseInt(fields[25]);
+				}else if (index == 6) {
+					qtdProfissionais = Integer.parseInt(fields[26]);
+					qtdMedicos = Integer.parseInt(fields[27]);
+					qtdEnfermeiros = Integer.parseInt(fields[28]);
+					qtdSus = Integer.parseInt(fields[29]);
+					qtdNaoSus = Integer.parseInt(fields[30]);
+				}else if (index == 7) {
+					qtdProfissionais = Integer.parseInt(fields[31]);
+					qtdMedicos = Integer.parseInt(fields[32]);
+					qtdEnfermeiros = Integer.parseInt(fields[33]);
+					qtdSus = Integer.parseInt(fields[34]);
+					qtdNaoSus = Integer.parseInt(fields[35]);
+				}else if (index == 8) {
+					qtdProfissionais = Integer.parseInt(fields[36]);
+					qtdMedicos = Integer.parseInt(fields[37]);
+					qtdEnfermeiros = Integer.parseInt(fields[38]);
+					qtdSus = Integer.parseInt(fields[39]);
+					qtdNaoSus = Integer.parseInt(fields[40]);
+				}else if (index == 9) {
+					qtdProfissionais = Integer.parseInt(fields[41]);
+					qtdMedicos = Integer.parseInt(fields[42]);
+					qtdEnfermeiros = Integer.parseInt(fields[43]);
+					qtdSus = Integer.parseInt(fields[44]);
+					qtdNaoSus = Integer.parseInt(fields[45]);
+				}
+				
+				//populacaoMap.put(codigoIBGE, populacao);
+				qtdProfissionaisMap.put(codigoIBGE, qtdProfissionais);
+				qtdMedicosMap.put(codigoIBGE, qtdMedicos);
+				qtdEnfermeirosMap.put(codigoIBGE, qtdEnfermeiros);
+				qtdSusMap.put(codigoIBGE, qtdSus);
+				qtdNaoSusMap.put(codigoIBGE, qtdNaoSus);
+				
+			} 
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 	/*
 	 * ##########
 	 * 
@@ -88,14 +226,8 @@ public class EstadoJsonGeral {
 	 * ##########
 	 * */
 	/* add atributos para tipo mortalidade*/
-	/*
-	private void addAtributosMunicipios(HashMap<Integer, Municipio> municipios, int index) {
-		//carregar populacao a partir de arquivo
-		//importPopulacaoPorMunicipio();
-		//carregar pib a partir de arquivo
-		//importPibPorMunicipio();
-		//carregar obitos a partir de arquivo
-		//importObitosPorMunicipio();
+	
+	private void addAtributosMortalidadeMunicipios(HashMap<Integer, Municipio> municipios, int index) {
 		
 		importMortalidade(index);
 		
@@ -120,7 +252,7 @@ public class EstadoJsonGeral {
     		}
     	}
 		
-	}*/
+	}
 	
 	/* import atributos para tipo mortalidade*/
 	
@@ -198,7 +330,7 @@ public class EstadoJsonGeral {
 	
 	/* add atributos para diabetes/sifilies*/
 	
-	private void addAtributosMunicipios(HashMap<Integer, Municipio> municipios, int index) {
+	private void addAtributosDiabetesSifilisMunicipios(HashMap<Integer, Municipio> municipios, int index) {
 		//carregar populacao a partir de arquivo
 		importPopulacaoPorMunicipio();
 		importDiabetesSifilis(index);

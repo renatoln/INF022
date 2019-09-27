@@ -31,14 +31,17 @@ public class EstadoJsonGenerator {
 	String codigoEstado = "ba";
 	
 	/*Dados de diabetes/sifilis*/
-	String periodos[] = {"2004", "2005", "2006", "2007", "2008","2009", "2010", "2011", "2012", "2013"};
-	String atributos[] = {"População","Diabetes Tipo 2", "Sífilis Congênita", "Sífilis Gestacional"};
+	//static String periodos[] = {"2004", "2005", "2006", "2007", "2008","2009", "2010", "2011", "2012", "2013"};
+	//String atributos[] = {"População","Diabetes Tipo 2", "Sífilis Congênita", "Sífilis Gestacional"};
 
+	/*Dados de médicos*/
+	static String periodos[] = {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"};
+	String atributos[] = {"QtProfissionais/100000Hab","QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"};
 	
 	String urlFolderDados = "dados/";
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 10; i ++) {
+		for (int i = 0; i < periodos.length; i ++) {
 			EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
 			new EstadoJsonGeral(ejGenerator, i);
 		}
