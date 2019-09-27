@@ -22,10 +22,18 @@ public class EstadoJsonGeral {
 	HashMap<Integer, Integer> pibMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> obitosMap = new HashMap<Integer, Integer>();
 	
+	/*hash maps para tipos mortalidade*/
 	HashMap<Integer, Integer> qtdNeoplasisasMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdAparelhoCirculatorioMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdCausasExternasMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdAnormalidadeMap = new HashMap<Integer, Integer>();
+	
+	
+	/*hash maps para Diabetes/Sifilis*/
+	
+	HashMap<Integer, Integer> qtdDiabetesTipo2Map = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdSifilisCongenitaMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdSifilisGestacionalMap = new HashMap<Integer, Integer>();
 	
 	EstadoJsonGenerator myEstadoJsonGenerator; 
 	
@@ -39,9 +47,7 @@ public class EstadoJsonGeral {
 		HashMap<Integer, Mesorregiao> mesos = myEstadoJsonGenerator.getMesorregioes();
 		HashMap<Integer, Microrregiao> micros = myEstadoJsonGenerator.getMicrorregioes();
 		HashMap<Integer, Municipio> municipios = myEstadoJsonGenerator.getMunicipios();
-		//printMunicipios(municipios);
 		addAtributosMunicipios(municipios, index);
-		//printPopulacaoMunicipios();
 		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios, false);
 		
 		gerarJsonGeralEstado(estado, index);
@@ -72,7 +78,17 @@ public class EstadoJsonGeral {
     	}	
 		
 	}
-
+	
+	
+	/*
+	 * ##########
+	 * 
+	 *    Trabalho com dados de Mortalidade
+	 * 
+	 * ##########
+	 * */
+	/* add atributos para tipo mortalidade*/
+	/*
 	private void addAtributosMunicipios(HashMap<Integer, Municipio> municipios, int index) {
 		//carregar populacao a partir de arquivo
 		//importPopulacaoPorMunicipio();
@@ -88,9 +104,6 @@ public class EstadoJsonGeral {
     	{
     		if(codigoMun != null) {
     			Municipio mun = municipios.get(codigoMun);
-    			/*int populacao = populacaoMap.get(codigoMun);
-    			int pib = pibMap.get(codigoMun);
-    			int obitos = obitosMap.get(codigoMun);*/
     			
     			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
     			int qtdNeoplasisas = qtdNeoplasisasMap.get(codigoMun);
@@ -107,7 +120,9 @@ public class EstadoJsonGeral {
     		}
     	}
 		
-	}
+	}*/
+	
+	/* import atributos para tipo mortalidade*/
 	
 	public void importMortalidade(int index){
 		try {
@@ -171,6 +186,120 @@ public class EstadoJsonGeral {
 		}
 		
 	}
+	
+	
+	/*
+	 * ##########
+	 * 
+	 *    Trabalho com dados de Diabetes tipo 2, sífilis congênita, sífilis gestacional
+	 * 
+	 * ##########
+	 * */
+	
+	/* add atributos para diabetes/sifilies*/
+	
+	private void addAtributosMunicipios(HashMap<Integer, Municipio> municipios, int index) {
+		//carregar populacao a partir de arquivo
+		importPopulacaoPorMunicipio();
+		importDiabetesSifilis(index);
+		System.out.println("Ola: "+index);
+		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
+    	for (Integer codigoMun : codigosIBGEMunicipios)
+    	{
+    		if(codigoMun != null) {
+    			Municipio mun = municipios.get(codigoMun);
+    			
+    			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
+    			int qtdPopulacao = populacaoMap.get(codigoMun);
+    			int qtdDiabetesTipo2 = qtdDiabetesTipo2Map.get(codigoMun);
+    			int qtdSifilisCongenita = qtdSifilisCongenitaMap.get(codigoMun);
+    			int qtdSifilisGestacional = qtdSifilisGestacionalMap.get(codigoMun);
+    			    			
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[0], qtdPopulacao);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[1], qtdDiabetesTipo2);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[2], qtdSifilisCongenita);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[3], qtdSifilisGestacional);
+    			
+    			
+    		}
+    	}
+		
+	}
+	
+	/* add atributos para diabetes/sifilies*/
+	public void importDiabetesSifilis(int index){
+		try {
+			File file = new File(myEstadoJsonGenerator.urlFolderDados+"dados-diabetes-sifilis.txt");
+			BufferedReader br = new BufferedReader(new FileReader(file)); 
+			int codigoIBGE = 0;
+			int qtdDiabetesTipo2 = 0;
+			int qtdSifilisCongenita = 0;
+			int qtdSifilisGestacional = 0;
+			
+			String linha = br.readLine(); //pular a primeira linha
+			index ++;
+			while (br.ready()){ 
+				linha = br.readLine(); 
+				String[] fields = linha.split("\t");
+				
+				codigoIBGE = Integer.parseInt(fields[1]);
+				
+				//populacao = Integer.parseInt(fields[2]);
+				
+				if (index == 1) {//2004
+					qtdDiabetesTipo2 = Integer.parseInt(fields[3]);
+					qtdSifilisCongenita = Integer.parseInt(fields[13]);
+					qtdSifilisGestacional = Integer.parseInt(fields[23]);
+				}else if (index == 2) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[4]);
+					qtdSifilisCongenita = Integer.parseInt(fields[14]);
+					qtdSifilisGestacional = Integer.parseInt(fields[24]);
+				}else if (index == 3) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[5]);
+					qtdSifilisCongenita = Integer.parseInt(fields[15]);
+					qtdSifilisGestacional = Integer.parseInt(fields[25]);
+				}else if (index == 4) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[6]);
+					qtdSifilisCongenita = Integer.parseInt(fields[16]);
+					qtdSifilisGestacional = Integer.parseInt(fields[26]);
+				}else if (index == 5) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[7]);
+					qtdSifilisCongenita = Integer.parseInt(fields[17]);
+					qtdSifilisGestacional = Integer.parseInt(fields[27]);
+				}else if (index == 6) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[8]);
+					qtdSifilisCongenita = Integer.parseInt(fields[18]);
+					qtdSifilisGestacional = Integer.parseInt(fields[28]);
+				}else if (index == 7) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[9]);
+					qtdSifilisCongenita = Integer.parseInt(fields[19]);
+					qtdSifilisGestacional = Integer.parseInt(fields[29]);
+				}else if (index == 8) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[10]);
+					qtdSifilisCongenita = Integer.parseInt(fields[20]);
+					qtdSifilisGestacional = Integer.parseInt(fields[30]);
+				}else if (index == 9) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[11]);
+					qtdSifilisCongenita = Integer.parseInt(fields[21]);
+					qtdSifilisGestacional = Integer.parseInt(fields[31]);
+				}else if (index == 10) {
+					qtdDiabetesTipo2 = Integer.parseInt(fields[12]);
+					qtdSifilisCongenita = Integer.parseInt(fields[22]);
+					qtdSifilisGestacional = Integer.parseInt(fields[32]);
+				}
+				
+				qtdDiabetesTipo2Map.put(codigoIBGE, qtdDiabetesTipo2);
+				qtdSifilisCongenitaMap.put(codigoIBGE, qtdSifilisCongenita);
+				qtdSifilisGestacionalMap.put(codigoIBGE, qtdSifilisGestacional);
+			} 
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
 	
 	public void importPopulacaoPorMunicipio(){
 		try {
