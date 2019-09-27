@@ -1,7 +1,9 @@
 //sunburst
 
 function atualizaSunburst(){
-	console.log("Sunburst");
+	var tempLocation = oldLocalizacao;
+	oldLocalizacao = "";
+	sunburst(tempLocation);
 }
 
 /* Localizacao = meso ou micro */
