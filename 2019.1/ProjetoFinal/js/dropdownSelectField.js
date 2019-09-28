@@ -71,6 +71,7 @@ function addOption(item, index) {
 function changeTime(evt){
 	mudaPeriodo(time[evt.target.value]);
 	colorirMun(cidades);
+	atualizarVisoes();
 }
 
 function changeColorOption(evt){
