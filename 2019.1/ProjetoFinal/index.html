@@ -587,6 +587,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" role="tab" href="#g3">TreeMap</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" role="tab" href="#g4">Radar</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="card-body">
@@ -597,11 +600,15 @@
                                     </div>
                                     <div id="g2" class="tab-pane">
                                         <h3>Gráfico 2</h3>
-                                        <div id="sunburstChartTab"></div>                                       
+                                        <div id="sunburstChartTab" style="width: 510px; height: 510px;"></div>                                       
                                     </div>
                                     <div id="g3" class="tab-pane">
                                         <h3>Gráfico 3</h3>
                                         <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
+                                    </div>
+                                    <div id="g4" class="tab-pane">
+                                        <h3>Gráfico 3</h3>
+                                        <div id="radarChartTab" style="width: 850px; height: 750px;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -862,6 +869,7 @@
 
 
     <!-- Imports Visões -->
+    <script type="text/javascript" src="scripts/views/radar.js"></script>
     <script type="text/javascript" src="scripts/views/sunburst.js"></script>
     <script type="text/javascript" src="scripts/views/bubble.js"></script>
     <script type="text/javascript" src="scripts/views/gauge.js"></script>

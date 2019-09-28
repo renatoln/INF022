@@ -40,6 +40,7 @@ function myFunction(item, index) {
 
 function checkAlert(evt){
 	indexAtributo = evt.target.value;
+	//radarOnMeso();
 	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO);
 	setup();
 	gerarArrayTreeMap(indexAtributo, indexAtributo);
@@ -74,6 +75,6 @@ function changeTime(evt){
 
 function changeColorOption(evt){
 	estrategiaColoracao = evt.target.value;
-	console.log(estrategiaColoracao);
+	//console.log(estrategiaColoracao);
 	colorirMun(cidades);
 }
