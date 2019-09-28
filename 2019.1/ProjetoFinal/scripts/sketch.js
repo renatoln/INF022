@@ -5,6 +5,7 @@ let opcoes = popUp.children[0].children;
 let popOUT = document.getElementById("municipios");
 let bar = document.getElementById("barChart");
 let sun = document.getElementById("sunChart");
+let radar = document.getElementById("radarChart");
 let compare = document.getElementById("atrCompare");
 var isDirty = false;
 let arrayTreeMap = [];
@@ -148,6 +149,19 @@ function addPopUp(local, localEvolucao) {
 				else
 					attributeCompare(config.PERIODOS, localEvolucao.ATRIBUTOS, localEvolucao.NOME_MESORREGIAO);
 		})
+
+		radar.addEventListener("click", function () {
+			
+			this.removeEventListener('click', arguments.callee, false);
+
+			if (local.node.attributes.id.value.includes("mun_"))
+				radarOnMuni(localEvolucao.NOME_MUNICIPIO);
+			else
+				if (local.node.attributes.id.value.includes("mic_"))
+					radarOnMicro(localEvolucao.NOME_MICRORREGIAO);
+				else
+					radarOnMeso(localEvolucao.NOME_MESORREGIAO);
+		}, false)
 
 		//DEFINE A POSICAO ONDE O POPUP FICARÁ
 		popUp.style.top = `${mouseY / 3}px`;
