@@ -18,7 +18,7 @@
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/tab.css" rel="tab">
     <link href="css/circlepack.css" rel="stylesheet">
-    
+       
 
 </head>
 
@@ -601,7 +601,19 @@
                                     </div>
                                     <div id="g3" class="tab-pane">
                                         <h3>Gráfico 3</h3>
-                                        <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
+                                        <label for="tamanho"><strong
+                                            style="text-align: left;">Tamanho</strong></label>
+                                        <div class="col-sm-4">
+                                            <select id="dropdownTamanho" class="custom-select custom-select mb-3"
+                                                name="DropVolume" onchange=changeVolume(event)></select>
+                                        </div>
+                                        <label for="cor"><strong
+                                            style="text-align: right;">Cor</strong></label>
+                                        <div class="col-sm-4">
+                                            <select id="dropdownCor" class="custom-select custom-select mb-3"
+                                                name="DropCor" onchange=changeCor(event)></select>
+                                        </div>
+                                        <div id="chart_div_tree" style="widows: 900px; height:500px;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -626,8 +638,8 @@
                                     <div class="tablinks">
                                         <button class="btn btn-md btn-info"
                                             onclick="openChart(event, 'sunChartTab')">Sunburst</button>
-                                        <button class="btn btn-md btn-info"
-                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>    
+                                        <!--<button class="btn btn-md btn-info"
+                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>-->
                                     </div>
                                     <div id="sunChartTab" class="tabcontent">
                                         <div class="row">
@@ -642,7 +654,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="treMapChartTab" class="tabcontent">
+                                    <!--<div id="treMapChartTab" class="tabcontent">
                                         <div class="row">
                                             <div class="container">
                                                 <div class="card" style="float: right; ">
@@ -654,7 +666,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </ul>
                             </div>
                         </div>
