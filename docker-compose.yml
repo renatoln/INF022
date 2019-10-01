@@ -3,19 +3,56 @@ version: '3'
 volumes:
   vespa_data: {}
   vespa_logs: {}
+  mysql:  {}
 
 services:
 
-    ruy_vespa:
-      container_name: vespa
-      hostname: vespa
-      image: vespaengine/vespa:7.92.7
-      privileged: true
+  app:
+    tty: true
+    image: bitnami/laravel:6-debian-9
+    environment:
+      VIRTUAL_HOST: app1.ifba.edu.br
+    depends_on:
+      - db
+    ports:
+      - 3000:3000
+    volumes:
+    - ./:/app
+    depends_on:
+      - nginx-proxy
+
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: myplace-stats
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql:/var/lib/mysql
+
+  nginx-proxy:
+      image: jwilder/nginx-proxy
+      depends_on:
+        - "db"
       ports:
-        - "8080:8080"
-        - "19071:19071"
+        - "80:80"
       volumes:
-        - ./resources/config/vendor/vespa/:/app:ro
-        - vespa_data:/opt/vespa/var
-        - vespa_logs:/opt/vespa/logs
-      restart: unless-stopped
+        - /etc/nginx/vhost.d
+        - /usr/share/nginx/html
+        - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  vespa:
+    container_name: vespa
+    hostname: vespa
+    image: vespaengine/vespa:7.92.7
+    privileged: true
+    ports:
+      - "8080:8080"
+      - "19071:19071"
+    volumes:
+      - ./resources/config/vendor/vespa/:/app:ro
+      - vespa_data:/opt/vespa/var
+      - vespa_logs:/opt/vespa/logs
+    restart: unless-stopped
