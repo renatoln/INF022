@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -28,13 +29,19 @@ public class EstadoJsonGenerator {
 	String urlBase = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/";
 	int idEstado = 29;
 	String codigoEstado = "ba";
-	String periodos[] = {"2013", "2014", "2015", "2016", "2017"};
-	String atributos[] = {"Qtd Neoplasias", "Qtd Apar. Circulatório", "Qtd Causas Externas", "Qtd Anormalidades"};
+	
+	/*Dados de diabetes/sifilis*/
+	//static String periodos[] = {"2004", "2005", "2006", "2007", "2008","2009", "2010", "2011", "2012", "2013"};
+	//String atributos[] = {"População","Diabetes Tipo 2", "Sífilis Congênita", "Sífilis Gestacional"};
 
+	/*Dados de médicos*/
+	static String periodos[] = {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"};
+	String atributos[] = {"QtProfissionais/100000Hab","QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"};
+	
 	String urlFolderDados = "dados/";
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 5; i ++) {
+		for (int i = 0; i < periodos.length; i ++) {
 			EstadoJsonGenerator ejGenerator = new EstadoJsonGenerator();
 			new EstadoJsonGeral(ejGenerator, i);
 		}
