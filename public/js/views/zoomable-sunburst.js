@@ -1,4 +1,4 @@
-function ZoomableSunburst (element_id) {
+function ShowZoomableSunburst(element_id) {
   data = {
    "name": "flare",
    "children": [
@@ -502,7 +502,6 @@ function ZoomableSunburst (element_id) {
   }
 
   panel = document.getElementById(element_id);
-  console.log(panel, element_id)
   if(!panel){
     console.log("Nenhum elemento " + element_id + " foi encontrado.");
     return;

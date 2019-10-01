@@ -65,13 +65,12 @@ function attributeCompare(periodo, atributos, cidade) {
       name: i.NOME,
       type: 'scatter'
     };
-
     data.push(line);
   }
 
   let layout = {
     title: cidade,
-    showlegend: false
+    showlegend: true
   };
-  Plotly.newPlot('myDiv', data);
+  Plotly.newPlot('myDiv', data,layout);
 }

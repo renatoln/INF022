@@ -1,8 +1,6 @@
-
 var currentTab = '';
 
 function openChart(evt, chartName) {
-
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -33,18 +31,16 @@ function openChart(evt, chartName) {
 }
 
 function SwitchChart(chartName) {
-    console.log(chartName)
 
     switch (chartName) {
         case "sunChartTab":
-            sunburstAll("sunburstChartTab");
-            break;
+            {
+                sunburstAll("sunburstChartTab");
+            }
         case "treMapChartTab":
-            drawChart();
-            break;
-         case "zoomableSunburstChartTab":
-            ZoomableSunburst("chart_div_zoomableSunburstChartTab");
-            break;
+            {
+                drawChart();
+            }
     }
 
 }
