@@ -1,0 +1,255 @@
+//Type
+function data(name) {
+    this.type = 'scatterpolar'; //Fixo
+    this.r = new Array();
+    this.theta = new Array();
+    this.fill = 'toself'; //Fixo
+    this.name = name;
+    this.showlegend = true;
+    this.hoverlabel = new hoverlabel();
+}
+
+function hoverlabel() {
+    this.font = new font();
+    this.namelength = -1;
+    this.align = "left";
+}
+
+function font() {
+    this.size = 13;
+}
+
+function layout() {
+    layout = {
+        polar: {
+            radialaxis: {
+                autorange: true,
+                visible: true,
+            }
+        }
+    }
+}
+
+var oldMeso = "";
+var oldMicro = "";
+var oldMuni = "";
+
+//O plot utilizando ano deixava o gráfico bugado 
+var alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+function radarOnMicro(localization) {
+
+    if (localization === oldMicro) {
+        return;
+    }
+
+    oldMicro = localization;
+
+    var periodos = new Array();
+
+    for (i in config.PERIODOS) {
+        periodos.push(alfabeto[i]);
+
+        if (i == config.PERIODOS.length - 1) {
+            periodos.push(alfabeto[0]); //Ultimo valor deve ser repetido para fechar a forma do radar
+        }
+    }
+
+    var arrayData = new Array();
+
+    for (micro in jsonEstadoEvolucao.MICRORREGIOES) //Para toda as mesos
+    {
+        if (jsonEstadoEvolucao.MICRORREGIOES[micro].NOME_MICRORREGIAO === localization) {
+
+            var currentDate = new data(jsonEstadoEvolucao.MICRORREGIOES[micro].NOME_MICRORREGIAO);
+
+            for (currentValue in jsonEstadoEvolucao.MICRORREGIOES[micro].ATRIBUTOS[indexAtributo].VALORES) {
+
+                currentDate.r.push(jsonEstadoEvolucao.MICRORREGIOES[micro].ATRIBUTOS[indexAtributo].VALORES[currentValue]);
+
+                if (currentValue == jsonEstadoEvolucao.MICRORREGIOES[micro].ATRIBUTOS[indexAtributo].VALORES.length - 1) {
+                    currentDate.r.push(jsonEstadoEvolucao.MICRORREGIOES[micro].ATRIBUTOS[indexAtributo].VALORES[0]);
+                }
+
+            }
+
+            currentDate.theta = periodos;
+
+            arrayData.push(currentDate);
+
+            break;
+        }
+    }
+
+    layout = {
+        polar: {
+            radialaxis: {
+                autorange: true,
+                visible: true,
+            }
+        }
+    }
+
+    Plotly.plot("myDiv2", arrayData, layout);
+
+}
+
+function radarOnMeso(localization) {
+
+    if (localization === oldMeso) {
+        return;
+    }
+
+    oldMeso = localization;
+
+    var periodos = new Array();
+
+    for (i in config.PERIODOS) {
+        periodos.push(alfabeto[i]);
+
+        if (i == config.PERIODOS.length - 1) {
+            periodos.push(alfabeto[0]); //Ultimo valor deve ser repetido para fechar a forma do radar
+        }
+    }
+
+    var arrayData = new Array();
+
+    for (meso in jsonEstadoEvolucao.MESORREGIOES) //Para toda as mesos
+    {
+        if (jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO === localization) {
+
+            var currentDate = new data(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
+
+            for (currentValue in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES) {
+
+                currentDate.r.push(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES[currentValue]);
+
+                if (currentValue == jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES.length - 1) {
+                    currentDate.r.push(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES[0]);
+                }
+
+            }
+
+            currentDate.theta = periodos;
+
+            arrayData.push(currentDate);
+
+            break;
+        }
+    }
+
+    layout = {
+        polar: {
+            radialaxis: {
+                autorange: true,
+                visible: true,
+            }
+        }
+    }
+
+    Plotly.plot("myDiv2", arrayData, layout);
+
+}
+
+function radarOnMuni(localization) {
+
+    if (localization === oldMuni) {
+        return;
+    }
+
+    oldMuni = localization;
+
+    var periodos = new Array();
+
+    for (i in config.PERIODOS) {
+        periodos.push(alfabeto[i]);
+
+        if (i == config.PERIODOS.length - 1) {
+            periodos.push(alfabeto[0]); //Ultimo valor deve ser repetido para fechar a forma do radar
+        }
+    }
+
+    var arrayData = new Array();
+
+    for (meso in jsonEstadoEvolucao.MUNICIPIOS) //Para toda as mesos
+    {
+        if (jsonEstadoEvolucao.MUNICIPIOS[meso].NOME_MUNICIPIO === localization) {
+
+            var currentDate = new data(jsonEstadoEvolucao.MUNICIPIOS[meso].NOME_MUNICIPIO + " ");
+
+            for (currentValue in jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[indexAtributo].VALORES) {
+
+                currentDate.r.push(jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[indexAtributo].VALORES[currentValue]);
+
+                if (currentValue == jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[indexAtributo].VALORES.length - 1) {
+                    currentDate.r.push(jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[indexAtributo].VALORES[0]);
+                }
+
+            }
+
+            currentDate.theta = periodos;
+
+            arrayData.push(currentDate);
+
+            break;
+        }
+    }
+
+    layout = {
+        polar: {
+            radialaxis: {
+                autorange: true,
+                visible: true,
+            }
+        }
+    }
+
+    Plotly.plot("myDiv2", arrayData, layout);
+
+}
+
+function radarOnAllMeso() {
+
+    var periodos = new Array();
+
+    for (i in config.PERIODOS) {
+        periodos.push(alfabeto[i]);
+
+        if (i == config.PERIODOS.length - 1) {
+            periodos.push(alfabeto[0]); //Ultimo valor deve ser repetido para fechar a forma do radar
+        }
+    }
+
+    var arrayData = new Array();
+
+    for (meso in jsonEstadoEvolucao.MESORREGIOES) //Para toda as mesos
+    {
+        var currentDate = new data(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
+
+        for (currentValue in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES) {
+
+            currentDate.r.push(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES[currentValue]);
+
+            if (currentValue == jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES.length - 1) {
+                currentDate.r.push(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES[0]);
+            }
+
+        }
+
+        currentDate.theta = periodos;
+
+        arrayData.push(currentDate);
+    }
+
+    layout = {
+        polar: {
+            radialaxis: {
+                autorange: true,
+                visible: true,
+            }
+        }
+    }
+
+    Plotly.plot("myDiv2", arrayData, layout);
+
+}

@@ -9,8 +9,8 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <!-- Chartist -->
-    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
-    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <link rel="stylesheet" href="plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
     <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style2.css" rel="stylesheet">
@@ -149,6 +149,7 @@
                                     <div id="g2" class="tab-pane">
                                         <h3>Gráfico 2</h3>
                                         <div id="sunburstChartTab" style="width: 510px; height: 510px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="sunburstAll('sunburstChartTab')">Sunburst</button>
                                     </div>
                                     <div id="g3" class="tab-pane">
                                         <h3>Gráfico 3</h3>
@@ -166,21 +167,10 @@
                                         </div>
                                         <div id="chart_div_tree" style="widows: 900px; height:500px;"></div>
                                     </div>
-                                     <div id="g3" class="tab-pane">
+                                     <div id="g4" class="tab-pane">
                                         <h3>Gráfico 4</h3>
-                                        <label for="tamanho"><strong
-                                            style="text-align: left;">Tamanho</strong></label>
-                                        <div class="col-sm-4">
-                                            <select id="dropdownTamanho" class="custom-select custom-select mb-3"
-                                                name="DropVolume" onchange=changeVolume(event)></select>
-                                        </div>
-                                        <label for="cor"><strong
-                                            style="text-align: right;">Cor</strong></label>
-                                        <div class="col-sm-4">
-                                            <select id="dropdownCor" class="custom-select custom-select mb-3"
-                                                name="DropCor" onchange=changeCor(event)></select>
-                                        </div>
-                                        <div id="chart_div_tree" style="widows: 900px; height:500px;"></div>
+                                        <div id="zoomableSunburstTab" style="width: 510px; height: 510px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="ShowZoomableSunburst('zoomableSunburstTab')">Zoomable Sunburst</button>
                                     </div>
                                 </div>
                             </div>
@@ -198,46 +188,6 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card card-widget">
-                            <div class="card-body">
-                                <ul class="tab">
-                                    <div class="tablinks">
-                                        <button class="btn btn-md btn-info"
-                                            onclick="openChart(event, 'sunChartTab')">Sunburst</button>
-                                        <!--<button class="btn btn-md btn-info"
-                                            onclick="openChart(event, 'treMapChartTab')">TreeMap</button>-->
-                                    </div>
-                                    <div id="sunChartTab" class="tabcontent">
-                                        <div class="row">
-                                            <div class="container">
-                                                <div class="card" style="float: right; ">
-                                                    <div class="col-lg-12">
-                                                        <section>
-                                                            <div id="sunburstChartTab"></div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--<div id="treMapChartTab" class="tabcontent">
-                                        <div class="row">
-                                            <div class="container">
-                                                <div class="card" style="float: right; ">
-                                                    <div class="col-lg-12">
-                                                        <section>
-                                                            <div id="chart_div_tree-map" style="width: 450px; height: 250px;"></div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>-->
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -264,25 +214,91 @@
 
     </div>
 
+    <script type="text/javascript">
+        function initSearch() {
+            var categoria = document.getElementById('txt-search-categoria').value;
+
+            var mesoDrop = document.getElementById('dropdownMeso');
+            var microDrop = document.getElementById('dropdownMicro');
+
+            var meso = '';
+
+            if (mesoDrop.selectedIndex > 0) {
+                meso = mesoDrop.options[mesoDrop.selectedIndex].value;
+            }
+
+            if (meso === 'Mesorregião') {
+                meso = '';
+            }
+
+            var micro = '';
+
+            if (microDrop.selectedIndex > 0) {
+                micro = microDrop.options[microDrop.selectedIndex].value;
+            }
+
+            if (micro === 'Microrregião') {
+                micro = '';
+            }
+
+            var valorMin = document.getElementById('txt-search-valorMin').value;
+
+            if (valorMin === '') {
+                valorMin = null;
+            }
+
+            var valorMax = document.getElementById('txt-search-valorMax').value;
+
+            if (valorMax === '') {
+                valorMax = null;
+            }
+
+            //Devo limpar o mapa com clear antes de cada busca?
+
+            filterFunction(categoria, meso, micro, valorMin, valorMax);
+
+        };
+    </script>
+
+    <script type="text/javascript">
+        function clearSearch() {
+            var form = $('form');
+            $(':input', form).each(function () {
+                var type = this.type;
+                var tag = this.tagName.toLowerCase();
+
+                if (type == 'text')
+                    this.value = "";
+                else if (tag == 'select')
+                    this.selectedIndex = 0;
+            });
+            clearSearchOnMap();
+        };
+    </script>
+
     <script src="plugins/common/common.min.js"></script>
     <script src="js/custom.min.js"></script>
 
+    <!-- Chartjs -->
+    <script type="text/javascript" src="js/charts/loader.js"></script>
+    <script type="text/javascript" src="js/charts/jsapi.corechart.js"></script>
+    <script type="text/javascript" src="js/charts/jsapi.treemap.js"></script>
+    <script src="plugins/chart.js/Chart.bundle.min.js"></script>
     <!-- Pignose Calender -->
-    <script src="./plugins/moment/moment.min.js"></script>
-    <script src="./plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/pg-calendar/js/pignose.calendar.min.js"></script>
     <!-- ChartistJS -->
-    <script src="./plugins/chartist/js/chartist.min.js"></script>
-    <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+    <script src="plugins/chart.js/Chart.bundle.min.js"></script>
+    <script src="plugins/chartist/js/chartist.min.js"></script>
+    <script src="plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
 
-
-    <script src="./js/dashboard/dashboard-1.js"></script>
 
     <!-- Imports do Projeto Snap.js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/snap.svg-min.js"></script>
     <script src="js/snaptoolkit.js"></script>
     <script src="js/mapa.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/jquery.modal.min.js"></script>
 
 
     <!-- Imports Visões -->
@@ -291,6 +307,7 @@
     <script type="text/javascript" src="js/views/bubble.js"></script>
     <script type="text/javascript" src="js/views/gauge.js"></script>
     <script type="text/javascript" src="js/views/treemap.js"></script>
+    <script type="text/javascript" src="js/views/zoomable-sunburst.js"></script>
 
 
     <!-- Imports da coloracao e do grafico de evolucao -->
@@ -300,17 +317,13 @@
     <script type="text/javascript" src="js/sketch.js"></script>
 
     <!-- Search -->
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/search.js"></script>
     <script type="text/javascript" src="js/dropdownSelectField.js"></script>
 
-    <!-- Tab -->
-    <script type="text/javascript" src="js/tab.js"></script>
-
     <!--D3 Data-Driven Documents-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="js/d3.v5.min.js"></script>
     <!-- <script src="js/views/circlepack.js"></script> -->
 
 </body>

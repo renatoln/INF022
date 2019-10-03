@@ -1,3 +1,11 @@
+//sunburst
+
+function atualizaSunburst(){
+	var tempLocation = oldLocalizacao;
+	oldLocalizacao = "";
+	sunburst(tempLocation);
+}
+
 /* Localizacao = meso ou micro */
 /* Plota todos os municipios pela localizacao */
 /* Se a localização passada for a meso, plota os municipios agrupando por micro */
@@ -225,7 +233,7 @@ async function sunburst(localizacao) {
     //When branchvalues "relative" (the default), children will not take up all of 
     //the space below their parent (unless the parent is the root and it has a value of 0).
 
-    Plotly.newPlot('myDiv', data, layout);
+    Plotly.newPlot('sunburstChartTab', data, layout);
 }
 
 var labelsGlobal = new Array();
@@ -331,7 +339,7 @@ async function sunburstAll(div) {
     //When branchvalues "relative" (the default), children will not take up all of 
     //the space below their parent (unless the parent is the root and it has a value of 0).
     if (div == null) {
-        Plotly.newPlot("myDiv", data, layout);
+        Plotly.newPlot("sunburstChartTab", data, layout);
     }
     else {
         Plotly.newPlot(div, data, layout);
