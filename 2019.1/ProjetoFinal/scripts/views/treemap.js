@@ -1,7 +1,5 @@
 //treemap
 let arrayTreeMap = [];
-let tam = 0;
-let numColor = 0;
 
 function atualizaTreeMap(){
 	indTam = $('#dropdownTamanho').val();
@@ -10,7 +8,9 @@ function atualizaTreeMap(){
 	indCor = $('#dropdownCor').val();
 	if(indCor == null)
 		indCor = 0;
-	drawChart(indTam, indCor);
+	arrayTreeMap = [];
+	gerarArrayTreeMap(indTam, indCor);
+	drawChart();
 }
 
 function gerarArrayTreeMap(tam, numColor){
@@ -24,10 +24,10 @@ function gerarArrayTreeMap(tam, numColor){
 	for(let iCont in jsonEstadoGeral.MESORREGIOES){
 		var codM = "" + jsonEstadoGeral.MESORREGIOES[iCont].ID;
 		var nomeM = jsonEstadoGeral.MESORREGIOES[iCont].NOME_MESORREGIAO;
+		var decimalCor = parseFloat('0.' + jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[numColor]);
 		mesoArray.push(codM.concat(" - ", nomeM), 'ba',
 						jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[tam],
-						jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[numColor]);
-		
+						decimalCor);
 		arrayTreeMap.push(mesoArray);
 		mesoArray = [];
 	}
@@ -39,10 +39,11 @@ function gerarArrayTreeMap(tam, numColor){
 				var codM = "" + jsonEstadoGeral.MICRORREGIOES[iCont].ID;
 				var nomeM = jsonEstadoGeral.MICRORREGIOES[iCont].NOME_MICRORREGIAO;
 				var sup =  "" + jsonEstadoGeral.MESORREGIOES[i].ID;
+				var decimalCor = parseFloat('0.' + jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[numColor]);
 				microArray.push(codM.concat(" - ", nomeM), 
 								sup.concat(" - ", jsonEstadoGeral.MESORREGIOES[i].NOME_MESORREGIAO), 
 								jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[tam],
-								jsonEstadoGeral.MICRORREGIOES[iCont].VALORES[numColor]);
+								decimalCor);
 				arrayTreeMap.push(microArray);
 				microArray = [];
 				break;
@@ -57,10 +58,11 @@ function gerarArrayTreeMap(tam, numColor){
 				var codM = "" + jsonEstadoGeral.MUNICIPIOS[iCont].ID;
 				var nomeM = jsonEstadoGeral.MUNICIPIOS[iCont].NOME_MUNICIPIO;
 				var sup = "" + jsonEstadoGeral.MICRORREGIOES[i].ID;
+				var decimalCor = parseFloat('0.' + jsonEstadoGeral.MUNICIPIOS[iCont].VALORES[numColor]);
 					munArray.push(codM.concat(" - ", nomeM), 
 									sup.concat(" - ", jsonEstadoGeral.MICRORREGIOES[i].NOME_MICRORREGIAO),
 									jsonEstadoGeral.MUNICIPIOS[iCont].VALORES[tam],
-									jsonEstadoGeral.MUNICIPIOS[iCont].VALORES[numColor]);
+									decimalCor);
 					arrayTreeMap.push(munArray);
 					munArray = [];
 				break;
@@ -73,8 +75,8 @@ function gerarArrayTreeMap(tam, numColor){
 
 google.charts.load('current', {'packages':['treemap']});
 	  google.charts.setOnLoadCallback(drawChart);
-	  function drawChart(tam, cor) {
-		gerarArrayTreeMap(tam,cor);
+	  function drawChart() {
+		//gerarArrayTreeMap(tam,cor);
 		let data = google.visualization.arrayToDataTable(arrayTreeMap);
 		tree = new google.visualization.TreeMap(document.getElementById('chart_div_tree'));
 		tree.draw(data, {
@@ -91,8 +93,7 @@ google.charts.load('current', {'packages':['treemap']});
 
 			return '<div style="background:Black; padding:2px; border-style:solid; color:White">' +
 					'<span style="font-family:Courier; color:White"><n>'
-					+data.getValue(row, 0)+ '<br>' + 
-					+ data.getColumnLabel(2) + ': ' + size + '<br>' 
-					+ data.getColumnLabel(3) + ': ' + value + '</div>';
+					+ data.getValue(row, 0)+ '<br>' 
+					+ data.getColumnLabel(2) + ': ' + size + '</div>';
 		  }	
 	  }

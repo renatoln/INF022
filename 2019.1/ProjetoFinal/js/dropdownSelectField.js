@@ -104,13 +104,15 @@ function addOptionCor(item, index) {
 }
 
 function changeVolume(evt){
-	indTam = evt.target.value;
+	/* indTam = evt.target.value;
 	indCor = $('#dropdownCor').val();
-	drawChart(indTam, indCor);
+	drawChart(indTam, indCor); */
+	atualizaTreeMap();
 }
 
 function changeCor(evt){
-	indCor = evt.target.value;
+	/* indCor = evt.target.value;
 	indTam = $('#dropdownTamanho').val();
-	drawChart(indTam, indCor);
+	drawChart(indTam, indCor); */
+	atualizaTreeMap();
 }
