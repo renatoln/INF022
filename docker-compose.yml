@@ -79,7 +79,8 @@ services:
       - "8080:8080"
       - "19071:19071"
     volumes:
-      - ./resources/config/vendor/vespa/:/app:ro
+      - ./resources/config/vendor/vespa/:/app
+      - ./docker/vespa/deploy-app.sh:/deploy-app.sh
       - vespa_data:/opt/vespa/var
       - vespa_logs:/opt/vespa/logs
     restart: unless-stopped

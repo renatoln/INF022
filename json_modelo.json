@@ -46,7 +46,7 @@
       "capital": true
     }
   ],
-  
+
   "tipo_dado": [
     {
       "id": 1,
@@ -57,7 +57,7 @@
       "nome": "Categorico"
     }
   ],
-  
+
   "dado": [
     {
       "id_municipio": 1,
@@ -85,9 +85,6 @@
 UF_PERIODO_GERAL.json
 
 
-Bahia_statistics
-
-//permitir troca de coloração: percentil, min_max, log
 //permitir aumentar faixa da coloração
 
 //Aplicar zoom semântico no mapa. Ex: Uma microregião inteira está no percentil 1, mas ao selecionar microregião, recalcular os percentis, e recolorir a microregião. Assim será possível ver quais daquelas é melhor ou não.
