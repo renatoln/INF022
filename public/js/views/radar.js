@@ -1,5 +1,5 @@
 //Type
-function data(name) {
+function buildData(name) {
     this.type = 'scatterpolar'; //Fixo
     this.r = new Array();
     this.theta = new Array();
@@ -64,7 +64,7 @@ function radarOnMicro(localization) {
     {
         if (jsonEstadoEvolucao.MICRORREGIOES[micro].NOME_MICRORREGIAO === localization) {
 
-            var currentDate = new data(jsonEstadoEvolucao.MICRORREGIOES[micro].NOME_MICRORREGIAO);
+            var currentDate = new buildData(jsonEstadoEvolucao.MICRORREGIOES[micro].NOME_MICRORREGIAO);
 
             for (currentValue in jsonEstadoEvolucao.MICRORREGIOES[micro].ATRIBUTOS[indexAtributo].VALORES) {
 
@@ -123,7 +123,7 @@ function radarOnMeso(localization) {
     {
         if (jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO === localization) {
 
-            var currentDate = new data(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
+            var currentDate = new buildData(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
 
             for (currentValue in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES) {
 
@@ -182,7 +182,7 @@ function radarOnMuni(localization) {
     {
         if (jsonEstadoEvolucao.MUNICIPIOS[meso].NOME_MUNICIPIO === localization) {
 
-            var currentDate = new data(jsonEstadoEvolucao.MUNICIPIOS[meso].NOME_MUNICIPIO + " ");
+            var currentDate = new buildData(jsonEstadoEvolucao.MUNICIPIOS[meso].NOME_MUNICIPIO + " ");
 
             for (currentValue in jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[indexAtributo].VALORES) {
 
@@ -231,7 +231,7 @@ function radarOnAllMeso() {
 
     for (meso in jsonEstadoEvolucao.MESORREGIOES) //Para toda as mesos
     {
-        var currentDate = new data(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
+        var currentDate = new buildData(jsonEstadoEvolucao.MESORREGIOES[meso].NOME_MESORREGIAO);
 
         for (currentValue in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[indexAtributo].VALORES) {
 
@@ -288,7 +288,7 @@ function radarAtributosMeso(localization) {
 
             for (currentIndex in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS) {
 
-                var currentDate = new data(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[currentIndex].NOME);
+                var currentDate = new buildData(jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[currentIndex].NOME);
 
                 for (currentValue in jsonEstadoEvolucao.MESORREGIOES[meso].ATRIBUTOS[currentIndex].VALORES) {
 
@@ -350,7 +350,7 @@ function radarAtributosMicro(localization) {
 
             for (currentIndex in jsonEstadoEvolucao.MICRORREGIOES[meso].ATRIBUTOS) {
 
-                var currentDate = new data(jsonEstadoEvolucao.MICRORREGIOES[meso].ATRIBUTOS[currentIndex].NOME);
+                var currentDate = new buildData(jsonEstadoEvolucao.MICRORREGIOES[meso].ATRIBUTOS[currentIndex].NOME);
 
                 for (currentValue in jsonEstadoEvolucao.MICRORREGIOES[meso].ATRIBUTOS[currentIndex].VALORES) {
 
@@ -411,7 +411,7 @@ function radarAtributosMuni(localization) {
 
             for (currentIndex in jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS) {
 
-                var currentDate = new data(jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[currentIndex].NOME);
+                var currentDate = new buildData(jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[currentIndex].NOME);
 
                 for (currentValue in jsonEstadoEvolucao.MUNICIPIOS[meso].ATRIBUTOS[currentIndex].VALORES) {
 

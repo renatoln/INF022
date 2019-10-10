@@ -12,6 +12,8 @@ var isDirty = false;
 //let tam = null;
 //let numColor = null;
 
+let div_sun = "myDiv";
+
 
 var cinza = "#8C92AC";
 
@@ -132,11 +134,11 @@ function addPopUp(local, localEvolucao) {
 		//ADICIONA FUNÇÃO DE SUNBURST NO CLIQUE
 		sun.addEventListener("click", function () {
 			if (local.node.attributes.id.value.includes("mic_"))
-				sunburst(localEvolucao.NOME_MICRORREGIAO);
+				sunburst(div_sun, localEvolucao.NOME_MICRORREGIAO);
 			else
-				sunburst(localEvolucao.NOME_MESORREGIAO);
+				sunburst(div_sun, localEvolucao.NOME_MESORREGIAO);
 			if (local.node.attributes.id.value.includes("mun_"))
-				sunburstAll();
+				sunburstAll(div_sun);
 		})
 
 		//ABRE UM LINECHART QUANDO CLICA NO POPUP

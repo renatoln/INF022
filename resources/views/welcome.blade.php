@@ -151,7 +151,6 @@
                                     <div id="g2" class="tab-pane">
                                         <h3>Sunburst</h3>
                                         <div id="div_Sunburst" style="width: 510px; height: 510px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="sunburstAll('div_Sunburst')">Sunburst</button>
                                     </div>
                                     <div id="g3" class="tab-pane">
                                         <h3>TreeMap</h3>
@@ -168,17 +167,14 @@
                                                 name="DropCor" ></select>
                                         </div>
                                         <div id="div_TreeMap" style="widows: 900px; height:500px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="atualizaTreeMap('div_TreeMap')">Bubble Chart</button>
                                     </div>
                                      <div id="g4" class="tab-pane">
                                         <h3>Zoomable Sunburst</h3>
                                         <div id="div_ZoomableSunburst" style="width: 510px; height: 510px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="atualizaZoomableSunburst('div_ZoomableSunburst')">Zoomable Sunburst</button>
                                     </div>
                                     <div id="g5" class="tab-pane">
                                         <h3>Bubble Chart</h3>
                                         <div id="div_BubbleChart" style="width: 510px; height: 510px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="atualizaBubbleChart('div_BubbleChart')">Bubble Chart</button>
                                     </div>
                                 </div>
                             </div>
@@ -214,6 +210,9 @@
                     </section>
                     <section>
                         <div id="myDiv3"></div>
+                    </section>
+                    <section>
+                        <div id="myDiv4"></div>
                     </section>
                 </div>
             </div>

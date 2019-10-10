@@ -1,9 +1,9 @@
 //sunburst
 
-function atualizaSunburst(){
+function atualizaSunburst(element_id){
 	var tempLocation = oldLocalizacao;
 	oldLocalizacao = "";
-	sunburst(tempLocation);
+	sunburst(element_id, tempLocation);
 }
 
 /* Localizacao = meso ou micro */
@@ -26,7 +26,7 @@ var labelsLocation = new Array();
 var parentsLocation = new Array();
 var valuesLocation = new Array();
 
-async function sunburst(localizacao) {
+async function sunburst(element_id, localizacao) {
 
     if (!localizacao) {
         return;
@@ -233,7 +233,7 @@ async function sunburst(localizacao) {
     //When branchvalues "relative" (the default), children will not take up all of 
     //the space below their parent (unless the parent is the root and it has a value of 0).
 
-    Plotly.newPlot('sunburstChartTab', data, layout);
+    Plotly.newPlot(element_id, data, layout);
 }
 
 var labelsGlobal = new Array();
@@ -338,10 +338,5 @@ async function sunburstAll(div) {
     //cannot exceed the value of their parent when branchvalues "total".
     //When branchvalues "relative" (the default), children will not take up all of 
     //the space below their parent (unless the parent is the root and it has a value of 0).
-    if (div == null) {
-        Plotly.newPlot("sunburstChartTab", data, layout);
-    }
-    else {
-        Plotly.newPlot(div, data, layout);
-    }
+    Plotly.newPlot(div, data, layout);
 }
