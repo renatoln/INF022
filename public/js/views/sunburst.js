@@ -1,9 +1,12 @@
 //sunburst
+var oldLocalizacao = "";
+
 
 function atualizaSunburst(element_id){
-	var tempLocation = oldLocalizacao;
-	oldLocalizacao = "";
-	sunburst(element_id, tempLocation);
+    setInterval(()=>{
+        if(geral)  sunburstAll(element_id);
+        else atualizaSunburst(element_id);
+    }, 1000);
 }
 
 /* Localizacao = meso ou micro */
@@ -20,13 +23,12 @@ Putting the async keyword before a function makes it an asynchronous function. T
 1 - If a function doesn't return a promise the JS engine will wrap this value into a resolved promise. Thus, the function will always return a promise.
 */
 
-var oldLocalizacao = "";
 
 var labelsLocation = new Array();
 var parentsLocation = new Array();
 var valuesLocation = new Array();
 
-async function sunburst(element_id, localizacao) {
+function sunburst(element_id, localizacao) {
 
     if (!localizacao) {
         return;
@@ -109,7 +111,7 @@ async function sunburst(element_id, localizacao) {
                 marker: { line: { width: 2 } },
             }];
 
-            Plotly.newPlot('myDiv', data, layout);
+            Plotly.newPlot(element_id, data, layout);
             return;
 
         }
@@ -130,7 +132,7 @@ async function sunburst(element_id, localizacao) {
                 marker: { line: { width: 2 } },
             }];
 
-            Plotly.newPlot('myDiv', data, layout);
+            Plotly.newPlot(element_id, data, layout);
             return;
         }
     }
@@ -241,7 +243,7 @@ var parentsGlobal = new Array();
 var valuesGlobal = new Array();
 var oldIndexAtributo = -1;
 
-async function sunburstAll(div) {
+function sunburstAll(div) {
 
     if (oldIndexAtributo == indexAtributo) {
         return;

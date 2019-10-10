@@ -1,4 +1,4 @@
-let visoes_disponiveis = ["TreeMap", "BubbleChart", "Sunburst", "ZoomableSunburst"];
+let visoes_disponiveis = ["TreeMap", "BubbleChart", "Sunburst", "ZoomableSunburst", "Gauge"];
 
 function atualizarVisoes() {
     visoes_disponiveis.forEach(item => {
@@ -7,7 +7,7 @@ function atualizarVisoes() {
         try {
             window[function_name](element_id);
         } catch (e) {
-           console.error("Não foi possível chamar o elemento: " + item);
+           console.error("Não foi possível chamar o elemento: " + item, e);
         }
     });
 }

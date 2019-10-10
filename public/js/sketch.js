@@ -139,7 +139,7 @@ function addPopUp(local, localEvolucao) {
 				sunburst(div_sun, localEvolucao.NOME_MESORREGIAO);
 			if (local.node.attributes.id.value.includes("mun_"))
 				sunburstAll(div_sun);
-		})
+		});
 
 		//ABRE UM LINECHART QUANDO CLICA NO POPUP
 		compare.addEventListener("click", function () {

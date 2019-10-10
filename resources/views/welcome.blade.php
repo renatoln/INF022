@@ -19,7 +19,7 @@
 
 <body>
 
-
+<div>
     <div id="main-wrapper">
 
 
@@ -140,6 +140,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" role="tab" href="#g5">Bubble Chart</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" role="tab" href="#g6">Gauge</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="card-body">
@@ -170,11 +173,19 @@
                                     </div>
                                      <div id="g4" class="tab-pane">
                                         <h3>Zoomable Sunburst</h3>
+                                         <select id="ddw_atributos_ZoomableSunburst" class="custom-select custom-select mb-3"
+                                                 name="ddw_atributos_ZoomableSunburst"  onchange="atualizaZoomableSunburst('div_ZoomableSunburst')">
+                                         </select>
+
                                         <div id="div_ZoomableSunburst" style="width: 510px; height: 510px;"></div>
                                     </div>
                                     <div id="g5" class="tab-pane">
                                         <h3>Bubble Chart</h3>
                                         <div id="div_BubbleChart" style="width: 510px; height: 510px;"></div>
+                                    </div>
+                                    <div id="g6" class="tab-pane">
+                                        <h3>Gauge</h3>
+                                        <div id="div_Gauge" style="width: 510px; height: 510px;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -220,9 +231,10 @@
     </div>
 
 
-    </div>
+</div>
 
-    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <script src="plugins/common/common.min.js"></script>
     <script src="js/custom.min.js"></script>
@@ -233,6 +245,7 @@
     <script type="text/javascript" src="js/charts/loader.js"></script>
     <script type="text/javascript" src="js/charts/jsapi.corechart.js"></script>
     <script type="text/javascript" src="js/charts/jsapi.treemap.js"></script>
+    <script type="text/javascript" src="js/charts/jsapi.gauge.js"></script>
     <script src="plugins/chart.js/Chart.bundle.min.js"></script>
     <!-- Pignose Calender -->
     <script src="plugins/moment/moment.min.js"></script>
@@ -267,8 +280,6 @@
     <script type="text/javascript" src="js/sketch.js"></script>
 
     <!-- Search -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/search.js"></script>
     <script type="text/javascript" src="js/dropdownSelectField.js"></script>
 </body>

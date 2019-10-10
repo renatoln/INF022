@@ -15,13 +15,7 @@ let getBubbleChartData = function () {
 };
 
 function atualizaBubbleChart(element_id) {
-    indTam = $('#dropdownTamanho').val();
-    if(indTam == null)
-        indTam = 0;
-    indCor = $('#dropdownCor').val();
-    if(indCor == null)
-        indCor = 0;
-    arrayTreeMap = [];
+
     data = getBubbleChartData();
     ShowBubbleChart(element_id, data);
 }
