@@ -14,7 +14,6 @@
     <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style2.css" rel="stylesheet">
-    <link href="css/tab.css" rel="tab">
 
 </head>
 
@@ -138,6 +137,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" role="tab" href="#g4">Zoomable Sunburst</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" role="tab" href="#g5">Bubble Chart</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="card-body">
@@ -147,30 +149,36 @@
                                         <svg id='mapa' class='img-responsive' viewBox="0 0 945 1030"></svg>
                                     </div>
                                     <div id="g2" class="tab-pane">
-                                        <h3>Gráfico 2</h3>
-                                        <div id="sunburstChartTab" style="width: 510px; height: 510px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="sunburstAll('sunburstChartTab')">Sunburst</button>
+                                        <h3>Sunburst</h3>
+                                        <div id="div_Sunburst" style="width: 510px; height: 510px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="sunburstAll('div_Sunburst')">Sunburst</button>
                                     </div>
                                     <div id="g3" class="tab-pane">
-                                        <h3>Gráfico 3</h3>
+                                        <h3>TreeMap</h3>
                                         <label for="tamanho"><strong
                                             style="text-align: left;">Tamanho</strong></label>
                                         <div class="col-sm-4">
                                             <select id="dropdownTamanho" class="custom-select custom-select mb-3"
-                                                name="DropVolume" onchange=changeVolume(event)></select>
+                                                name="DropVolume" ></select>
                                         </div>
                                         <label for="cor"><strong
                                             style="text-align: right;">Cor</strong></label>
                                         <div class="col-sm-4">
                                             <select id="dropdownCor" class="custom-select custom-select mb-3"
-                                                name="DropCor" onchange=changeCor(event)></select>
+                                                name="DropCor" ></select>
                                         </div>
-                                        <div id="chart_div_tree" style="widows: 900px; height:500px;"></div>
+                                        <div id="div_TreeMap" style="widows: 900px; height:500px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="atualizaTreeMap('div_TreeMap')">Bubble Chart</button>
                                     </div>
                                      <div id="g4" class="tab-pane">
-                                        <h3>Gráfico 4</h3>
-                                        <div id="zoomableSunburstTab" style="width: 510px; height: 510px;"></div>
-                                        <button class="btn btn-md btn-info" onclick="ShowZoomableSunburst('zoomableSunburstTab')">Zoomable Sunburst</button>
+                                        <h3>Zoomable Sunburst</h3>
+                                        <div id="div_ZoomableSunburst" style="width: 510px; height: 510px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="atualizaZoomableSunburst('div_ZoomableSunburst')">Zoomable Sunburst</button>
+                                    </div>
+                                    <div id="g5" class="tab-pane">
+                                        <h3>Bubble Chart</h3>
+                                        <div id="div_BubbleChart" style="width: 510px; height: 510px;"></div>
+                                        <button class="btn btn-md btn-info" onclick="atualizaBubbleChart('div_BubbleChart')">Bubble Chart</button>
                                     </div>
                                 </div>
                             </div>
@@ -204,6 +212,9 @@
                     <section>
                         <div id="myDiv2"></div>
                     </section>
+                    <section>
+                        <div id="myDiv3"></div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -214,71 +225,11 @@
 
     </div>
 
-    <script type="text/javascript">
-        function initSearch() {
-            var categoria = document.getElementById('txt-search-categoria').value;
-
-            var mesoDrop = document.getElementById('dropdownMeso');
-            var microDrop = document.getElementById('dropdownMicro');
-
-            var meso = '';
-
-            if (mesoDrop.selectedIndex > 0) {
-                meso = mesoDrop.options[mesoDrop.selectedIndex].value;
-            }
-
-            if (meso === 'Mesorregião') {
-                meso = '';
-            }
-
-            var micro = '';
-
-            if (microDrop.selectedIndex > 0) {
-                micro = microDrop.options[microDrop.selectedIndex].value;
-            }
-
-            if (micro === 'Microrregião') {
-                micro = '';
-            }
-
-            var valorMin = document.getElementById('txt-search-valorMin').value;
-
-            if (valorMin === '') {
-                valorMin = null;
-            }
-
-            var valorMax = document.getElementById('txt-search-valorMax').value;
-
-            if (valorMax === '') {
-                valorMax = null;
-            }
-
-            //Devo limpar o mapa com clear antes de cada busca?
-
-            filterFunction(categoria, meso, micro, valorMin, valorMax);
-
-        };
-    </script>
-
-    <script type="text/javascript">
-        function clearSearch() {
-            var form = $('form');
-            $(':input', form).each(function () {
-                var type = this.type;
-                var tag = this.tagName.toLowerCase();
-
-                if (type == 'text')
-                    this.value = "";
-                else if (tag == 'select')
-                    this.selectedIndex = 0;
-            });
-            clearSearchOnMap();
-        };
-    </script>
-
     <script src="plugins/common/common.min.js"></script>
     <script src="js/custom.min.js"></script>
 
+    <!--D3 Data-Driven Documents-->
+    <script src="js/d3.v5.min.js"></script>
     <!-- Chartjs -->
     <script type="text/javascript" src="js/charts/loader.js"></script>
     <script type="text/javascript" src="js/charts/jsapi.corechart.js"></script>
@@ -304,10 +255,10 @@
     <!-- Imports Visões -->
     <script type="text/javascript" src="js/views/radar.js"></script>
     <script type="text/javascript" src="js/views/sunburst.js"></script>
-    <script type="text/javascript" src="js/views/bubble.js"></script>
     <script type="text/javascript" src="js/views/gauge.js"></script>
     <script type="text/javascript" src="js/views/treemap.js"></script>
     <script type="text/javascript" src="js/views/zoomable-sunburst.js"></script>
+    <script type="text/javascript" src="js/views/bubblechart.js"></script>
 
 
     <!-- Imports da coloracao e do grafico de evolucao -->
@@ -321,11 +272,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/search.js"></script>
     <script type="text/javascript" src="js/dropdownSelectField.js"></script>
-
-    <!--D3 Data-Driven Documents-->
-    <script src="js/d3.v5.min.js"></script>
-    <!-- <script src="js/views/circlepack.js"></script> -->
-
 </body>
 
 </html>

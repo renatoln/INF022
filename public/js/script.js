@@ -1,13 +1,16 @@
-atualizarVisoes();
+let visoes_disponiveis = ["TreeMap", "BubbleChart", "Sunburst", "ZoomableSunburst"];
 
-function atualizarVisoes(){
-  atualizaTreeMap();
-  atualizaBubble();
-  atualizaSunburst();
-  atualizaGauge();
+function atualizarVisoes() {
+    visoes_disponiveis.forEach(item => {
+        element_id = "div_" + item;
+        function_name = "atualiza" + item;
+        try {
+            window[function_name](element_id);
+        } catch (e) {
+           console.error("Não foi possível chamar o elemento: " + item);
+        }
+    });
 }
-
-
 
 function lineChart(periodo, valor, cidade) {
   var trace1 = {
@@ -74,3 +77,9 @@ function attributeCompare(periodo, atributos, cidade) {
   };
   Plotly.newPlot('myDiv', data,layout);
 }
+
+(function() {
+    // your page initialization code here
+    // the DOM will be available here
+    setTimeout(atualizarVisoes, 0);
+})();

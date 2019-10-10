@@ -1,3 +1,62 @@
+function initSearch() {
+    var categoria = document.getElementById('txt-search-categoria').value;
+
+    var mesoDrop = document.getElementById('dropdownMeso');
+    var microDrop = document.getElementById('dropdownMicro');
+
+    var meso = '';
+
+    if (mesoDrop.selectedIndex > 0) {
+        meso = mesoDrop.options[mesoDrop.selectedIndex].value;
+    }
+
+    if (meso === 'Mesorregião') {
+        meso = '';
+    }
+
+    var micro = '';
+
+    if (microDrop.selectedIndex > 0) {
+        micro = microDrop.options[microDrop.selectedIndex].value;
+    }
+
+    if (micro === 'Microrregião') {
+        micro = '';
+    }
+
+    var valorMin = document.getElementById('txt-search-valorMin').value;
+
+    if (valorMin === '') {
+        valorMin = null;
+    }
+
+    var valorMax = document.getElementById('txt-search-valorMax').value;
+
+    if (valorMax === '') {
+        valorMax = null;
+    }
+
+    //Devo limpar o mapa com clear antes de cada busca?
+
+    filterFunction(categoria, meso, micro, valorMin, valorMax);
+
+}
+
+
+function clearSearch() {
+    var form = $('form');
+    $(':input', form).each(function () {
+        var type = this.type;
+        var tag = this.tagName.toLowerCase();
+
+        if (type == 'text')
+            this.value = "";
+        else if (tag == 'select')
+            this.selectedIndex = 0;
+    });
+    clearSearchOnMap();
+}
+
 async function filterFunction(categoria, meso, micro, valorDe, valorAte) {
 
     //Todos os campos vazios lul

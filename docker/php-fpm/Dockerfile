@@ -1,6 +1,11 @@
 FROM php:7.2-fpm
 
-WORKDIR /app
+
+ARG USER_UID=1000
+ARG USER_GID=1000
+
+RUN getent group $USER_GID || groupadd -g $USER_GID docker
+RUN useradd --shell /bin/bash -u $USER_UID -m -o -c "" -g $USER_GID admin
 
 RUN apt-get update && apt-get install -y default-mysql-client --no-install-recommends \
  && rm /etc/apt/preferences.d/no-debian-php \
@@ -40,12 +45,12 @@ RUN docker-php-ext-install gd && \
 # Install the xdebug extension
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 # Copy xdebug configration for remote debugging
-ADD ./docker/app/xdebug.ini /usr/local/etc/php/conf.d
+COPY ./docker/php-fpm/xdebug.ini /usr/local/etc/php/conf.d
 
 # PHP conf
-ADD ./docker/app/xdebug.ini /usr/local/etc/php/conf.d
-ADD ./docker/app/php.ini /usr/local/etc/php/conf.d
+COPY ./docker/php-fpm/php.ini /usr/local/etc/php/conf.d
 
 # Install node and npm
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get install -y nodejs
+

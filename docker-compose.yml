@@ -1,16 +1,17 @@
-version: '3'
+version: '2'
 
-volumes:
-  vespa_data: {}
-  vespa_logs: {}
-  mysql:  {}
 
 services:
 
   app:
     build:
       context: ./
-      dockerfile: docker/app/Dockerfile
+      dockerfile: docker/php-fpm/Dockerfile
+      args:
+        - USER_GID=${USER_GID}
+        - USER_UID=${USER_UID}
+        - APP_ENV=${APP_ENV}
+    user: "${USER_UID}:${USER_GID}"
     container_name: app
     hostname: app
     working_dir: /var/www
@@ -53,14 +54,15 @@ services:
   nginx:
     hostname: nginx
     container_name: nginx
+    working_dir: /var/www
     build:
       context: ./
       dockerfile: docker/nginx/Dockerfile
-    working_dir: /var/www
     depends_on:
       - app
     volumes:
       - ./docker/nginx/vhosts.conf:/etc/nginx/conf.d/default.conf
+    volumes_from:
       - app
     ports:
       - "${NGINX_PORT}:80"
@@ -69,7 +71,6 @@ services:
         ipv4_address: 172.16.238.3
 
   vespa:
-    container_name: vespa
     container_name: vespa
     hostname: vespa
     image: vespaengine/vespa:7.92.7
@@ -90,3 +91,8 @@ networks:
       driver: default
       config:
         - subnet: 172.16.238.0/24
+
+volumes:
+  vespa_data:
+  vespa_logs:
+  mysql:
