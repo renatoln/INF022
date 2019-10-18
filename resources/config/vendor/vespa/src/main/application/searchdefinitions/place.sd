@@ -1,0 +1,19 @@
+search place {
+    document place inherits base_definition {
+        field id type long {
+            indexing: summary | index
+            attribute: fast-search
+        }
+        field name type string {
+            indexing: summary | index
+        }
+        field parent_id type long {
+            indexing: summary | index
+            attribute: fast-search
+        }
+    }
+
+    fieldset default {
+      fields: name
+    }
+}
