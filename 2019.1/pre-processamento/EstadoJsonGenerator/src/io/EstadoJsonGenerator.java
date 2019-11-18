@@ -29,6 +29,7 @@ public class EstadoJsonGenerator {
 	String urlBase = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/";
 	int idEstado = 29;
 	String codigoEstado = "ba";
+	String nomeEstado = "Bahia";
 	
 	/*Dados de diabetes/sifilis*/
 	//static String periodos[] = {"2004", "2005", "2006", "2007", "2008","2009", "2010", "2011", "2012", "2013"};

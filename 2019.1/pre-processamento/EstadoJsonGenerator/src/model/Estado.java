@@ -10,6 +10,8 @@ import java.util.Set;
 public class Estado {
 	
 	public String sigla = "ba";
+	public int id = 29;
+	public String nome_estado = "Bahia";
 	public String nome_capital = "Salvador";
 	public int codigo_capital = 2927408;
 
@@ -39,12 +41,16 @@ public class Estado {
 	public ArrayList<Integer>  microrregioes_max_values_evolution = new ArrayList<Integer>();
 	public ArrayList<Integer>  municipios_min_values_evolution = new ArrayList<Integer>();
 	public ArrayList<Integer>  municipios_max_values_evolution = new ArrayList<Integer>();
+	
+	public HashMap<String, ArrayList<Integer>> valoresEvolucaoEstado = new HashMap<String, ArrayList<Integer>>();
 
 	
 	
-	public Estado(String sigla, HashMap<Integer, Mesorregiao> mesos, HashMap<Integer, Microrregiao> micros,
+	public Estado(String siglaEstado, int idEstado, String nomeEstado, HashMap<Integer, Mesorregiao> mesos, HashMap<Integer, Microrregiao> micros,
 			HashMap<Integer, Municipio> muns, boolean multiplosPeriodos) {
-		this.sigla = sigla;
+		this.sigla = siglaEstado;
+		this.id = idEstado;
+		this.nome_estado = nomeEstado;
 		mesorregioes = mesos;
 		microrregioes = micros;
 		municipios = muns;
@@ -71,7 +77,7 @@ public class Estado {
 		atualizaAtributosEstado();
 		definePercentis();
 		if (multiplosPeriodos) //evolucao
-			defineMinMaxEvolucao();
+			defineMinMax_e_TotaisEstado_na_Evolucao();
 		System.out.println("");
 	}
 
@@ -100,7 +106,7 @@ public class Estado {
 	}
 	
 	@SuppressWarnings("unchecked")
-	private void defineMinMaxEvolucao() {
+	private void defineMinMax_e_TotaisEstado_na_Evolucao() {
 		
 		Set<Integer> codigosMesos = mesorregioes.keySet();
     	for (Integer codigoMeso : codigosMesos)
@@ -111,6 +117,7 @@ public class Estado {
         	{	        		
         		ArrayList<Integer> valores =  meso.valoresEvolucao.get(periodo);
         		atualizaMinMaxEvolucaoMeso(valores);
+        		atualizaTotaisEvolucaoEstado(valores, periodo);
         	}	
     	}
     	
@@ -142,6 +149,22 @@ public class Estado {
     	
 	}
 
+	private void atualizaTotaisEvolucaoEstado(ArrayList<Integer> valores, String periodo){
+		int qtdAtributos = valores.size();
+		ArrayList<Integer>  valoresEvolucaoEstadoNoPeriodo = valoresEvolucaoEstado.get(periodo);
+		
+		if (valoresEvolucaoEstadoNoPeriodo == null) {
+			valoresEvolucaoEstado.put(periodo, valores);
+		}else {
+			for (int i = 0; i < qtdAtributos; i++) { 
+				int newValue = valores.get(i);
+				int currentValue = valoresEvolucaoEstadoNoPeriodo.get(i);
+				valoresEvolucaoEstadoNoPeriodo.set(i, newValue + currentValue);			
+			}
+		}
+		
+	}
+	
 	private void atualizaMinMaxEvolucaoMeso(ArrayList<Integer> valores){
 		int qtdAtributos = valores.size();
 		

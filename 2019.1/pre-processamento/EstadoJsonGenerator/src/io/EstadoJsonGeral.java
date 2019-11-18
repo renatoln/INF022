@@ -65,7 +65,7 @@ public class EstadoJsonGeral {
 		//addAtributosPopulacaoPIBMenor50Mil(municipios, index);
 		//addAtributosEmpresasAbertasFechadasMesAMes(municipios, index);
 		addAtributosEmpresasAbertasFechadasAnoAAno(municipios, index);
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios, false);
+		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, myEstadoJsonGenerator.idEstado, myEstadoJsonGenerator.nomeEstado, mesos, micros, municipios, false);
 		
 		gerarJsonGeralEstado(estado, index);
 		
@@ -759,7 +759,7 @@ public class EstadoJsonGeral {
     	for (Mesorregiao meso : mesorregioes)
     	{
     		textoAppend = "  {\n" + 
-					"    \"ID\": " + meso.ID + " ,\n" + 
+					"    \"ID\": " + meso.ID + ",\n" + 
 					"    \"NOME_MESORREGIAO\": \"" + meso.NOME_MESORREGIAO + "\"," +
 					list_string_values(meso.CATEGORIA, "CATEGORIA", true)+
 					list_string_values(meso.ATRIBUTOS, "ATRIBUTOS", true)+

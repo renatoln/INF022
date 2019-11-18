@@ -45,7 +45,7 @@ public class EstadoJsonEvolucao {
 		for (int i = 0; i < myEstadoJsonGenerator.periodos.length; i++)
 			lerJsonGeral(myEstadoJsonGenerator.periodos[i]);
 		
-		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesorregioes, microrregioes, municipios, true);
+		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, myEstadoJsonGenerator.idEstado, myEstadoJsonGenerator.nomeEstado, mesorregioes, microrregioes, municipios, true);
 
 		gerarJsonEstadoEvolucao(estado, myEstadoJsonGenerator.periodos, myEstadoJsonGenerator.atributos);
 
@@ -153,11 +153,18 @@ public class EstadoJsonEvolucao {
 		
 		myEstadoJsonGenerator.appendTexto(fileName, "\n\t},");
 		
+		// estado
+		String textoAppend;
+		textoAppend = "\n  \"ESTADO\":{\n    \"ID\": " + estado.id + ",\n" + "    \"NOME_ESTADO\": \""
+				+ estado.nome_estado + "\","
+				+ list_AtributosEvolucao(estado.valoresEvolucaoEstado, periodos, atributos)
+				+ " \n  },";
+		myEstadoJsonGenerator.appendTexto(fileName, textoAppend);
 
+		
 		// mesorregioes
 		myEstadoJsonGenerator.appendTexto(fileName, "\n  \"MESORREGIOES\":[\n");
 
-		String textoAppend;
 		Collection<Mesorregiao> mesorregioes = estado.mesorregioes.values();
 		int size = mesorregioes.size();
 		int i = 0;
