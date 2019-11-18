@@ -35,8 +35,20 @@ public class EstadoJsonGenerator {
 	//String atributos[] = {"População","Diabetes Tipo 2", "Sífilis Congênita", "Sífilis Gestacional"};
 
 	/*Dados de médicos*/
-	static String periodos[] = {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"};
-	String atributos[] = {"QtProfissionais/100000Hab","QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"};
+	//static String periodos[] = {"2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"};
+	//String atributos[] = {"QtProfissionais/100000Hab","QtMédicos/100000Hab", "QtEnfermeiros/100000Hab", "QtSUS/100000Hab", "QtNãoSUS/100000Hab"};
+	
+	/*SEFINRA*/
+	//static String periodos[] = {"2019"};
+	//String atributos[] = {"População","PIB"};
+	
+	/*Dados de JUCEB mes a mes*/
+	//static String periodos[] = {"05-2019", "06-2019", "07-2019", "08-2019", "09-2019", "10-2019"};
+	//String atributos[] = {"Empresas Abertas","Empresas Fechadas", "Balanço"};
+	
+	/*Dados de JUCEB ano a ano*/
+	static String periodos[] = {"2013", "2014", "2015", "2016", "2017", "2018", "2019"};
+	String atributos[] = {"Empresas Abertas","Empresas Fechadas", "Balanço"};
 	
 	String urlFolderDados = "dados/";
 
@@ -50,7 +62,8 @@ public class EstadoJsonGenerator {
 	
 	HashMap<Integer, Mesorregiao> getMesorregioes() {
 		String urlEspecifica = "/mesorregioes";
-		ArrayList<JSONObject> joMesos = getJsonObjects(urlEspecifica);
+		//ArrayList<JSONObject> joMesos = getJsonObjects(urlEspecifica);
+		ArrayList<JSONObject> joMesos = getLocalJsonObjects("mesorregioes-"+idEstado+"-ibge.json");
 		HashMap<Integer, Mesorregiao> mesos = new HashMap<Integer, Mesorregiao>();
 		for (int i=0; i < joMesos.size(); i++) { 
 			JSONObject jsonObj = joMesos.get(i);

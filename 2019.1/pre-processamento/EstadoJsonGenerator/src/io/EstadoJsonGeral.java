@@ -39,6 +39,12 @@ public class EstadoJsonGeral {
 	HashMap<Integer, Integer> qtdEnfermeirosMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdSusMap = new HashMap<Integer, Integer>();
 	HashMap<Integer, Integer> qtdNaoSusMap = new HashMap<Integer, Integer>();
+	
+	//
+	/*hash maps para JUCEB*/
+	HashMap<Integer, Integer> qtdEmpresasAbertasMap = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> qtdEmpresasFechadasMap = new HashMap<Integer, Integer>();
+
 
 	EstadoJsonGenerator myEstadoJsonGenerator; 
 	
@@ -55,10 +61,10 @@ public class EstadoJsonGeral {
 		
 		//addAtributosMortalidadeMunicipios(municipios, index);
 		//addAtributosDiabetesSifilisMunicipios(municipios, index);
-		addAtributosProfisionaisSaudePorMunicipios(municipios, index);
-		
-		
-		
+		//addAtributosProfisionaisSaudePorMunicipios(municipios, index);
+		//addAtributosPopulacaoPIBMenor50Mil(municipios, index);
+		//addAtributosEmpresasAbertasFechadasMesAMes(municipios, index);
+		addAtributosEmpresasAbertasFechadasAnoAAno(municipios, index);
 		Estado estado = new Estado(myEstadoJsonGenerator.codigoEstado, mesos, micros, municipios, false);
 		
 		gerarJsonGeralEstado(estado, index);
@@ -126,7 +132,7 @@ public class EstadoJsonGeral {
 		
 	}
 	
-	/* import atributos para tipo mortalidade*/
+	/* import atributos para profissionais saude*/
 	
 	public void importProfissionaisSaude(int index){
 		try {
@@ -433,6 +439,210 @@ public class EstadoJsonGeral {
 	}
 	
 	
+	/*
+	 * ##########
+	 * 
+	 *    Trabalho com dados de JUCEB
+	 * 
+	 * ##########
+	 * */
+	
+	/* add atributos para JUCEB mes a mes*/
+	
+	private void addAtributosEmpresasAbertasFechadasMesAMes(HashMap<Integer, Municipio> municipios, int index) {
+		//carregar populacao a partir de arquivo
+		//importPopulacaoPorMunicipio();
+		importDadosEmpresasJUCEBMesAMes(index);
+		System.out.println("Ola: "+index);
+		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
+    	for (Integer codigoMun : codigosIBGEMunicipios)
+    	{
+    		if(codigoMun != null) {
+    			Municipio mun = municipios.get(codigoMun);
+    			
+    			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
+    			//int qtdPopulacao = populacaoMap.get(codigoMun);
+    			int qtdEmpresasAbertas = qtdEmpresasAbertasMap.get(codigoMun);
+    			int qtdEmpresasFechadas = qtdEmpresasFechadasMap.get(codigoMun);
+    			    			
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[0], qtdEmpresasAbertas);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[1], qtdEmpresasFechadas);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[2], qtdEmpresasAbertas - qtdEmpresasFechadas);
+    			//mun.addAtributo(myEstadoJsonGenerator.atributos[3], qtdPopulacao);
+    			
+    			
+    		}
+    	}
+		
+	}
+	
+	/* add atributos para JUCEB*/
+	public void importDadosEmpresasJUCEBMesAMes(int index){
+		try {
+			File file = new File(myEstadoJsonGenerator.urlFolderDados+"juceb/ETL-Juceb_periodos.txt");
+			BufferedReader br = new BufferedReader(new FileReader(file)); 
+			int codigoIBGE = 0;
+			int qtdEmpresasAbertas = 0;
+			int qtdEmpresasFechadas = 0;
+			
+			String linha = br.readLine(); //pular a primeira linha
+			index ++;
+			while (br.ready()){ 
+				linha = br.readLine(); 
+				String[] fields = linha.split("\t");
+				
+				codigoIBGE = Integer.parseInt(fields[0]);
+				
+				if (index == 1) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[11]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[12]);
+				}else if (index == 2) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[9]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[10]);
+				}else if (index == 3) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[7]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[8]);
+				}else if (index == 4) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[5]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[6]);
+				}else if (index == 5) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[3]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[4]);
+				}else if (index == 6) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[1]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[2]);
+				}
+				
+				qtdEmpresasAbertasMap.put(codigoIBGE, qtdEmpresasAbertas);
+				qtdEmpresasFechadasMap.put(codigoIBGE, qtdEmpresasFechadas);
+			} 
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	private void addAtributosEmpresasAbertasFechadasAnoAAno(HashMap<Integer, Municipio> municipios, int index) {
+		//carregar populacao a partir de arquivo
+		//importPopulacaoPorMunicipio();
+		importDadosEmpresasJUCEBAnoAAno(index);
+		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
+    	for (Integer codigoMun : codigosIBGEMunicipios)
+    	{
+    		if(codigoMun != null) {
+    			Municipio mun = municipios.get(codigoMun);
+    			
+    			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
+    			//int qtdPopulacao = populacaoMap.get(codigoMun);
+    			int qtdEmpresasAbertas = qtdEmpresasAbertasMap.get(codigoMun);
+    			int qtdEmpresasFechadas = qtdEmpresasFechadasMap.get(codigoMun);
+    			    			
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[0], qtdEmpresasAbertas);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[1], qtdEmpresasFechadas);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[2], qtdEmpresasAbertas - qtdEmpresasFechadas);
+    			//mun.addAtributo(myEstadoJsonGenerator.atributos[3], qtdPopulacao);
+    			
+    			
+    		}
+    	}
+		
+	}
+	
+	/* add atributos para JUCEB*/
+	public void importDadosEmpresasJUCEBAnoAAno(int index){
+		try {
+			File file = new File(myEstadoJsonGenerator.urlFolderDados+"juceb/ETL-Juceb_periodos_anual.txt");
+			BufferedReader br = new BufferedReader(new FileReader(file)); 
+			int codigoIBGE = 0;
+			int qtdEmpresasAbertas = 0;
+			int qtdEmpresasFechadas = 0;
+			
+			String linha = br.readLine(); //pular a primeira linha
+			index ++;
+			while (br.ready()){ 
+				linha = br.readLine(); 
+				String[] fields = linha.split("\t");
+				
+				codigoIBGE = Integer.parseInt(fields[0]);
+				
+				if (index == 1) { //2019
+					qtdEmpresasAbertas = Integer.parseInt(fields[13]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[14]);
+				}else if (index == 2) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[11]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[12]);
+				}else if (index == 3) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[9]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[10]);
+				}else if (index == 4) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[7]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[8]);
+				}else if (index == 5) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[5]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[6]);
+				}else if (index == 6) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[3]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[4]);
+				}else if (index == 7) {
+					qtdEmpresasAbertas = Integer.parseInt(fields[1]);
+					qtdEmpresasFechadas = Integer.parseInt(fields[2]);
+				}
+				
+				qtdEmpresasAbertasMap.put(codigoIBGE, qtdEmpresasAbertas);
+				qtdEmpresasFechadasMap.put(codigoIBGE, qtdEmpresasFechadas);
+			} 
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	/*
+	 * ##########
+	 * 
+	 *    Trabalho com dados de populacao e pib para municipios < 50 mil. SEINFRA
+	 * 
+	 * ##########
+	 * */
+	
+	/* add atributos para populacao/pib municipios < 50 mil*/
+	
+	private void addAtributosPopulacaoPIBMenor50Mil(HashMap<Integer, Municipio> municipios, int index) {
+		//carregar populacao a partir de arquivo
+		importPopulacaoPorMunicipio();
+		importPibPorMunicipio();
+		
+		Set<Integer> codigosIBGEMunicipios = municipios.keySet();
+    	for (Integer codigoMun : codigosIBGEMunicipios)
+    	{
+    		if(codigoMun != null) {
+    			Municipio mun = municipios.get(codigoMun);
+    			
+    			//Mudar: Atualize os dados abaixo de acordo com sua realidade //
+    			int qtdPopulacao = populacaoMap.get(codigoMun);
+    			int qtdPib = pibMap.get(codigoMun);
+    			if (qtdPopulacao > 50000) {
+    				qtdPopulacao = 0;
+    				qtdPib = 0;
+    			}
+    			    			
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[0], qtdPopulacao);
+    			mun.addAtributo(myEstadoJsonGenerator.atributos[1], qtdPib);
+    			
+    			
+    		}
+    	}
+		
+	}
+	
+	
+	
 	public void importPopulacaoPorMunicipio(){
 		try {
 			File file = new File(myEstadoJsonGenerator.urlFolderDados+"municipio-populacao.txt");
@@ -522,9 +732,10 @@ public class EstadoJsonGeral {
 		
 		myEstadoJsonGenerator.createFile(fileName, "{\n\t\"METADADOS\":{");
 
-		
+		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.totais_estado, "TOTAIS_ESTADO", true));
 		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.min_values_periodo, "MIN_VALORES", true));
 		myEstadoJsonGenerator.appendTexto(fileName, list_int_values(estado.max_values_periodo, "MAX_VALORES", true));
+		
 		
 		myEstadoJsonGenerator.appendTexto(fileName, "\n\t\t\"PERCENTIS\":[");
 		for (int i = 0; i < estado.percentis.size(); i++) {

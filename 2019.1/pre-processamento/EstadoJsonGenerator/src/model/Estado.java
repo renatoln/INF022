@@ -13,6 +13,9 @@ public class Estado {
 	public String nome_capital = "Salvador";
 	public int codigo_capital = 2927408;
 
+	//valores totais dos atributos pelo estado
+	public ArrayList<Integer>  totais_estado = new ArrayList<Integer>();
+	
 	//min max por período
 	public ArrayList<Integer>  min_values_periodo = new ArrayList<Integer>();
 	public ArrayList<Integer>  max_values_periodo = new ArrayList<Integer>();
@@ -65,6 +68,7 @@ public class Estado {
 		
 		atualizaAtributosMicros();
 		atualizaAtributosMesos();
+		atualizaAtributosEstado();
 		definePercentis();
 		if (multiplosPeriodos) //evolucao
 			defineMinMaxEvolucao();
@@ -195,6 +199,35 @@ public class Estado {
 					municipios_max_values_evolution.set(i, currentValue);
 			}	
 		}
+		
+	}
+	
+	private void atualizaAtributos(ArrayList<Integer> vals) {
+		if (totais_estado.size() == 0) inicializaAtributosEValores(vals.size());
+		
+		for (int i = 0; i < vals.size(); i++) {
+			Integer valor = totais_estado.get(i);
+			valor = valor + vals.get(i);
+			totais_estado.set(i, valor);
+		}
+			
+	}
+	
+	private void inicializaAtributosEValores(int sizeAtributos) {
+		
+		for (int i = 0; i < sizeAtributos; i++) //inicializa os valores com zero 
+			totais_estado.add(0);
+	}
+	
+	private void atualizaAtributosEstado() {
+		Set<Integer> codigosIBGEMesos = mesorregioes.keySet();
+    	for (Integer codigoMeso : codigosIBGEMesos)
+    	{
+    		if(codigoMeso != null) {
+    			Mesorregiao meso = mesorregioes.get(codigoMeso);
+    			atualizaAtributos(meso.VALORES);
+    		}
+    	}
 		
 	}
 	
