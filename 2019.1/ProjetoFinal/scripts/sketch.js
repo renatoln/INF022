@@ -15,13 +15,14 @@ var isDirty = false;
 
 var cinza = "#8C92AC";
 
+// do verde para o vermelho
 let cores = {
-	cor1: "#dcf757",
-	cor2: "#f7f257",
-	cor3: "#f7cf57",
-	cor4: "#f59738",
-	cor5: "#f56138",
-	cor6: "#f50f02"
+	cor1 : "#00ff00",
+	cor2 : "#ffff00",
+	cor3 : "#f5b342",
+	cor4 : "#f56342",
+	cor5 : "#ff0000",
+	cor6 : "#ed0505"
 };
 
 /*
