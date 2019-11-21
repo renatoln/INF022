@@ -6,7 +6,7 @@ viewBox="0 0 250000 259000">
 <defs>
 <style type="text/css">
 <![CDATA[
-.str5 {stroke:red;stroke-width:76;stroke-linecap:round;stroke-linejoin:round}
+.str5 {stroke:blue;stroke-width:200;stroke-linecap:round;stroke-linejoin:round}
 .str2 {stroke:#72706F;stroke-width:76;stroke-linecap:round;stroke-linejoin:round}
 .str8 {stroke:#C2C1C1;stroke-width:76}
 .str9 {stroke:#D82B40;stroke-width:76}
