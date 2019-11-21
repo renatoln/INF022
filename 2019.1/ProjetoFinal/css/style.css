@@ -14705,3 +14705,16 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   width: 924px;
   float: right;
 }
+
+.box-legendas {
+  display: flex;
+}
+
+.card-legenda {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
