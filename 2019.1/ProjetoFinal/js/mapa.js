@@ -299,7 +299,6 @@ function tooltipMunicipio(path) {
       //+ '&#10;&#10;Valor: ' + municipio.VALOR
       + tooltipAtributos(municipio)
       + '</title>';
-      path.node.textContent = "";
       path.append(Snap.parse(string)); 
       jsonResponse = municipio;
 }
@@ -314,7 +313,6 @@ function tooltipMicrorregiao(path) {
       //+ '&#10;&#10;Valor: ' + micro.VALOR
       + tooltipAtributos(micro)
       + '</title>';
-      path.node.textContent = "";
       path.append(Snap.parse(string)); 
       jsonResponse = micro;
 }
@@ -327,7 +325,6 @@ function tooltipMesorregiao(path) {
       //+ '&#10;&#10;Valor: ' + meso.VALOR
       + tooltipAtributos(meso)
       + '</title>';
-      path.node.textContent = "";
       path.append(Snap.parse(string)); 
       jsonResponse = meso;
 }

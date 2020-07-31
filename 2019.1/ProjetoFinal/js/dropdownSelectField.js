@@ -2,8 +2,6 @@ let dropMeso = $('#dropdownMeso');
 let dropMicro = $('#dropdownMicro');
 let dropAtributos = $('#dropdownAtributos');
 let dropPeriodos = $('#dropdownPeriodos');
-let dropTamanho = $('#dropdownTamanho');
-let dropCor = $('#dropdownCor');
 
 //DROPDOWN MESORREGIÕES
 
@@ -44,8 +42,8 @@ function checkAlert(evt){
 	indexAtributo = evt.target.value;
 	lineChart(config.PERIODOS, currentPlace.ATRIBUTOS[indexAtributo].VALORES, currentPlace.NOME_MUNICIPIO);
 	setup();
-	//gerarArrayTreeMap(indexAtributo, indexAtributo);
-	//drawChart();
+	gerarArrayTreeMap(indexAtributo, indexAtributo);
+	drawChart();
 }
 
 function getCurrentAttribute(){
@@ -72,47 +70,10 @@ function addOption(item, index) {
 function changeTime(evt){
 	mudaPeriodo(time[evt.target.value]);
 	colorirMun(cidades);
-	atualizarVisoes();
 }
 
 function changeColorOption(evt){
 	estrategiaColoracao = evt.target.value;
-	//console.log(estrategiaColoracao);
+	console.log(estrategiaColoracao);
 	colorirMun(cidades);
-}
-
-//DROPDAWN TREEMAP
-
-dropTamanho.empty();
-dropTamanho.prop('selectedIndex', 0);
-
-let tamanho = atributos;
-tamanho.forEach(addOptionTamanho);
-
-function addOptionTamanho(item, index) {
-	dropTamanho.append($('<option></option>').attr('value', index).text(item));
-}
- 
-dropCor.empty();
-dropCor.prop('selectedIndex', 0);
-
-let cor = atributos;
-cor.forEach(addOptionCor);
-
-function addOptionCor(item, index) {
-	dropCor.append($('<option></option>').attr('value', index).text(item));
-}
-
-function changeVolume(evt){
-	/* indTam = evt.target.value;
-	indCor = $('#dropdownCor').val();
-	drawChart(indTam, indCor); */
-	atualizaTreeMap();
-}
-
-function changeCor(evt){
-	/* indCor = evt.target.value;
-	indTam = $('#dropdownTamanho').val();
-	drawChart(indTam, indCor); */
-	atualizaTreeMap();
 }
